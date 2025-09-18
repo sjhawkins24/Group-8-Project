@@ -28,3 +28,4 @@ NaN count: 0
 
 Lets see if I got this working!
 
+Testing re-install once I got my new computer hehe.
