@@ -1,0 +1,8 @@
+name: group-8-project
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - ipykernel
+    - pandas
+    - seaborn
