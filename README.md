@@ -26,3 +26,5 @@ nan_count = df['Outcome'].isna().sum()
 print("NaN count:", nan_count)
 NaN count: 0
 
+Lets see if I got this working!
+
