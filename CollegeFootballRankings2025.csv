@@ -1,858 +1,821 @@
-Team,date,opponent,win_loss,pass,rush,rec,points_aowed,points_scored,point_differential,home_game,season,CONF,SOR,FPI,AP/CFP,SOS,GC,AVGWP
-Ohio State Buckeyes,"Sat, Aug 30",Texas,W,126,67,49,7,14,7,TRUE,2025,Big Ten,1,3,1,17,4,14
-Ohio State Buckeyes,"Sat, Sep 6",Grambling,W,306,108,119,0,70,70,TRUE,2025,Big Ten,1,3,1,17,4,14
-Ohio State Buckeyes,"Sat, Sep 13",Ohio,N,,,,,,,TRUE,2025,Big Ten,1,3,1,17,4,14
-Ohio State Buckeyes,"Sat, Nov 29",Michigan,N,,,,,,,FALSE,2025,Big Ten,1,3,1,17,4,14
-Penn State Nittany Lions,"Sat, Sep 6",International,W,200,144,61,0,34,34,TRUE,2025,Big Ten,40,7,2,118,13,10
-Penn State Nittany Lions,"Sat, Aug 30",Nevada,W,217,43,89,11,46,35,TRUE,2025,Big Ten,40,7,2,118,13,10
-Penn State Nittany Lions,"Sat, Sep 13",Villanova,N,,,,,,,TRUE,2025,Big Ten,40,7,2,118,13,10
-Penn State Nittany Lions,"Sat, Sep 27",Oregon,N,,,,,,,TRUE,2025,Big Ten,40,7,2,118,13,10
-LSU Tigers,"Sat, Aug 30",Clemson,W,232,74,99,10,17,7,FALSE,2025,SEC,5,16,3,37,31,61
-LSU Tigers,"Sat, Sep 6",Tech,W,237,56,94,7,23,16,TRUE,2025,SEC,5,16,3,37,31,61
-LSU Tigers,"Sat, Sep 13",Florida,N,,,,,,,TRUE,2025,SEC,5,16,3,37,31,61
-LSU Tigers,"Sat, Sep 20",Louisiana,N,,,,,,,TRUE,2025,SEC,5,16,3,37,31,61
-Oregon Ducks,"Sat, Aug 30",State,W,213,68,51,13,59,46,TRUE,2025,Big Ten,29,1,4,105,1,2
-Oregon Ducks,"Sat, Sep 6",State,W,266,91,76,3,69,66,TRUE,2025,Big Ten,29,1,4,105,1,2
-Oregon Ducks,"Sat, Sep 13",Northwestern,N,,,,,,,FALSE,2025,Big Ten,29,1,4,105,1,2
-Oregon Ducks,"Sat, Sep 27",State,N,,,,,,,FALSE,2025,Big Ten,29,1,4,105,1,2
-Oregon Ducks,"Fri, Nov 14",Minnesota,N,,,,,,,TRUE,2025,Big Ten,29,1,4,105,1,2
-Miami Hurricanes,"Sun, Aug 31",Dame,W,205,Jr.,82,24,27,3,TRUE,2025,ACC,4,22,5,34,12,19
-Miami Hurricanes,"Sat, Sep 6",Bethune-Cookman,W,267,Jr.,80,3,45,42,TRUE,2025,ACC,4,22,5,34,12,19
-Miami Hurricanes,"Sat, Sep 13",Florida,N,,,,,,,TRUE,2025,ACC,4,22,5,34,12,19
-Miami Hurricanes,"Fri, Oct 17",Louisville,N,,,,,,,TRUE,2025,ACC,4,22,5,34,12,19
-Georgia Bulldogs,"Sat, Sep 6",Peay,W,227,69,76,6,28,22,TRUE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Aug 30",Marshall,W,190,73,95,7,45,38,TRUE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Sep 13",Tennessee,N,,,,,,,FALSE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Sep 27",Alabama,N,,,,,,,TRUE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Oct 4",Kentucky,N,,,,,,,TRUE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Nov 1",*,N,,,,,,,TRUE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Nov 8",State,N,,,,,,,FALSE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Sat, Nov 22",Charlotte,N,,,,,,,TRUE,2025,SEC,41,6,6,119,8,5
-Georgia Bulldogs,"Fri, Nov 28",*,N,,,,,,,TRUE,2025,SEC,41,6,6,119,8,5
-Texas Longhorns,"Sat, Aug 30",State,L,170,80,50,14,7,-7,FALSE,2025,SEC,57,2,7,5,34,80
-Texas Longhorns,"Sat, Sep 6",State,W,295,64,128,7,38,31,TRUE,2025,SEC,57,2,7,5,34,80
-Texas Longhorns,"Sat, Sep 13",UTEP,N,,,,,,,TRUE,2025,SEC,57,2,7,5,34,80
-Texas Longhorns,"Sat, Sep 20",Houston,N,,,,,,,TRUE,2025,SEC,57,2,7,5,34,80
-Texas Longhorns,"Sat, Oct 11",*,N,,,,,,,TRUE,2025,SEC,57,2,7,5,34,80
-Texas Longhorns,"Sat, Nov 1",Vanderbilt,N,,,,,,,TRUE,2025,SEC,57,2,7,5,34,80
-Texas Longhorns,"Fri, Nov 28",A&M,N,,,,,,,TRUE,2025,SEC,57,2,7,5,34,80
-Notre Dame Fighting Irish,"Sun, Aug 31",Miami,L,221,45,97,27,24,-3,FALSE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Sep 13",A&M,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Sep 20",Purdue,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Sep 27",Arkansas,N,,,,,,,FALSE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Oct 4",State,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Oct 11",State,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Oct 18",USC,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Nov 8",Navy,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Notre Dame Fighting Irish,"Sat, Nov 22",Syracuse,N,,,,,,,TRUE,2025,FBS Indep.,117,10,8,1,53,129
-Illinois Fighting Illini,"Sat, Sep 6",Duke,W,296,48,128,19,45,26,FALSE,2025,Big Ten,16,25,9,82,18,31
-Illinois Fighting Illini,"Fri, Aug 29",Illinois,W,217,101,108,3,52,49,TRUE,2025,Big Ten,16,25,9,82,18,31
-Illinois Fighting Illini,"Sat, Sep 13",Michigan,N,,,,,,,TRUE,2025,Big Ten,16,25,9,82,18,31
-Florida State Seminoles,"Sat, Aug 30",Alabama,W,152,78,66,17,31,14,TRUE,2025,ACC,2,27,10,20,2,12
-Florida State Seminoles,"Sat, Sep 6",A&M,W,237,Jr.,173,3,77,74,TRUE,2025,ACC,2,27,10,20,2,12
-Florida State Seminoles,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,ACC,2,27,10,20,2,12
-Florida State Seminoles,"Fri, Sep 26",Virginia,N,,,,,,,FALSE,2025,ACC,2,27,10,20,2,12
-Florida State Seminoles,"Sat, Oct 18",Stanford,N,,,,,,,FALSE,2025,ACC,2,27,10,20,2,12
-Florida State Seminoles,"Fri, Nov 21",State,N,,,,,,,FALSE,2025,ACC,2,27,10,20,2,12
-South Carolina Gamecocks,"Sun, Aug 31",*,W,209,III,99,11,24,13,TRUE,2025,SEC,18,21,11,91,47,46
-South Carolina Gamecocks,"Sat, Sep 6",State,W,128,30,57,10,38,28,TRUE,2025,SEC,18,21,11,91,47,46
-South Carolina Gamecocks,"Sat, Sep 13",Vanderbilt,N,,,,,,,TRUE,2025,SEC,18,21,11,91,47,46
-South Carolina Gamecocks,"Sat, Nov 29",Clemson,N,,,,,,,TRUE,2025,SEC,18,21,11,91,47,46
-Clemson Tigers,"Sat, Aug 30",LSU,L,230,16,Jr.,17,10,-7,TRUE,2025,ACC,65,32,12,42,82,88
-Clemson Tigers,"Sat, Sep 6",Troy,W,196,112,Jr.,16,27,11,TRUE,2025,ACC,65,32,12,42,82,88
-Clemson Tigers,"Sat, Sep 13",Tech,N,,,,,,,FALSE,2025,ACC,65,32,12,42,82,88
-Clemson Tigers,"Sat, Sep 20",Syracuse,N,,,,,,,TRUE,2025,ACC,65,32,12,42,82,88
-Clemson Tigers,"Fri, Nov 14",Louisville,N,,,,,,,FALSE,2025,ACC,65,32,12,42,82,88
-Clemson Tigers,"Sat, Nov 29",Carolina,N,,,,,,,FALSE,2025,ACC,65,32,12,42,82,88
-Oklahoma Sooners,"Sat, Sep 6",Michigan,W,270,74,101,13,24,11,TRUE,2025,SEC,10,23,13,65,15,21
-Oklahoma Sooners,"Sat, Aug 30",State,W,392,42,119,3,35,32,TRUE,2025,SEC,10,23,13,65,15,21
-Oklahoma Sooners,"Sat, Sep 13",Temple,N,,,,,,,FALSE,2025,SEC,10,23,13,65,15,21
-Oklahoma Sooners,"Sat, Sep 20",Auburn,N,,,,,,,TRUE,2025,SEC,10,23,13,65,15,21
-Oklahoma Sooners,"Sat, Oct 4",State,N,,,,,,,TRUE,2025,SEC,10,23,13,65,15,21
-Oklahoma Sooners,"Sat, Oct 11",*,N,,,,,,,TRUE,2025,SEC,10,23,13,65,15,21
-Oklahoma Sooners,"Sat, Nov 22",Missouri,N,,,,,,,TRUE,2025,SEC,10,23,13,65,15,21
-Iowa State Cyclones,"Sat, Aug 23",*,W,183,71,46,21,24,3,TRUE,2025,Big 12,6,33,14,59,38,50
-Iowa State Cyclones,"Sat, Sep 6",Iowa,W,134,III,39,13,16,3,TRUE,2025,Big 12,6,33,14,59,38,50
-Iowa State Cyclones,"Sat, Aug 30",Dakota,W,278,81,85,7,55,48,TRUE,2025,Big 12,6,33,14,59,38,50
-Iowa State Cyclones,"Sat, Sep 13",State,N,,,,,,,FALSE,2025,Big 12,6,33,14,59,38,50
-Tennessee Volunteers,"Sat, Aug 30",*,W,247,92,95,26,45,19,TRUE,2025,SEC,21,9,15,95,5,9
-Tennessee Volunteers,"Sat, Sep 6",State,W,288,69,II,17,72,55,TRUE,2025,SEC,21,9,15,95,5,9
-Tennessee Volunteers,"Sat, Sep 13",Georgia,N,,,,,,,TRUE,2025,SEC,21,9,15,95,5,9
-Tennessee Volunteers,"Sat, Sep 20",UAB,N,,,,,,,TRUE,2025,SEC,21,9,15,95,5,9
-Tennessee Volunteers,"Sat, Nov 15",State,N,,,,,,,TRUE,2025,SEC,21,9,15,95,5,9
-Texas A&M Aggies,"Sat, Aug 30",UTSA,W,289,39,122,24,42,18,TRUE,2025,SEC,27,15,16,102,17,18
-Texas A&M Aggies,"Sat, Sep 6",State,W,220,68,114,22,44,22,TRUE,2025,SEC,27,15,16,102,17,18
-Texas A&M Aggies,"Sat, Sep 13",Dame,N,,,,,,,FALSE,2025,SEC,27,15,16,102,17,18
-Texas A&M Aggies,"Sat, Nov 22",Samford,N,,,,,,,TRUE,2025,SEC,27,15,16,102,17,18
-Texas A&M Aggies,"Fri, Nov 28",Texas,N,,,,,,,FALSE,2025,SEC,27,15,16,102,17,18
-Ole Miss Rebels,"Sat, Sep 6",Kentucky,W,235,138,III,23,30,7,FALSE,2025,SEC,8,8,17,50,22,49
-Ole Miss Rebels,"Sat, Aug 30",State,W,341,108,III,7,63,56,TRUE,2025,SEC,8,8,17,50,22,49
-Ole Miss Rebels,"Sat, Sep 13",Arkansas,N,,,,,,,TRUE,2025,SEC,8,8,17,50,22,49
-Ole Miss Rebels,"Sat, Sep 20",Tulane,N,,,,,,,TRUE,2025,SEC,8,8,17,50,22,49
-Ole Miss Rebels,"Sat, Oct 11",State,N,,,,,,,TRUE,2025,SEC,8,8,17,50,22,49
-Ole Miss Rebels,"Sat, Nov 8",Citadel,N,,,,,,,TRUE,2025,SEC,8,8,17,50,22,49
-Ole Miss Rebels,"Fri, Nov 28",State,N,,,,,,,FALSE,2025,SEC,8,8,17,50,22,49
-South Florida Bulls,"Sat, Sep 6",Florida,W,263,66,75,16,18,2,FALSE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Thu, Aug 28",State,W,210,52,96,7,34,27,TRUE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Sat, Sep 13",Miami,N,,,,,,,FALSE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Fri, Oct 3",Charlotte,N,,,,,,,TRUE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Fri, Oct 10",Texas,N,,,,,,,FALSE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Thu, Nov 6",UTSA,N,,,,,,,TRUE,2025,American,3,38,18,24,41,77
-South Florida Bulls,"Sat, Nov 15",Navy,N,,,,,,,FALSE,2025,American,3,38,18,24,41,77
-Alabama Crimson Tide,"Sat, Aug 30",State,L,254,31,146,31,17,-14,FALSE,2025,SEC,76,4,19,36,58,76
-Alabama Crimson Tide,"Sat, Sep 6",Monroe,W,226,76,67,0,73,73,TRUE,2025,SEC,76,4,19,36,58,76
-Alabama Crimson Tide,"Sat, Sep 13",Wisconsin,N,,,,,,,TRUE,2025,SEC,76,4,19,36,58,76
-Alabama Crimson Tide,"Sat, Sep 27",Georgia,N,,,,,,,FALSE,2025,SEC,76,4,19,36,58,76
-Alabama Crimson Tide,"Sat, Oct 11",Missouri,N,,,,,,,FALSE,2025,SEC,76,4,19,36,58,76
-Alabama Crimson Tide,"Sat, Nov 22",Illinois,N,,,,,,,TRUE,2025,SEC,76,4,19,36,58,76
-Utah Utes,"Sat, Aug 30",UCLA,W,206,87,51,10,43,33,FALSE,2025,Big 12,20,14,20,94,9,16
-Utah Utes,"Sat, Sep 6",Poly,W,192,59,58,9,63,54,TRUE,2025,Big 12,20,14,20,94,9,16
-Utah Utes,"Sat, Sep 13",Wyoming,N,,,,,,,FALSE,2025,Big 12,20,14,20,94,9,16
-Utah Utes,"Sat, Sep 20",Tech,N,,,,,,,TRUE,2025,Big 12,20,14,20,94,9,16
-Utah Utes,"Fri, Nov 28",Kansas,N,,,,,,,FALSE,2025,Big 12,20,14,20,94,9,16
-Texas Tech Red Raiders,"Sat, Sep 6",State,W,258,127,59,14,62,48,TRUE,2025,Big 12,75,26,21,135,3,1
-Texas Tech Red Raiders,"Sat, Aug 30",Bluff,W,201,90,56,7,67,60,TRUE,2025,Big 12,75,26,21,135,3,1
-Texas Tech Red Raiders,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Big 12,75,26,21,135,3,1
-Texas Tech Red Raiders,"Sat, Sep 20",Utah,N,,,,,,,FALSE,2025,Big 12,75,26,21,135,3,1
-Indiana Hoosiers,"Sat, Aug 30",Dominion,W,193,111,Jr.,14,27,13,TRUE,2025,Big Ten,28,17,22,103,19,20
-Indiana Hoosiers,"Sat, Sep 6",State,W,245,Jr.,97,9,56,47,TRUE,2025,Big Ten,28,17,22,103,19,20
-Indiana Hoosiers,"Fri, Sep 12",State,N,,,,,,,TRUE,2025,Big Ten,28,17,22,103,19,20
-Indiana Hoosiers,"Fri, Nov 28",Purdue,N,,,,,,,FALSE,2025,Big Ten,28,17,22,103,19,20
-Michigan Wolverines,"Sat, Sep 6",Oklahoma,L,142,125,91,24,13,-11,FALSE,2025,Big Ten,71,29,23,28,56,87
-Michigan Wolverines,"Sat, Aug 30",Mexico,W,251,159,93,17,34,17,TRUE,2025,Big Ten,71,29,23,28,56,87
-Michigan Wolverines,"Sat, Sep 13",Michigan,N,,,,,,,TRUE,2025,Big Ten,71,29,23,28,56,87
-Michigan Wolverines,"Sat, Sep 20",Nebraska,N,,,,,,,FALSE,2025,Big Ten,71,29,23,28,56,87
-Michigan Wolverines,"Sat, Nov 29",State,N,,,,,,,TRUE,2025,Big Ten,71,29,23,28,56,87
-Auburn Tigers,"Fri, Aug 29",Baylor,W,108,137,26,24,38,14,FALSE,2025,SEC,7,11,24,44,7,28
-Auburn Tigers,"Sat, Sep 6",State,W,251,121,77,3,42,39,TRUE,2025,SEC,7,11,24,44,7,28
-Auburn Tigers,"Sat, Sep 13",Alabama,N,,,,,,,TRUE,2025,SEC,7,11,24,44,7,28
-Auburn Tigers,"Sat, Sep 20",Oklahoma,N,,,,,,,FALSE,2025,SEC,7,11,24,44,7,28
-Auburn Tigers,"Sat, Nov 22",Mercer,N,,,,,,,TRUE,2025,SEC,7,11,24,44,7,28
-Missouri Tigers,"Sat, Sep 6",Kansas,W,334,143,Jr.,31,42,11,TRUE,2025,SEC,11,13,25,67,42,43
-Missouri Tigers,"Thu, Aug 28",Arkansas,W,283,100,134,6,61,55,TRUE,2025,SEC,11,13,25,67,42,43
-Missouri Tigers,"Sat, Sep 13",Louisiana,N,,,,,,,TRUE,2025,SEC,11,13,25,67,42,43
-Missouri Tigers,"Sat, Oct 11",Alabama,N,,,,,,,TRUE,2025,SEC,11,13,25,67,42,43
-Missouri Tigers,"Sat, Nov 22",Oklahoma,N,,,,,,,FALSE,2025,SEC,11,13,25,67,42,43
-Baylor Bears,"Sat, Sep 6",SMU,W,440,115,151,452,48,-404,FALSE,2025,Big 12,24,36,--,12,90,119
-Michigan State Spartans,"Sat, Sep 6",College,W,231,81,68,402,42,-360,TRUE,2025,Big Ten,17,62,--,87,43,41
-UL Monroe Warhawks,"Sat, Sep 6",Alabama,L,28,24,22,73,0,-73,FALSE,2025,Sun Belt,92,131,--,9,78,102
-Akron Zips,"Sat, Sep 6",Nebraska,L,54,64,28,68,0,-68,FALSE,2025,MAC,117,134,--,21,119,123
-Oklahoma State Cowboys,"Sat, Sep 6",Oregon,L,67,63,34,69,3,-66,FALSE,2025,Big 12,69,90,--,3,72,105
-Missouri State Bears,"Sat, Aug 30",USC,L,147,50,39,73,13,-60,FALSE,2025,CUSA,43,125,--,7,126,132
-Georgia State Panthers,"Sat, Aug 30",Miss,L,52,69,52,63,7,-56,FALSE,2025,Sun Belt,117,121,--,4,105,128
-Kent State Golden Flashes,"Sat, Sep 6",Tech,L,116,25,49,62,14,-48,FALSE,2025,MAC,91,136,--,32,101,113
-Kennesaw State Owls,"Sat, Sep 6",Indiana,L,176,34,72,56,9,-47,FALSE,2025,CUSA,117,128,--,22,109,126
-Arkansas State Red Wolves,"Sat, Sep 6",Arkansas,L,125,38,50,56,14,-42,FALSE,2025,Sun Belt,78,111,--,30,80,103
-Coastal Carolina Chanticleers,"Sat, Aug 30",Virginia,L,163,27,36,48,7,-41,FALSE,2025,Sun Belt,100,122,--,62,118,109
-Ball State Cardinals,"Sat, Sep 6",Auburn,L,71,10,42,42,3,-39,FALSE,2025,MAC,117,132,--,14,130,136
-Georgia Southern Eagles,"Sat, Sep 6",USC,L,IV,58,75,59,20,-39,FALSE,2025,Sun Belt,117,106,--,2,108,133
-Marshall Thundering Herd,"Sat, Aug 30",Georgia,L,100,24,58,45,7,-38,FALSE,2025,Sun Belt,117,109,--,10,87,114
-Nevada Wolf Pack,"Sat, Aug 30",State,L,97,55,76,46,11,-35,FALSE,2025,Mountain West,66,119,--,8,121,122
-Florida International Panthers,"Sat, Sep 6",State,L,127,78,27,34,0,-34,FALSE,2025,CUSA,99,107,--,11,59,89
-Hawai'i Rainbow Warriors,"Sat, Aug 30",Arizona,L,157,41,48,40,6,-34,FALSE,2025,Mountain West,58,110,--,51,98,93
-North Carolina Tar Heels,"Mon, Sep 1",TCU,L,103,31,84,48,14,-34,TRUE,2025,ACC,73,85,--,48,85,91
-UCLA Bruins,"Sat, Aug 30",Utah,L,136,47,48,43,10,-33,TRUE,2025,Big Ten,117,76,--,26,127,135
-Florida Atlantic Owls,"Sat, Aug 30",Maryland,L,228,44,87,39,7,-32,FALSE,2025,American,102,94,--,68,86,83
-Massachusetts Minutemen,"Sat, Aug 30",Temple,L,193,94,132,42,10,-32,TRUE,2025,MAC,117,135,--,111,132,92
-Middle Tennessee Blue Raiders,"Sat, Sep 6",Wisconsin,L,197,27,75,42,10,-32,FALSE,2025,CUSA,117,133,--,45,133,131
-Ball State Cardinals,"Sat, Aug 30",Purdue,L,87,63,37,31,0,-31,FALSE,2025,MAC,117,132,--,14,130,136
-San José State Spartans,"Sat, Sep 6",Texas,L,188,44,73,38,7,-31,FALSE,2025,Mountain West,117,103,--,6,120,120
-Central Michigan Chippewas,"Sat, Sep 6",Pittsburgh,L,89,18,26,45,17,-28,FALSE,2025,MAC,62,118,--,46,104,116
-Georgia Southern Eagles,"Sat, Aug 30",State,L,IV,41,55,42,14,-28,FALSE,2025,Sun Belt,117,106,--,2,108,133
-Miami (OH) RedHawks,"Sat, Sep 6",Rutgers,L,251,85,120,45,17,-28,FALSE,2025,MAC,117,92,--,16,112,134
-Boise State Broncos,"Thu, Aug 28",Florida,L,225,44,58,34,7,-27,FALSE,2025,Mountain West,79,57,--,40,54,66
-Duke Blue Devils,"Sat, Sep 6",Illinois,L,334,30,88,45,19,-26,TRUE,2025,ACC,82,64,--,57,88,79
-Rice Owls,"Sat, Sep 6",Houston,L,50,55,24,35,9,-26,TRUE,2025,American,70,115,--,76,95,96
-Eastern Michigan Eagles,"Sat, Aug 30",State,L,248,78,Jr.,52,27,-25,FALSE,2025,MAC,117,126,--,83,134,125
-Delaware Blue Hens,"Sat, Sep 6",Colorado,L,312,47,85,31,7,-24,FALSE,2025,CUSA,113,124,--,61,111,106
-Fresno State Bulldogs,"Sat, Aug 23",Kansas,L,179,34,43,31,7,-24,FALSE,2025,Mountain West,46,74,--,49,100,101
-Stanford Cardinal,"Sat, Sep 6",BYU,L,142,21,68,27,3,-24,FALSE,2025,ACC,117,79,--,25,103,121
-Virginia Tech Hokies,"Sat, Sep 6",Vanderbilt,L,134,36,43,44,20,-24,TRUE,2025,ACC,117,60,--,15,71,107
-Western Kentucky Hilltoppers,"Sat, Sep 6",Toledo,L,235,22,110,45,21,-24,FALSE,2025,CUSA,84,105,--,100,122,72
-Charlotte 49ers,"Fri, Aug 29",*,L,142,49,56,34,11,-23,TRUE,2025,American,117,130,--,98,135,127
-San Diego State Aztecs,"Sat, Sep 6",State,L,133,88,69,36,13,-23,FALSE,2025,Mountain West,115,116,--,101,113,82
-Georgia State Panthers,"Sat, Sep 6",Memphis,L,201,25,97,38,16,-22,TRUE,2025,Sun Belt,117,121,--,4,105,128
-Utah State Aggies,"Sat, Sep 6",A&M,L,169,50,87,44,22,-22,FALSE,2025,Mountain West,68,97,--,23,75,99
-Middle Tennessee Blue Raiders,"Sat, Aug 30",Peay,L,104,48,50,34,14,-20,TRUE,2025,CUSA,117,133,--,45,133,131
-Northwestern Wildcats,"Sat, Aug 30",Tulane,L,161,46,64,23,3,-20,FALSE,2025,Big Ten,98,75,--,55,84,90
-Oregon State Beavers,"Sat, Aug 30",California,L,244,42,136,34,15,-19,TRUE,2025,Pac-12,117,100,--,86,131,115
-Syracuse Orange,"Sat, Aug 30",*,L,274,91,58,45,26,-19,TRUE,2025,ACC,47,65,--,13,116,124
-UTSA Roadrunners,"Sat, Aug 30",A&M,L,121,Jr.,II,42,24,-18,FALSE,2025,American,117,77,--,18,96,118
-Charlotte 49ers,"Sat, Sep 6",Carolina,L,140,Jr.,122,20,3,-17,TRUE,2025,American,117,130,--,98,135,127
-Colorado State Rams,"Sat, Aug 30",Washington,L,180,92,79,38,21,-17,FALSE,2025,Mountain West,96,96,--,35,123,117
-Miami (OH) RedHawks,"Thu, Aug 28",Wisconsin,L,83,15,35,17,0,-17,FALSE,2025,MAC,117,92,--,16,112,134
-New Mexico Lobos,"Sat, Aug 30",Michigan,L,208,33,71,34,17,-17,FALSE,2025,Mountain West,90,114,--,33,99,112
-Sam Houston Bearkats,"Sat, Aug 23",Kentucky,L,209,91,61,41,24,-17,FALSE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Fri, Aug 29",UNLV,L,101,85,Jr.,38,21,-17,TRUE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Sat, Sep 6",Hawai'i,L,91,45,45,37,20,-17,FALSE,2025,CUSA,117,127,--,92,136,130
-Southern Miss Golden Eagles,"Sat, Aug 30",State,L,199,58,53,34,17,-17,TRUE,2025,Sun Belt,94,112,--,88,97,69
-Western Michigan Broncos,"Fri, Aug 29",State,L,97,21,85,23,6,-17,FALSE,2025,MAC,117,113,--,72,117,110
-Louisiana Tech Bulldogs,"Sat, Sep 6",LSU,L,50,22,33,23,7,-16,FALSE,2025,CUSA,77,101,--,29,79,100
-Baylor Bears,"Fri, Aug 29",Auburn,L,419,54,134,38,24,-14,TRUE,2025,Big 12,24,36,--,12,90,119
-Bowling Green Falcons,"Sat, Sep 6",Cincinnati,L,274,72,80,34,20,-14,FALSE,2025,MAC,95,95,--,63,94,95
-James Madison Dukes,"Fri, Sep 5",Louisville,L,III,83,55,28,14,-14,FALSE,2025,Sun Belt,85,73,--,53,39,57
-UAB Blazers,"Sat, Sep 6",Navy,L,304,66,100,38,24,-14,FALSE,2025,American,104,117,--,93,124,104
-Buffalo Bulls,"Thu, Aug 28",Minnesota,L,107,25,67,23,10,-13,FALSE,2025,MAC,105,102,--,58,77,73
-Old Dominion Monarchs,"Sat, Aug 30",Indiana,L,96,179,Gladding,27,14,-13,FALSE,2025,Sun Belt,86,72,--,27,63,86
-Virginia Tech Hokies,"Sun, Aug 31",*,L,221,58,94,24,11,-13,TRUE,2025,ACC,117,60,--,15,71,107
-UTEP Miners,"Sat, Aug 30",State,L,178,36,97,28,16,-12,FALSE,2025,CUSA,101,120,--,104,115,85
-Kansas Jayhawks,"Sat, Sep 6",Missouri,L,223,17,74,42,31,-11,FALSE,2025,Big 12,50,34,--,39,20,44
-Northern Illinois Huskies,"Fri, Sep 5",Maryland,L,91,90,26,20,9,-11,FALSE,2025,MAC,87,98,--,66,110,108
-Troy Trojans,"Sat, Sep 6",Clemson,L,223,76,69,27,16,-11,FALSE,2025,Sun Belt,88,86,--,41,81,94
-Akron Zips,"Thu, Aug 28",Wyoming,L,139,30,47,10,0,-10,TRUE,2025,MAC,117,134,--,21,119,123
-Liberty Flames,"Sat, Sep 6",State,L,335,114,Jr.,34,24,-10,FALSE,2025,CUSA,103,91,--,99,129,111
-Oregon State Beavers,"Sat, Sep 6",State,L,371,136,158,36,27,-9,TRUE,2025,Pac-12,117,100,--,86,131,115
-Toledo Rockets,"Sat, Aug 30",Kentucky,L,270,41,III,24,16,-8,FALSE,2025,MAC,72,70,--,47,68,81
-Colorado Buffaloes,"Fri, Aug 29",Tech,L,159,64,39,27,20,-7,TRUE,2025,Big 12,83,55,--,71,55,53
-East Carolina Pirates,"Thu, Aug 28",State,L,366,32,98,24,17,-7,FALSE,2025,American,106,69,--,78,92,84
-Jacksonville State Gamecocks,"Thu, Aug 28",UCF,L,139,75,43,17,10,-7,FALSE,2025,CUSA,67,82,--,54,52,64
-Kentucky Wildcats,"Sat, Sep 6",Miss,L,149,93,56,30,23,-7,TRUE,2025,SEC,44,42,--,19,37,62
-Tulsa Golden Hurricane,"Sat, Sep 6",State,L,135,93,57,21,14,-7,FALSE,2025,American,110,123,--,120,125,68
-UCLA Bruins,"Sat, Sep 6",UNLV,L,255,59,87,30,23,-7,FALSE,2025,Big Ten,117,76,--,26,127,135
-UConn Huskies,"Sat, Sep 6",Syracuse,L,259,75,105,27,20,-7,FALSE,2025,FBS Indep.,111,80,--,85,32,39
-UTSA Roadrunners,"Sat, Sep 6",State,L,219,Jr.,83,43,36,-7,TRUE,2025,American,117,77,--,18,96,118
-West Virginia Mountaineers,"Sat, Sep 6",Ohio,L,178,40,69,17,10,-7,FALSE,2025,Big 12,112,66,--,89,89,70
-Eastern Michigan Eagles,"Sat, Sep 6",University,L,189,58,Jr.,28,23,-5,TRUE,2025,MAC,117,126,--,83,134,125
-Arizona State Sun Devils,"Sat, Sep 6",State,L,82,110,68,24,20,-4,FALSE,2025,Big 12,81,37,--,56,70,74
-Virginia Cavaliers,"Sat, Sep 6",State,L,257,150,68,35,31,-4,FALSE,2025,ACC,80,54,--,69,51,59
-Cincinnati Bearcats,"Thu, Aug 28",*,L,69,96,41,20,17,-3,TRUE,2025,Big 12,63,53,--,31,44,63
-Iowa Hawkeyes,"Sat, Sep 6",State,L,83,60,52,16,13,-3,FALSE,2025,Big Ten,93,43,--,43,73,78
-Kansas State Wildcats,"Sat, Aug 23",*,L,273,51,78,24,21,-3,TRUE,2025,Big 12,114,46,--,64,93,71
-Kansas State Wildcats,"Sat, Sep 6",Army,L,172,30,61,24,21,-3,TRUE,2025,Big 12,114,46,--,64,93,71
-Ohio Bobcats,"Thu, Aug 28",Rutgers,L,239,93,115,34,31,-3,FALSE,2025,MAC,53,68,--,38,76,98
-Stanford Cardinal,"Sat, Aug 23",Hawai'i,L,109,113,36,23,20,-3,FALSE,2025,ACC,117,79,--,25,103,121
-Western Michigan Broncos,"Sat, Sep 6",Texas,L,75,112,51,33,30,-3,TRUE,2025,MAC,117,113,--,72,117,110
-Florida Gators,"Sat, Sep 6",Florida,L,222,93,III,18,16,-2,TRUE,2025,SEC,107,24,--,77,35,32
-Louisiana Ragin' Cajuns,"Sat, Aug 30",Rice,L,88,58,Jr.,14,12,-2,TRUE,2025,Sun Belt,116,93,--,125,128,67
-San José State Spartans,"Fri, Aug 29",Michigan,L,308,IV,189,16,14,-2,TRUE,2025,Mountain West,117,103,--,6,120,120
-South Alabama Jaguars,"Sat, Sep 6",Tulane,L,231,107,152,33,31,-2,TRUE,2025,Sun Belt,108,84,--,84,102,75
-Kennesaw State Owls,"Fri, Aug 29",Forest,L,II,66,103,10,9,-1,FALSE,2025,CUSA,117,128,--,22,109,126
-Marshall Thundering Herd,"Sat, Sep 6",State,L,83,67,43,21,20,-1,TRUE,2025,Sun Belt,117,109,--,10,87,114
-Massachusetts Minutemen,"Sat, Sep 6",Bryant,L,205,39,89,27,26,-1,TRUE,2025,MAC,117,135,--,111,132,92
-Missouri State Bears,"Sat, Sep 6",Marshall,W,359,49,Jr.,20,21,1,FALSE,2025,CUSA,43,125,--,7,126,132
-NC State Wolfpack,"Fri, Aug 29",State,W,218,42,52,9,10,1,TRUE,2025,ACC,13,59,--,73,48,54
-Wake Forest Demon Deacons,"Fri, Aug 29",State,W,218,42,52,9,10,1,TRUE,2025,ACC,60,99,--,132,91,40
-Central Michigan Chippewas,"Fri, Aug 29",State,W,59,102,61,14,16,2,FALSE,2025,MAC,62,118,--,46,104,116
-Northern Illinois Huskies,"Sat, Aug 30",Cross,W,101,77,73,17,19,2,TRUE,2025,MAC,87,98,--,66,110,108
-Rice Owls,"Sat, Aug 30",Louisiana,W,45,119,44,12,14,2,FALSE,2025,American,70,115,--,76,95,96
-Tulane Green Wave,"Sat, Sep 6",Alabama,W,125,82,62,31,33,2,FALSE,2025,American,19,45,--,90,24,36
-Army Black Knights,"Sat, Sep 6",State,W,52,124,64,21,24,3,FALSE,2025,American,74,81,--,52,83,97
-Hawai'i Rainbow Warriors,"Sat, Aug 23",Stanford,W,210,45,69,20,23,3,TRUE,2025,Mountain West,58,110,--,51,98,93
-Kansas State Wildcats,"Sat, Aug 30",Dakota,W,318,55,109,35,38,3,TRUE,2025,Big 12,114,46,--,64,93,71
-Nebraska Cornhuskers,"Thu, Aug 28",*,W,243,108,65,17,20,3,TRUE,2025,Big Ten,15,12,--,81,25,30
-Nevada Wolf Pack,"Sat, Sep 6",State,W,144,115,59,17,20,3,TRUE,2025,Mountain West,66,119,--,8,121,122
-North Texas Mean Green,"Sat, Sep 6",Michigan,W,224,II,59,30,33,3,FALSE,2025,American,36,88,--,114,114,65
-Rutgers Scarlet Knights,"Thu, Aug 28",Ohio,W,252,87,100,31,34,3,TRUE,2025,Big Ten,23,39,--,97,27,27
-Washington State Cougars,"Sat, Aug 30",Idaho,W,208,19,64,10,13,3,TRUE,2025,Pac-12,42,87,--,121,66,34
-Colorado State Rams,"Sat, Sep 6",Colorado,W,132,68,49,17,21,4,TRUE,2025,Mountain West,96,96,--,35,123,117
-Kent State Golden Flashes,"Sat, Aug 30",Merrimack,W,118,49,109,17,21,4,TRUE,2025,MAC,91,136,--,32,101,113
-Mississippi State Bulldogs,"Sat, Sep 6",State,W,279,34,133,20,24,4,TRUE,2025,SEC,12,51,--,70,36,51
-App State Mountaineers,"Sat, Sep 6",Lindenwood,W,294,194,142,13,20,7,TRUE,2025,Sun Belt,59,89,--,131,67,29
-Georgia Tech Yellow Jackets,"Fri, Aug 29",Colorado,W,143,156,48,20,27,7,FALSE,2025,ACC,9,31,--,60,45,58
-New Mexico State Aggies,"Sat, Sep 6",Tulsa,W,252,28,78,14,21,7,TRUE,2025,CUSA,61,129,--,133,106,48
-Ohio Bobcats,"Sat, Sep 6",Virginia,W,247,87,121,10,17,7,TRUE,2025,MAC,53,68,--,38,76,98
-Syracuse Orange,"Sat, Sep 6",UConn,W,417,48,104,20,27,7,TRUE,2025,ACC,47,65,--,13,116,124
-Texas State Bobcats,"Sat, Sep 6",UTSA,W,286,71,155,36,43,7,FALSE,2025,Sun Belt,22,67,--,96,50,52
-UCF Knights,"Thu, Aug 28",State,W,282,79,71,10,17,7,TRUE,2025,Big 12,34,48,--,113,74,37
-UNLV Rebels,"Sat, Aug 23",State,W,195,147,131,31,38,7,TRUE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Sat, Sep 6",UCLA,W,203,61,40,23,30,7,TRUE,2025,Mountain West,26,61,--,110,69,42
-Kentucky Wildcats,"Sat, Aug 30",Toledo,W,85,129,43,16,24,8,TRUE,2025,SEC,44,42,--,19,37,62
-Fresno State Bulldogs,"Sat, Sep 6",State,W,121,86,82,27,36,9,FALSE,2025,Mountain West,46,74,--,49,100,101
-Jacksonville State Gamecocks,"Sat, Sep 6",Liberty,W,52,195,24,24,34,10,TRUE,2025,CUSA,67,82,--,54,52,64
-New Mexico Lobos,"Sat, Sep 6",State,W,155,141,56,22,32,10,TRUE,2025,Mountain West,90,114,--,33,99,112
-UAB Blazers,"Thu, Aug 28",State,W,247,166,98,42,52,10,TRUE,2025,American,104,117,--,93,124,104
-Wyoming Cowboys,"Thu, Aug 28",Akron,W,260,132,Jr.,0,10,10,FALSE,2025,Mountain West,54,104,--,128,107,56
-Maryland Terrapins,"Fri, Sep 5",Illinois,W,254,50,70,9,20,11,TRUE,2025,Big Ten,32,58,--,107,28,22
-Utah State Aggies,"Sat, Aug 30",UTEP,W,233,88,61,16,28,12,TRUE,2025,Mountain West,68,97,--,23,75,99
-Coastal Carolina Chanticleers,"Sat, Sep 6",Southern,W,102,92,61,0,13,13,TRUE,2025,Sun Belt,100,122,--,62,118,109
-Minnesota Golden Gophers,"Thu, Aug 28",Buffalo,W,290,141,76,10,23,13,TRUE,2025,Big Ten,48,49,--,123,29,13
-Cincinnati Bearcats,"Sat, Sep 6",Green,W,333,40,109,20,34,14,TRUE,2025,Big 12,63,53,--,31,44,63
-Louisville Cardinals,"Fri, Sep 5",Madison,W,151,104,83,14,28,14,TRUE,2025,ACC,30,41,--,106,57,38
-Navy Midshipmen,"Sat, Sep 6",UAB,W,168,111,65,24,38,14,TRUE,2025,American,55,71,--,129,60,23
-New Mexico State Aggies,"Sat, Aug 30",Bryant,W,227,50,99,3,19,16,TRUE,2025,CUSA,61,129,--,133,106,48
-Hawai'i Rainbow Warriors,"Sat, Sep 6",Houston,W,294,60,125,20,37,17,TRUE,2025,Mountain West,58,110,--,51,98,93
-Michigan State Spartans,"Fri, Aug 29",Michigan,W,155,103,75,6,23,17,TRUE,2025,Big Ten,17,62,--,87,43,41
-Mississippi State Bulldogs,"Sat, Aug 30",Miss,W,272,80,92,17,34,17,FALSE,2025,SEC,12,51,--,70,36,51
-North Carolina Tar Heels,"Sat, Sep 6",Charlotte,W,155,52,74,3,20,17,FALSE,2025,ACC,73,85,--,48,85,91
-Purdue Boilermakers,"Sat, Sep 6",Illinois,W,170,126,48,17,34,17,TRUE,2025,Big Ten,56,78,--,130,33,17
-South Alabama Jaguars,"Sat, Aug 30",State,W,166,127,69,21,38,17,TRUE,2025,Sun Belt,108,84,--,84,102,75
-UNLV Rebels,"Fri, Aug 29",Houston,W,249,65,125,21,38,17,FALSE,2025,Mountain West,26,61,--,110,69,42
-Washington Huskies,"Sat, Aug 30",State,W,Jr.,177,92,21,38,17,TRUE,2025,Big Ten,38,30,--,116,23,15
-Western Kentucky Hilltoppers,"Sat, Aug 23",Houston,W,401,52,148,24,41,17,TRUE,2025,CUSA,84,105,--,100,122,72
-Wisconsin Badgers,"Thu, Aug 28",(OH),W,120,73,II,0,17,17,TRUE,2025,Big Ten,37,40,--,115,64,35
-Arkansas State Red Wolves,"Sat, Aug 30",State,W,345,42,85,24,42,18,TRUE,2025,Sun Belt,78,111,--,30,80,103
-Delaware Blue Hens,"Thu, Aug 28",State,W,251,44,92,17,35,18,TRUE,2025,CUSA,113,124,--,61,111,106
-Southern Miss Golden Eagles,"Sat, Sep 6",State,W,214,71,52,20,38,18,TRUE,2025,Sun Belt,94,112,--,88,97,69
-Troy Trojans,"Sat, Aug 30",Nicholls,W,144,186,32,20,38,18,TRUE,2025,Sun Belt,88,86,--,41,81,94
-Arizona State Sun Devils,"Sat, Aug 30",Arizona,W,257,73,141,19,38,19,TRUE,2025,Big 12,81,37,--,56,70,74
-Bowling Green Falcons,"Thu, Aug 28",Lafayette,W,109,66,II,7,26,19,TRUE,2025,MAC,95,95,--,63,94,95
-California Golden Bears,"Sat, Aug 30",State,W,234,Jr.,83,15,34,19,FALSE,2025,ACC,31,63,--,108,30,25
-Oklahoma State Cowboys,"Thu, Aug 28",Martin,W,136,56,75,7,27,20,TRUE,2025,Big 12,69,90,--,3,72,105
-Tulane Green Wave,"Sat, Aug 30",Northwestern,W,152,113,74,3,23,20,TRUE,2025,American,19,45,--,90,24,36
-Liberty Flames,"Sat, Aug 30",Maine,W,197,63,46,7,28,21,TRUE,2025,CUSA,103,91,--,99,129,111
-Memphis Tigers,"Sat, Sep 6",State,W,196,74,79,16,38,22,FALSE,2025,American,39,47,--,117,49,33
-App State Mountaineers,"Fri, Aug 29",*,W,368,111,134,11,34,23,TRUE,2025,Sun Belt,59,89,--,131,67,29
-Washington State Cougars,"Sat, Sep 6",State,W,257,67,88,13,36,23,TRUE,2025,Pac-12,42,87,--,121,66,34
-BYU Cougars,"Sat, Sep 6",Stanford,W,175,110,84,3,27,24,TRUE,2025,Big 12,33,18,--,109,10,4
-Colorado Buffaloes,"Sat, Sep 6",Delaware,W,157,55,120,7,31,24,TRUE,2025,Big 12,83,55,--,71,55,53
-Kansas Jayhawks,"Sat, Aug 23",State,W,176,Jr.,77,7,31,24,TRUE,2025,Big 12,50,34,--,39,20,44
-Louisiana Ragin' Cajuns,"Sat, Sep 6",McNeese,W,86,132,19,10,34,24,TRUE,2025,Sun Belt,116,93,--,125,128,67
-Louisiana Tech Bulldogs,"Sat, Aug 30",Louisiana,W,130,61,59,0,24,24,TRUE,2025,CUSA,77,101,--,29,79,100
-Toledo Rockets,"Sat, Sep 6",Kentucky,W,155,163,III,21,45,24,TRUE,2025,MAC,72,70,--,47,68,81
-Vanderbilt Commodores,"Sat, Sep 6",Tech,W,193,95,54,20,44,24,FALSE,2025,SEC,14,28,--,79,46,55
-Wyoming Cowboys,"Sat, Sep 6",Iowa,W,167,87,65,7,31,24,TRUE,2025,Mountain West,54,104,--,128,107,56
-Texas State Bobcats,"Sat, Aug 30",Michigan,W,214,167,82,27,52,25,TRUE,2025,Sun Belt,22,67,--,96,50,52
-UTEP Miners,"Sat, Sep 6",Martin,W,278,117,124,17,42,25,TRUE,2025,CUSA,101,120,--,104,115,85
-Houston Cougars,"Sat, Sep 6",Rice,W,188,132,74,9,35,26,FALSE,2025,Big 12,35,56,--,112,62,45
-Houston Cougars,"Thu, Aug 28",Austin,W,159,50,63,0,27,27,TRUE,2025,Big 12,35,56,--,112,62,45
-Iowa Hawkeyes,"Sat, Aug 30",UAlbany,W,44,122,13,7,34,27,TRUE,2025,Big Ten,93,43,--,43,73,78
-Duke Blue Devils,"Thu, Aug 28",Elon,W,389,69,117,17,45,28,TRUE,2025,ACC,82,64,--,57,88,79
-Fresno State Bulldogs,"Sat, Aug 30",Southern,W,176,167,39,14,42,28,TRUE,2025,Mountain West,46,74,--,49,100,101
-Pittsburgh Panthers,"Sat, Sep 6",Michigan,W,304,46,Jr.,17,45,28,TRUE,2025,ACC,52,50,--,127,14,6
-Rutgers Scarlet Knights,"Sat, Sep 6",(OH),W,259,82,116,17,45,28,TRUE,2025,Big Ten,23,39,--,97,27,27
-Tulsa Golden Hurricane,"Sat, Aug 30",Christian,W,218,142,69,7,35,28,TRUE,2025,American,110,123,--,120,125,68
-SMU Mustangs,"Sat, Aug 30",A&M,W,260,Jr.,121,13,42,29,TRUE,2025,ACC,97,35,--,74,26,24
-UL Monroe Warhawks,"Thu, Aug 28",Francis,W,95,113,32,0,29,29,TRUE,2025,Sun Belt,92,131,--,9,78,102
-Purdue Boilermakers,"Sat, Aug 30",State,W,311,59,101,0,31,31,TRUE,2025,Big Ten,56,78,--,130,33,17
-California Golden Bears,"Sat, Sep 6",Southern,W,259,131,69,3,35,32,TRUE,2025,ACC,31,63,--,108,30,25
-Maryland Terrapins,"Sat, Aug 30",Atlantic,W,258,54,59,7,39,32,TRUE,2025,Big Ten,32,58,--,107,28,22
-NC State Wolfpack,"Sat, Sep 6",Carolina,W,227,193,149,10,42,32,TRUE,2025,ACC,13,59,--,73,48,54
-Temple Owls,"Sat, Aug 30",Massachusetts,W,248,128,87,10,42,32,FALSE,2025,American,64,83,--,134,61,26
-Wake Forest Demon Deacons,"Sat, Sep 6",Carolina,W,227,193,149,10,42,32,TRUE,2025,ACC,60,99,--,132,91,40
-Wisconsin Badgers,"Sat, Sep 6",Tennessee,W,283,61,102,10,42,32,TRUE,2025,Big Ten,37,40,--,115,64,35
-Florida International Panthers,"Fri, Aug 29",Bethune-Cookman,W,187,71,47,9,42,33,TRUE,2025,CUSA,99,107,--,11,59,89
-Arizona Wildcats,"Sat, Aug 30",Hawai'i,W,161,125,50,6,40,34,TRUE,2025,Big 12,51,44,--,126,6,3
-Louisville Cardinals,"Sat, Aug 30",Kentucky,W,223,126,63,17,51,34,TRUE,2025,ACC,30,41,--,106,57,38
-TCU Horned Frogs,"Mon, Sep 1",Carolina,W,284,113,136,14,48,34,FALSE,2025,Big 12,25,20,--,75,21,47
-James Madison Dukes,"Sat, Aug 30",State,W,III,99,38,10,45,35,TRUE,2025,Sun Belt,85,73,--,53,39,57
-Memphis Tigers,"Sat, Aug 30",Chattanooga,W,199,81,Jr.,10,45,35,TRUE,2025,American,39,47,--,117,49,33
-Northwestern Wildcats,"Fri, Sep 5",Illinois,W,245,91,94,7,42,35,TRUE,2025,Big Ten,98,75,--,55,84,90
-Air Force Falcons,"Sat, Aug 30",Bucknell,W,112,66,83,13,49,36,TRUE,2025,Mountain West,89,108,--,136,40,11
-Boise State Broncos,"Fri, Sep 5",Washington,W,307,123,132,14,51,37,TRUE,2025,Mountain West,79,57,--,40,54,66
-Buffalo Bulls,"Sat, Sep 6",Francis,W,133,98,67,6,45,39,TRUE,2025,MAC,105,102,--,58,77,73
-Kansas Jayhawks,"Fri, Aug 29",Wagner,W,280,Jr.,Jr.,7,46,39,TRUE,2025,Big 12,50,34,--,39,20,44
-USC Trojans,"Sat, Sep 6",Southern,W,412,167,158,20,59,39,TRUE,2025,Big Ten,45,5,--,122,11,7
-Virginia Cavaliers,"Sat, Aug 30",Carolina,W,264,50,124,7,48,41,TRUE,2025,ACC,80,54,--,69,51,59
-Arkansas Razorbacks,"Sat, Sep 6",State,W,239,151,74,14,56,42,TRUE,2025,SEC,49,19,--,124,16,8
-Florida Atlantic Owls,"Sat, Sep 6",A&M,W,309,83,62,14,56,42,TRUE,2025,American,102,94,--,68,86,83
-San Diego State Aztecs,"Thu, Aug 28",Brook,W,207,100,53,0,42,42,TRUE,2025,Mountain West,115,116,--,101,113,82
-Vanderbilt Commodores,"Sat, Aug 30",Southern,W,275,83,86,3,45,42,TRUE,2025,SEC,14,28,--,79,46,55
-West Virginia Mountaineers,"Sat, Aug 30",Morris,W,224,93,127,3,45,42,TRUE,2025,Big 12,112,66,--,89,89,70
-Arizona Wildcats,"Sat, Sep 6",State,W,373,51,168,3,48,45,TRUE,2025,Big 12,51,44,--,126,6,3
-Arkansas Razorbacks,"Sat, Aug 30",A&M,W,322,Jr.,121,7,52,45,TRUE,2025,SEC,49,19,--,124,16,8
-Navy Midshipmen,"Sat, Aug 30",VMI,W,66,180,65,7,52,45,TRUE,2025,American,55,71,--,129,60,23
-UConn Huskies,"Sat, Aug 30",Connecticut,W,260,115,135,13,59,46,TRUE,2025,FBS Indep.,111,80,--,85,32,39
-Georgia Tech Yellow Jackets,"Sat, Sep 6",Gardner-Webb,W,373,100,87,12,59,47,TRUE,2025,ACC,9,31,--,60,45,58
-Old Dominion Monarchs,"Sat, Sep 6",Central,W,257,163,86,6,54,48,TRUE,2025,Sun Belt,86,72,--,27,63,86
-Temple Owls,"Sat, Sep 6",Howard,W,174,87,78,7,55,48,TRUE,2025,American,64,83,--,134,61,26
-Western Kentucky Hilltoppers,"Sat, Aug 30",Alabama,W,305,46,113,6,55,49,TRUE,2025,CUSA,84,105,--,100,122,72
-North Texas Mean Green,"Sat, Aug 30",Lamar,W,329,38,98,0,51,51,TRUE,2025,American,36,88,--,114,114,65
-Pittsburgh Panthers,"Sat, Aug 30",Duquesne,W,215,66,69,9,61,52,TRUE,2025,ACC,52,50,--,127,14,6
-East Carolina Pirates,"Sat, Sep 6",Campbell,W,314,Jr.,81,3,56,53,TRUE,2025,American,106,69,--,78,92,84
-Florida Gators,"Sat, Aug 30",University,W,Jr.,104,III,0,55,55,TRUE,2025,SEC,107,24,--,77,35,32
-Boston College Eagles,"Sat, Aug 30",Fordham,W,268,48,138,10,66,56,TRUE,2025,ACC,109,52,--,80,65,60
-USC Trojans,"Sat, Aug 30",State,W,295,80,90,13,73,60,TRUE,2025,Big Ten,45,5,--,122,11,7
-Washington Huskies,"Sat, Sep 6",Davis,W,Jr.,111,77,10,70,60,TRUE,2025,Big Ten,38,30,--,116,23,15
-UCF Knights,"Sat, Sep 6",A&T,W,189,156,Jr.,7,68,61,TRUE,2025,Big 12,34,48,--,113,74,37
-Minnesota Golden Gophers,"Sat, Sep 6",State,W,139,126,II,0,66,66,TRUE,2025,Big Ten,48,49,--,123,29,13
-Nebraska Cornhuskers,"Sat, Sep 6",Akron,W,364,140,Jr.,0,68,68,TRUE,2025,Big Ten,15,12,--,81,25,30
-BYU Cougars,"Sat, Aug 30",State,W,97,131,47,0,69,69,TRUE,2025,Big 12,33,18,--,109,10,4
-Army Black Knights,"Fri, Aug 29",State,L,129,100,81,30,272,242,TRUE,2025,American,74,81,--,52,83,97
-Boston College Eagles,"Sat, Sep 6",State,L,390,55,90,42,402,360,FALSE,2025,ACC,109,52,--,80,65,60
-SMU Mustangs,"Sat, Sep 6",Baylor,L,295,115,126,48,452,404,TRUE,2025,ACC,97,35,--,74,26,24
-Air Force Falcons,"Sat, Sep 13",State,N,,,,,,,FALSE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Oct 4",Navy,N,,,,,,,FALSE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Oct 11",UNLV,N,,,,,,,FALSE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Oct 18",Wyoming,N,,,,,,,TRUE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Nov 1",Army,N,,,,,,,TRUE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Nov 15",UConn,N,,,,,,,FALSE,2025,Mountain West,89,108,--,136,40,11
-Air Force Falcons,"Sat, Nov 22",Mexico,N,,,,,,,TRUE,2025,Mountain West,89,108,--,136,40,11
-Akron Zips,"Sat, Sep 13",UAB,N,,,,,,,FALSE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Sat, Sep 20",Duquesne,N,,,,,,,TRUE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Sat, Sep 27",Toledo,N,,,,,,,FALSE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Sat, Oct 4",Michigan,N,,,,,,,TRUE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Sat, Oct 18",State,N,,,,,,,FALSE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Tue, Nov 4",Massachusetts,N,,,,,,,TRUE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Tue, Nov 11",State,N,,,,,,,TRUE,2025,MAC,117,134,--,21,119,123
-Akron Zips,"Tue, Nov 18",Green,N,,,,,,,FALSE,2025,MAC,117,134,--,21,119,123
-App State Mountaineers,"Sat, Sep 13",Miss,N,,,,,,,FALSE,2025,Sun Belt,59,89,--,131,67,29
-App State Mountaineers,"Thu, Nov 6",Southern,N,,,,,,,TRUE,2025,Sun Belt,59,89,--,131,67,29
-Arizona State Sun Devils,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Big 12,81,37,--,56,70,74
-Arizona State Sun Devils,"Fri, Sep 26",TCU,N,,,,,,,TRUE,2025,Big 12,81,37,--,56,70,74
-Arizona Wildcats,"Fri, Sep 12",State,N,,,,,,,TRUE,2025,Big 12,51,44,--,126,6,3
-Arkansas Razorbacks,"Sat, Sep 13",Miss,N,,,,,,,FALSE,2025,SEC,49,19,--,124,16,8
-Arkansas Razorbacks,"Sat, Sep 20",Memphis,N,,,,,,,FALSE,2025,SEC,49,19,--,124,16,8
-Arkansas Razorbacks,"Sat, Sep 27",Dame,N,,,,,,,TRUE,2025,SEC,49,19,--,124,16,8
-Arkansas State Red Wolves,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Sun Belt,78,111,--,30,80,103
-Arkansas State Red Wolves,"Sat, Sep 20",State,N,,,,,,,FALSE,2025,Sun Belt,78,111,--,30,80,103
-Arkansas State Red Wolves,"Sat, Oct 4",State,N,,,,,,,TRUE,2025,Sun Belt,78,111,--,30,80,103
-Arkansas State Red Wolves,"Tue, Oct 14",Alabama,N,,,,,,,FALSE,2025,Sun Belt,78,111,--,30,80,103
-Arkansas State Red Wolves,"Sat, Oct 25",Southern,N,,,,,,,TRUE,2025,Sun Belt,78,111,--,30,80,103
-Arkansas State Red Wolves,"Thu, Nov 20",Louisiana,N,,,,,,,TRUE,2025,Sun Belt,78,111,--,30,80,103
-Army Black Knights,"Sat, Sep 20",Texas,N,,,,,,,TRUE,2025,American,74,81,--,52,83,97
-Army Black Knights,"Thu, Sep 25",Carolina,N,,,,,,,FALSE,2025,American,74,81,--,52,83,97
-Army Black Knights,"Sat, Oct 11",Charlotte,N,,,,,,,TRUE,2025,American,74,81,--,52,83,97
-Army Black Knights,"Sat, Nov 1",Force,N,,,,,,,FALSE,2025,American,74,81,--,52,83,97
-Army Black Knights,"Sat, Nov 8",Temple,N,,,,,,,TRUE,2025,American,74,81,--,52,83,97
-Army Black Knights,"Sat, Nov 22",Tulsa,N,,,,,,,TRUE,2025,American,74,81,--,52,83,97
-Army Black Knights,"Sat, Dec 13",*,N,,,,,,,TRUE,2025,American,74,81,--,52,83,97
-Ball State Cardinals,"Sat, Sep 13",Hampshire,N,,,,,,,TRUE,2025,MAC,117,132,--,14,130,136
-Ball State Cardinals,"Sat, Sep 20",UConn,N,,,,,,,FALSE,2025,MAC,117,132,--,14,130,136
-Ball State Cardinals,"Sat, Oct 4",Ohio,N,,,,,,,TRUE,2025,MAC,117,132,--,14,130,136
-Ball State Cardinals,"Sat, Oct 11",Michigan,N,,,,,,,FALSE,2025,MAC,117,132,--,14,130,136
-Ball State Cardinals,"Sat, Oct 18",Akron,N,,,,,,,TRUE,2025,MAC,117,132,--,14,130,136
-Baylor Bears,"Sat, Sep 13",Samford,N,,,,,,,TRUE,2025,Big 12,24,36,--,12,90,119
-Boise State Broncos,"Sat, Sep 20",Force,N,,,,,,,FALSE,2025,Mountain West,79,57,--,40,54,66
-Boise State Broncos,"Sat, Oct 4",Dame,N,,,,,,,FALSE,2025,Mountain West,79,57,--,40,54,66
-Boise State Broncos,"Fri, Oct 24",Nevada,N,,,,,,,FALSE,2025,Mountain West,79,57,--,40,54,66
-Boise State Broncos,"Sat, Nov 15",State,N,,,,,,,FALSE,2025,Mountain West,79,57,--,40,54,66
-Boise State Broncos,"Fri, Nov 28",State,N,,,,,,,FALSE,2025,Mountain West,79,57,--,40,54,66
-Boston College Eagles,"Sat, Sep 13",Stanford,N,,,,,,,FALSE,2025,ACC,109,52,--,80,65,60
-Bowling Green Falcons,"Sat, Sep 13",Liberty,N,,,,,,,TRUE,2025,MAC,95,95,--,63,94,95
-Bowling Green Falcons,"Sat, Sep 20",Louisville,N,,,,,,,FALSE,2025,MAC,95,95,--,63,94,95
-Bowling Green Falcons,"Tue, Nov 18",Akron,N,,,,,,,TRUE,2025,MAC,95,95,--,63,94,95
-Buffalo Bulls,"Sat, Sep 13",State,N,,,,,,,FALSE,2025,MAC,105,102,--,58,77,73
-Buffalo Bulls,"Sat, Sep 20",Troy,N,,,,,,,TRUE,2025,MAC,105,102,--,58,77,73
-Buffalo Bulls,"Sat, Oct 4",Michigan,N,,,,,,,TRUE,2025,MAC,105,102,--,58,77,73
-Buffalo Bulls,"Wed, Nov 12",Michigan,N,,,,,,,FALSE,2025,MAC,105,102,--,58,77,73
-Buffalo Bulls,"Wed, Nov 19",(OH),N,,,,,,,TRUE,2025,MAC,105,102,--,58,77,73
-Buffalo Bulls,"Fri, Nov 28",Ohio,N,,,,,,,TRUE,2025,MAC,105,102,--,58,77,73
-BYU Cougars,"Sat, Sep 20",Carolina,N,,,,,,,FALSE,2025,Big 12,33,18,--,109,10,4
-BYU Cougars,"Sat, Sep 27",Colorado,N,,,,,,,FALSE,2025,Big 12,33,18,--,109,10,4
-BYU Cougars,"Fri, Oct 3",Virginia,N,,,,,,,TRUE,2025,Big 12,33,18,--,109,10,4
-California Golden Bears,"Sat, Sep 13",Minnesota,N,,,,,,,TRUE,2025,ACC,31,63,--,108,30,25
-California Golden Bears,"Sat, Sep 20",State,N,,,,,,,FALSE,2025,ACC,31,63,--,108,30,25
-California Golden Bears,"Fri, Oct 17",Carolina,N,,,,,,,TRUE,2025,ACC,31,63,--,108,30,25
-California Golden Bears,"Fri, Oct 24",Tech,N,,,,,,,FALSE,2025,ACC,31,63,--,108,30,25
-Central Michigan Chippewas,"Sat, Sep 13",Michigan,N,,,,,,,FALSE,2025,MAC,62,118,--,46,104,116
-Central Michigan Chippewas,"Sat, Sep 20",Wagner,N,,,,,,,TRUE,2025,MAC,62,118,--,46,104,116
-Central Michigan Chippewas,"Sat, Oct 4",Akron,N,,,,,,,FALSE,2025,MAC,62,118,--,46,104,116
-Central Michigan Chippewas,"Wed, Nov 12",Buffalo,N,,,,,,,TRUE,2025,MAC,62,118,--,46,104,116
-Central Michigan Chippewas,"Wed, Nov 19",State,N,,,,,,,FALSE,2025,MAC,62,118,--,46,104,116
-Charlotte 49ers,"Sat, Sep 13",Monmouth,N,,,,,,,TRUE,2025,American,117,130,--,98,135,127
-Charlotte 49ers,"Thu, Sep 18",Rice,N,,,,,,,TRUE,2025,American,117,130,--,98,135,127
-Charlotte 49ers,"Fri, Oct 3",Florida,N,,,,,,,FALSE,2025,American,117,130,--,98,135,127
-Charlotte 49ers,"Sat, Oct 11",Army,N,,,,,,,FALSE,2025,American,117,130,--,98,135,127
-Charlotte 49ers,"Fri, Oct 24",Texas,N,,,,,,,TRUE,2025,American,117,130,--,98,135,127
-Charlotte 49ers,"Sat, Nov 22",Georgia,N,,,,,,,FALSE,2025,American,117,130,--,98,135,127
-Cincinnati Bearcats,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Big 12,63,53,--,31,44,63
-Coastal Carolina Chanticleers,"Sat, Sep 13",Carolina,N,,,,,,,TRUE,2025,Sun Belt,100,122,--,62,118,109
-Coastal Carolina Chanticleers,"Sat, Sep 20",Alabama,N,,,,,,,FALSE,2025,Sun Belt,100,122,--,62,118,109
-Coastal Carolina Chanticleers,"Thu, Oct 30",Marshall,N,,,,,,,TRUE,2025,Sun Belt,100,122,--,62,118,109
-Colorado Buffaloes,"Fri, Sep 12",Houston,N,,,,,,,FALSE,2025,Big 12,83,55,--,71,55,53
-Colorado Buffaloes,"Sat, Sep 20",Wyoming,N,,,,,,,TRUE,2025,Big 12,83,55,--,71,55,53
-Colorado Buffaloes,"Sat, Sep 27",BYU,N,,,,,,,TRUE,2025,Big 12,83,55,--,71,55,53
-Colorado State Rams,"Sat, Sep 27",State,N,,,,,,,TRUE,2025,Mountain West,96,96,--,35,123,117
-Colorado State Rams,"Fri, Oct 3",State,N,,,,,,,FALSE,2025,Mountain West,96,96,--,35,123,117
-Colorado State Rams,"Fri, Oct 10",State,N,,,,,,,TRUE,2025,Mountain West,96,96,--,35,123,117
-Colorado State Rams,"Sat, Oct 18",Hawai'i,N,,,,,,,TRUE,2025,Mountain West,96,96,--,35,123,117
-Colorado State Rams,"Sat, Oct 25",Wyoming,N,,,,,,,FALSE,2025,Mountain West,96,96,--,35,123,117
-Delaware Blue Hens,"Sat, Sep 13",UConn,N,,,,,,,TRUE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Sat, Sep 20",International,N,,,,,,,FALSE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Fri, Oct 3",Kentucky,N,,,,,,,TRUE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Wed, Oct 15",State,N,,,,,,,FALSE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Wed, Oct 22",Tennessee,N,,,,,,,TRUE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Sat, Nov 1",Liberty,N,,,,,,,FALSE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Sat, Nov 8",Tech,N,,,,,,,TRUE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Sat, Nov 15",Houston,N,,,,,,,FALSE,2025,CUSA,113,124,--,61,111,106
-Delaware Blue Hens,"Sat, Nov 29",UTEP,N,,,,,,,TRUE,2025,CUSA,113,124,--,61,111,106
-Duke Blue Devils,"Sat, Sep 13",Tulane,N,,,,,,,FALSE,2025,ACC,82,64,--,57,88,79
-Duke Blue Devils,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,ACC,82,64,--,57,88,79
-Duke Blue Devils,"Sat, Nov 8",UConn,N,,,,,,,FALSE,2025,ACC,82,64,--,57,88,79
-East Carolina Pirates,"Sat, Sep 13",Carolina,N,,,,,,,FALSE,2025,American,106,69,--,78,92,84
-East Carolina Pirates,"Sat, Sep 20",BYU,N,,,,,,,TRUE,2025,American,106,69,--,78,92,84
-East Carolina Pirates,"Thu, Sep 25",Army,N,,,,,,,TRUE,2025,American,106,69,--,78,92,84
-East Carolina Pirates,"Thu, Oct 16",Tulsa,N,,,,,,,TRUE,2025,American,106,69,--,78,92,84
-Eastern Michigan Eagles,"Sat, Sep 13",Kentucky,N,,,,,,,FALSE,2025,MAC,117,126,--,83,134,125
-Eastern Michigan Eagles,"Sat, Sep 20",Louisiana,N,,,,,,,TRUE,2025,MAC,117,126,--,83,134,125
-Eastern Michigan Eagles,"Sat, Oct 4",Buffalo,N,,,,,,,FALSE,2025,MAC,117,126,--,83,134,125
-Florida Atlantic Owls,"Sat, Sep 13",International,N,,,,,,,FALSE,2025,American,102,94,--,68,86,83
-Florida Atlantic Owls,"Sat, Oct 25",Navy,N,,,,,,,FALSE,2025,American,102,94,--,68,86,83
-Florida Gators,"Sat, Sep 13",LSU,N,,,,,,,FALSE,2025,SEC,107,24,--,77,35,32
-Florida Gators,"Sat, Nov 1",*,N,,,,,,,TRUE,2025,SEC,107,24,--,77,35,32
-Florida International Panthers,"Sat, Sep 13",Atlantic,N,,,,,,,TRUE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Sat, Sep 20",Delaware,N,,,,,,,TRUE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Sat, Oct 4",UConn,N,,,,,,,FALSE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Tue, Oct 14",Kentucky,N,,,,,,,FALSE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Tue, Oct 21",State,N,,,,,,,TRUE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Wed, Oct 29",State,N,,,,,,,FALSE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Sat, Nov 8",Tennessee,N,,,,,,,FALSE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Sat, Nov 15",Liberty,N,,,,,,,TRUE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Sat, Nov 22",State,N,,,,,,,TRUE,2025,CUSA,99,107,--,11,59,89
-Florida International Panthers,"Sat, Nov 29",Houston,N,,,,,,,FALSE,2025,CUSA,99,107,--,11,59,89
-Fresno State Bulldogs,"Sat, Sep 13",Southern,N,,,,,,,TRUE,2025,Mountain West,46,74,--,49,100,101
-Fresno State Bulldogs,"Sat, Sep 20",Hawai'i,N,,,,,,,FALSE,2025,Mountain West,46,74,--,49,100,101
-Fresno State Bulldogs,"Sat, Oct 4",Nevada,N,,,,,,,TRUE,2025,Mountain West,46,74,--,49,100,101
-Fresno State Bulldogs,"Fri, Oct 10",State,N,,,,,,,FALSE,2025,Mountain West,46,74,--,49,100,101
-Fresno State Bulldogs,"Sat, Nov 22",State,N,,,,,,,TRUE,2025,Mountain West,46,74,--,49,100,101
-Georgia Southern Eagles,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Sun Belt,117,106,--,2,108,133
-Georgia Southern Eagles,"Sat, Sep 20",Maine,N,,,,,,,TRUE,2025,Sun Belt,117,106,--,2,108,133
-Georgia Southern Eagles,"Sat, Oct 25",State,N,,,,,,,FALSE,2025,Sun Belt,117,106,--,2,108,133
-Georgia Southern Eagles,"Thu, Nov 6",State,N,,,,,,,FALSE,2025,Sun Belt,117,106,--,2,108,133
-Georgia State Panthers,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Sun Belt,117,121,--,4,105,128
-Georgia State Panthers,"Sat, Sep 20",Vanderbilt,N,,,,,,,FALSE,2025,Sun Belt,117,121,--,4,105,128
-Georgia State Panthers,"Thu, Oct 23",Alabama,N,,,,,,,TRUE,2025,Sun Belt,117,121,--,4,105,128
-Georgia Tech Yellow Jackets,"Sat, Sep 13",Clemson,N,,,,,,,TRUE,2025,ACC,9,31,--,60,45,58
-Georgia Tech Yellow Jackets,"Sat, Sep 20",Temple,N,,,,,,,TRUE,2025,ACC,9,31,--,60,45,58
-Georgia Tech Yellow Jackets,"Fri, Nov 28",*,N,,,,,,,TRUE,2025,ACC,9,31,--,60,45,58
-Hawai'i Rainbow Warriors,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Sat, Oct 11",State,N,,,,,,,TRUE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Sat, Oct 18",State,N,,,,,,,FALSE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Sat, Nov 1",State,N,,,,,,,FALSE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Sat, Nov 8",State,N,,,,,,,TRUE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Fri, Nov 21",UNLV,N,,,,,,,FALSE,2025,Mountain West,58,110,--,51,98,93
-Hawai'i Rainbow Warriors,"Sat, Nov 29",Wyoming,N,,,,,,,TRUE,2025,Mountain West,58,110,--,51,98,93
-Houston Cougars,"Fri, Sep 12",Colorado,N,,,,,,,TRUE,2025,Big 12,35,56,--,112,62,45
-Houston Cougars,"Fri, Sep 26",State,N,,,,,,,FALSE,2025,Big 12,35,56,--,112,62,45
-Iowa Hawkeyes,"Sat, Sep 13",Massachusetts,N,,,,,,,TRUE,2025,Big Ten,93,43,--,43,73,78
-Iowa Hawkeyes,"Fri, Sep 19",Rutgers,N,,,,,,,FALSE,2025,Big Ten,93,43,--,43,73,78
-Iowa Hawkeyes,"Fri, Nov 28",Nebraska,N,,,,,,,FALSE,2025,Big Ten,93,43,--,43,73,78
-Jacksonville State Gamecocks,"Sat, Sep 13",Southern,N,,,,,,,FALSE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Thu, Oct 9",Houston,N,,,,,,,FALSE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Wed, Oct 15",Delaware,N,,,,,,,TRUE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Wed, Oct 29",Tennessee,N,,,,,,,FALSE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Sat, Nov 8",UTEP,N,,,,,,,FALSE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Sat, Nov 15",State,N,,,,,,,TRUE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Sat, Nov 22",International,N,,,,,,,FALSE,2025,CUSA,67,82,--,54,52,64
-Jacksonville State Gamecocks,"Sat, Nov 29",Kentucky,N,,,,,,,TRUE,2025,CUSA,67,82,--,54,52,64
-James Madison Dukes,"Sat, Sep 20",Liberty,N,,,,,,,FALSE,2025,Sun Belt,85,73,--,53,39,57
-James Madison Dukes,"Tue, Oct 28",State,N,,,,,,,FALSE,2025,Sun Belt,85,73,--,53,39,57
-Kansas Jayhawks,"Fri, Nov 28",Utah,N,,,,,,,TRUE,2025,Big 12,50,34,--,39,20,44
-Kansas State Wildcats,"Fri, Sep 12",Arizona,N,,,,,,,FALSE,2025,Big 12,114,46,--,64,93,71
-Kennesaw State Owls,"Sat, Sep 13",Merrimack,N,,,,,,,TRUE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Sat, Sep 27",Tennessee,N,,,,,,,TRUE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Thu, Oct 9",Tech,N,,,,,,,TRUE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Tue, Oct 21",International,N,,,,,,,FALSE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Tue, Oct 28",UTEP,N,,,,,,,TRUE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Sat, Nov 8",State,N,,,,,,,FALSE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Sat, Nov 15",State,N,,,,,,,FALSE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Sat, Nov 22",State,N,,,,,,,TRUE,2025,CUSA,117,128,--,22,109,126
-Kennesaw State Owls,"Sat, Nov 29",Liberty,N,,,,,,,FALSE,2025,CUSA,117,128,--,22,109,126
-Kent State Golden Flashes,"Sat, Sep 13",Buffalo,N,,,,,,,TRUE,2025,MAC,91,136,--,32,101,113
-Kent State Golden Flashes,"Sat, Sep 20",State,N,,,,,,,FALSE,2025,MAC,91,136,--,32,101,113
-Kent State Golden Flashes,"Sat, Oct 4",Oklahoma,N,,,,,,,FALSE,2025,MAC,91,136,--,32,101,113
-Kent State Golden Flashes,"Tue, Nov 11",Akron,N,,,,,,,FALSE,2025,MAC,91,136,--,32,101,113
-Kent State Golden Flashes,"Wed, Nov 19",Michigan,N,,,,,,,TRUE,2025,MAC,91,136,--,32,101,113
-Kent State Golden Flashes,"Fri, Nov 28",Illinois,N,,,,,,,FALSE,2025,MAC,91,136,--,32,101,113
-Kentucky Wildcats,"Sat, Sep 13",Michigan,N,,,,,,,TRUE,2025,SEC,44,42,--,19,37,62
-Kentucky Wildcats,"Sat, Oct 4",Georgia,N,,,,,,,FALSE,2025,SEC,44,42,--,19,37,62
-Kentucky Wildcats,"Sat, Nov 15",Tech,N,,,,,,,TRUE,2025,SEC,44,42,--,19,37,62
-Liberty Flames,"Sat, Sep 13",Green,N,,,,,,,FALSE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Sat, Sep 20",Madison,N,,,,,,,TRUE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Wed, Oct 8",UTEP,N,,,,,,,FALSE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Tue, Oct 14",State,N,,,,,,,TRUE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Sat, Nov 1",Delaware,N,,,,,,,TRUE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Sat, Nov 8",State,N,,,,,,,TRUE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Sat, Nov 15",International,N,,,,,,,FALSE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Sat, Nov 22",Tech,N,,,,,,,FALSE,2025,CUSA,103,91,--,99,129,111
-Liberty Flames,"Sat, Nov 29",State,N,,,,,,,TRUE,2025,CUSA,103,91,--,99,129,111
-Louisiana Ragin' Cajuns,"Sat, Sep 13",Missouri,N,,,,,,,FALSE,2025,Sun Belt,116,93,--,125,128,67
-Louisiana Ragin' Cajuns,"Sat, Sep 20",Michigan,N,,,,,,,FALSE,2025,Sun Belt,116,93,--,125,128,67
-Louisiana Ragin' Cajuns,"Thu, Nov 20",State,N,,,,,,,FALSE,2025,Sun Belt,116,93,--,125,128,67
-Louisiana Tech Bulldogs,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Sat, Sep 20",Miss,N,,,,,,,TRUE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Sat, Sep 27",UTEP,N,,,,,,,FALSE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Thu, Oct 9",State,N,,,,,,,FALSE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Tue, Oct 21",Kentucky,N,,,,,,,TRUE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Fri, Oct 31",Houston,N,,,,,,,TRUE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Sat, Nov 8",Delaware,N,,,,,,,FALSE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Sat, Nov 15",State,N,,,,,,,FALSE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Sat, Nov 22",Liberty,N,,,,,,,TRUE,2025,CUSA,77,101,--,29,79,100
-Louisiana Tech Bulldogs,"Sat, Nov 29",State,N,,,,,,,FALSE,2025,CUSA,77,101,--,29,79,100
-Louisville Cardinals,"Sat, Sep 20",Green,N,,,,,,,TRUE,2025,ACC,30,41,--,106,57,38
-Louisville Cardinals,"Fri, Oct 17",Miami,N,,,,,,,FALSE,2025,ACC,30,41,--,106,57,38
-Louisville Cardinals,"Fri, Nov 14",Clemson,N,,,,,,,TRUE,2025,ACC,30,41,--,106,57,38
-Marshall Thundering Herd,"Sat, Sep 13",Kentucky,N,,,,,,,TRUE,2025,Sun Belt,117,109,--,10,87,114
-Marshall Thundering Herd,"Sat, Sep 20",Tennessee,N,,,,,,,FALSE,2025,Sun Belt,117,109,--,10,87,114
-Marshall Thundering Herd,"Thu, Oct 30",Carolina,N,,,,,,,FALSE,2025,Sun Belt,117,109,--,10,87,114
-Maryland Terrapins,"Sat, Sep 13",Towson,N,,,,,,,TRUE,2025,Big Ten,32,58,--,107,28,22
-Massachusetts Minutemen,"Sat, Sep 13",Iowa,N,,,,,,,FALSE,2025,MAC,117,135,--,111,132,92
-Massachusetts Minutemen,"Tue, Nov 4",Akron,N,,,,,,,FALSE,2025,MAC,117,135,--,111,132,92
-Massachusetts Minutemen,"Wed, Nov 12",Illinois,N,,,,,,,TRUE,2025,MAC,117,135,--,111,132,92
-Massachusetts Minutemen,"Tue, Nov 18",Ohio,N,,,,,,,FALSE,2025,MAC,117,135,--,111,132,92
-Memphis Tigers,"Sat, Sep 13",Troy,N,,,,,,,FALSE,2025,American,39,47,--,117,49,33
-Memphis Tigers,"Sat, Sep 20",Arkansas,N,,,,,,,TRUE,2025,American,39,47,--,117,49,33
-Memphis Tigers,"Fri, Oct 31",Rice,N,,,,,,,FALSE,2025,American,39,47,--,117,49,33
-Memphis Tigers,"Fri, Nov 7",Tulane,N,,,,,,,TRUE,2025,American,39,47,--,117,49,33
-Memphis Tigers,"Thu, Nov 27",Navy,N,,,,,,,TRUE,2025,American,39,47,--,117,49,33
-Miami (OH) RedHawks,"Sat, Sep 20",UNLV,N,,,,,,,TRUE,2025,MAC,117,92,--,16,112,134
-Miami (OH) RedHawks,"Sat, Sep 27",Lindenwood,N,,,,,,,TRUE,2025,MAC,117,92,--,16,112,134
-Miami (OH) RedHawks,"Sat, Oct 25",Michigan,N,,,,,,,TRUE,2025,MAC,117,92,--,16,112,134
-Miami (OH) RedHawks,"Tue, Nov 4",Ohio,N,,,,,,,FALSE,2025,MAC,117,92,--,16,112,134
-Miami (OH) RedHawks,"Wed, Nov 12",Toledo,N,,,,,,,TRUE,2025,MAC,117,92,--,16,112,134
-Miami (OH) RedHawks,"Wed, Nov 19",Buffalo,N,,,,,,,FALSE,2025,MAC,117,92,--,16,112,134
-Michigan State Spartans,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Big Ten,17,62,--,87,43,41
-Michigan State Spartans,"Sat, Sep 20",USC,N,,,,,,,FALSE,2025,Big Ten,17,62,--,87,43,41
-Michigan State Spartans,"Sat, Oct 11",UCLA,N,,,,,,,TRUE,2025,Big Ten,17,62,--,87,43,41
-Middle Tennessee Blue Raiders,"Sat, Sep 13",Nevada,N,,,,,,,FALSE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Sat, Sep 20",Marshall,N,,,,,,,TRUE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Sat, Sep 27",State,N,,,,,,,FALSE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Wed, Oct 8",State,N,,,,,,,TRUE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Wed, Oct 22",Delaware,N,,,,,,,FALSE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Wed, Oct 29",State,N,,,,,,,TRUE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Sat, Nov 8",International,N,,,,,,,TRUE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Sat, Nov 15",Kentucky,N,,,,,,,FALSE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Sat, Nov 22",Houston,N,,,,,,,TRUE,2025,CUSA,117,133,--,45,133,131
-Middle Tennessee Blue Raiders,"Sat, Nov 29",State,N,,,,,,,FALSE,2025,CUSA,117,133,--,45,133,131
-Minnesota Golden Gophers,"Sat, Sep 13",California,N,,,,,,,FALSE,2025,Big Ten,48,49,--,123,29,13
-Minnesota Golden Gophers,"Fri, Oct 17",Nebraska,N,,,,,,,TRUE,2025,Big Ten,48,49,--,123,29,13
-Minnesota Golden Gophers,"Fri, Nov 14",Oregon,N,,,,,,,FALSE,2025,Big Ten,48,49,--,123,29,13
-Mississippi State Bulldogs,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,SEC,12,51,--,70,36,51
-Mississippi State Bulldogs,"Sat, Sep 20",Illinois,N,,,,,,,TRUE,2025,SEC,12,51,--,70,36,51
-Mississippi State Bulldogs,"Sat, Nov 8",Georgia,N,,,,,,,TRUE,2025,SEC,12,51,--,70,36,51
-Mississippi State Bulldogs,"Fri, Nov 28",Miss,N,,,,,,,TRUE,2025,SEC,12,51,--,70,36,51
-Missouri State Bears,"Sat, Sep 13",SMU,N,,,,,,,TRUE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Sat, Sep 20",Martin,N,,,,,,,TRUE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Sat, Sep 27",Kentucky,N,,,,,,,TRUE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Wed, Oct 8",Tennessee,N,,,,,,,FALSE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Wed, Oct 22",State,N,,,,,,,FALSE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Wed, Oct 29",International,N,,,,,,,TRUE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Sat, Nov 8",Liberty,N,,,,,,,FALSE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Sat, Nov 15",UTEP,N,,,,,,,TRUE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Sat, Nov 22",State,N,,,,,,,FALSE,2025,CUSA,43,125,--,7,126,132
-Missouri State Bears,"Sat, Nov 29",Tech,N,,,,,,,TRUE,2025,CUSA,43,125,--,7,126,132
-Navy Midshipmen,"Sat, Sep 13",Tulsa,N,,,,,,,FALSE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Sat, Sep 27",Rice,N,,,,,,,TRUE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Sat, Oct 4",Force,N,,,,,,,TRUE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Sat, Oct 25",Atlantic,N,,,,,,,TRUE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Sat, Nov 8",Dame,N,,,,,,,FALSE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Sat, Nov 15",Florida,N,,,,,,,TRUE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Thu, Nov 27",Memphis,N,,,,,,,FALSE,2025,American,55,71,--,129,60,23
-Navy Midshipmen,"Sat, Dec 13",*,N,,,,,,,TRUE,2025,American,55,71,--,129,60,23
-NC State Wolfpack,"Thu, Sep 11",State,N,,,,,,,TRUE,2025,ACC,13,59,--,73,48,54
-NC State Wolfpack,"Sat, Oct 11",State,N,,,,,,,FALSE,2025,ACC,13,59,--,73,48,54
-Nebraska Cornhuskers,"Sat, Sep 13",Christian,N,,,,,,,TRUE,2025,Big Ten,15,12,--,81,25,30
-Nebraska Cornhuskers,"Sat, Sep 20",Michigan,N,,,,,,,TRUE,2025,Big Ten,15,12,--,81,25,30
-Nebraska Cornhuskers,"Fri, Oct 17",Minnesota,N,,,,,,,FALSE,2025,Big Ten,15,12,--,81,25,30
-Nebraska Cornhuskers,"Fri, Nov 28",Iowa,N,,,,,,,TRUE,2025,Big Ten,15,12,--,81,25,30
-Nevada Wolf Pack,"Sat, Sep 13",Tennessee,N,,,,,,,TRUE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Sep 20",Kentucky,N,,,,,,,FALSE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Oct 4",State,N,,,,,,,FALSE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Oct 11",State,N,,,,,,,TRUE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Fri, Oct 24",State,N,,,,,,,TRUE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Nov 8",State,N,,,,,,,FALSE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Nov 15",State,N,,,,,,,TRUE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Nov 22",Wyoming,N,,,,,,,FALSE,2025,Mountain West,66,119,--,8,121,122
-Nevada Wolf Pack,"Sat, Nov 29",UNLV,N,,,,,,,TRUE,2025,Mountain West,66,119,--,8,121,122
-New Mexico Lobos,"Fri, Sep 12",UCLA,N,,,,,,,FALSE,2025,Mountain West,90,114,--,33,99,112
-New Mexico Lobos,"Sat, Sep 27",State,N,,,,,,,TRUE,2025,Mountain West,90,114,--,33,99,112
-New Mexico Lobos,"Fri, Oct 3",State,N,,,,,,,FALSE,2025,Mountain West,90,114,--,33,99,112
-New Mexico Lobos,"Sat, Nov 1",UNLV,N,,,,,,,FALSE,2025,Mountain West,90,114,--,33,99,112
-New Mexico Lobos,"Sat, Nov 22",Force,N,,,,,,,FALSE,2025,Mountain West,90,114,--,33,99,112
-New Mexico Lobos,"Fri, Nov 28",State,N,,,,,,,TRUE,2025,Mountain West,90,114,--,33,99,112
-New Mexico State Aggies,"Sat, Sep 13",Tech,N,,,,,,,FALSE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Sat, Sep 27",Mexico,N,,,,,,,FALSE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Thu, Oct 2",Houston,N,,,,,,,TRUE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Tue, Oct 14",Liberty,N,,,,,,,FALSE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Wed, Oct 22",State,N,,,,,,,TRUE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Sat, Nov 1",Kentucky,N,,,,,,,FALSE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Sat, Nov 8",State,N,,,,,,,TRUE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Sat, Nov 15",Tennessee,N,,,,,,,FALSE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Sat, Nov 22",UTEP,N,,,,,,,FALSE,2025,CUSA,61,129,--,133,106,48
-New Mexico State Aggies,"Sat, Nov 29",Tennessee,N,,,,,,,TRUE,2025,CUSA,61,129,--,133,106,48
-North Carolina Tar Heels,"Sat, Sep 13",Richmond,N,,,,,,,TRUE,2025,ACC,73,85,--,48,85,91
-North Carolina Tar Heels,"Sat, Sep 20",UCF,N,,,,,,,FALSE,2025,ACC,73,85,--,48,85,91
-North Carolina Tar Heels,"Fri, Oct 17",California,N,,,,,,,FALSE,2025,ACC,73,85,--,48,85,91
-North Carolina Tar Heels,"Fri, Oct 31",Syracuse,N,,,,,,,FALSE,2025,ACC,73,85,--,48,85,91
-North Texas Mean Green,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,American,36,88,--,114,114,65
-North Texas Mean Green,"Sat, Sep 20",Army,N,,,,,,,FALSE,2025,American,36,88,--,114,114,65
-North Texas Mean Green,"Fri, Oct 10",Florida,N,,,,,,,TRUE,2025,American,36,88,--,114,114,65
-North Texas Mean Green,"Fri, Oct 24",Charlotte,N,,,,,,,FALSE,2025,American,36,88,--,114,114,65
-Northern Illinois Huskies,"Sat, Sep 20",State,N,,,,,,,FALSE,2025,MAC,87,98,--,66,110,108
-Northern Illinois Huskies,"Wed, Nov 12",Massachusetts,N,,,,,,,FALSE,2025,MAC,87,98,--,66,110,108
-Northern Illinois Huskies,"Tue, Nov 18",Michigan,N,,,,,,,TRUE,2025,MAC,87,98,--,66,110,108
-Northern Illinois Huskies,"Fri, Nov 28",State,N,,,,,,,TRUE,2025,MAC,87,98,--,66,110,108
-Northwestern Wildcats,"Sat, Sep 13",Oregon,N,,,,,,,TRUE,2025,Big Ten,98,75,--,55,84,90
-Northwestern Wildcats,"Fri, Nov 7",USC,N,,,,,,,FALSE,2025,Big Ten,98,75,--,55,84,90
-Ohio Bobcats,"Sat, Sep 13",State,N,,,,,,,FALSE,2025,MAC,53,68,--,38,76,98
-Ohio Bobcats,"Sat, Sep 20",Gardner-Webb,N,,,,,,,TRUE,2025,MAC,53,68,--,38,76,98
-Ohio Bobcats,"Sat, Oct 4",State,N,,,,,,,FALSE,2025,MAC,53,68,--,38,76,98
-Ohio Bobcats,"Tue, Nov 4",(OH),N,,,,,,,TRUE,2025,MAC,53,68,--,38,76,98
-Ohio Bobcats,"Tue, Nov 11",Michigan,N,,,,,,,FALSE,2025,MAC,53,68,--,38,76,98
-Ohio Bobcats,"Tue, Nov 18",Massachusetts,N,,,,,,,TRUE,2025,MAC,53,68,--,38,76,98
-Ohio Bobcats,"Fri, Nov 28",Buffalo,N,,,,,,,FALSE,2025,MAC,53,68,--,38,76,98
-Oklahoma State Cowboys,"Fri, Sep 19",Tulsa,N,,,,,,,TRUE,2025,Big 12,69,90,--,3,72,105
-Old Dominion Monarchs,"Sat, Sep 13",Tech,N,,,,,,,FALSE,2025,Sun Belt,86,72,--,27,63,86
-Old Dominion Monarchs,"Thu, Nov 13",Troy,N,,,,,,,TRUE,2025,Sun Belt,86,72,--,27,63,86
-Oregon State Beavers,"Sat, Sep 13",Tech,N,,,,,,,FALSE,2025,Pac-12,117,100,--,86,131,115
-Oregon State Beavers,"Fri, Sep 26",Houston,N,,,,,,,TRUE,2025,Pac-12,117,100,--,86,131,115
-Oregon State Beavers,"Sat, Oct 11",Forest,N,,,,,,,TRUE,2025,Pac-12,117,100,--,86,131,115
-Oregon State Beavers,"Sat, Oct 18",Lafayette,N,,,,,,,TRUE,2025,Pac-12,117,100,--,86,131,115
-Oregon State Beavers,"Sat, Nov 1",State,N,,,,,,,TRUE,2025,Pac-12,117,100,--,86,131,115
-Oregon State Beavers,"Sat, Nov 8",Houston,N,,,,,,,TRUE,2025,Pac-12,117,100,--,86,131,115
-Oregon State Beavers,"Sat, Nov 29",State,N,,,,,,,FALSE,2025,Pac-12,117,100,--,86,131,115
-Pittsburgh Panthers,"Sat, Sep 13",Virginia,N,,,,,,,FALSE,2025,ACC,52,50,--,127,14,6
-Purdue Boilermakers,"Sat, Sep 13",USC,N,,,,,,,TRUE,2025,Big Ten,56,78,--,130,33,17
-Purdue Boilermakers,"Sat, Sep 20",Dame,N,,,,,,,FALSE,2025,Big Ten,56,78,--,130,33,17
-Purdue Boilermakers,"Fri, Nov 28",Indiana,N,,,,,,,TRUE,2025,Big Ten,56,78,--,130,33,17
-Rice Owls,"Sat, Sep 13",A&M,N,,,,,,,TRUE,2025,American,70,115,--,76,95,96
-Rice Owls,"Thu, Sep 18",Charlotte,N,,,,,,,FALSE,2025,American,70,115,--,76,95,96
-Rice Owls,"Sat, Sep 27",Navy,N,,,,,,,FALSE,2025,American,70,115,--,76,95,96
-Rice Owls,"Fri, Oct 31",Memphis,N,,,,,,,TRUE,2025,American,70,115,--,76,95,96
-Rutgers Scarlet Knights,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Big Ten,23,39,--,97,27,27
-Rutgers Scarlet Knights,"Fri, Sep 19",Iowa,N,,,,,,,TRUE,2025,Big Ten,23,39,--,97,27,27
-Rutgers Scarlet Knights,"Fri, Oct 10",Washington,N,,,,,,,FALSE,2025,Big Ten,23,39,--,97,27,27
-Sam Houston Bearkats,"Sat, Sep 20",Texas,N,,,,,,,FALSE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Thu, Oct 2",State,N,,,,,,,FALSE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Thu, Oct 9",State,N,,,,,,,TRUE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Wed, Oct 15",UTEP,N,,,,,,,TRUE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Fri, Oct 31",Tech,N,,,,,,,FALSE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Sat, Nov 8",State,N,,,,,,,FALSE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Sat, Nov 15",Delaware,N,,,,,,,TRUE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Sat, Nov 22",Tennessee,N,,,,,,,FALSE,2025,CUSA,117,127,--,92,136,130
-Sam Houston Bearkats,"Sat, Nov 29",International,N,,,,,,,TRUE,2025,CUSA,117,127,--,92,136,130
-San Diego State Aztecs,"Sat, Sep 20",California,N,,,,,,,TRUE,2025,Mountain West,115,116,--,101,113,82
-San Diego State Aztecs,"Fri, Oct 3",State,N,,,,,,,TRUE,2025,Mountain West,115,116,--,101,113,82
-San Diego State Aztecs,"Sat, Oct 11",Nevada,N,,,,,,,FALSE,2025,Mountain West,115,116,--,101,113,82
-San Diego State Aztecs,"Sat, Nov 1",Wyoming,N,,,,,,,TRUE,2025,Mountain West,115,116,--,101,113,82
-San Diego State Aztecs,"Sat, Nov 8",Hawai'i,N,,,,,,,FALSE,2025,Mountain West,115,116,--,101,113,82
-San Diego State Aztecs,"Sat, Nov 15",State,N,,,,,,,TRUE,2025,Mountain West,115,116,--,101,113,82
-San Diego State Aztecs,"Fri, Nov 28",Mexico,N,,,,,,,FALSE,2025,Mountain West,115,116,--,101,113,82
-San José State Spartans,"Sat, Sep 20",Idaho,N,,,,,,,TRUE,2025,Mountain West,117,103,--,6,120,120
-San José State Spartans,"Fri, Oct 3",Mexico,N,,,,,,,TRUE,2025,Mountain West,117,103,--,6,120,120
-San José State Spartans,"Sat, Oct 11",Wyoming,N,,,,,,,FALSE,2025,Mountain West,117,103,--,6,120,120
-San José State Spartans,"Fri, Oct 17",State,N,,,,,,,FALSE,2025,Mountain West,117,103,--,6,120,120
-San José State Spartans,"Sat, Nov 1",Hawai'i,N,,,,,,,TRUE,2025,Mountain West,117,103,--,6,120,120
-San José State Spartans,"Sat, Nov 15",Nevada,N,,,,,,,FALSE,2025,Mountain West,117,103,--,6,120,120
-SMU Mustangs,"Sat, Sep 13",State,N,,,,,,,FALSE,2025,ACC,97,35,--,74,26,24
-SMU Mustangs,"Sat, Sep 20",TCU,N,,,,,,,FALSE,2025,ACC,97,35,--,74,26,24
-South Alabama Jaguars,"Sat, Sep 13",Auburn,N,,,,,,,FALSE,2025,Sun Belt,108,84,--,84,102,75
-South Alabama Jaguars,"Sat, Sep 20",Carolina,N,,,,,,,TRUE,2025,Sun Belt,108,84,--,84,102,75
-South Alabama Jaguars,"Tue, Oct 14",State,N,,,,,,,TRUE,2025,Sun Belt,108,84,--,84,102,75
-South Alabama Jaguars,"Thu, Oct 23",State,N,,,,,,,FALSE,2025,Sun Belt,108,84,--,84,102,75
-Southern Miss Golden Eagles,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,Sun Belt,94,112,--,88,97,69
-Southern Miss Golden Eagles,"Sat, Sep 20",Tech,N,,,,,,,FALSE,2025,Sun Belt,94,112,--,88,97,69
-Stanford Cardinal,"Sat, Sep 13",College,N,,,,,,,TRUE,2025,ACC,117,79,--,25,103,121
-Stanford Cardinal,"Sat, Sep 20",Virginia,N,,,,,,,FALSE,2025,ACC,117,79,--,25,103,121
-Stanford Cardinal,"Sat, Oct 18",State,N,,,,,,,TRUE,2025,ACC,117,79,--,25,103,121
-Syracuse Orange,"Fri, Sep 12",Colgate,N,,,,,,,TRUE,2025,ACC,47,65,--,13,116,124
-Syracuse Orange,"Sat, Sep 20",Clemson,N,,,,,,,FALSE,2025,ACC,47,65,--,13,116,124
-Syracuse Orange,"Fri, Oct 31",Carolina,N,,,,,,,TRUE,2025,ACC,47,65,--,13,116,124
-Syracuse Orange,"Sat, Nov 22",Dame,N,,,,,,,FALSE,2025,ACC,47,65,--,13,116,124
-TCU Horned Frogs,"Sat, Sep 13",Christian,N,,,,,,,TRUE,2025,Big 12,25,20,--,75,21,47
-TCU Horned Frogs,"Sat, Sep 20",SMU,N,,,,,,,TRUE,2025,Big 12,25,20,--,75,21,47
-TCU Horned Frogs,"Fri, Sep 26",State,N,,,,,,,FALSE,2025,Big 12,25,20,--,75,21,47
-Temple Owls,"Sat, Sep 13",Oklahoma,N,,,,,,,TRUE,2025,American,64,83,--,134,61,26
-Temple Owls,"Sat, Sep 20",Tech,N,,,,,,,FALSE,2025,American,64,83,--,134,61,26
-Temple Owls,"Sat, Nov 8",Army,N,,,,,,,FALSE,2025,American,64,83,--,134,61,26
-Texas State Bobcats,"Sat, Sep 13",State,N,,,,,,,FALSE,2025,Sun Belt,22,67,--,96,50,52
-Texas State Bobcats,"Sat, Sep 20",Nicholls,N,,,,,,,TRUE,2025,Sun Belt,22,67,--,96,50,52
-Texas State Bobcats,"Sat, Oct 4",State,N,,,,,,,FALSE,2025,Sun Belt,22,67,--,96,50,52
-Texas State Bobcats,"Tue, Oct 28",Madison,N,,,,,,,TRUE,2025,Sun Belt,22,67,--,96,50,52
-Toledo Rockets,"Sat, Sep 13",State,N,,,,,,,TRUE,2025,MAC,72,70,--,47,68,81
-Toledo Rockets,"Sat, Sep 20",Michigan,N,,,,,,,FALSE,2025,MAC,72,70,--,47,68,81
-Toledo Rockets,"Sat, Sep 27",Akron,N,,,,,,,TRUE,2025,MAC,72,70,--,47,68,81
-Toledo Rockets,"Sat, Oct 25",State,N,,,,,,,FALSE,2025,MAC,72,70,--,47,68,81
-Toledo Rockets,"Wed, Nov 12",(OH),N,,,,,,,FALSE,2025,MAC,72,70,--,47,68,81
-Troy Trojans,"Sat, Sep 13",Memphis,N,,,,,,,TRUE,2025,Sun Belt,88,86,--,41,81,94
-Troy Trojans,"Sat, Sep 20",Buffalo,N,,,,,,,FALSE,2025,Sun Belt,88,86,--,41,81,94
-Troy Trojans,"Thu, Nov 13",Dominion,N,,,,,,,FALSE,2025,Sun Belt,88,86,--,41,81,94
-Tulane Green Wave,"Sat, Sep 13",Duke,N,,,,,,,TRUE,2025,American,19,45,--,90,24,36
-Tulane Green Wave,"Sat, Sep 20",Miss,N,,,,,,,FALSE,2025,American,19,45,--,90,24,36
-Tulane Green Wave,"Thu, Oct 30",UTSA,N,,,,,,,FALSE,2025,American,19,45,--,90,24,36
-Tulane Green Wave,"Fri, Nov 7",Memphis,N,,,,,,,FALSE,2025,American,19,45,--,90,24,36
-Tulsa Golden Hurricane,"Sat, Sep 13",Navy,N,,,,,,,TRUE,2025,American,110,123,--,120,125,68
-Tulsa Golden Hurricane,"Fri, Sep 19",State,N,,,,,,,FALSE,2025,American,110,123,--,120,125,68
-Tulsa Golden Hurricane,"Thu, Oct 16",Carolina,N,,,,,,,FALSE,2025,American,110,123,--,120,125,68
-Tulsa Golden Hurricane,"Sat, Nov 22",Army,N,,,,,,,FALSE,2025,American,110,123,--,120,125,68
-UAB Blazers,"Sat, Sep 13",Akron,N,,,,,,,TRUE,2025,American,104,117,--,93,124,104
-UAB Blazers,"Sat, Sep 20",Tennessee,N,,,,,,,FALSE,2025,American,104,117,--,93,124,104
-UAB Blazers,"Sat, Nov 1",UConn,N,,,,,,,FALSE,2025,American,104,117,--,93,124,104
-UCF Knights,"Sat, Sep 20",Carolina,N,,,,,,,TRUE,2025,Big 12,34,48,--,113,74,37
-UCLA Bruins,"Fri, Sep 12",Mexico,N,,,,,,,TRUE,2025,Big Ten,117,76,--,26,127,135
-UCLA Bruins,"Sat, Oct 11",State,N,,,,,,,FALSE,2025,Big Ten,117,76,--,26,127,135
-UConn Huskies,"Sat, Sep 13",Delaware,N,,,,,,,FALSE,2025,FBS Indep.,111,80,--,85,32,39
-UConn Huskies,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,FBS Indep.,111,80,--,85,32,39
-UConn Huskies,"Sat, Oct 4",International,N,,,,,,,TRUE,2025,FBS Indep.,111,80,--,85,32,39
-UConn Huskies,"Sat, Nov 1",UAB,N,,,,,,,TRUE,2025,FBS Indep.,111,80,--,85,32,39
-UConn Huskies,"Sat, Nov 8",Duke,N,,,,,,,TRUE,2025,FBS Indep.,111,80,--,85,32,39
-UConn Huskies,"Sat, Nov 15",Force,N,,,,,,,TRUE,2025,FBS Indep.,111,80,--,85,32,39
-UL Monroe Warhawks,"Sat, Sep 20",UTEP,N,,,,,,,FALSE,2025,Sun Belt,92,131,--,9,78,102
-UNLV Rebels,"Sat, Sep 20",(OH),N,,,,,,,FALSE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Sat, Oct 4",Wyoming,N,,,,,,,FALSE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Sat, Oct 11",Force,N,,,,,,,TRUE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Sat, Nov 1",Mexico,N,,,,,,,TRUE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Sat, Nov 15",State,N,,,,,,,TRUE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Fri, Nov 21",Hawai'i,N,,,,,,,TRUE,2025,Mountain West,26,61,--,110,69,42
-UNLV Rebels,"Sat, Nov 29",Nevada,N,,,,,,,FALSE,2025,Mountain West,26,61,--,110,69,42
-USC Trojans,"Sat, Sep 13",Purdue,N,,,,,,,FALSE,2025,Big Ten,45,5,--,122,11,7
-USC Trojans,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,Big Ten,45,5,--,122,11,7
-USC Trojans,"Sat, Oct 18",Dame,N,,,,,,,FALSE,2025,Big Ten,45,5,--,122,11,7
-USC Trojans,"Fri, Nov 7",Northwestern,N,,,,,,,TRUE,2025,Big Ten,45,5,--,122,11,7
-Utah State Aggies,"Sat, Sep 13",Force,N,,,,,,,TRUE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Sat, Sep 27",Vanderbilt,N,,,,,,,FALSE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Sat, Oct 11",Hawai'i,N,,,,,,,FALSE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Fri, Oct 17",State,N,,,,,,,TRUE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Sat, Nov 8",Nevada,N,,,,,,,TRUE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Sat, Nov 15",UNLV,N,,,,,,,FALSE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Sat, Nov 22",State,N,,,,,,,FALSE,2025,Mountain West,68,97,--,23,75,99
-Utah State Aggies,"Fri, Nov 28",State,N,,,,,,,TRUE,2025,Mountain West,68,97,--,23,75,99
-UTEP Miners,"Sat, Sep 13",Texas,N,,,,,,,FALSE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Sat, Sep 20",Monroe,N,,,,,,,TRUE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Sat, Sep 27",Tech,N,,,,,,,TRUE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Wed, Oct 8",Liberty,N,,,,,,,TRUE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Wed, Oct 15",Houston,N,,,,,,,FALSE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Tue, Oct 28",State,N,,,,,,,FALSE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Sat, Nov 8",State,N,,,,,,,TRUE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Sat, Nov 15",State,N,,,,,,,FALSE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Sat, Nov 22",State,N,,,,,,,TRUE,2025,CUSA,101,120,--,104,115,85
-UTEP Miners,"Sat, Nov 29",Delaware,N,,,,,,,FALSE,2025,CUSA,101,120,--,104,115,85
-UTSA Roadrunners,"Sat, Sep 13",Word,N,,,,,,,TRUE,2025,American,117,77,--,18,96,118
-UTSA Roadrunners,"Thu, Oct 30",Tulane,N,,,,,,,TRUE,2025,American,117,77,--,18,96,118
-UTSA Roadrunners,"Thu, Nov 6",Florida,N,,,,,,,FALSE,2025,American,117,77,--,18,96,118
-Vanderbilt Commodores,"Sat, Sep 13",Carolina,N,,,,,,,FALSE,2025,SEC,14,28,--,79,46,55
-Vanderbilt Commodores,"Sat, Sep 20",State,N,,,,,,,TRUE,2025,SEC,14,28,--,79,46,55
-Vanderbilt Commodores,"Sat, Sep 27",State,N,,,,,,,TRUE,2025,SEC,14,28,--,79,46,55
-Vanderbilt Commodores,"Sat, Nov 1",Texas,N,,,,,,,FALSE,2025,SEC,14,28,--,79,46,55
-Virginia Cavaliers,"Sat, Sep 13",Mary,N,,,,,,,TRUE,2025,ACC,80,54,--,69,51,59
-Virginia Cavaliers,"Sat, Sep 20",Stanford,N,,,,,,,TRUE,2025,ACC,80,54,--,69,51,59
-Virginia Cavaliers,"Fri, Sep 26",State,N,,,,,,,TRUE,2025,ACC,80,54,--,69,51,59
-Virginia Cavaliers,"Sat, Oct 18",State,N,,,,,,,TRUE,2025,ACC,80,54,--,69,51,59
-Virginia Tech Hokies,"Sat, Sep 13",Dominion,N,,,,,,,TRUE,2025,ACC,117,60,--,15,71,107
-Virginia Tech Hokies,"Sat, Sep 20",Wofford,N,,,,,,,TRUE,2025,ACC,117,60,--,15,71,107
-Virginia Tech Hokies,"Fri, Oct 24",California,N,,,,,,,TRUE,2025,ACC,117,60,--,15,71,107
-Wake Forest Demon Deacons,"Thu, Sep 11",State,N,,,,,,,TRUE,2025,ACC,60,99,--,132,91,40
-Wake Forest Demon Deacons,"Sat, Oct 11",State,N,,,,,,,FALSE,2025,ACC,60,99,--,132,91,40
-Washington Huskies,"Sat, Sep 20",State,N,,,,,,,FALSE,2025,Big Ten,38,30,--,116,23,15
-Washington Huskies,"Fri, Oct 10",Rutgers,N,,,,,,,TRUE,2025,Big Ten,38,30,--,116,23,15
-Washington State Cougars,"Sat, Sep 13",Texas,N,,,,,,,FALSE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Sep 20",Washington,N,,,,,,,TRUE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Sep 27",State,N,,,,,,,FALSE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Oct 11",Miss,N,,,,,,,FALSE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Oct 18",Virginia,N,,,,,,,FALSE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Oct 25",Toledo,N,,,,,,,TRUE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Nov 1",State,N,,,,,,,FALSE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Nov 15",Tech,N,,,,,,,TRUE,2025,Pac-12,42,87,--,121,66,34
-Washington State Cougars,"Sat, Nov 29",State,N,,,,,,,TRUE,2025,Pac-12,42,87,--,121,66,34
-West Virginia Mountaineers,"Sat, Sep 13",Pittsburgh,N,,,,,,,TRUE,2025,Big 12,112,66,--,89,89,70
-West Virginia Mountaineers,"Fri, Oct 3",BYU,N,,,,,,,FALSE,2025,Big 12,112,66,--,89,89,70
-Western Kentucky Hilltoppers,"Sat, Sep 20",Nevada,N,,,,,,,TRUE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Sat, Sep 27",State,N,,,,,,,FALSE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Fri, Oct 3",Delaware,N,,,,,,,FALSE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Tue, Oct 14",International,N,,,,,,,TRUE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Tue, Oct 21",Tech,N,,,,,,,FALSE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Sat, Nov 1",State,N,,,,,,,TRUE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Sat, Nov 15",Tennessee,N,,,,,,,TRUE,2025,CUSA,84,105,--,100,122,72
-Western Kentucky Hilltoppers,"Sat, Nov 29",State,N,,,,,,,FALSE,2025,CUSA,84,105,--,100,122,72
-Western Michigan Broncos,"Sat, Sep 13",Illinois,N,,,,,,,FALSE,2025,MAC,117,113,--,72,117,110
-Western Michigan Broncos,"Sat, Sep 20",Toledo,N,,,,,,,TRUE,2025,MAC,117,113,--,72,117,110
-Western Michigan Broncos,"Sat, Sep 27",Island,N,,,,,,,TRUE,2025,MAC,117,113,--,72,117,110
-Western Michigan Broncos,"Sat, Oct 11",State,N,,,,,,,TRUE,2025,MAC,117,113,--,72,117,110
-Western Michigan Broncos,"Sat, Oct 25",(OH),N,,,,,,,FALSE,2025,MAC,117,113,--,72,117,110
-Western Michigan Broncos,"Tue, Nov 11",Ohio,N,,,,,,,TRUE,2025,MAC,117,113,--,72,117,110
-Western Michigan Broncos,"Tue, Nov 18",Illinois,N,,,,,,,FALSE,2025,MAC,117,113,--,72,117,110
-Wisconsin Badgers,"Sat, Sep 13",Alabama,N,,,,,,,FALSE,2025,Big Ten,37,40,--,115,64,35
-Wyoming Cowboys,"Sat, Sep 13",Utah,N,,,,,,,TRUE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Sep 20",Colorado,N,,,,,,,FALSE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Oct 4",UNLV,N,,,,,,,TRUE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Oct 11",State,N,,,,,,,TRUE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Oct 18",Force,N,,,,,,,FALSE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Oct 25",State,N,,,,,,,TRUE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Nov 1",State,N,,,,,,,FALSE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Nov 22",Nevada,N,,,,,,,TRUE,2025,Mountain West,54,104,--,128,107,56
-Wyoming Cowboys,"Sat, Nov 29",Hawai'i,N,,,,,,,FALSE,2025,Mountain West,54,104,--,128,107,56
+"Team","date","opponent","win_loss","pass","rush","rec","points_allowed","points_scored","point_differential","home_game","season","CONF","SOR","FPI","AP/CFP","SOS","GC","AVGWP"
+"Air Force Falcons","Sat, Aug 30","Bucknell","W","112","66","83","13","49",36,TRUE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Sep 13","Utah State","L","112","72","63","49","30",-19,FALSE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Sep 20","Boise State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Sep 27","Hawai'i","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Oct 4","Navy","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Oct 11","UNLV","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Oct 18","Wyoming","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Nov 1","Army","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Nov 15","UConn","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","110","113","--","116","114","87"
+"Air Force Falcons","Sat, Nov 22","New Mexico","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","110","113","--","116","114","87"
+"Akron Zips","Sat, Sep 6","Nebraska","L","54","64","28","68","0",-68,FALSE,"2025","MAC","126","134","--","45","129","129"
+"Akron Zips","Sat, Sep 13","UAB","L","282","81","99","31","28",-3,FALSE,"2025","MAC","126","134","--","45","129","129"
+"Akron Zips","Sat, Sep 20","Duquesne","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","134","--","45","129","129"
+"Akron Zips","Sat, Sep 27","Toledo","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","134","--","45","129","129"
+"Akron Zips","Sat, Oct 4","Central Michigan","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","134","--","45","129","129"
+"Akron Zips","Sat, Oct 18","Ball State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","134","--","45","129","129"
+"Alabama Crimson Tide","Sat, Aug 30","Florida State","L","254","31","146","31","17",-14,FALSE,"2025","SEC","38","3","14","50","33","48"
+"Alabama Crimson Tide","Sat, Sep 6","UL Monroe","W","226","76","67","0","73",73,TRUE,"2025","SEC","38","3","14","50","33","48"
+"Alabama Crimson Tide","Sat, Sep 13","Wisconsin","W","382","25","165","14","38",24,TRUE,"2025","SEC","38","3","14","50","33","48"
+"Alabama Crimson Tide","Sat, Sep 27"," Georgia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","38","3","14","50","33","48"
+"Alabama Crimson Tide","Sat, Oct 11"," Missouri","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","38","3","14","50","33","48"
+"Alabama Crimson Tide","Sat, Nov 22","Eastern Illinois","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","38","3","14","50","33","48"
+"App State Mountaineers","Fri, Aug 29","Charlotte ","W","368","111","134","11","34",23,TRUE,"2025","Sun Belt","95","102","--","127","121","72"
+"App State Mountaineers","Sat, Sep 6","Lindenwood","W","294","194","142","13","20",7,TRUE,"2025","Sun Belt","95","102","--","127","121","72"
+"App State Mountaineers","Sat, Sep 13","Southern Miss","L","217","95","132","38","22",-16,FALSE,"2025","Sun Belt","95","102","--","127","121","72"
+"App State Mountaineers","Sat, Sep 27","Boise State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","95","102","--","127","121","72"
+"Arizona State Sun Devils","Sat, Aug 30","Northern Arizona","W","257","73","141","19","38",19,TRUE,"2025","Big 12","57","32","--","68","44","50"
+"Arizona State Sun Devils","Sat, Sep 6","Mississippi State","L","82","110","68","24","20",-4,FALSE,"2025","Big 12","57","32","--","68","44","50"
+"Arizona State Sun Devils","Sat, Sep 13","Texas State","W","188","144","105","15","34",19,TRUE,"2025","Big 12","57","32","--","68","44","50"
+"Arizona State Sun Devils","Sat, Sep 20","Baylor","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","57","32","--","68","44","50"
+"Arizona State Sun Devils","Fri, Sep 26","TCU","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","57","32","--","68","44","50"
+"Arizona Wildcats","Sat, Aug 30","Hawai'i","W","161","125","50","6","40",34,TRUE,"2025","Big 12","24","38","--","114","15","9"
+"Arizona Wildcats","Sat, Sep 6","Weber State","W","373","51","168","3","48",45,TRUE,"2025","Big 12","24","38","--","114","15","9"
+"Arizona Wildcats","Fri, Sep 12","Kansas State","W","178","189","37","17","23",6,TRUE,"2025","Big 12","24","38","--","114","15","9"
+"Arizona Wildcats","Sat, Sep 27"," Iowa State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","24","38","--","114","15","9"
+"Arkansas Razorbacks","Sat, Aug 30","Alabama A&M","W","322","Jr.","121","7","52",45,TRUE,"2025","SEC","59","24","--","27","34","47"
+"Arkansas Razorbacks","Sat, Sep 6","Arkansas State","W","239","151","74","14","56",42,TRUE,"2025","SEC","59","24","--","27","34","47"
+"Arkansas Razorbacks","Sat, Sep 13"," Ole Miss","L","305","115","81","41","35",-6,FALSE,"2025","SEC","59","24","--","27","34","47"
+"Arkansas Razorbacks","Sat, Sep 20","Memphis","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","59","24","--","27","34","47"
+"Arkansas Razorbacks","Sat, Sep 27"," Notre Dame","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","59","24","--","27","34","47"
+"Arkansas State Red Wolves","Sat, Aug 30","Southeast Missouri State","W","345","42","85","24","42",18,TRUE,"2025","Sun Belt","100","106","--","29","88","103"
+"Arkansas State Red Wolves","Sat, Sep 6","Arkansas","L","125","38","50","56","14",-42,FALSE,"2025","Sun Belt","100","106","--","29","88","103"
+"Arkansas State Red Wolves","Sat, Sep 13"," Iowa State","L","222","83","81","24","16",-8,TRUE,"2025","Sun Belt","100","106","--","29","88","103"
+"Arkansas State Red Wolves","Sat, Sep 20","Kennesaw State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","100","106","--","29","88","103"
+"Arkansas State Red Wolves","Sat, Sep 27","UL Monroe","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","100","106","--","29","88","103"
+"Arkansas State Red Wolves","Sat, Oct 4","Texas State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","100","106","--","29","88","103"
+"Arkansas State Red Wolves","Sat, Oct 25","Georgia Southern","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","100","106","--","29","88","103"
+"Army Black Knights","Fri, Aug 29","Tarleton State","L","129","100","81","30","272",242,TRUE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Sep 6","Kansas State","W","52","124","64","21","24",3,FALSE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Sep 20","North Texas","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Oct 11","Charlotte","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Nov 1","Air Force","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Nov 8","Temple","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Nov 22","Tulsa","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","69","81","--","66","72","97"
+"Army Black Knights","Sat, Dec 13","Navy ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","69","81","--","66","72","97"
+"Auburn Tigers","Fri, Aug 29","Baylor","W","108","137","26","24","38",14,FALSE,"2025","SEC","12","20","22","72","7","17"
+"Auburn Tigers","Sat, Sep 6","Ball State","W","251","121","77","3","42",39,TRUE,"2025","SEC","12","20","22","72","7","17"
+"Auburn Tigers","Sat, Sep 13","South Alabama","W","142","119","Jr.","15","31",16,TRUE,"2025","SEC","12","20","22","72","7","17"
+"Auburn Tigers","Sat, Sep 20"," Oklahoma","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","12","20","22","72","7","17"
+"Auburn Tigers","Sat, Sep 27"," Texas A&M","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","12","20","22","72","7","17"
+"Auburn Tigers","Sat, Nov 22","Mercer","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","12","20","22","72","7","17"
+"Ball State Cardinals","Sat, Aug 30","Purdue","L","87","63","37","31","0",-31,FALSE,"2025","MAC","105","131","--","39","124","126"
+"Ball State Cardinals","Sat, Sep 6","Auburn","L","71","10","42","42","3",-39,FALSE,"2025","MAC","105","131","--","39","124","126"
+"Ball State Cardinals","Sat, Sep 13","New Hampshire","W","105","154","33","29","34",5,TRUE,"2025","MAC","105","131","--","39","124","126"
+"Ball State Cardinals","Sat, Sep 20","UConn","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","105","131","--","39","124","126"
+"Ball State Cardinals","Sat, Oct 4","Ohio","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","105","131","--","39","124","126"
+"Ball State Cardinals","Sat, Oct 11","Western Michigan","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","105","131","--","39","124","126"
+"Ball State Cardinals","Sat, Oct 18","Akron","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","105","131","--","39","124","126"
+"Baylor Bears","Fri, Aug 29","Auburn","L","419","54","134","38","24",-14,TRUE,"2025","Big 12","31","39","--","40","76","92"
+"Baylor Bears","Sat, Sep 6"," SMU","W","440","115","151","452","48",-404,FALSE,"2025","Big 12","31","39","--","40","76","92"
+"Baylor Bears","Sat, Sep 13","Samford","W","211","135","42","7","42",35,TRUE,"2025","Big 12","31","39","--","40","76","92"
+"Baylor Bears","Sat, Sep 20","Arizona State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","31","39","--","40","76","92"
+"Baylor Bears","Sat, Sep 27","Oklahoma State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","31","39","--","40","76","92"
+"Boise State Broncos","Fri, Sep 5","Eastern Washington","W","307","123","132","14","51",37,TRUE,"2025","Mountain West","86","61","--","69","54","71"
+"Boise State Broncos","Sat, Sep 20","Air Force","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","86","61","--","69","54","71"
+"Boise State Broncos","Sat, Sep 27","App State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","86","61","--","69","54","71"
+"Boise State Broncos","Sat, Oct 4"," Notre Dame","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","86","61","--","69","54","71"
+"Boise State Broncos","Fri, Oct 24","Nevada","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","86","61","--","69","54","71"
+"Boise State Broncos","Sat, Nov 15","San Diego State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","86","61","--","69","54","71"
+"Boise State Broncos","Fri, Nov 28","Utah State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","86","61","--","69","54","71"
+"Boston College Eagles","Sat, Aug 30","Fordham","W","268","48","138","10","66",56,TRUE,"2025","ACC","119","62","--","79","74","78"
+"Boston College Eagles","Sat, Sep 6","Michigan State","L","390","55","90","42","402",360,FALSE,"2025","ACC","119","62","--","79","74","78"
+"Boston College Eagles","Sat, Sep 13","Stanford","L","333","55","141","30","20",-10,FALSE,"2025","ACC","119","62","--","79","74","78"
+"Boston College Eagles","Sat, Sep 27","California","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","119","62","--","79","74","78"
+"Bowling Green Falcons","Sat, Sep 6","Cincinnati","L","274","72","80","34","20",-14,FALSE,"2025","MAC","67","88","--","85","80","68"
+"Bowling Green Falcons","Sat, Sep 13","Liberty","W","146","59","II","13","23",10,TRUE,"2025","MAC","67","88","--","85","80","68"
+"Bowling Green Falcons","Sat, Sep 20","Louisville","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","67","88","--","85","80","68"
+"Bowling Green Falcons","Sat, Sep 27","Ohio","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","67","88","--","85","80","68"
+"Buffalo Bulls","Sat, Sep 6","Saint Francis","W","133","98","67","6","45",39,TRUE,"2025","MAC","84","111","--","95","119","88"
+"Buffalo Bulls","Sat, Sep 13","Kent State","W","318","75","117","28","31",3,FALSE,"2025","MAC","84","111","--","95","119","88"
+"Buffalo Bulls","Sat, Sep 20","Troy","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","84","111","--","95","119","88"
+"Buffalo Bulls","Sat, Sep 27","UConn","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","84","111","--","95","119","88"
+"Buffalo Bulls","Sat, Oct 4","Eastern Michigan","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","84","111","--","95","119","88"
+"Buffalo Bulls","Fri, Nov 28","Ohio","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","84","111","--","95","119","88"
+"BYU Cougars","Sat, Aug 30","Portland State","W","97","131","47","0","69",69,TRUE,"2025","Big 12","32","22","--","120","10","2"
+"BYU Cougars","Sat, Sep 6","Stanford","W","175","110","84","3","27",24,TRUE,"2025","Big 12","32","22","--","120","10","2"
+"BYU Cougars","Sat, Sep 20","East Carolina","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","32","22","--","120","10","2"
+"BYU Cougars","Sat, Sep 27","Colorado","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","32","22","--","120","10","2"
+"BYU Cougars","Fri, Oct 3","West Virginia","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","32","22","--","120","10","2"
+"California Golden Bears","Sat, Aug 30","Oregon State","W","234","Jr.","83","15","34",19,FALSE,"2025","ACC","22","59","--","112","42","25"
+"California Golden Bears","Sat, Sep 6","Texas Southern","W","267","122","Jesus","3","35",32,TRUE,"2025","ACC","22","59","--","112","42","25"
+"California Golden Bears","Sat, Sep 13","Minnesota","W","279","42","60","14","27",13,TRUE,"2025","ACC","22","59","--","112","42","25"
+"California Golden Bears","Sat, Sep 20","San Diego State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","22","59","--","112","42","25"
+"California Golden Bears","Sat, Sep 27","Boston College","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","22","59","--","112","42","25"
+"California Golden Bears","Fri, Oct 17","North Carolina","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","22","59","--","112","42","25"
+"California Golden Bears","Fri, Oct 24","Virginia Tech","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","22","59","--","112","42","25"
+"Central Michigan Chippewas","Fri, Aug 29","San José State","W","59","102","61","14","16",2,FALSE,"2025","MAC","74","129","--","13","117","131"
+"Central Michigan Chippewas","Sat, Sep 6","Pittsburgh","L","89","18","26","45","17",-28,FALSE,"2025","MAC","74","129","--","13","117","131"
+"Central Michigan Chippewas","Sat, Sep 13"," Michigan","L","36","76","Jr.","63","3",-60,FALSE,"2025","MAC","74","129","--","13","117","131"
+"Central Michigan Chippewas","Sat, Sep 20","Wagner","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","74","129","--","13","117","131"
+"Central Michigan Chippewas","Sat, Sep 27","Eastern Michigan","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","74","129","--","13","117","131"
+"Central Michigan Chippewas","Sat, Oct 4","Akron","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","74","129","--","13","117","131"
+"Central Michigan Chippewas","Sat, Oct 25","Massachusetts","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","74","129","--","13","117","131"
+"Charlotte 49ers","Fri, Aug 29","App State ","L","142","49","56","34","11",-23,TRUE,"2025","American","125","132","--","126","136","122"
+"Charlotte 49ers","Sat, Sep 6","North Carolina","L","140","Jr.","122","20","3",-17,TRUE,"2025","American","125","132","--","126","136","122"
+"Charlotte 49ers","Sat, Sep 13","Monmouth","W","382","Jr.","228","35","42",7,TRUE,"2025","American","125","132","--","126","136","122"
+"Charlotte 49ers","Fri, Oct 3","South Florida","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","125","132","--","126","136","122"
+"Charlotte 49ers","Sat, Oct 11","Army","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","125","132","--","126","136","122"
+"Charlotte 49ers","Fri, Oct 24","North Texas","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","125","132","--","126","136","122"
+"Charlotte 49ers","Sat, Nov 22"," Georgia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","125","132","--","126","136","122"
+"Cincinnati Bearcats","Sat, Sep 6","Bowling Green","W","333","40","109","20","34",14,TRUE,"2025","Big 12","60","46","--","57","37","37"
+"Cincinnati Bearcats","Sat, Sep 13","Northwestern State","W","253","66","106","0","70",70,TRUE,"2025","Big 12","60","46","--","57","37","37"
+"Cincinnati Bearcats","Sat, Sep 27","Kansas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","60","46","--","57","37","37"
+"Clemson Tigers","Sat, Aug 30"," LSU","L","230","16","Jr.","17","10",-7,TRUE,"2025","ACC","82","30","--","24","79","100"
+"Clemson Tigers","Sat, Sep 6","Troy","W","196","112","Jr.","16","27",11,TRUE,"2025","ACC","82","30","--","24","79","100"
+"Clemson Tigers","Sat, Sep 13","Georgia Tech","L","207","80","Jr.","24","21",-3,FALSE,"2025","ACC","82","30","--","24","79","100"
+"Clemson Tigers","Sat, Sep 20","Syracuse","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","82","30","--","24","79","100"
+"Clemson Tigers","Fri, Nov 14","Louisville","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","82","30","--","24","79","100"
+"Clemson Tigers","Sat, Nov 29","South Carolina","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","82","30","--","24","79","100"
+"Coastal Carolina Chanticleers","Sat, Aug 30","Virginia","L","163","27","36","48","7",-41,FALSE,"2025","Sun Belt","115","127","--","75","127","120"
+"Coastal Carolina Chanticleers","Sat, Sep 6","Charleston Southern","W","102","92","61","0","13",13,TRUE,"2025","Sun Belt","115","127","--","75","127","120"
+"Coastal Carolina Chanticleers","Sat, Sep 13","East Carolina","L","172","25","54","38","0",-38,TRUE,"2025","Sun Belt","115","127","--","75","127","120"
+"Coastal Carolina Chanticleers","Sat, Sep 20","South Alabama","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","115","127","--","75","127","120"
+"Colorado Buffaloes","Fri, Aug 29","Georgia Tech","L","159","64","39","27","20",-7,TRUE,"2025","Big 12","99","58","--","61","78","85"
+"Colorado Buffaloes","Sat, Sep 6","Delaware","W","158","54","120","7","31",24,TRUE,"2025","Big 12","99","58","--","61","78","85"
+"Colorado Buffaloes","Fri, Sep 12","Houston","L","204","51","54","36","20",-16,FALSE,"2025","Big 12","99","58","--","61","78","85"
+"Colorado Buffaloes","Sat, Sep 20","Wyoming","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","99","58","--","61","78","85"
+"Colorado Buffaloes","Sat, Sep 27","BYU","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","99","58","--","61","78","85"
+"Colorado State Rams","Sat, Aug 30","Washington","L","180","92","79","38","21",-17,FALSE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Sat, Sep 6","Northern Colorado","W","132","68","49","17","21",4,TRUE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Sat, Sep 20","UTSA","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Sat, Sep 27","Washington State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Fri, Oct 3","San Diego State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Fri, Oct 10","Fresno State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Sat, Oct 18","Hawai'i","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","96","92","--","46","113","124"
+"Colorado State Rams","Sat, Oct 25","Wyoming","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","96","92","--","46","113","124"
+"Delaware Blue Hens","Sat, Sep 6","Colorado","L","312","47","85","31","7",-24,FALSE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Sat, Sep 13","UConn","W","265","179","161","41","44",3,TRUE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Sat, Sep 20","Florida International","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Fri, Oct 3","Western Kentucky","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Sat, Nov 1","Liberty","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Sat, Nov 8","Louisiana Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Sat, Nov 15","Sam Houston","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","65","117","--","87","115","91"
+"Delaware Blue Hens","Sat, Nov 29","UTEP","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","65","117","--","87","115","91"
+"Duke Blue Devils","Sat, Sep 6"," Illinois","L","334","30","88","45","19",-26,TRUE,"2025","ACC","98","63","--","47","105","114"
+"Duke Blue Devils","Sat, Sep 13","Tulane","L","313","75","81","34","27",-7,FALSE,"2025","ACC","98","63","--","47","105","114"
+"Duke Blue Devils","Sat, Sep 20","NC State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","98","63","--","47","105","114"
+"Duke Blue Devils","Sat, Sep 27","Syracuse","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","98","63","--","47","105","114"
+"Duke Blue Devils","Sat, Nov 8","UConn","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","98","63","--","47","105","114"
+"East Carolina Pirates","Sat, Sep 6","Campbell","W","314","Jr.","81","3","56",53,TRUE,"2025","American","79","52","--","96","77","63"
+"East Carolina Pirates","Sat, Sep 13","Coastal Carolina","W","293","59","136","0","38",38,FALSE,"2025","American","79","52","--","96","77","63"
+"East Carolina Pirates","Sat, Sep 20","BYU","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","79","52","--","96","77","63"
+"Eastern Michigan Eagles","Sat, Aug 30","Texas State","L","248","78","Jr.","52","27",-25,FALSE,"2025","MAC","126","123","--","63","133","135"
+"Eastern Michigan Eagles","Sat, Sep 6","Long Island University","L","189","58","Jr.","28","23",-5,TRUE,"2025","MAC","126","123","--","63","133","135"
+"Eastern Michigan Eagles","Sat, Sep 13","Kentucky","L","330","83","Jr.","48","23",-25,FALSE,"2025","MAC","126","123","--","63","133","135"
+"Eastern Michigan Eagles","Sat, Sep 20","Louisiana","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","123","--","63","133","135"
+"Eastern Michigan Eagles","Sat, Sep 27","Central Michigan","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","123","--","63","133","135"
+"Eastern Michigan Eagles","Sat, Oct 4","Buffalo","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","123","--","63","133","135"
+"Florida Atlantic Owls","Sat, Aug 30","Maryland","L","228","44","87","39","7",-32,FALSE,"2025","American","122","103","--","88","123","106"
+"Florida Atlantic Owls","Sat, Sep 6","Florida A&M","W","309","83","62","14","56",42,TRUE,"2025","American","122","103","--","88","123","106"
+"Florida Atlantic Owls","Sat, Sep 13","Florida International","L","343","105","90","38","28",-10,FALSE,"2025","American","122","103","--","88","123","106"
+"Florida Atlantic Owls","Sat, Oct 25","Navy","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","122","103","--","88","123","106"
+"Florida Gators","Sat, Aug 30","Long Island University","W","Jr.","104","III","0","55",55,TRUE,"2025","SEC","111","28","--","34","46","62"
+"Florida Gators","Sat, Sep 6","South Florida","L","222","93","III","18","16",-2,TRUE,"2025","SEC","111","28","--","34","46","62"
+"Florida Gators","Sat, Sep 13"," LSU","L","287","46","III","20","10",-10,FALSE,"2025","SEC","111","28","--","34","46","62"
+"Florida Gators","Sat, Sep 20"," Miami","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","111","28","--","34","46","62"
+"Florida Gators","Sat, Nov 1"," Georgia ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","111","28","--","34","46","62"
+"Florida International Panthers","Fri, Aug 29","Bethune-Cookman","W","187","71","47","9","42",33,TRUE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Sep 6"," Penn State","L","127","78","27","34","0",-34,FALSE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Sep 13","Florida Atlantic","W","184","173","81","28","38",10,TRUE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Sep 20","Delaware","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Oct 4","UConn","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Nov 8","Middle Tennessee","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Nov 15","Liberty","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Nov 22","Jacksonville State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","58","96","--","20","51","66"
+"Florida International Panthers","Sat, Nov 29","Sam Houston","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","58","96","--","20","51","66"
+"Florida State Seminoles","Sat, Aug 30"," Alabama","W","152","78","66","17","31",14,TRUE,"2025","ACC","3","27","7","9","3","6"
+"Florida State Seminoles","Sat, Sep 6","East Texas A&M","W","237","Jr.","173","3","77",74,TRUE,"2025","ACC","3","27","7","9","3","6"
+"Florida State Seminoles","Sat, Sep 20","Kent State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","3","27","7","9","3","6"
+"Florida State Seminoles","Fri, Sep 26","Virginia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","3","27","7","9","3","6"
+"Florida State Seminoles","Sat, Oct 18","Stanford","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","3","27","7","9","3","6"
+"Florida State Seminoles","Fri, Nov 21","NC State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","3","27","7","9","3","6"
+"Fresno State Bulldogs","Sat, Aug 23","Kansas","L","179","34","43","31","7",-24,FALSE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Sat, Aug 30","Georgia Southern","W","176","167","39","14","42",28,TRUE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Sat, Sep 6","Oregon State","W","121","86","82","27","36",9,FALSE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Sat, Sep 13","Southern","W","240","90","79","7","56",49,TRUE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Sat, Sep 20","Hawai'i","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Sat, Oct 4","Nevada","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Fri, Oct 10","Colorado State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","49","75","--","74","85","75"
+"Fresno State Bulldogs","Sat, Nov 22","Utah State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","49","75","--","74","85","75"
+"Georgia Bulldogs","Sat, Aug 30","Marshall","W","190","73","95","7","45",38,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Sep 6","Austin Peay","W","227","69","76","6","28",22,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Sep 13"," Tennessee","W","304","73","73","41","44",3,FALSE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Sep 27"," Alabama","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Oct 4","Kentucky","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Nov 1","Florida ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Nov 8","Mississippi State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Sat, Nov 22","Charlotte","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Bulldogs","Fri, Nov 28"," Georgia Tech ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","2","4","5","26","20","39"
+"Georgia Southern Eagles","Sat, Aug 30","Fresno State","L","IV","41","55","42","14",-28,FALSE,"2025","Sun Belt","81","97","--","8","93","118"
+"Georgia Southern Eagles","Sat, Sep 6","USC","L","IV","58","75","59","20",-39,FALSE,"2025","Sun Belt","81","97","--","8","93","118"
+"Georgia Southern Eagles","Sat, Sep 13","Jacksonville State","W","IV","128","70","34","41",7,TRUE,"2025","Sun Belt","81","97","--","8","93","118"
+"Georgia Southern Eagles","Sat, Sep 20","Maine","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","81","97","--","8","93","118"
+"Georgia Southern Eagles","Sat, Sep 27","James Madison","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","81","97","--","8","93","118"
+"Georgia Southern Eagles","Sat, Oct 25","Arkansas State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","81","97","--","8","93","118"
+"Georgia State Panthers","Sat, Aug 30"," Ole Miss","L","52","69","52","63","7",-56,FALSE,"2025","Sun Belt","109","119","--","11","89","108"
+"Georgia State Panthers","Sat, Sep 6","Memphis","L","201","25","97","38","16",-22,TRUE,"2025","Sun Belt","109","119","--","11","89","108"
+"Georgia State Panthers","Sat, Sep 13","Murray State","W","150","65","172","21","37",16,TRUE,"2025","Sun Belt","109","119","--","11","89","108"
+"Georgia State Panthers","Sat, Sep 20"," Vanderbilt","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","109","119","--","11","89","108"
+"Georgia Tech Yellow Jackets","Fri, Aug 29","Colorado","W","143","156","48","20","27",7,FALSE,"2025","ACC","10","33","18","65","43","49"
+"Georgia Tech Yellow Jackets","Sat, Sep 6","Gardner-Webb","W","373","100","87","12","59",47,TRUE,"2025","ACC","10","33","18","65","43","49"
+"Georgia Tech Yellow Jackets","Sat, Sep 13"," Clemson","W","211","103","72","21","24",3,TRUE,"2025","ACC","10","33","18","65","43","49"
+"Georgia Tech Yellow Jackets","Sat, Sep 20","Temple","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","10","33","18","65","43","49"
+"Georgia Tech Yellow Jackets","Sat, Sep 27","Wake Forest","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","10","33","18","65","43","49"
+"Georgia Tech Yellow Jackets","Fri, Nov 28"," Georgia ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","10","33","18","65","43","49"
+"Hawai'i Rainbow Warriors","Sat, Aug 23","Stanford","W","210","45","69","20","23",3,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Aug 30","Arizona","L","157","41","48","40","6",-34,FALSE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Sep 6","Sam Houston","W","294","60","125","20","37",17,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Sep 13","Portland State","W","240","41","50","3","23",20,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Sep 20","Fresno State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Sep 27","Air Force","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Oct 11","Utah State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Oct 18","Colorado State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Nov 1","San José State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Nov 8","San Diego State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Fri, Nov 21","UNLV","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","56","110","--","71","87","67"
+"Hawai'i Rainbow Warriors","Sat, Nov 29","Wyoming","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","56","110","--","71","87","67"
+"Houston Cougars","Sat, Sep 6","Rice","W","188","132","74","9","35",26,FALSE,"2025","Big 12","23","48","--","113","39","28"
+"Houston Cougars","Fri, Sep 12","Colorado","W","222","89","117","20","36",16,TRUE,"2025","Big 12","23","48","--","113","39","28"
+"Houston Cougars","Fri, Sep 26","Oregon State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","23","48","--","113","39","28"
+"Illinois Fighting Illini","Fri, Aug 29","Western Illinois","W","217","101","108","3","52",49,TRUE,"2025","Big Ten","19","23","9","101","19","20"
+"Illinois Fighting Illini","Sat, Sep 6","Duke","W","296","48","128","19","45",26,FALSE,"2025","Big Ten","19","23","9","101","19","20"
+"Illinois Fighting Illini","Sat, Sep 13","Western Michigan","W","196","100","53","0","38",38,TRUE,"2025","Big Ten","19","23","9","101","19","20"
+"Illinois Fighting Illini","Sat, Sep 20"," Indiana","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","19","23","9","101","19","20"
+"Indiana Hoosiers","Sat, Aug 30","Old Dominion","W","193","111","Jr.","14","27",13,TRUE,"2025","Big Ten","25","16","19","117","13","5"
+"Indiana Hoosiers","Sat, Sep 6","Kennesaw State","W","245","Jr.","97","9","56",47,TRUE,"2025","Big Ten","25","16","19","117","13","5"
+"Indiana Hoosiers","Fri, Sep 12","Indiana State","W","270","109","Jr.","0","73",73,TRUE,"2025","Big Ten","25","16","19","117","13","5"
+"Indiana Hoosiers","Sat, Sep 20"," Illinois","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","25","16","19","117","13","5"
+"Indiana Hoosiers","Fri, Nov 28","Purdue","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","25","16","19","117","13","5"
+"Iowa Hawkeyes","Sat, Aug 30","UAlbany","W","44","122","13","7","34",27,TRUE,"2025","Big Ten","89","40","--","80","55","46"
+"Iowa Hawkeyes","Sat, Sep 6"," Iowa State","L","83","60","52","16","13",-3,FALSE,"2025","Big Ten","89","40","--","80","55","46"
+"Iowa Hawkeyes","Sat, Sep 13","Massachusetts","W","179","56","75","7","47",40,TRUE,"2025","Big Ten","89","40","--","80","55","46"
+"Iowa Hawkeyes","Fri, Sep 19","Rutgers","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","89","40","--","80","55","46"
+"Iowa Hawkeyes","Fri, Nov 28","Nebraska","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","89","40","--","80","55","46"
+"Iowa State Cyclones","Sat, Aug 23"," Kansas State ","W","183","71","46","21","24",3,TRUE,"2025","Big 12","11","34","12","82","49","43"
+"Iowa State Cyclones","Sat, Aug 30","South Dakota","W","278","81","85","7","55",48,TRUE,"2025","Big 12","11","34","12","82","49","43"
+"Iowa State Cyclones","Sat, Sep 6","Iowa","W","134","III","39","13","16",3,TRUE,"2025","Big 12","11","34","12","82","49","43"
+"Iowa State Cyclones","Sat, Sep 13","Arkansas State","W","265","116","92","16","24",8,FALSE,"2025","Big 12","11","34","12","82","49","43"
+"Iowa State Cyclones","Sat, Sep 27","Arizona","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","11","34","12","82","49","43"
+"Jacksonville State Gamecocks","Sat, Sep 6","Liberty","W","52","195","24","24","34",10,TRUE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Sep 13","Georgia Southern","L","178","120","69","41","34",-7,FALSE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Sep 20","Murray State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Sep 27","Southern Miss","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Nov 8","UTEP","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Nov 15","Kennesaw State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Nov 22","Florida International","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","104","87","--","78","92","95"
+"Jacksonville State Gamecocks","Sat, Nov 29","Western Kentucky","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","104","87","--","78","92","95"
+"James Madison Dukes","Sat, Aug 30","Weber State","W","III","99","38","10","45",35,TRUE,"2025","Sun Belt","88","77","--","64","38","53"
+"James Madison Dukes","Fri, Sep 5","Louisville","L","III","83","55","28","14",-14,FALSE,"2025","Sun Belt","88","77","--","64","38","53"
+"James Madison Dukes","Sat, Sep 20","Liberty","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","88","77","--","64","38","53"
+"James Madison Dukes","Sat, Sep 27","Georgia Southern","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","88","77","--","64","38","53"
+"Kansas Jayhawks","Sat, Aug 23","Fresno State","W","176","Jr.","77","7","31",24,TRUE,"2025","Big 12","48","31","--","33","18","33"
+"Kansas Jayhawks","Fri, Aug 29","Wagner","W","280","Jr.","Jr.","7","46",39,TRUE,"2025","Big 12","48","31","--","33","18","33"
+"Kansas Jayhawks","Sat, Sep 6","Missouri","L","223","25","74","42","31",-11,FALSE,"2025","Big 12","48","31","--","33","18","33"
+"Kansas Jayhawks","Sat, Sep 20","West Virginia","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","48","31","--","33","18","33"
+"Kansas Jayhawks","Sat, Sep 27","Cincinnati","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","48","31","--","33","18","33"
+"Kansas Jayhawks","Fri, Nov 28"," Utah","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","48","31","--","33","18","33"
+"Kansas State Wildcats","Sat, Aug 23"," Iowa State ","L","273","51","78","24","21",-3,TRUE,"2025","Big 12","118","50","--","58","96","94"
+"Kansas State Wildcats","Sat, Aug 30","North Dakota","W","318","55","109","35","38",3,TRUE,"2025","Big 12","118","50","--","58","96","94"
+"Kansas State Wildcats","Sat, Sep 6","Army","L","172","30","61","24","21",-3,TRUE,"2025","Big 12","118","50","--","58","96","94"
+"Kansas State Wildcats","Fri, Sep 12","Arizona","L","88","75","68","23","17",-6,FALSE,"2025","Big 12","118","50","--","58","96","94"
+"Kansas State Wildcats","Sat, Sep 27","UCF","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","118","50","--","58","96","94"
+"Kennesaw State Owls","Fri, Aug 29","Wake Forest","L","II","66","103","10","9",-1,FALSE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Sep 6"," Indiana","L","176","34","72","56","9",-47,FALSE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Sep 13","Merrimack","W","108","55","68","13","27",14,TRUE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Sep 20","Arkansas State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Sep 27","Middle Tennessee","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Nov 8","New Mexico State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Nov 15","Jacksonville State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Nov 22","Missouri State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","113","125","--","42","95","105"
+"Kennesaw State Owls","Sat, Nov 29","Liberty","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","113","125","--","42","95","105"
+"Kent State Golden Flashes","Sat, Aug 30","Merrimack","W","118","49","109","17","21",4,TRUE,"2025","MAC","120","135","--","56","109","99"
+"Kent State Golden Flashes","Sat, Sep 6"," Texas Tech","L","116","25","49","62","14",-48,FALSE,"2025","MAC","120","135","--","56","109","99"
+"Kent State Golden Flashes","Sat, Sep 13","Buffalo","L","279","61","95","31","28",-3,TRUE,"2025","MAC","120","135","--","56","109","99"
+"Kent State Golden Flashes","Sat, Sep 20"," Florida State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","120","135","--","56","109","99"
+"Kent State Golden Flashes","Sat, Oct 4"," Oklahoma","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","120","135","--","56","109","99"
+"Kent State Golden Flashes","Fri, Nov 28","Northern Illinois","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","120","135","--","56","109","99"
+"Kentucky Wildcats","Sat, Aug 30","Toledo","W","85","129","43","16","24",8,TRUE,"2025","SEC","41","41","--","48","30","36"
+"Kentucky Wildcats","Sat, Sep 6"," Ole Miss","L","149","93","56","30","23",-7,TRUE,"2025","SEC","41","41","--","48","30","36"
+"Kentucky Wildcats","Sat, Sep 13","Eastern Michigan","W","240","104","61","23","48",25,TRUE,"2025","SEC","41","41","--","48","30","36"
+"Kentucky Wildcats","Sat, Sep 27","South Carolina","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","41","41","--","48","30","36"
+"Kentucky Wildcats","Sat, Oct 4"," Georgia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","41","41","--","48","30","36"
+"Kentucky Wildcats","Sat, Nov 15","Tennessee Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","41","41","--","48","30","36"
+"Liberty Flames","Sat, Aug 30","Maine","W","197","63","46","7","28",21,TRUE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Sep 6","Jacksonville State","L","335","114","Jr.","34","24",-10,FALSE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Sep 13","Bowling Green","L","194","82","Jr.","23","13",-10,FALSE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Sep 20","James Madison","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Sep 27","Old Dominion","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Nov 1","Delaware","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Nov 8","Missouri State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Nov 15","Florida International","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Nov 22","Louisiana Tech","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","121","100","--","111","132","123"
+"Liberty Flames","Sat, Nov 29","Kennesaw State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","121","100","--","111","132","123"
+"Louisiana Ragin' Cajuns","Sat, Aug 30","Rice","L","88","58","Jr.","14","12",-2,TRUE,"2025","Sun Belt","116","109","--","41","118","113"
+"Louisiana Ragin' Cajuns","Sat, Sep 6","McNeese","W","86","132","19","10","34",24,TRUE,"2025","Sun Belt","116","109","--","41","118","113"
+"Louisiana Ragin' Cajuns","Sat, Sep 13"," Missouri","L","5","86","5","52","10",-42,FALSE,"2025","Sun Belt","116","109","--","41","118","113"
+"Louisiana Ragin' Cajuns","Sat, Sep 20","Eastern Michigan","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","116","109","--","41","118","113"
+"Louisiana Ragin' Cajuns","Sat, Sep 27","Marshall","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","116","109","--","41","118","113"
+"Louisiana Tech Bulldogs","Sat, Aug 30","SE Louisiana","W","126","61","59","0","24",24,TRUE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Sep 6"," LSU","L","50","22","33","23","7",-16,FALSE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Sep 13","New Mexico State","W","182","103","64","14","49",35,TRUE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Sep 20","Southern Miss","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Sep 27","UTEP","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Fri, Oct 31","Sam Houston","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Nov 8","Delaware","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Nov 15","Washington State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Nov 22","Liberty","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","66","86","--","53","56","65"
+"Louisiana Tech Bulldogs","Sat, Nov 29","Missouri State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","66","86","--","53","56","65"
+"Louisville Cardinals","Sat, Aug 30","Eastern Kentucky","W","223","126","63","17","51",34,TRUE,"2025","ACC","34","43","--","125","48","27"
+"Louisville Cardinals","Fri, Sep 5","James Madison","W","151","104","83","14","28",14,TRUE,"2025","ACC","34","43","--","125","48","27"
+"Louisville Cardinals","Sat, Sep 20","Bowling Green","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","34","43","--","125","48","27"
+"Louisville Cardinals","Sat, Sep 27","Pittsburgh","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","34","43","--","125","48","27"
+"Louisville Cardinals","Fri, Oct 17"," Miami","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","34","43","--","125","48","27"
+"Louisville Cardinals","Fri, Nov 14","Clemson","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","34","43","--","125","48","27"
+"LSU Tigers","Sat, Aug 30"," Clemson","W","232","74","99","10","17",7,FALSE,"2025","SEC","4","19","3","36","28","52"
+"LSU Tigers","Sat, Sep 6","Louisiana Tech","W","237","56","94","7","23",16,TRUE,"2025","SEC","4","19","3","36","28","52"
+"LSU Tigers","Sat, Sep 13","Florida","W","220","93","75","10","20",10,TRUE,"2025","SEC","4","19","3","36","28","52"
+"LSU Tigers","Sat, Sep 20","SE Louisiana","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","4","19","3","36","28","52"
+"LSU Tigers","Sat, Sep 27"," Ole Miss","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","4","19","3","36","28","52"
+"Marshall Thundering Herd","Sat, Aug 30"," Georgia","L","100","24","58","45","7",-38,FALSE,"2025","Sun Belt","117","104","--","17","66","77"
+"Marshall Thundering Herd","Sat, Sep 6","Missouri State","L","83","67","43","21","20",-1,TRUE,"2025","Sun Belt","117","104","--","17","66","77"
+"Marshall Thundering Herd","Sat, Sep 13","Eastern Kentucky","W","Rio-Wilson","Rio-Wilson","41","7","38",31,TRUE,"2025","Sun Belt","117","104","--","17","66","77"
+"Marshall Thundering Herd","Sat, Sep 20","Middle Tennessee","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","117","104","--","17","66","77"
+"Marshall Thundering Herd","Sat, Sep 27","Louisiana","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","117","104","--","17","66","77"
+"Maryland Terrapins","Sat, Aug 30","Florida Atlantic","W","258","54","59","7","39",32,TRUE,"2025","Big Ten","36","60","--","130","21","8"
+"Maryland Terrapins","Fri, Sep 5","Northern Illinois","W","254","50","70","9","20",11,TRUE,"2025","Big Ten","36","60","--","130","21","8"
+"Maryland Terrapins","Sat, Sep 13","Towson","W","261","60","Jr.","17","44",27,TRUE,"2025","Big Ten","36","60","--","130","21","8"
+"Maryland Terrapins","Sat, Sep 20","Wisconsin","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","36","60","--","130","21","8"
+"Massachusetts Minutemen","Sat, Aug 30","Temple","L","193","94","132","42","10",-32,TRUE,"2025","MAC","126","136","--","76","130","119"
+"Massachusetts Minutemen","Sat, Sep 6","Bryant","L","205","39","89","27","26",-1,TRUE,"2025","MAC","126","136","--","76","130","119"
+"Massachusetts Minutemen","Sat, Sep 13","Iowa","L","56","28","37","47","7",-40,FALSE,"2025","MAC","126","136","--","76","130","119"
+"Massachusetts Minutemen","Sat, Sep 27"," Missouri","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","136","--","76","130","119"
+"Massachusetts Minutemen","Sat, Oct 25","Central Michigan","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","136","--","76","130","119"
+"Memphis Tigers","Sat, Aug 30","Chattanooga","W","199","81","Jr.","10","45",35,TRUE,"2025","American","30","36","--","122","36","29"
+"Memphis Tigers","Sat, Sep 6","Georgia State","W","196","74","79","16","38",22,FALSE,"2025","American","30","36","--","122","36","29"
+"Memphis Tigers","Sat, Sep 13","Troy","W","213","113","Jr.","7","28",21,FALSE,"2025","American","30","36","--","122","36","29"
+"Memphis Tigers","Sat, Sep 20","Arkansas","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","30","36","--","122","36","29"
+"Memphis Tigers","Fri, Oct 31","Rice","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","30","36","--","122","36","29"
+"Memphis Tigers","Fri, Nov 7","Tulane","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","30","36","--","122","36","29"
+"Miami (OH) RedHawks","Sat, Sep 6","Rutgers","L","251","85","120","45","17",-28,FALSE,"2025","MAC","126","90","--","12","103","136"
+"Miami (OH) RedHawks","Sat, Sep 20","UNLV","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","90","--","12","103","136"
+"Miami (OH) RedHawks","Sat, Sep 27","Lindenwood","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","90","--","12","103","136"
+"Miami (OH) RedHawks","Sat, Oct 25","Western Michigan","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","90","--","12","103","136"
+"Miami Hurricanes","Sat, Sep 6","Bethune-Cookman","W","267","Jr.","80","3","45",42,TRUE,"2025","ACC","7","11","4","55","5","7"
+"Miami Hurricanes","Sat, Sep 13"," South Florida","W","340","Jr.","81","12","49",37,TRUE,"2025","ACC","7","11","4","55","5","7"
+"Miami Hurricanes","Sat, Sep 20","Florida","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","7","11","4","55","5","7"
+"Miami Hurricanes","Fri, Oct 17","Louisville","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","7","11","4","55","5","7"
+"Michigan State Spartans","Fri, Aug 29","Western Michigan","W","155","103","75","6","23",17,TRUE,"2025","Big Ten","26","69","--","118","47","24"
+"Michigan State Spartans","Sat, Sep 6","Boston College","W","231","81","68","402","42",-360,TRUE,"2025","Big Ten","26","69","--","118","47","24"
+"Michigan State Spartans","Sat, Sep 13","Youngstown State","W","270","76","94","24","41",17,TRUE,"2025","Big Ten","26","69","--","118","47","24"
+"Michigan State Spartans","Sat, Sep 20"," USC","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","26","69","--","118","47","24"
+"Michigan State Spartans","Sat, Oct 11","UCLA","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","26","69","--","118","47","24"
+"Michigan Wolverines","Sat, Aug 30","New Mexico","W","251","159","93","17","34",17,TRUE,"2025","Big Ten","53","10","21","30","35","55"
+"Michigan Wolverines","Sat, Sep 6"," Oklahoma","L","142","125","91","24","13",-11,FALSE,"2025","Big Ten","53","10","21","30","35","55"
+"Michigan Wolverines","Sat, Sep 13","Central Michigan","W","235","114","69","3","63",60,TRUE,"2025","Big Ten","53","10","21","30","35","55"
+"Michigan Wolverines","Sat, Sep 20","Nebraska","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","53","10","21","30","35","55"
+"Michigan Wolverines","Sat, Nov 29"," Ohio State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","53","10","21","30","35","55"
+"Middle Tennessee Blue Raiders","Sat, Aug 30","Austin Peay","L","104","48","50","34","14",-20,TRUE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Sep 6","Wisconsin","L","197","27","75","42","10",-32,FALSE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Sep 13","Nevada","W","247","67","65","13","14",1,FALSE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Sep 20","Marshall","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Sep 27","Kennesaw State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Nov 8","Florida International","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Nov 15","Western Kentucky","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Nov 22","Sam Houston","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","108","130","--","77","134","134"
+"Middle Tennessee Blue Raiders","Sat, Nov 29","New Mexico State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","108","130","--","77","134","134"
+"Minnesota Golden Gophers","Sat, Sep 6","Northwestern State","W","139","126","II","0","66",66,TRUE,"2025","Big Ten","78","55","--","93","61","45"
+"Minnesota Golden Gophers","Sat, Sep 13","California","L","205","85","106","27","14",-13,FALSE,"2025","Big Ten","78","55","--","93","61","45"
+"Minnesota Golden Gophers","Sat, Sep 27","Rutgers","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","78","55","--","93","61","45"
+"Minnesota Golden Gophers","Fri, Oct 17","Nebraska","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","78","55","--","93","61","45"
+"Minnesota Golden Gophers","Fri, Nov 14"," Oregon","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","78","55","--","93","61","45"
+"Mississippi State Bulldogs","Sat, Aug 30","Southern Miss","W","272","80","92","17","34",17,FALSE,"2025","SEC","16","42","--","91","26","23"
+"Mississippi State Bulldogs","Sat, Sep 6"," Arizona State","W","279","34","133","20","24",4,TRUE,"2025","SEC","16","42","--","91","26","23"
+"Mississippi State Bulldogs","Sat, Sep 13","Alcorn State","W","173","93","75","0","63",63,TRUE,"2025","SEC","16","42","--","91","26","23"
+"Mississippi State Bulldogs","Sat, Sep 20","Northern Illinois","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","16","42","--","91","26","23"
+"Mississippi State Bulldogs","Sat, Sep 27"," Tennessee","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","16","42","--","91","26","23"
+"Mississippi State Bulldogs","Sat, Nov 8"," Georgia","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","16","42","--","91","26","23"
+"Mississippi State Bulldogs","Fri, Nov 28"," Ole Miss","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","16","42","--","91","26","23"
+"Missouri State Bears","Sat, Aug 30","USC","L","147","50","39","73","13",-60,FALSE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Sep 6","Marshall","W","359","49","Jr.","20","21",1,FALSE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Sep 13","SMU","L","275","44","80","28","10",-18,TRUE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Sep 20","UT Martin","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Sep 27","Western Kentucky","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Nov 8","Liberty","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Nov 15","UTEP","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Nov 22","Kennesaw State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri State Bears","Sat, Nov 29","Louisiana Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","71","121","--","7","116","127"
+"Missouri Tigers","Sat, Sep 6","Kansas","W","334","143","Jr.","31","42",11,TRUE,"2025","SEC","15","12","23","92","27","21"
+"Missouri Tigers","Sat, Sep 13","Louisiana","W","174","250","Jr.","10","52",42,TRUE,"2025","SEC","15","12","23","92","27","21"
+"Missouri Tigers","Sat, Sep 20","South Carolina","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","15","12","23","92","27","21"
+"Missouri Tigers","Sat, Sep 27","Massachusetts","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","15","12","23","92","27","21"
+"Missouri Tigers","Sat, Oct 11"," Alabama","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","15","12","23","92","27","21"
+"Missouri Tigers","Sat, Nov 22"," Oklahoma","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","15","12","23","92","27","21"
+"Navy Midshipmen","Sat, Aug 30","VMI","W","66","180","65","7","52",45,TRUE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Sep 6","UAB","W","168","111","65","24","38",14,TRUE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Sep 13","Tulsa","W","94","159","40","23","42",19,FALSE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Sep 27","Rice","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Oct 4","Air Force","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Oct 25","Florida Atlantic","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Nov 8"," Notre Dame","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Nov 15","South Florida","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","45","68","--","135","82","34"
+"Navy Midshipmen","Sat, Dec 13","Army ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","45","68","--","135","82","34"
+"NC State Wolfpack","Fri, Aug 29","Kennesaw State","W","218","42","52","9","10",1,TRUE,"2025","ACC","13","53","--","84","65","64"
+"NC State Wolfpack","Sat, Sep 6","Western Carolina","W","227","193","149","10","42",32,TRUE,"2025","ACC","13","53","--","84","65","64"
+"NC State Wolfpack","Sat, Sep 27"," Georgia Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","13","53","--","84","65","64"
+"NC State Wolfpack","Sat, Oct 11","Oregon State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","13","53","--","84","65","64"
+"Nebraska Cornhuskers","Sat, Sep 6","Akron","W","364","140","Jr.","0","68",68,TRUE,"2025","Big Ten","18","17","--","100","17","15"
+"Nebraska Cornhuskers","Sat, Sep 13","Houston Christian","W","222","85","104","7","59",52,TRUE,"2025","Big Ten","18","17","--","100","17","15"
+"Nebraska Cornhuskers","Sat, Sep 20"," Michigan","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","18","17","--","100","17","15"
+"Nebraska Cornhuskers","Fri, Oct 17","Minnesota","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","18","17","--","100","17","15"
+"Nebraska Cornhuskers","Fri, Nov 28","Iowa","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","18","17","--","100","17","15"
+"Nevada Wolf Pack","Sat, Aug 30"," Penn State","L","97","55","76","46","11",-35,FALSE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Sep 6","Sacramento State","W","144","115","59","17","20",3,TRUE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Sep 13","Middle Tennessee","L","88","90","58","14","13",-1,TRUE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Sep 20","Western Kentucky","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Oct 4","Fresno State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Oct 11","San Diego State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Fri, Oct 24","Boise State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Nov 8","Utah State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Nov 15","San José State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Nov 22","Wyoming","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","114","122","--","18","110","102"
+"Nevada Wolf Pack","Sat, Nov 29","UNLV","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","114","122","--","18","110","102"
+"New Mexico Lobos","Sat, Aug 30"," Michigan","L","208","33","71","34","17",-17,FALSE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Sat, Sep 6","Idaho State","W","155","141","56","22","32",10,TRUE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Fri, Sep 12","UCLA","W","152","154","49","10","35",25,FALSE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Sat, Sep 27","New Mexico State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Fri, Oct 3","San José State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Sat, Oct 25","Utah State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Sat, Nov 1","UNLV","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Sat, Nov 22","Air Force","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico Lobos","Fri, Nov 28","San Diego State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","43","85","--","22","71","93"
+"New Mexico State Aggies","Sat, Aug 30","Bryant","W","227","50","99","3","19",16,TRUE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Sep 6","Tulsa","W","252","28","78","14","21",7,TRUE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Sep 13","Louisiana Tech","L","283","17","III","49","14",-35,FALSE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Sep 27","New Mexico","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Nov 1","Western Kentucky","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Nov 8","Kennesaw State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Nov 15"," Tennessee","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Nov 22","UTEP","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","94","133","--","124","128","86"
+"New Mexico State Aggies","Sat, Nov 29","Middle Tennessee","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","94","133","--","124","128","86"
+"North Carolina Tar Heels","Sat, Sep 6","Charlotte","W","155","52","74","3","20",17,FALSE,"2025","ACC","73","83","--","86","73","57"
+"North Carolina Tar Heels","Sat, Sep 13","Richmond","W","119","148","52","6","41",35,TRUE,"2025","ACC","73","83","--","86","73","57"
+"North Carolina Tar Heels","Sat, Sep 20","UCF","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","73","83","--","86","73","57"
+"North Carolina Tar Heels","Fri, Oct 17","California","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","73","83","--","86","73","57"
+"North Carolina Tar Heels","Fri, Oct 31","Syracuse","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","73","83","--","86","73","57"
+"North Texas Mean Green","Sat, Aug 30","Lamar","W","329","38","98","0","51",51,TRUE,"2025","American","39","67","--","133","83","40"
+"North Texas Mean Green","Sat, Sep 6","Western Michigan","W","224","II","59","30","33",3,FALSE,"2025","American","39","67","--","133","83","40"
+"North Texas Mean Green","Sat, Sep 13","Washington State","W","211","II","44","10","59",49,TRUE,"2025","American","39","67","--","133","83","40"
+"North Texas Mean Green","Sat, Sep 20","Army","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","39","67","--","133","83","40"
+"North Texas Mean Green","Sat, Sep 27","South Alabama","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","39","67","--","133","83","40"
+"North Texas Mean Green","Fri, Oct 10","South Florida","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","39","67","--","133","83","40"
+"North Texas Mean Green","Fri, Oct 24","Charlotte","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","39","67","--","133","83","40"
+"Northern Illinois Huskies","Sat, Aug 30","Holy Cross","W","101","77","73","17","19",2,TRUE,"2025","MAC","93","95","--","83","102","107"
+"Northern Illinois Huskies","Fri, Sep 5","Maryland","L","91","90","26","20","9",-11,FALSE,"2025","MAC","93","95","--","83","102","107"
+"Northern Illinois Huskies","Sat, Sep 20","Mississippi State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","93","95","--","83","102","107"
+"Northern Illinois Huskies","Sat, Sep 27","San Diego State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","93","95","--","83","102","107"
+"Northern Illinois Huskies","Fri, Nov 28","Kent State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","93","95","--","83","102","107"
+"Northwestern Wildcats","Sat, Aug 30","Tulane","L","161","46","64","23","3",-20,FALSE,"2025","Big Ten","102","76","--","10","86","111"
+"Northwestern Wildcats","Fri, Sep 5","Western Illinois","W","245","91","94","7","42",35,TRUE,"2025","Big Ten","102","76","--","10","86","111"
+"Northwestern Wildcats","Sat, Sep 13"," Oregon","L","135","79","55","34","14",-20,TRUE,"2025","Big Ten","102","76","--","10","86","111"
+"Northwestern Wildcats","Fri, Nov 7"," USC","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","102","76","--","10","86","111"
+"Notre Dame Fighting Irish","Sat, Sep 13"," Texas A&M","L","293","94","85","41","40",-1,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Sep 20","Purdue","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Sep 27","Arkansas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Oct 4","Boise State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Oct 11","NC State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Oct 18"," USC","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Nov 8","Navy","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Notre Dame Fighting Irish","Sat, Nov 22","Syracuse","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","126","14","24","1","40","104"
+"Ohio Bobcats","Sat, Sep 6","West Virginia","W","247","87","121","10","17",7,TRUE,"2025","MAC","61","72","--","3","67","117"
+"Ohio Bobcats","Sat, Sep 13"," Ohio State","L","94","24","76","37","9",-28,FALSE,"2025","MAC","61","72","--","3","67","117"
+"Ohio Bobcats","Sat, Sep 20","Gardner-Webb","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","61","72","--","3","67","117"
+"Ohio Bobcats","Sat, Sep 27","Bowling Green","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","61","72","--","3","67","117"
+"Ohio Bobcats","Sat, Oct 4","Ball State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","61","72","--","3","67","117"
+"Ohio Bobcats","Fri, Nov 28","Buffalo","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","61","72","--","3","67","117"
+"Ohio State Buckeyes","Sat, Aug 30"," Texas","W","126","67","49","7","14",7,TRUE,"2025","Big Ten","5","2","1","49","6","12"
+"Ohio State Buckeyes","Sat, Sep 6","Grambling","W","306","108","119","0","70",70,TRUE,"2025","Big Ten","5","2","1","49","6","12"
+"Ohio State Buckeyes","Sat, Sep 13","Ohio","W","347","109","153","9","37",28,TRUE,"2025","Big Ten","5","2","1","49","6","12"
+"Ohio State Buckeyes","Sat, Nov 29"," Michigan","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","5","2","1","49","6","12"
+"Oklahoma Sooners","Sat, Aug 30","Illinois State","W","392","42","119","3","35",32,TRUE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma Sooners","Sat, Sep 6"," Michigan","W","270","74","101","13","24",11,TRUE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma Sooners","Sat, Sep 13","Temple","W","282","100","III","3","42",39,FALSE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma Sooners","Sat, Sep 20"," Auburn","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma Sooners","Sat, Oct 4","Kent State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma Sooners","Sat, Oct 11"," Texas ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma Sooners","Sat, Nov 22"," Missouri","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","8","13","11","59","4","13"
+"Oklahoma State Cowboys","Sat, Sep 6"," Oregon","L","67","63","34","69","3",-66,FALSE,"2025","Big 12","77","89","--","2","57","101"
+"Oklahoma State Cowboys","Sat, Sep 27","Baylor","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","77","89","--","2","57","101"
+"Old Dominion Monarchs","Sat, Aug 30"," Indiana","L","96","179","Gladding","27","14",-13,FALSE,"2025","Sun Belt","33","56","--","23","31","59"
+"Old Dominion Monarchs","Sat, Sep 6","North Carolina Central","W","257","163","86","6","54",48,TRUE,"2025","Sun Belt","33","56","--","23","31","59"
+"Old Dominion Monarchs","Sat, Sep 13","Virginia Tech","W","276","101","83","26","45",19,FALSE,"2025","Sun Belt","33","56","--","23","31","59"
+"Old Dominion Monarchs","Sat, Sep 27","Liberty","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","33","56","--","23","31","59"
+"Ole Miss Rebels","Sat, Aug 30","Georgia State","W","341","108","III","7","63",56,TRUE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Sat, Sep 6","Kentucky","W","235","138","III","23","30",7,FALSE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Sat, Sep 13","Arkansas","W","353","62","III","35","41",6,TRUE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Sat, Sep 20","Tulane","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Sat, Sep 27"," LSU","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Sat, Oct 11","Washington State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Sat, Nov 8","The Citadel","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","6","8","13","43","16","35"
+"Ole Miss Rebels","Fri, Nov 28","Mississippi State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","6","8","13","43","16","35"
+"Oregon Ducks","Sat, Aug 30","Montana State","W","213","68","51","13","59",46,TRUE,"2025","Big Ten","20","1","6","99","1","4"
+"Oregon Ducks","Sat, Sep 6","Oklahoma State","W","266","91","76","3","69",66,TRUE,"2025","Big Ten","20","1","6","99","1","4"
+"Oregon Ducks","Sat, Sep 13","Northwestern","W","178","Jr.","62","14","34",20,FALSE,"2025","Big Ten","20","1","6","99","1","4"
+"Oregon Ducks","Sat, Sep 20","Oregon State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","20","1","6","99","1","4"
+"Oregon Ducks","Sat, Sep 27"," Penn State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","20","1","6","99","1","4"
+"Oregon Ducks","Fri, Nov 14","Minnesota","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","20","1","6","99","1","4"
+"Oregon State Beavers","Sat, Aug 30","California","L","244","42","136","34","15",-19,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Sep 6","Fresno State","L","371","136","158","36","27",-9,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Sep 13"," Texas Tech","L","281","12","Jr.","45","14",-31,FALSE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Sep 20"," Oregon","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Fri, Sep 26","Houston","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Oct 11","Wake Forest","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Oct 18","Lafayette","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Nov 1","Washington State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Nov 8","Sam Houston","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","126","101","--","37","126","130"
+"Oregon State Beavers","Sat, Nov 29","Washington State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Pac-12","126","101","--","37","126","130"
+"Penn State Nittany Lions","Sat, Aug 30","Nevada","W","217","43","89","11","46",35,TRUE,"2025","Big Ten","40","7","2","134","11","3"
+"Penn State Nittany Lions","Sat, Sep 6","Florida International","W","200","144","61","0","34",34,TRUE,"2025","Big Ten","40","7","2","134","11","3"
+"Penn State Nittany Lions","Sat, Sep 13","Villanova","W","209","86","73","6","52",46,TRUE,"2025","Big Ten","40","7","2","134","11","3"
+"Penn State Nittany Lions","Sat, Sep 27"," Oregon","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","40","7","2","134","11","3"
+"Pittsburgh Panthers","Sat, Aug 30","Duquesne","W","215","66","69","9","61",52,TRUE,"2025","ACC","87","57","--","105","45","31"
+"Pittsburgh Panthers","Sat, Sep 6","Central Michigan","W","304","46","Jr.","17","45",28,TRUE,"2025","ACC","87","57","--","105","45","31"
+"Pittsburgh Panthers","Sat, Sep 13","West Virginia","L","303","37","Jr.","31","24",-7,FALSE,"2025","ACC","87","57","--","105","45","31"
+"Pittsburgh Panthers","Sat, Sep 27","Louisville","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","87","57","--","105","45","31"
+"Purdue Boilermakers","Sat, Aug 30","Ball State","W","311","59","101","0","31",31,TRUE,"2025","Big Ten","63","79","--","54","58","58"
+"Purdue Boilermakers","Sat, Sep 6","Southern Illinois","W","170","126","48","17","34",17,TRUE,"2025","Big Ten","63","79","--","54","58","58"
+"Purdue Boilermakers","Sat, Sep 13","USC","L","305","45","III","33","17",-16,TRUE,"2025","Big Ten","63","79","--","54","58","58"
+"Purdue Boilermakers","Sat, Sep 20"," Notre Dame","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","63","79","--","54","58","58"
+"Purdue Boilermakers","Fri, Nov 28"," Indiana","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","63","79","--","54","58","58"
+"Rice Owls","Sat, Aug 30","Louisiana","W","45","119","44","12","14",2,FALSE,"2025","American","64","114","--","109","101","60"
+"Rice Owls","Sat, Sep 6","Houston","L","50","55","24","35","9",-26,TRUE,"2025","American","64","114","--","109","101","60"
+"Rice Owls","Sat, Sep 13","Prairie View A&M","W","87","124","46","17","38",21,TRUE,"2025","American","64","114","--","109","101","60"
+"Rice Owls","Sat, Sep 27","Navy","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","64","114","--","109","101","60"
+"Rice Owls","Fri, Oct 31","Memphis","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","64","114","--","109","101","60"
+"Rutgers Scarlet Knights","Sat, Sep 6","Miami (OH)","W","259","82","116","17","45",28,TRUE,"2025","Big Ten","29","44","--","121","25","14"
+"Rutgers Scarlet Knights","Sat, Sep 13","Norfolk State","W","309","79","119","10","60",50,TRUE,"2025","Big Ten","29","44","--","121","25","14"
+"Rutgers Scarlet Knights","Fri, Sep 19","Iowa","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","29","44","--","121","25","14"
+"Rutgers Scarlet Knights","Sat, Sep 27","Minnesota","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","29","44","--","121","25","14"
+"Rutgers Scarlet Knights","Fri, Oct 10","Washington","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","29","44","--","121","25","14"
+"Sam Houston Bearkats","Sat, Aug 23","Western Kentucky","L","209","91","61","41","24",-17,FALSE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Fri, Aug 29","UNLV","L","101","85","Jr.","38","21",-17,TRUE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Sat, Sep 6","Hawai'i","L","91","35","45","37","20",-17,FALSE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Sat, Sep 20"," Texas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Fri, Oct 31","Louisiana Tech","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Sat, Nov 8","Oregon State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Sat, Nov 15","Delaware","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Sat, Nov 22","Middle Tennessee","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","126","124","--","102","135","133"
+"Sam Houston Bearkats","Sat, Nov 29","Florida International","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","126","124","--","102","135","133"
+"San Diego State Aztecs","Sat, Sep 6","Washington State","L","133","88","69","36","13",-23,FALSE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Sat, Sep 20","California","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Sat, Sep 27","Northern Illinois","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Fri, Oct 3","Colorado State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Sat, Oct 11","Nevada","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Sat, Nov 1","Wyoming","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Sat, Nov 8","Hawai'i","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Sat, Nov 15","Boise State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","112","118","--","132","122","80"
+"San Diego State Aztecs","Fri, Nov 28","New Mexico","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","112","118","--","132","122","80"
+"San José State Spartans","Fri, Aug 29","Central Michigan","L","308","IV","189","16","14",-2,TRUE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Sat, Sep 6"," Texas","L","184","44","73","38","7",-31,FALSE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Sat, Sep 20","Idaho","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Sat, Sep 27","Stanford","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Fri, Oct 3","New Mexico","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Sat, Oct 11","Wyoming","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Fri, Oct 17","Utah State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Sat, Nov 1","Hawai'i","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","126","112","--","5","111","128"
+"San José State Spartans","Sat, Nov 15","Nevada","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","126","112","--","5","111","128"
+"SMU Mustangs","Sat, Aug 30","East Texas A&M","W","260","Jr.","121","13","42",29,TRUE,"2025","ACC","72","35","--","97","53","38"
+"SMU Mustangs","Sat, Sep 6","Baylor","L","295","115","126","48","452",404,TRUE,"2025","ACC","72","35","--","97","53","38"
+"SMU Mustangs","Sat, Sep 13","Missouri State","W","281","96","68","10","28",18,FALSE,"2025","ACC","72","35","--","97","53","38"
+"SMU Mustangs","Sat, Sep 20","TCU","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","72","35","--","97","53","38"
+"South Alabama Jaguars","Sat, Aug 30","Morgan State","W","166","127","69","21","38",17,TRUE,"2025","Sun Belt","107","80","--","31","98","109"
+"South Alabama Jaguars","Sat, Sep 6","Tulane","L","231","107","152","33","31",-2,TRUE,"2025","Sun Belt","107","80","--","31","98","109"
+"South Alabama Jaguars","Sat, Sep 13"," Auburn","L","170","57","55","31","15",-16,FALSE,"2025","Sun Belt","107","80","--","31","98","109"
+"South Alabama Jaguars","Sat, Sep 20","Coastal Carolina","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","107","80","--","31","98","109"
+"South Alabama Jaguars","Sat, Sep 27","North Texas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","107","80","--","31","98","109"
+"South Carolina Gamecocks","Sat, Sep 6","South Carolina State","W","128","30","57","10","38",28,TRUE,"2025","SEC","51","37","--","67","69","69"
+"South Carolina Gamecocks","Sat, Sep 13","Vanderbilt","L","148","74","66","31","7",-24,TRUE,"2025","SEC","51","37","--","67","69","69"
+"South Carolina Gamecocks","Sat, Sep 20"," Missouri","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","51","37","--","67","69","69"
+"South Carolina Gamecocks","Sat, Sep 27","Kentucky","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","51","37","--","67","69","69"
+"South Carolina Gamecocks","Sat, Nov 29","Clemson","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","51","37","--","67","69","69"
+"South Florida Bulls","Sat, Sep 6"," Florida","W","263","66","75","16","18",2,FALSE,"2025","American","14","54","--","6","60","115"
+"South Florida Bulls","Sat, Sep 13"," Miami","L","274","20","128","49","12",-37,FALSE,"2025","American","14","54","--","6","60","115"
+"South Florida Bulls","Sat, Sep 20","South Carolina State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","14","54","--","6","60","115"
+"South Florida Bulls","Fri, Oct 3","Charlotte","N",NA,NA,NA,"NA","",NA,TRUE,"2025","American","14","54","--","6","60","115"
+"South Florida Bulls","Fri, Oct 10","North Texas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","14","54","--","6","60","115"
+"South Florida Bulls","Sat, Nov 15","Navy","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","14","54","--","6","60","115"
+"Southern Miss Golden Eagles","Sat, Aug 30","Mississippi State","L","199","58","53","34","17",-17,TRUE,"2025","Sun Belt","75","94","--","103","81","54"
+"Southern Miss Golden Eagles","Sat, Sep 6","Jackson State","W","214","71","52","20","38",18,TRUE,"2025","Sun Belt","75","94","--","103","81","54"
+"Southern Miss Golden Eagles","Sat, Sep 13","App State","W","279","39","112","22","38",16,TRUE,"2025","Sun Belt","75","94","--","103","81","54"
+"Southern Miss Golden Eagles","Sat, Sep 20","Louisiana Tech","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","75","94","--","103","81","54"
+"Southern Miss Golden Eagles","Sat, Sep 27","Jacksonville State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","75","94","--","103","81","54"
+"Stanford Cardinal","Sat, Aug 23","Hawai'i","L","109","113","36","23","20",-3,FALSE,"2025","ACC","90","74","--","44","99","116"
+"Stanford Cardinal","Sat, Sep 6","BYU","L","142","21","68","27","3",-24,FALSE,"2025","ACC","90","74","--","44","99","116"
+"Stanford Cardinal","Sat, Sep 13","Boston College","W","186","157","79","20","30",10,TRUE,"2025","ACC","90","74","--","44","99","116"
+"Stanford Cardinal","Sat, Sep 20","Virginia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","90","74","--","44","99","116"
+"Stanford Cardinal","Sat, Sep 27","San José State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","90","74","--","44","99","116"
+"Stanford Cardinal","Sat, Oct 18"," Florida State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","90","74","--","44","99","116"
+"Syracuse Orange","Sat, Aug 30"," Tennessee ","L","274","91","58","45","26",-19,TRUE,"2025","ACC","54","70","--","38","97","96"
+"Syracuse Orange","Sat, Sep 6","UConn","W","416","48","104","20","27",7,TRUE,"2025","ACC","54","70","--","38","97","96"
+"Syracuse Orange","Fri, Sep 12","Colgate","W","382","66","Jr.","24","66",42,TRUE,"2025","ACC","54","70","--","38","97","96"
+"Syracuse Orange","Sat, Sep 20","Clemson","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","54","70","--","38","97","96"
+"Syracuse Orange","Sat, Sep 27","Duke","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","54","70","--","38","97","96"
+"Syracuse Orange","Fri, Oct 31","North Carolina","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","54","70","--","38","97","96"
+"Syracuse Orange","Sat, Nov 22"," Notre Dame","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","54","70","--","38","97","96"
+"TCU Horned Frogs","Sat, Sep 13","Abilene Christian","W","337","43","IV","21","42",21,TRUE,"2025","Big 12","28","25","--","108","14","16"
+"TCU Horned Frogs","Sat, Sep 20","SMU","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","28","25","--","108","14","16"
+"TCU Horned Frogs","Fri, Sep 26","Arizona State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","28","25","--","108","14","16"
+"Temple Owls","Sat, Aug 30","Massachusetts","W","248","128","87","10","42",32,FALSE,"2025","American","80","99","--","70","91","73"
+"Temple Owls","Sat, Sep 6","Howard","W","174","87","78","7","55",48,TRUE,"2025","American","80","99","--","70","91","73"
+"Temple Owls","Sat, Sep 13"," Oklahoma","L","75","24","21","42","3",-39,TRUE,"2025","American","80","99","--","70","91","73"
+"Temple Owls","Sat, Sep 20"," Georgia Tech","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","80","99","--","70","91","73"
+"Temple Owls","Sat, Nov 8","Army","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","80","99","--","70","91","73"
+"Tennessee Volunteers","Sat, Aug 30","Syracuse ","W","247","92","95","26","45",19,TRUE,"2025","SEC","37","9","15","28","9","18"
+"Tennessee Volunteers","Sat, Sep 6","East Tennessee State","W","288","69","II","17","72",55,TRUE,"2025","SEC","37","9","15","28","9","18"
+"Tennessee Volunteers","Sat, Sep 13"," Georgia","L","371","60","II","44","41",-3,TRUE,"2025","SEC","37","9","15","28","9","18"
+"Tennessee Volunteers","Sat, Sep 20","UAB","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","37","9","15","28","9","18"
+"Tennessee Volunteers","Sat, Sep 27","Mississippi State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","37","9","15","28","9","18"
+"Tennessee Volunteers","Sat, Nov 15","New Mexico State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","37","9","15","28","9","18"
+"Texas A&M Aggies","Sat, Aug 30","UTSA","W","289","39","122","24","42",18,TRUE,"2025","SEC","1","15","10","19","24","44"
+"Texas A&M Aggies","Sat, Sep 6","Utah State","W","220","68","114","22","44",22,TRUE,"2025","SEC","1","15","10","19","24","44"
+"Texas A&M Aggies","Sat, Sep 13"," Notre Dame","W","360","81","207","40","41",1,FALSE,"2025","SEC","1","15","10","19","24","44"
+"Texas A&M Aggies","Sat, Sep 27"," Auburn","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","1","15","10","19","24","44"
+"Texas A&M Aggies","Sat, Nov 22","Samford","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","1","15","10","19","24","44"
+"Texas A&M Aggies","Fri, Nov 28"," Texas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","1","15","10","19","24","44"
+"Texas Longhorns","Sat, Aug 30"," Ohio State","L","170","80","50","14","7",-7,FALSE,"2025","SEC","47","6","8","14","32","56"
+"Texas Longhorns","Sat, Sep 6","San José State","W","295","64","128","7","38",31,TRUE,"2025","SEC","47","6","8","14","32","56"
+"Texas Longhorns","Sat, Sep 13","UTEP","W","114","67","32","10","27",17,TRUE,"2025","SEC","47","6","8","14","32","56"
+"Texas Longhorns","Sat, Sep 20","Sam Houston","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","47","6","8","14","32","56"
+"Texas Longhorns","Sat, Oct 11"," Oklahoma ","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","47","6","8","14","32","56"
+"Texas Longhorns","Sat, Nov 1"," Vanderbilt","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","47","6","8","14","32","56"
+"Texas Longhorns","Fri, Nov 28"," Texas A&M","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","47","6","8","14","32","56"
+"Texas State Bobcats","Sat, Aug 30","Eastern Michigan","W","214","167","82","27","52",25,TRUE,"2025","Sun Belt","46","71","--","60","68","89"
+"Texas State Bobcats","Sat, Sep 6","UTSA","W","286","71","155","36","43",7,FALSE,"2025","Sun Belt","46","71","--","60","68","89"
+"Texas State Bobcats","Sat, Sep 13","Arizona State","L","184","61","70","34","15",-19,FALSE,"2025","Sun Belt","46","71","--","60","68","89"
+"Texas State Bobcats","Sat, Sep 20","Nicholls","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","46","71","--","60","68","89"
+"Texas State Bobcats","Sat, Oct 4","Arkansas State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","46","71","--","60","68","89"
+"Texas Tech Red Raiders","Sat, Aug 30","Arkansas-Pine Bluff","W","201","90","56","7","67",60,TRUE,"2025","Big 12","52","26","17","136","2","1"
+"Texas Tech Red Raiders","Sat, Sep 6","Kent State","W","258","127","59","14","62",48,TRUE,"2025","Big 12","52","26","17","136","2","1"
+"Texas Tech Red Raiders","Sat, Sep 13","Oregon State","W","464","65","123","14","45",31,TRUE,"2025","Big 12","52","26","17","136","2","1"
+"Texas Tech Red Raiders","Sat, Sep 20"," Utah","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","52","26","17","136","2","1"
+"Toledo Rockets","Sat, Aug 30","Kentucky","L","270","41","III","24","16",-8,FALSE,"2025","MAC","68","66","--","81","52","51"
+"Toledo Rockets","Sat, Sep 6","Western Kentucky","W","155","163","III","21","45",24,TRUE,"2025","MAC","68","66","--","81","52","51"
+"Toledo Rockets","Sat, Sep 13","Morgan State","W","174","49","94","0","60",60,TRUE,"2025","MAC","68","66","--","81","52","51"
+"Toledo Rockets","Sat, Sep 20","Western Michigan","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","68","66","--","81","52","51"
+"Toledo Rockets","Sat, Sep 27","Akron","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","68","66","--","81","52","51"
+"Toledo Rockets","Sat, Oct 25","Washington State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","68","66","--","81","52","51"
+"Troy Trojans","Sat, Aug 30","Nicholls","W","144","186","32","20","38",18,TRUE,"2025","Sun Belt","106","91","--","51","106","110"
+"Troy Trojans","Sat, Sep 6"," Clemson","L","223","76","69","27","16",-11,FALSE,"2025","Sun Belt","106","91","--","51","106","110"
+"Troy Trojans","Sat, Sep 13","Memphis","L","65","50","58","28","7",-21,TRUE,"2025","Sun Belt","106","91","--","51","106","110"
+"Troy Trojans","Sat, Sep 20","Buffalo","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","106","91","--","51","106","110"
+"Tulane Green Wave","Sat, Aug 30","Northwestern","W","152","113","74","3","23",20,TRUE,"2025","American","17","47","--","90","12","19"
+"Tulane Green Wave","Sat, Sep 6","South Alabama","W","125","82","62","31","33",2,FALSE,"2025","American","17","47","--","90","12","19"
+"Tulane Green Wave","Sat, Sep 13","Duke","W","245","111","95","27","34",7,TRUE,"2025","American","17","47","--","90","12","19"
+"Tulane Green Wave","Sat, Sep 20"," Ole Miss","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","17","47","--","90","12","19"
+"Tulane Green Wave","Fri, Nov 7","Memphis","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","17","47","--","90","12","19"
+"Tulsa Golden Hurricane","Sat, Aug 30","Abilene Christian","W","218","142","69","7","35",28,TRUE,"2025","American","123","126","--","123","125","84"
+"Tulsa Golden Hurricane","Sat, Sep 6","New Mexico State","L","134","93","57","21","14",-7,FALSE,"2025","American","123","126","--","123","125","84"
+"Tulsa Golden Hurricane","Sat, Sep 13","Navy","L","189","61","90","42","23",-19,TRUE,"2025","American","123","126","--","123","125","84"
+"Tulsa Golden Hurricane","Sat, Nov 22","Army","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","123","126","--","123","125","84"
+"UAB Blazers","Sat, Sep 6","Navy","L","304","66","100","38","24",-14,FALSE,"2025","American","92","120","--","110","120","83"
+"UAB Blazers","Sat, Sep 13","Akron","W","341","45","84","28","31",3,TRUE,"2025","American","92","120","--","110","120","83"
+"UAB Blazers","Sat, Sep 20"," Tennessee","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","92","120","--","110","120","83"
+"UAB Blazers","Sat, Nov 1","UConn","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","92","120","--","110","120","83"
+"UCF Knights","Sat, Sep 6","North Carolina A&T","W","189","156","Jr.","7","68",61,TRUE,"2025","Big 12","44","49","--","131","59","26"
+"UCF Knights","Sat, Sep 20","North Carolina","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","44","49","--","131","59","26"
+"UCF Knights","Sat, Sep 27","Kansas State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","44","49","--","131","59","26"
+"UCLA Bruins","Sat, Aug 30","Utah","L","136","47","48","43","10",-33,TRUE,"2025","Big Ten","126","93","--","52","131","132"
+"UCLA Bruins","Sat, Sep 6","UNLV","L","255","59","87","30","23",-7,FALSE,"2025","Big Ten","126","93","--","52","131","132"
+"UCLA Bruins","Fri, Sep 12","New Mexico","L","217","64","67","35","10",-25,TRUE,"2025","Big Ten","126","93","--","52","131","132"
+"UCLA Bruins","Sat, Oct 11","Michigan State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","126","93","--","52","131","132"
+"UConn Huskies","Sat, Aug 30","Central Connecticut","W","260","115","135","13","59",46,TRUE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Sep 6","Syracuse","L","259","75","105","27","20",-7,FALSE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Sep 13","Delaware","L","346","116","92","44","41",-3,FALSE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Sep 20","Ball State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Sep 27","Buffalo","N",NA,NA,NA,"NA","",NA,FALSE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Oct 4","Florida International","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Nov 1","UAB","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Nov 8","Duke","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UConn Huskies","Sat, Nov 15","Air Force","N",NA,NA,NA,"NA","",NA,TRUE,"2025","FBS Indep.","124","84","--","104","75","61"
+"UL Monroe Warhawks","Sat, Sep 6"," Alabama","L","28","24","22","73","0",-73,FALSE,"2025","Sun Belt","97","128","--","4","63","98"
+"UL Monroe Warhawks","Sat, Sep 20","UTEP","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Sun Belt","97","128","--","4","63","98"
+"UL Monroe Warhawks","Sat, Sep 27","Arkansas State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Sun Belt","97","128","--","4","63","98"
+"UNLV Rebels","Sat, Aug 23","Idaho State","W","195","147","131","31","38",7,TRUE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Fri, Aug 29","Sam Houston","W","249","65","125","21","38",17,FALSE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Sep 6","UCLA","W","203","61","40","23","30",7,TRUE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Sep 20","Miami (OH)","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Oct 4","Wyoming","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Oct 11","Air Force","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Nov 1","New Mexico","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Nov 15","Utah State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Fri, Nov 21","Hawai'i","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","35","65","--","129","62","30"
+"UNLV Rebels","Sat, Nov 29","Nevada","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","35","65","--","129","62","30"
+"USC Trojans","Sat, Aug 30","Missouri State","W","295","80","90","13","73",60,TRUE,"2025","Big Ten","21","5","25","107","8","11"
+"USC Trojans","Sat, Sep 6","Georgia Southern","W","412","167","158","20","59",39,TRUE,"2025","Big Ten","21","5","25","107","8","11"
+"USC Trojans","Sat, Sep 13","Purdue","W","282","77","115","17","33",16,FALSE,"2025","Big Ten","21","5","25","107","8","11"
+"USC Trojans","Sat, Sep 20","Michigan State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","21","5","25","107","8","11"
+"USC Trojans","Sat, Oct 18"," Notre Dame","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","21","5","25","107","8","11"
+"USC Trojans","Fri, Nov 7","Northwestern","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","21","5","25","107","8","11"
+"Utah State Aggies","Sat, Aug 30","UTEP","W","233","88","61","16","28",12,TRUE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Sep 6"," Texas A&M","L","169","50","87","44","22",-22,FALSE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Sep 13","Air Force","W","287","71","147","30","49",19,TRUE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Sep 20","McNeese","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Sep 27"," Vanderbilt","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Oct 11","Hawai'i","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Fri, Oct 17","San José State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Oct 25","New Mexico","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Nov 8","Nevada","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Nov 15","UNLV","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Sat, Nov 22","Fresno State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah State Aggies","Fri, Nov 28","Boise State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","55","82","--","35","50","70"
+"Utah Utes","Sat, Aug 30","UCLA","W","206","87","51","10","43",33,FALSE,"2025","Big 12","27","18","16","119","22","22"
+"Utah Utes","Sat, Sep 6","Cal Poly","W","192","59","58","9","63",54,TRUE,"2025","Big 12","27","18","16","119","22","22"
+"Utah Utes","Sat, Sep 13","Wyoming","W","230","86","91","6","31",25,FALSE,"2025","Big 12","27","18","16","119","22","22"
+"Utah Utes","Sat, Sep 20"," Texas Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","27","18","16","119","22","22"
+"Utah Utes","Sat, Sep 27","West Virginia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","27","18","16","119","22","22"
+"Utah Utes","Fri, Nov 28","Kansas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","27","18","16","119","22","22"
+"UTEP Miners","Sat, Aug 30","Utah State","L","178","36","97","28","16",-12,FALSE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Sep 6","UT Martin","W","278","117","124","17","42",25,TRUE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Sep 13"," Texas","L","209","39","64","27","10",-17,FALSE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Sep 20","UL Monroe","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Sep 27","Louisiana Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Nov 8","Jacksonville State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Nov 15","Missouri State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Nov 22","New Mexico State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","103","107","--","16","94","112"
+"UTEP Miners","Sat, Nov 29","Delaware","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","103","107","--","16","94","112"
+"UTSA Roadrunners","Sat, Aug 30"," Texas A&M","L","121","Jr.","II","42","24",-18,FALSE,"2025","American","101","78","--","32","70","90"
+"UTSA Roadrunners","Sat, Sep 6","Texas State","L","219","Jr.","83","43","36",-7,TRUE,"2025","American","101","78","--","32","70","90"
+"UTSA Roadrunners","Sat, Sep 13","Incarnate Word","W","243","Jr.","104","20","48",28,TRUE,"2025","American","101","78","--","32","70","90"
+"UTSA Roadrunners","Sat, Sep 20","Colorado State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","American","101","78","--","32","70","90"
+"Vanderbilt Commodores","Sat, Aug 30","Charleston Southern","W","275","83","86","3","45",42,TRUE,"2025","SEC","9","21","20","62","29","41"
+"Vanderbilt Commodores","Sat, Sep 6","Virginia Tech","W","193","95","54","20","44",24,FALSE,"2025","SEC","9","21","20","62","29","41"
+"Vanderbilt Commodores","Sat, Sep 13"," South Carolina","W","177","44","45","7","31",24,FALSE,"2025","SEC","9","21","20","62","29","41"
+"Vanderbilt Commodores","Sat, Sep 20","Georgia State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","9","21","20","62","29","41"
+"Vanderbilt Commodores","Sat, Sep 27","Utah State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","SEC","9","21","20","62","29","41"
+"Vanderbilt Commodores","Sat, Nov 1"," Texas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","SEC","9","21","20","62","29","41"
+"Virginia Cavaliers","Sat, Aug 30","Coastal Carolina","W","264","50","124","7","48",41,TRUE,"2025","ACC","83","51","--","94","41","32"
+"Virginia Cavaliers","Sat, Sep 6","NC State","L","257","150","68","35","31",-4,FALSE,"2025","ACC","83","51","--","94","41","32"
+"Virginia Cavaliers","Sat, Sep 13","William & Mary","W","164","151","67","16","55",39,TRUE,"2025","ACC","83","51","--","94","41","32"
+"Virginia Cavaliers","Sat, Sep 20","Stanford","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","83","51","--","94","41","32"
+"Virginia Cavaliers","Fri, Sep 26"," Florida State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","83","51","--","94","41","32"
+"Virginia Cavaliers","Sat, Oct 18","Washington State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","83","51","--","94","41","32"
+"Virginia Tech Hokies","Sat, Sep 6","Vanderbilt","L","134","36","43","44","20",-24,TRUE,"2025","ACC","126","73","--","25","112","121"
+"Virginia Tech Hokies","Sat, Sep 13","Old Dominion","L","266","65","77","45","26",-19,TRUE,"2025","ACC","126","73","--","25","112","121"
+"Virginia Tech Hokies","Sat, Sep 20","Wofford","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","126","73","--","25","112","121"
+"Virginia Tech Hokies","Sat, Sep 27","NC State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","126","73","--","25","112","121"
+"Virginia Tech Hokies","Fri, Oct 24","California","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","126","73","--","25","112","121"
+"Wake Forest Demon Deacons","Fri, Aug 29","Kennesaw State","W","218","42","52","9","10",1,TRUE,"2025","ACC","91","98","--","115","84","42"
+"Wake Forest Demon Deacons","Sat, Sep 6","Western Carolina","W","227","193","149","10","42",32,TRUE,"2025","ACC","91","98","--","115","84","42"
+"Wake Forest Demon Deacons","Sat, Sep 27"," Georgia Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","ACC","91","98","--","115","84","42"
+"Wake Forest Demon Deacons","Sat, Oct 11","Oregon State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","ACC","91","98","--","115","84","42"
+"Washington Huskies","Sat, Aug 30","Colorado State","W","Jr.","177","92","21","38",17,TRUE,"2025","Big Ten","42","29","--","128","23","10"
+"Washington Huskies","Sat, Sep 6","UC Davis","W","Jr.","111","77","10","70",60,TRUE,"2025","Big Ten","42","29","--","128","23","10"
+"Washington Huskies","Sat, Sep 20","Washington State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big Ten","42","29","--","128","23","10"
+"Washington Huskies","Fri, Oct 10","Rutgers","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","42","29","--","128","23","10"
+"Washington State Cougars","Sat, Aug 30","Idaho","W","208","19","64","10","13",3,TRUE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Sep 6","San Diego State","W","257","67","88","13","36",23,TRUE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Sep 13","North Texas","L","139","33","65","59","10",-49,FALSE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Sep 20","Washington","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Sep 27","Colorado State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Oct 11"," Ole Miss","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Oct 18","Virginia","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Oct 25","Toledo","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Nov 1","Oregon State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Nov 15","Louisiana Tech","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","76","115","--","98","104","82"
+"Washington State Cougars","Sat, Nov 29","Oregon State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Pac-12","76","115","--","98","104","82"
+"West Virginia Mountaineers","Sat, Aug 30","Robert Morris","W","224","93","127","3","45",42,TRUE,"2025","Big 12","62","64","--","89","90","74"
+"West Virginia Mountaineers","Sat, Sep 6","Ohio","L","178","40","69","17","10",-7,FALSE,"2025","Big 12","62","64","--","89","90","74"
+"West Virginia Mountaineers","Sat, Sep 13","Pittsburgh","W","192","141","III","24","31",7,TRUE,"2025","Big 12","62","64","--","89","90","74"
+"West Virginia Mountaineers","Sat, Sep 20","Kansas","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","62","64","--","89","90","74"
+"West Virginia Mountaineers","Sat, Sep 27"," Utah","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big 12","62","64","--","89","90","74"
+"West Virginia Mountaineers","Fri, Oct 3","BYU","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Big 12","62","64","--","89","90","74"
+"Western Kentucky Hilltoppers","Sat, Aug 23","Sam Houston","W","401","52","148","24","41",17,TRUE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Aug 30","North Alabama","W","305","46","113","6","55",49,TRUE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Sep 6","Toledo","L","235","22","110","45","21",-24,FALSE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Sep 20","Nevada","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Sep 27","Missouri State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Fri, Oct 3","Delaware","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Nov 1","New Mexico State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Nov 15","Middle Tennessee","N",NA,NA,NA,"NA","",NA,TRUE,"2025","CUSA","85","105","--","106","107","76"
+"Western Kentucky Hilltoppers","Sat, Nov 29","Jacksonville State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","CUSA","85","105","--","106","107","76"
+"Western Michigan Broncos","Fri, Aug 29","Michigan State","L","97","21","85","23","6",-17,FALSE,"2025","MAC","126","116","--","21","108","125"
+"Western Michigan Broncos","Sat, Sep 6","North Texas","L","75","112","51","33","30",-3,TRUE,"2025","MAC","126","116","--","21","108","125"
+"Western Michigan Broncos","Sat, Sep 13"," Illinois","L","78","46","24","38","0",-38,FALSE,"2025","MAC","126","116","--","21","108","125"
+"Western Michigan Broncos","Sat, Sep 20","Toledo","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","116","--","21","108","125"
+"Western Michigan Broncos","Sat, Sep 27","Rhode Island","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","116","--","21","108","125"
+"Western Michigan Broncos","Sat, Oct 11","Ball State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","MAC","126","116","--","21","108","125"
+"Western Michigan Broncos","Sat, Oct 25","Miami (OH)","N",NA,NA,NA,"NA","",NA,FALSE,"2025","MAC","126","116","--","21","108","125"
+"Wisconsin Badgers","Sat, Sep 6","Middle Tennessee","W","283","61","102","10","42",32,TRUE,"2025","Big Ten","50","45","--","15","64","79"
+"Wisconsin Badgers","Sat, Sep 13"," Alabama","L","117","26","41","38","14",-24,FALSE,"2025","Big Ten","50","45","--","15","64","79"
+"Wisconsin Badgers","Sat, Sep 20","Maryland","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Big Ten","50","45","--","15","64","79"
+"Wyoming Cowboys","Sat, Sep 6","Northern Iowa","W","167","87","65","7","31",24,TRUE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Sep 13"," Utah","L","108","68","Jr.","31","6",-25,TRUE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Sep 20","Colorado","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Oct 4","UNLV","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Oct 11","San José State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Oct 18","Air Force","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Oct 25","Colorado State","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Nov 1","San Diego State","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Nov 22","Nevada","N",NA,NA,NA,"NA","",NA,TRUE,"2025","Mountain West","70","108","--","73","100","81"
+"Wyoming Cowboys","Sat, Nov 29","Hawai'i","N",NA,NA,NA,"NA","",NA,FALSE,"2025","Mountain West","70","108","--","73","100","81"
