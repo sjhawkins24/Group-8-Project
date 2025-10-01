@@ -1,0 +1,1976 @@
+,AP_rank,state,week,season,code,team
+0,1,Georgia,1,2024,61.0,Georgia Bulldogs
+1,2,Ohio State,1,2024,194.0,Ohio State Buckeyes
+2,3,Oregon,1,2024,2483.0,Oregon Ducks
+3,4,Texas,1,2024,251.0,Texas Longhorns
+4,5,Alabama,1,2024,333.0,Alabama Crimson Tide
+5,6,Ole Miss,1,2024,145.0,Ole Miss Rebels
+6,7,Notre Dame,1,2024,87.0,Notre Dame Fighting Irish
+7,8,Michigan,1,2024,130.0,Michigan Wolverines
+8,9,Penn State,1,2024,213.0,Penn State Nittany Lions
+9,10,Florida State,1,2024,52.0,Florida State Seminoles
+10,11,Missouri,1,2024,142.0,Missouri Tigers
+11,12,LSU,1,2024,99.0,LSU Tigers
+12,13,Utah,1,2024,254.0,Utah Utes
+13,14,Clemson,1,2024,228.0,Clemson Tigers
+14,15,Tennessee,1,2024,2633.0,Tennessee Volunteers
+15,16,Oklahoma,1,2024,201.0,Oklahoma Sooners
+16,17,Kansas State,1,2024,2306.0,Kansas State Wildcats
+17,18,Oklahoma State,1,2024,197.0,Oklahoma State Cowboys
+18,19,Miami,1,2024,2390.0,Miami Hurricanes
+19,20,Texas A&M,1,2024,245.0,Texas A&M Aggies
+20,21,Arizona,1,2024,12.0,Arizona Wildcats
+21,22,NC State,1,2024,154.0,NC State Wolfpack
+22,23,USC,1,2024,30.0,USC Trojans
+23,24,Kansas,1,2024,2305.0,Kansas Jayhawks
+24,25,Iowa,1,2024,2294.0,Iowa Hawkeyes
+25,1,Georgia,2,2024,61.0,Georgia Bulldogs
+26,2,Ohio State,2,2024,194.0,Ohio State Buckeyes
+27,3,Texas,2,2024,251.0,Texas Longhorns
+28,4,Alabama,2,2024,333.0,Alabama Crimson Tide
+29,5,Ole Miss,2,2024,145.0,Ole Miss Rebels
+30,6,Oregon,2,2024,2483.0,Oregon Ducks
+31,7,Notre Dame,2,2024,87.0,Notre Dame Fighting Irish
+32,8,Penn State,2,2024,213.0,Penn State Nittany Lions
+33,9,Michigan,2,2024,130.0,Michigan Wolverines
+34,10,Missouri,2,2024,142.0,Missouri Tigers
+35,11,Utah,2,2024,254.0,Utah Utes
+36,12,Tennessee,2,2024,2633.0,Tennessee Volunteers
+37,13,Oklahoma,2,2024,201.0,Oklahoma Sooners
+38,14,USC,2,2024,30.0,USC Trojans
+39,15,Miami,2,2024,2390.0,Miami Hurricanes
+40,16,Kansas State,2,2024,2306.0,Kansas State Wildcats
+41,17,Oklahoma State,2,2024,197.0,Oklahoma State Cowboys
+42,18,Arizona,2,2024,12.0,Arizona Wildcats
+43,19,LSU,2,2024,99.0,LSU Tigers
+44,20,Kansas,2,2024,2305.0,Kansas Jayhawks
+45,21,Iowa,2,2024,2294.0,Iowa Hawkeyes
+46,22,Clemson,2,2024,228.0,Clemson Tigers
+47,23,NC State,2,2024,154.0,NC State Wolfpack
+48,24,Louisville,2,2024,97.0,Louisville Cardinals
+49,25,Washington,2,2024,264.0,Washington Huskies
+50,1,Georgia,3,2024,61.0,Georgia Bulldogs
+51,2,Ohio State,3,2024,194.0,Ohio State Buckeyes
+52,3,Texas,3,2024,251.0,Texas Longhorns
+53,4,Alabama,3,2024,333.0,Alabama Crimson Tide
+54,5,Ole Miss,3,2024,145.0,Ole Miss Rebels
+55,6,Oregon,3,2024,2483.0,Oregon Ducks
+56,7,Penn State,3,2024,213.0,Penn State Nittany Lions
+57,8,Missouri,3,2024,142.0,Missouri Tigers
+58,9,Tennessee,3,2024,2633.0,Tennessee Volunteers
+59,10,Utah,3,2024,254.0,Utah Utes
+60,11,USC,3,2024,30.0,USC Trojans
+61,12,Miami,3,2024,2390.0,Miami Hurricanes
+62,13,Oklahoma,3,2024,201.0,Oklahoma Sooners
+63,14,Oklahoma State,3,2024,197.0,Oklahoma State Cowboys
+64,15,Kansas State,3,2024,2306.0,Kansas State Wildcats
+65,16,Michigan,3,2024,130.0,Michigan Wolverines
+66,17,LSU,3,2024,99.0,LSU Tigers
+67,18,Arizona,3,2024,12.0,Arizona Wildcats
+68,19,Notre Dame,3,2024,87.0,Notre Dame Fighting Irish
+69,20,Clemson,3,2024,228.0,Clemson Tigers
+70,21,Louisville,3,2024,97.0,Louisville Cardinals
+71,22,Washington,3,2024,264.0,Washington Huskies
+72,23,Iowa State,3,2024,66.0,Iowa State Cyclones
+73,24,Nebraska,3,2024,158.0,Nebraska Cornhuskers
+74,25,Memphis,3,2024,235.0,Memphis Tigers
+75,1,Georgia,4,2024,61.0,Georgia Bulldogs
+76,2,Texas,4,2024,251.0,Texas Longhorns
+77,3,Ohio State,4,2024,194.0,Ohio State Buckeyes
+78,4,Alabama,4,2024,333.0,Alabama Crimson Tide
+79,5,Ole Miss,4,2024,145.0,Ole Miss Rebels
+80,6,Oregon,4,2024,2483.0,Oregon Ducks
+81,7,Tennessee,4,2024,2633.0,Tennessee Volunteers
+82,8,Missouri,4,2024,142.0,Missouri Tigers
+83,8,Penn State,4,2024,213.0,Penn State Nittany Lions
+84,10,Utah,4,2024,254.0,Utah Utes
+85,11,Miami,4,2024,2390.0,Miami Hurricanes
+86,12,USC,4,2024,30.0,USC Trojans
+87,13,Oklahoma,4,2024,201.0,Oklahoma Sooners
+88,14,Kansas State,4,2024,2306.0,Kansas State Wildcats
+89,15,Oklahoma State,4,2024,197.0,Oklahoma State Cowboys
+90,16,LSU,4,2024,99.0,LSU Tigers
+91,17,Michigan,4,2024,130.0,Michigan Wolverines
+92,18,Notre Dame,4,2024,87.0,Notre Dame Fighting Irish
+93,19,Clemson,4,2024,228.0,Clemson Tigers
+94,20,Louisville,4,2024,97.0,Louisville Cardinals
+95,21,Iowa State,4,2024,66.0,Iowa State Cyclones
+96,22,Nebraska,4,2024,158.0,Nebraska Cornhuskers
+97,23,Memphis,4,2024,235.0,Memphis Tigers
+98,24,Texas A&M,4,2024,245.0,Texas A&M Aggies
+99,25,UNLV,4,2024,2439.0,UNLV Rebels
+100,1,Georgia,5,2024,61.0,Georgia Bulldogs
+101,2,Texas,5,2024,251.0,Texas Longhorns
+102,3,Ohio State,5,2024,194.0,Ohio State Buckeyes
+103,4,Alabama,5,2024,333.0,Alabama Crimson Tide
+104,5,Ole Miss,5,2024,145.0,Ole Miss Rebels
+105,6,Tennessee,5,2024,2633.0,Tennessee Volunteers
+106,7,Oregon,5,2024,2483.0,Oregon Ducks
+107,8,Penn State,5,2024,213.0,Penn State Nittany Lions
+108,9,Miami,5,2024,2390.0,Miami Hurricanes
+109,10,Utah,5,2024,254.0,Utah Utes
+110,11,Missouri,5,2024,142.0,Missouri Tigers
+111,12,Michigan,5,2024,130.0,Michigan Wolverines
+112,13,LSU,5,2024,99.0,LSU Tigers
+113,14,Notre Dame,5,2024,87.0,Notre Dame Fighting Irish
+114,15,Clemson,5,2024,228.0,Clemson Tigers
+115,16,USC,5,2024,30.0,USC Trojans
+116,17,Louisville,5,2024,97.0,Louisville Cardinals
+117,18,Oklahoma,5,2024,201.0,Oklahoma Sooners
+118,19,Iowa State,5,2024,66.0,Iowa State Cyclones
+119,20,Oklahoma State,5,2024,197.0,Oklahoma State Cowboys
+120,21,Illinois,5,2024,356.0,Illinois Fighting Illini
+121,22,BYU,5,2024,252.0,BYU Cougars
+122,23,UNLV,5,2024,2439.0,UNLV Rebels
+123,24,Texas A&M,5,2024,245.0,Texas A&M Aggies
+124,25,Kansas State,5,2024,2306.0,Kansas State Wildcats
+125,1,Texas,6,2024,251.0,Texas Longhorns
+126,2,Alabama,6,2024,333.0,Alabama Crimson Tide
+127,3,Ohio State,6,2024,194.0,Ohio State Buckeyes
+128,4,Tennessee,6,2024,2633.0,Tennessee Volunteers
+129,5,Georgia,6,2024,61.0,Georgia Bulldogs
+130,6,Oregon,6,2024,2483.0,Oregon Ducks
+131,7,Penn State,6,2024,213.0,Penn State Nittany Lions
+132,8,Miami,6,2024,2390.0,Miami Hurricanes
+133,9,Missouri,6,2024,142.0,Missouri Tigers
+134,10,Michigan,6,2024,130.0,Michigan Wolverines
+135,11,Ole Miss,6,2024,145.0,Ole Miss Rebels
+136,12,LSU,6,2024,99.0,LSU Tigers
+137,13,Notre Dame,6,2024,87.0,Notre Dame Fighting Irish
+138,14,Clemson,6,2024,228.0,Clemson Tigers
+139,15,USC,6,2024,30.0,USC Trojans
+140,16,Iowa State,6,2024,66.0,Iowa State Cyclones
+141,17,Oklahoma,6,2024,201.0,Oklahoma Sooners
+142,18,Utah,6,2024,254.0,Utah Utes
+143,19,BYU,6,2024,252.0,BYU Cougars
+144,20,Kansas State,6,2024,2306.0,Kansas State Wildcats
+145,21,Texas A&M,6,2024,245.0,Texas A&M Aggies
+146,22,Louisville,6,2024,97.0,Louisville Cardinals
+147,23,UNLV,6,2024,2439.0,UNLV Rebels
+148,24,Indiana,6,2024,84.0,Indiana Hoosiers
+149,25,Illinois,6,2024,356.0,Illinois Fighting Illini
+150,1,Texas,7,2024,251.0,Texas Longhorns
+151,2,Ohio State,7,2024,194.0,Ohio State Buckeyes
+152,3,Oregon,7,2024,2483.0,Oregon Ducks
+153,4,Georgia,7,2024,61.0,Georgia Bulldogs
+154,5,Penn State,7,2024,213.0,Penn State Nittany Lions
+155,6,Miami,7,2024,2390.0,Miami Hurricanes
+156,7,Alabama,7,2024,333.0,Alabama Crimson Tide
+157,8,Ole Miss,7,2024,145.0,Ole Miss Rebels
+158,9,Tennessee,7,2024,2633.0,Tennessee Volunteers
+159,10,LSU,7,2024,99.0,LSU Tigers
+160,11,Clemson,7,2024,228.0,Clemson Tigers
+161,12,Notre Dame,7,2024,87.0,Notre Dame Fighting Irish
+162,13,Iowa State,7,2024,66.0,Iowa State Cyclones
+163,14,Texas A&M,7,2024,245.0,Texas A&M Aggies
+164,15,BYU,7,2024,252.0,BYU Cougars
+165,16,Oklahoma,7,2024,201.0,Oklahoma Sooners
+166,17,Utah,7,2024,254.0,Utah Utes
+167,18,Missouri,7,2024,142.0,Missouri Tigers
+168,19,Kansas State,7,2024,2306.0,Kansas State Wildcats
+169,20,Indiana,7,2024,84.0,Indiana Hoosiers
+170,21,Michigan,7,2024,130.0,Michigan Wolverines
+171,22,Boise State,7,2024,68.0,Boise State Broncos
+172,23,Illinois,7,2024,356.0,Illinois Fighting Illini
+173,24,Pittsburgh,7,2024,221.0,Pittsburgh Panthers
+174,25,SMU,7,2024,2567.0,SMU Mustangs
+175,1,Texas,8,2024,251.0,Texas Longhorns
+176,2,Oregon,8,2024,2483.0,Oregon Ducks
+177,3,Penn State,8,2024,213.0,Penn State Nittany Lions
+178,4,Georgia,8,2024,61.0,Georgia Bulldogs
+179,5,Ohio State,8,2024,194.0,Ohio State Buckeyes
+180,6,Miami,8,2024,2390.0,Miami Hurricanes
+181,7,Alabama,8,2024,333.0,Alabama Crimson Tide
+182,8,LSU,8,2024,99.0,LSU Tigers
+183,9,Clemson,8,2024,228.0,Clemson Tigers
+184,10,Tennessee,8,2024,2633.0,Tennessee Volunteers
+185,11,Notre Dame,8,2024,87.0,Notre Dame Fighting Irish
+186,12,Iowa State,8,2024,66.0,Iowa State Cyclones
+187,13,BYU,8,2024,252.0,BYU Cougars
+188,14,Texas A&M,8,2024,245.0,Texas A&M Aggies
+189,15,Ole Miss,8,2024,145.0,Ole Miss Rebels
+190,16,Missouri,8,2024,142.0,Missouri Tigers
+191,17,Kansas State,8,2024,2306.0,Kansas State Wildcats
+192,18,Indiana,8,2024,84.0,Indiana Hoosiers
+193,19,Boise State,8,2024,68.0,Boise State Broncos
+194,20,Pittsburgh,8,2024,221.0,Pittsburgh Panthers
+195,21,Illinois,8,2024,356.0,Illinois Fighting Illini
+196,22,Michigan,8,2024,130.0,Michigan Wolverines
+197,23,SMU,8,2024,2567.0,SMU Mustangs
+198,24,Army,8,2024,349.0,Army Black Knights
+199,25,Nebraska,8,2024,158.0,Nebraska Cornhuskers
+200,1,Oregon,9,2024,2483.0,Oregon Ducks
+201,2,Georgia,9,2024,61.0,Georgia Bulldogs
+202,3,Penn State,9,2024,213.0,Penn State Nittany Lions
+203,4,Ohio State,9,2024,194.0,Ohio State Buckeyes
+204,5,Miami,9,2024,2390.0,Miami Hurricanes
+205,6,Texas,9,2024,251.0,Texas Longhorns
+206,7,LSU,9,2024,99.0,LSU Tigers
+207,8,Tennessee,9,2024,2633.0,Tennessee Volunteers
+208,9,Clemson,9,2024,228.0,Clemson Tigers
+209,10,Iowa State,9,2024,66.0,Iowa State Cyclones
+210,11,Notre Dame,9,2024,87.0,Notre Dame Fighting Irish
+211,12,BYU,9,2024,252.0,BYU Cougars
+212,13,Indiana,9,2024,84.0,Indiana Hoosiers
+213,14,Texas A&M,9,2024,245.0,Texas A&M Aggies
+214,15,Alabama,9,2024,333.0,Alabama Crimson Tide
+215,16,Kansas State,9,2024,2306.0,Kansas State Wildcats
+216,17,Missouri,9,2024,142.0,Missouri Tigers
+217,18,Ole Miss,9,2024,145.0,Ole Miss Rebels
+218,19,Boise State,9,2024,68.0,Boise State Broncos
+219,20,Pittsburgh,9,2024,221.0,Pittsburgh Panthers
+220,21,Illinois,9,2024,356.0,Illinois Fighting Illini
+221,22,SMU,9,2024,2567.0,SMU Mustangs
+222,23,Army,9,2024,349.0,Army Black Knights
+223,24,Navy,9,2024,2426.0,Navy Midshipmen
+224,25,Vanderbilt,9,2024,238.0,Vanderbilt Commodores
+225,1,Oregon,10,2024,2483.0,Oregon Ducks
+226,2,Georgia,10,2024,61.0,Georgia Bulldogs
+227,3,Penn State,10,2024,213.0,Penn State Nittany Lions
+228,4,Ohio State,10,2024,194.0,Ohio State Buckeyes
+229,5,Miami,10,2024,2390.0,Miami Hurricanes
+230,6,Texas,10,2024,251.0,Texas Longhorns
+231,7,Tennessee,10,2024,2633.0,Tennessee Volunteers
+232,8,Clemson,10,2024,228.0,Clemson Tigers
+233,9,Notre Dame,10,2024,87.0,Notre Dame Fighting Irish
+234,10,Iowa State,10,2024,66.0,Iowa State Cyclones
+235,11,Texas A&M,10,2024,245.0,Texas A&M Aggies
+236,12,BYU,10,2024,252.0,BYU Cougars
+237,13,Indiana,10,2024,84.0,Indiana Hoosiers
+238,14,Alabama,10,2024,333.0,Alabama Crimson Tide
+239,15,Kansas State,10,2024,2306.0,Kansas State Wildcats
+240,16,LSU,10,2024,99.0,LSU Tigers
+241,17,Pittsburgh,10,2024,221.0,Pittsburgh Panthers
+242,18,Ole Miss,10,2024,145.0,Ole Miss Rebels
+243,19,Boise State,10,2024,68.0,Boise State Broncos
+244,20,SMU,10,2024,2567.0,SMU Mustangs
+245,21,Army,10,2024,349.0,Army Black Knights
+246,22,Washington State,10,2024,265.0,Washington State Cougars
+247,23,Missouri,10,2024,142.0,Missouri Tigers
+248,24,Illinois,10,2024,356.0,Illinois Fighting Illini
+249,25,Memphis,10,2024,235.0,Memphis Tigers
+250,1,Oregon,11,2024,2483.0,Oregon Ducks
+251,2,Georgia,11,2024,61.0,Georgia Bulldogs
+252,3,Ohio State,11,2024,194.0,Ohio State Buckeyes
+253,4,Miami,11,2024,2390.0,Miami Hurricanes
+254,5,Texas,11,2024,251.0,Texas Longhorns
+255,6,Penn State,11,2024,213.0,Penn State Nittany Lions
+256,7,Tennessee,11,2024,2633.0,Tennessee Volunteers
+257,8,Indiana,11,2024,84.0,Indiana Hoosiers
+258,9,BYU,11,2024,252.0,BYU Cougars
+259,10,Notre Dame,11,2024,87.0,Notre Dame Fighting Irish
+260,11,Alabama,11,2024,333.0,Alabama Crimson Tide
+261,12,Boise State,11,2024,68.0,Boise State Broncos
+262,13,SMU,11,2024,2567.0,SMU Mustangs
+263,14,LSU,11,2024,99.0,LSU Tigers
+264,15,Texas A&M,11,2024,245.0,Texas A&M Aggies
+265,16,Ole Miss,11,2024,145.0,Ole Miss Rebels
+266,17,Iowa State,11,2024,66.0,Iowa State Cyclones
+267,18,Army,11,2024,349.0,Army Black Knights
+268,19,Clemson,11,2024,228.0,Clemson Tigers
+269,20,Washington State,11,2024,265.0,Washington State Cougars
+270,21,Colorado,11,2024,38.0,Colorado Buffaloes
+271,22,Kansas State,11,2024,2306.0,Kansas State Wildcats
+272,23,Pittsburgh,11,2024,221.0,Pittsburgh Panthers
+273,24,Vanderbilt,11,2024,238.0,Vanderbilt Commodores
+274,25,Louisville,11,2024,97.0,Louisville Cardinals
+275,1,Oregon,12,2024,2483.0,Oregon Ducks
+276,2,Ohio State,12,2024,194.0,Ohio State Buckeyes
+277,3,Texas,12,2024,251.0,Texas Longhorns
+278,4,Penn State,12,2024,213.0,Penn State Nittany Lions
+279,5,Indiana,12,2024,84.0,Indiana Hoosiers
+280,6,Tennessee,12,2024,2633.0,Tennessee Volunteers
+281,7,BYU,12,2024,252.0,BYU Cougars
+282,8,Notre Dame,12,2024,87.0,Notre Dame Fighting Irish
+283,9,Alabama,12,2024,333.0,Alabama Crimson Tide
+284,10,Ole Miss,12,2024,145.0,Ole Miss Rebels
+285,11,Georgia,12,2024,61.0,Georgia Bulldogs
+286,12,Miami,12,2024,2390.0,Miami Hurricanes
+287,13,Boise State,12,2024,68.0,Boise State Broncos
+288,14,SMU,12,2024,2567.0,SMU Mustangs
+289,15,Texas A&M,12,2024,245.0,Texas A&M Aggies
+290,16,Army,12,2024,349.0,Army Black Knights
+291,17,Clemson,12,2024,228.0,Clemson Tigers
+292,18,Colorado,12,2024,38.0,Colorado Buffaloes
+293,19,Washington State,12,2024,265.0,Washington State Cougars
+294,20,Kansas State,12,2024,2306.0,Kansas State Wildcats
+295,21,LSU,12,2024,99.0,LSU Tigers
+296,22,Louisville,12,2024,97.0,Louisville Cardinals
+297,23,South Carolina,12,2024,2579.0,South Carolina Gamecocks
+298,24,Missouri,12,2024,142.0,Missouri Tigers
+299,25,Tulane,12,2024,2655.0,Tulane Green Wave
+300,1,Oregon,13,2024,2483.0,Oregon Ducks
+301,2,Ohio State,13,2024,194.0,Ohio State Buckeyes
+302,3,Texas,13,2024,251.0,Texas Longhorns
+303,4,Penn State,13,2024,213.0,Penn State Nittany Lions
+304,5,Indiana,13,2024,84.0,Indiana Hoosiers
+305,6,Notre Dame,13,2024,87.0,Notre Dame Fighting Irish
+306,7,Alabama,13,2024,333.0,Alabama Crimson Tide
+307,8,Georgia,13,2024,61.0,Georgia Bulldogs
+308,9,Ole Miss,13,2024,145.0,Ole Miss Rebels
+309,10,Tennessee,13,2024,2633.0,Tennessee Volunteers
+310,11,Miami,13,2024,2390.0,Miami Hurricanes
+311,12,Boise State,13,2024,68.0,Boise State Broncos
+312,13,SMU,13,2024,2567.0,SMU Mustangs
+313,14,BYU,13,2024,252.0,BYU Cougars
+314,15,Texas A&M,13,2024,245.0,Texas A&M Aggies
+315,16,Colorado,13,2024,38.0,Colorado Buffaloes
+316,17,Clemson,13,2024,228.0,Clemson Tigers
+317,18,Army,13,2024,349.0,Army Black Knights
+318,19,South Carolina,13,2024,2579.0,South Carolina Gamecocks
+319,20,Tulane,13,2024,2655.0,Tulane Green Wave
+320,21,Arizona State,13,2024,9.0,Arizona State Sun Devils
+321,22,Iowa State,13,2024,66.0,Iowa State Cyclones
+322,23,UNLV,13,2024,2439.0,UNLV Rebels
+323,24,Illinois,13,2024,356.0,Illinois Fighting Illini
+324,25,Washington State,13,2024,265.0,Washington State Cougars
+325,1,Oregon,14,2024,2483.0,Oregon Ducks
+326,2,Ohio State,14,2024,194.0,Ohio State Buckeyes
+327,3,Texas,14,2024,251.0,Texas Longhorns
+328,4,Penn State,14,2024,213.0,Penn State Nittany Lions
+329,5,Notre Dame,14,2024,87.0,Notre Dame Fighting Irish
+330,6,Georgia,14,2024,61.0,Georgia Bulldogs
+331,7,Tennessee,14,2024,2633.0,Tennessee Volunteers
+332,8,Miami,14,2024,2390.0,Miami Hurricanes
+333,9,SMU,14,2024,2567.0,SMU Mustangs
+334,10,Indiana,14,2024,84.0,Indiana Hoosiers
+335,11,Boise State,14,2024,68.0,Boise State Broncos
+336,12,Clemson,14,2024,228.0,Clemson Tigers
+337,13,Alabama,14,2024,333.0,Alabama Crimson Tide
+338,14,Arizona State,14,2024,9.0,Arizona State Sun Devils
+339,15,Ole Miss,14,2024,145.0,Ole Miss Rebels
+340,16,South Carolina,14,2024,2579.0,South Carolina Gamecocks
+341,17,Iowa State,14,2024,66.0,Iowa State Cyclones
+342,18,Tulane,14,2024,2655.0,Tulane Green Wave
+343,19,BYU,14,2024,252.0,BYU Cougars
+344,20,Texas A&M,14,2024,245.0,Texas A&M Aggies
+345,21,UNLV,14,2024,2439.0,UNLV Rebels
+346,22,Illinois,14,2024,356.0,Illinois Fighting Illini
+347,23,Colorado,14,2024,38.0,Colorado Buffaloes
+348,24,Missouri,14,2024,142.0,Missouri Tigers
+349,25,Army,14,2024,349.0,Army Black Knights
+350,1,Oregon,15,2024,2483.0,Oregon Ducks
+351,2,Texas,15,2024,251.0,Texas Longhorns
+352,3,Penn State,15,2024,213.0,Penn State Nittany Lions
+353,4,Notre Dame,15,2024,87.0,Notre Dame Fighting Irish
+354,5,Georgia,15,2024,61.0,Georgia Bulldogs
+355,6,Tennessee,15,2024,2633.0,Tennessee Volunteers
+356,7,Ohio State,15,2024,194.0,Ohio State Buckeyes
+357,8,SMU,15,2024,2567.0,SMU Mustangs
+358,9,Indiana,15,2024,84.0,Indiana Hoosiers
+359,10,Boise State,15,2024,68.0,Boise State Broncos
+360,11,Alabama,15,2024,333.0,Alabama Crimson Tide
+361,12,Arizona State,15,2024,9.0,Arizona State Sun Devils
+362,13,South Carolina,15,2024,2579.0,South Carolina Gamecocks
+363,14,Miami,15,2024,2390.0,Miami Hurricanes
+364,15,Ole Miss,15,2024,145.0,Ole Miss Rebels
+365,16,Iowa State,15,2024,66.0,Iowa State Cyclones
+366,17,BYU,15,2024,252.0,BYU Cougars
+367,18,Clemson,15,2024,228.0,Clemson Tigers
+368,19,UNLV,15,2024,2439.0,UNLV Rebels
+369,20,Colorado,15,2024,38.0,Colorado Buffaloes
+370,21,Illinois,15,2024,356.0,Illinois Fighting Illini
+371,22,Missouri,15,2024,142.0,Missouri Tigers
+372,23,Syracuse,15,2024,183.0,Syracuse Orange
+373,24,Army,15,2024,349.0,Army Black Knights
+374,25,Memphis,15,2024,235.0,Memphis Tigers
+375,1,Ohio State,16,2024,194.0,Ohio State Buckeyes
+376,2,Notre Dame,16,2024,87.0,Notre Dame Fighting Irish
+377,3,Texas,16,2024,251.0,Texas Longhorns
+378,4,Oregon,16,2024,2483.0,Oregon Ducks
+379,5,Penn State,16,2024,213.0,Penn State Nittany Lions
+380,6,Georgia,16,2024,61.0,Georgia Bulldogs
+381,7,Arizona State,16,2024,9.0,Arizona State Sun Devils
+382,8,Tennessee,16,2024,2633.0,Tennessee Volunteers
+383,9,Boise State,16,2024,68.0,Boise State Broncos
+384,10,Indiana,16,2024,84.0,Indiana Hoosiers
+385,11,Clemson,16,2024,228.0,Clemson Tigers
+386,11,SMU,16,2024,2567.0,SMU Mustangs
+387,13,Ole Miss,16,2024,145.0,Ole Miss Rebels
+388,14,BYU,16,2024,252.0,BYU Cougars
+389,15,Iowa State,16,2024,66.0,Iowa State Cyclones
+390,16,Illinois,16,2024,356.0,Illinois Fighting Illini
+391,17,Alabama,16,2024,333.0,Alabama Crimson Tide
+392,18,Miami,16,2024,2390.0,Miami Hurricanes
+393,19,South Carolina,16,2024,2579.0,South Carolina Gamecocks
+394,20,Missouri,16,2024,142.0,Missouri Tigers
+395,21,Army,16,2024,349.0,Army Black Knights
+396,22,Syracuse,16,2024,183.0,Syracuse Orange
+397,23,Memphis,16,2024,235.0,Memphis Tigers
+398,24,UNLV,16,2024,2439.0,UNLV Rebels
+399,25,Colorado,16,2024,38.0,Colorado Buffaloes
+400,1,Georgia,1,2023,61.0,Georgia Bulldogs
+401,2,Michigan,1,2023,130.0,Michigan Wolverines
+402,3,Alabama,1,2023,333.0,Alabama Crimson Tide
+403,4,Ohio State,1,2023,194.0,Ohio State Buckeyes
+404,5,LSU,1,2023,99.0,LSU Tigers
+405,6,USC,1,2023,30.0,USC Trojans
+406,7,Penn State,1,2023,213.0,Penn State Nittany Lions
+407,8,Florida State,1,2023,52.0,Florida State Seminoles
+408,9,Clemson,1,2023,228.0,Clemson Tigers
+409,10,Tennessee,1,2023,2633.0,Tennessee Volunteers
+410,11,Washington,1,2023,264.0,Washington Huskies
+411,12,Texas,1,2023,251.0,Texas Longhorns
+412,13,Notre Dame,1,2023,87.0,Notre Dame Fighting Irish
+413,14,Utah,1,2023,254.0,Utah Utes
+414,15,Oregon,1,2023,2483.0,Oregon Ducks
+415,16,TCU,1,2023,2628.0,TCU Horned Frogs
+416,17,Kansas State,1,2023,2306.0,Kansas State Wildcats
+417,18,Oregon State,1,2023,204.0,Oregon State Beavers
+418,19,Oklahoma,1,2023,201.0,Oklahoma Sooners
+419,20,North Carolina,1,2023,153.0,North Carolina Tar Heels
+420,21,Wisconsin,1,2023,275.0,Wisconsin Badgers
+421,22,Ole Miss,1,2023,145.0,Ole Miss Rebels
+422,23,Tulane,1,2023,2655.0,Tulane Green Wave
+423,24,Texas Tech,1,2023,2641.0,Texas Tech Red Raiders
+424,25,Texas A&M,1,2023,245.0,Texas A&M Aggies
+425,1,Georgia,2,2023,61.0,Georgia Bulldogs
+426,2,Michigan,2,2023,130.0,Michigan Wolverines
+427,3,Alabama,2,2023,333.0,Alabama Crimson Tide
+428,4,Ohio State,2,2023,194.0,Ohio State Buckeyes
+429,5,Florida State,2,2023,52.0,Florida State Seminoles
+430,6,USC,2,2023,30.0,USC Trojans
+431,7,Penn State,2,2023,213.0,Penn State Nittany Lions
+432,8,Washington,2,2023,264.0,Washington Huskies
+433,9,Tennessee,2,2023,2633.0,Tennessee Volunteers
+434,10,Texas,2,2023,251.0,Texas Longhorns
+435,11,Notre Dame,2,2023,87.0,Notre Dame Fighting Irish
+436,12,Utah,2,2023,254.0,Utah Utes
+437,13,Oregon,2,2023,2483.0,Oregon Ducks
+438,14,LSU,2,2023,99.0,LSU Tigers
+439,15,Kansas State,2,2023,2306.0,Kansas State Wildcats
+440,16,North Carolina,2,2023,153.0,North Carolina Tar Heels
+441,17,Oklahoma,2,2023,201.0,Oklahoma Sooners
+442,18,Oregon State,2,2023,204.0,Oregon State Beavers
+443,19,Wisconsin,2,2023,275.0,Wisconsin Badgers
+444,20,Ole Miss,2,2023,145.0,Ole Miss Rebels
+445,21,Clemson,2,2023,228.0,Clemson Tigers
+446,22,Tulane,2,2023,2655.0,Tulane Green Wave
+447,23,Texas A&M,2,2023,245.0,Texas A&M Aggies
+448,24,Duke,2,2023,150.0,Duke Blue Devils
+449,25,Colorado,2,2023,38.0,Colorado Buffaloes
+450,1,Georgia,3,2023,61.0,Georgia Bulldogs
+451,2,Michigan,3,2023,130.0,Michigan Wolverines
+452,3,Florida State,3,2023,52.0,Florida State Seminoles
+453,4,Ohio State,3,2023,194.0,Ohio State Buckeyes
+454,5,USC,3,2023,30.0,USC Trojans
+455,6,Texas,3,2023,251.0,Texas Longhorns
+456,7,Penn State,3,2023,213.0,Penn State Nittany Lions
+457,8,Washington,3,2023,264.0,Washington Huskies
+458,9,Tennessee,3,2023,2633.0,Tennessee Volunteers
+459,10,Alabama,3,2023,333.0,Alabama Crimson Tide
+460,11,Notre Dame,3,2023,87.0,Notre Dame Fighting Irish
+461,12,Utah,3,2023,254.0,Utah Utes
+462,13,Oregon,3,2023,2483.0,Oregon Ducks
+463,14,LSU,3,2023,99.0,LSU Tigers
+464,15,Kansas State,3,2023,2306.0,Kansas State Wildcats
+465,16,Oklahoma,3,2023,201.0,Oklahoma Sooners
+466,17,Oregon State,3,2023,204.0,Oregon State Beavers
+467,18,North Carolina,3,2023,153.0,North Carolina Tar Heels
+468,19,Ole Miss,3,2023,145.0,Ole Miss Rebels
+469,20,Duke,3,2023,150.0,Duke Blue Devils
+470,21,Colorado,3,2023,38.0,Colorado Buffaloes
+471,22,Clemson,3,2023,228.0,Clemson Tigers
+472,23,Miami,3,2023,2390.0,Miami Hurricanes
+473,24,Iowa,3,2023,2294.0,Iowa Hawkeyes
+474,25,UCLA,3,2023,26.0,UCLA Bruins
+475,1,Georgia,4,2023,61.0,Georgia Bulldogs
+476,2,Michigan,4,2023,130.0,Michigan Wolverines
+477,3,Florida State,4,2023,52.0,Florida State Seminoles
+478,4,Ohio State,4,2023,194.0,Ohio State Buckeyes
+479,5,USC,4,2023,30.0,USC Trojans
+480,6,Texas,4,2023,251.0,Texas Longhorns
+481,7,Penn State,4,2023,213.0,Penn State Nittany Lions
+482,8,Washington,4,2023,264.0,Washington Huskies
+483,9,Notre Dame,4,2023,87.0,Notre Dame Fighting Irish
+484,10,Utah,4,2023,254.0,Utah Utes
+485,11,Oregon,4,2023,2483.0,Oregon Ducks
+486,12,Alabama,4,2023,333.0,Alabama Crimson Tide
+487,13,LSU,4,2023,99.0,LSU Tigers
+488,14,Oklahoma,4,2023,201.0,Oklahoma Sooners
+489,15,Oregon State,4,2023,204.0,Oregon State Beavers
+490,16,Ole Miss,4,2023,145.0,Ole Miss Rebels
+491,17,North Carolina,4,2023,153.0,North Carolina Tar Heels
+492,18,Duke,4,2023,150.0,Duke Blue Devils
+493,19,Colorado,4,2023,38.0,Colorado Buffaloes
+494,20,Tennessee,4,2023,2633.0,Tennessee Volunteers
+495,21,Miami,4,2023,2390.0,Miami Hurricanes
+496,22,Iowa,4,2023,2294.0,Iowa Hawkeyes
+497,23,Clemson,4,2023,228.0,Clemson Tigers
+498,24,Washington State,4,2023,265.0,Washington State Cougars
+499,25,UCLA,4,2023,26.0,UCLA Bruins
+500,1,Georgia,5,2023,61.0,Georgia Bulldogs
+501,2,Michigan,5,2023,130.0,Michigan Wolverines
+502,3,Ohio State,5,2023,194.0,Ohio State Buckeyes
+503,4,Florida State,5,2023,52.0,Florida State Seminoles
+504,5,Texas,5,2023,251.0,Texas Longhorns
+505,6,USC,5,2023,30.0,USC Trojans
+506,7,Penn State,5,2023,213.0,Penn State Nittany Lions
+507,8,Washington,5,2023,264.0,Washington Huskies
+508,9,Oregon,5,2023,2483.0,Oregon Ducks
+509,10,Utah,5,2023,254.0,Utah Utes
+510,11,Alabama,5,2023,333.0,Alabama Crimson Tide
+511,12,LSU,5,2023,99.0,LSU Tigers
+512,13,Notre Dame,5,2023,87.0,Notre Dame Fighting Irish
+513,14,Oklahoma,5,2023,201.0,Oklahoma Sooners
+514,15,North Carolina,5,2023,153.0,North Carolina Tar Heels
+515,16,Duke,5,2023,150.0,Duke Blue Devils
+516,17,Washington State,5,2023,265.0,Washington State Cougars
+517,18,Miami,5,2023,2390.0,Miami Hurricanes
+518,19,Tennessee,5,2023,2633.0,Tennessee Volunteers
+519,20,Ole Miss,5,2023,145.0,Ole Miss Rebels
+520,21,Oregon State,5,2023,204.0,Oregon State Beavers
+521,22,Missouri,5,2023,142.0,Missouri Tigers
+522,23,Florida,5,2023,57.0,Florida Gators
+523,24,Kansas,5,2023,2305.0,Kansas Jayhawks
+524,25,Kansas State,5,2023,2306.0,Kansas State Wildcats
+525,1,Georgia,6,2023,61.0,Georgia Bulldogs
+526,2,Michigan,6,2023,130.0,Michigan Wolverines
+527,3,Ohio State,6,2023,194.0,Ohio State Buckeyes
+528,4,Texas,6,2023,251.0,Texas Longhorns
+529,5,Florida State,6,2023,52.0,Florida State Seminoles
+530,6,Penn State,6,2023,213.0,Penn State Nittany Lions
+531,7,USC,6,2023,30.0,USC Trojans
+532,8,Washington,6,2023,264.0,Washington Huskies
+533,9,Oregon,6,2023,2483.0,Oregon Ducks
+534,10,Alabama,6,2023,333.0,Alabama Crimson Tide
+535,11,Notre Dame,6,2023,87.0,Notre Dame Fighting Irish
+536,12,Oklahoma,6,2023,201.0,Oklahoma Sooners
+537,13,North Carolina,6,2023,153.0,North Carolina Tar Heels
+538,14,Washington State,6,2023,265.0,Washington State Cougars
+539,15,Ole Miss,6,2023,145.0,Ole Miss Rebels
+540,16,Oregon State,6,2023,204.0,Oregon State Beavers
+541,17,Miami,6,2023,2390.0,Miami Hurricanes
+542,18,Tennessee,6,2023,2633.0,Tennessee Volunteers
+543,19,Utah,6,2023,254.0,Utah Utes
+544,20,Kentucky,6,2023,96.0,Kentucky Wildcats
+545,21,Duke,6,2023,150.0,Duke Blue Devils
+546,22,Missouri,6,2023,142.0,Missouri Tigers
+547,23,LSU,6,2023,99.0,LSU Tigers
+548,24,Fresno State,6,2023,278.0,Fresno State Bulldogs
+549,25,Louisville,6,2023,97.0,Louisville Cardinals
+550,1,Georgia,7,2023,61.0,Georgia Bulldogs
+551,2,Michigan,7,2023,130.0,Michigan Wolverines
+552,3,Ohio State,7,2023,194.0,Ohio State Buckeyes
+553,4,Florida State,7,2023,52.0,Florida State Seminoles
+554,5,Penn State,7,2023,213.0,Penn State Nittany Lions
+555,6,Washington,7,2023,264.0,Washington Huskies
+556,7,Oklahoma,7,2023,201.0,Oklahoma Sooners
+557,8,Oregon,7,2023,2483.0,Oregon Ducks
+558,9,USC,7,2023,30.0,USC Trojans
+559,10,Alabama,7,2023,333.0,Alabama Crimson Tide
+560,11,Texas,7,2023,251.0,Texas Longhorns
+561,12,North Carolina,7,2023,153.0,North Carolina Tar Heels
+562,13,Ole Miss,7,2023,145.0,Ole Miss Rebels
+563,14,Oregon State,7,2023,204.0,Oregon State Beavers
+564,15,Louisville,7,2023,97.0,Louisville Cardinals
+565,16,Utah,7,2023,254.0,Utah Utes
+566,17,Tennessee,7,2023,2633.0,Tennessee Volunteers
+567,18,Duke,7,2023,150.0,Duke Blue Devils
+568,19,Washington State,7,2023,265.0,Washington State Cougars
+569,20,LSU,7,2023,99.0,LSU Tigers
+570,21,Notre Dame,7,2023,87.0,Notre Dame Fighting Irish
+571,22,UCLA,7,2023,26.0,UCLA Bruins
+572,23,Kentucky,7,2023,96.0,Kentucky Wildcats
+573,24,Kansas,7,2023,2305.0,Kansas Jayhawks
+574,25,Missouri,7,2023,142.0,Missouri Tigers
+575,1,Georgia,8,2023,61.0,Georgia Bulldogs
+576,2,Michigan,8,2023,130.0,Michigan Wolverines
+577,3,Ohio State,8,2023,194.0,Ohio State Buckeyes
+578,4,Florida State,8,2023,52.0,Florida State Seminoles
+579,5,Washington,8,2023,264.0,Washington Huskies
+580,6,Penn State,8,2023,213.0,Penn State Nittany Lions
+581,7,Oklahoma,8,2023,201.0,Oklahoma Sooners
+582,8,Texas,8,2023,251.0,Texas Longhorns
+583,8,Alabama,8,2023,333.0,Alabama Crimson Tide
+584,10,North Carolina,8,2023,153.0,North Carolina Tar Heels
+585,11,Oregon,8,2023,2483.0,Oregon Ducks
+586,12,Ole Miss,8,2023,145.0,Ole Miss Rebels
+587,13,Oregon State,8,2023,204.0,Oregon State Beavers
+588,14,Utah,8,2023,254.0,Utah Utes
+589,15,Tennessee,8,2023,2633.0,Tennessee Volunteers
+590,16,USC,8,2023,30.0,USC Trojans
+591,17,Duke,8,2023,150.0,Duke Blue Devils
+592,18,Notre Dame,8,2023,87.0,Notre Dame Fighting Irish
+593,19,LSU,8,2023,99.0,LSU Tigers
+594,20,Missouri,8,2023,142.0,Missouri Tigers
+595,21,Louisville,8,2023,97.0,Louisville Cardinals
+596,22,Air Force,8,2023,2005.0,Air Force Falcons
+597,23,Iowa,8,2023,2294.0,Iowa Hawkeyes
+598,24,Tulane,8,2023,2655.0,Tulane Green Wave
+599,25,UCLA,8,2023,26.0,UCLA Bruins
+600,1,Georgia,9,2023,61.0,Georgia Bulldogs
+601,2,Michigan,9,2023,130.0,Michigan Wolverines
+602,3,Ohio State,9,2023,194.0,Ohio State Buckeyes
+603,4,Florida State,9,2023,52.0,Florida State Seminoles
+604,5,Washington,9,2023,264.0,Washington Huskies
+605,6,Oklahoma,9,2023,201.0,Oklahoma Sooners
+606,7,Texas,9,2023,251.0,Texas Longhorns
+607,8,Alabama,9,2023,333.0,Alabama Crimson Tide
+608,9,Oregon,9,2023,2483.0,Oregon Ducks
+609,10,Penn State,9,2023,213.0,Penn State Nittany Lions
+610,11,Ole Miss,9,2023,145.0,Ole Miss Rebels
+611,12,Oregon State,9,2023,204.0,Oregon State Beavers
+612,13,Utah,9,2023,254.0,Utah Utes
+613,14,Notre Dame,9,2023,87.0,Notre Dame Fighting Irish
+614,15,LSU,9,2023,99.0,LSU Tigers
+615,16,Missouri,9,2023,142.0,Missouri Tigers
+616,17,North Carolina,9,2023,153.0,North Carolina Tar Heels
+617,18,Louisville,9,2023,97.0,Louisville Cardinals
+618,19,Air Force,9,2023,2005.0,Air Force Falcons
+619,20,Tennessee,9,2023,2633.0,Tennessee Volunteers
+620,21,Duke,9,2023,150.0,Duke Blue Devils
+621,22,USC,9,2023,30.0,USC Trojans
+622,23,Tulane,9,2023,2655.0,Tulane Green Wave
+623,24,UCLA,9,2023,26.0,UCLA Bruins
+624,25,James Madison,9,2023,256.0,James Madison Dukes
+625,1,Georgia,10,2023,61.0,Georgia Bulldogs
+626,2,Michigan,10,2023,130.0,Michigan Wolverines
+627,3,Ohio State,10,2023,194.0,Ohio State Buckeyes
+628,4,Florida State,10,2023,52.0,Florida State Seminoles
+629,5,Washington,10,2023,264.0,Washington Huskies
+630,6,Oregon,10,2023,2483.0,Oregon Ducks
+631,7,Texas,10,2023,251.0,Texas Longhorns
+632,8,Alabama,10,2023,333.0,Alabama Crimson Tide
+633,9,Penn State,10,2023,213.0,Penn State Nittany Lions
+634,10,Oklahoma,10,2023,201.0,Oklahoma Sooners
+635,11,Ole Miss,10,2023,145.0,Ole Miss Rebels
+636,12,Notre Dame,10,2023,87.0,Notre Dame Fighting Irish
+637,13,LSU,10,2023,99.0,LSU Tigers
+638,14,Missouri,10,2023,142.0,Missouri Tigers
+639,15,Louisville,10,2023,97.0,Louisville Cardinals
+640,16,Oregon State,10,2023,204.0,Oregon State Beavers
+641,17,Air Force,10,2023,2005.0,Air Force Falcons
+642,18,Utah,10,2023,254.0,Utah Utes
+643,19,Tennessee,10,2023,2633.0,Tennessee Volunteers
+644,20,UCLA,10,2023,26.0,UCLA Bruins
+645,21,Tulane,10,2023,2655.0,Tulane Green Wave
+646,22,Kansas,10,2023,2305.0,Kansas Jayhawks
+647,23,James Madison,10,2023,256.0,James Madison Dukes
+648,24,USC,10,2023,30.0,USC Trojans
+649,25,Kansas State,10,2023,2306.0,Kansas State Wildcats
+650,1,Georgia,11,2023,61.0,Georgia Bulldogs
+651,2,Michigan,11,2023,130.0,Michigan Wolverines
+652,3,Ohio State,11,2023,194.0,Ohio State Buckeyes
+653,4,Florida State,11,2023,52.0,Florida State Seminoles
+654,5,Washington,11,2023,264.0,Washington Huskies
+655,6,Oregon,11,2023,2483.0,Oregon Ducks
+656,7,Texas,11,2023,251.0,Texas Longhorns
+657,8,Alabama,11,2023,333.0,Alabama Crimson Tide
+658,9,Penn State,11,2023,213.0,Penn State Nittany Lions
+659,10,Ole Miss,11,2023,145.0,Ole Miss Rebels
+660,11,Louisville,11,2023,97.0,Louisville Cardinals
+661,12,Oregon State,11,2023,204.0,Oregon State Beavers
+662,13,Utah,11,2023,254.0,Utah Utes
+663,14,Tennessee,11,2023,2633.0,Tennessee Volunteers
+664,15,Oklahoma State,11,2023,197.0,Oklahoma State Cowboys
+665,16,Missouri,11,2023,142.0,Missouri Tigers
+666,17,Oklahoma,11,2023,201.0,Oklahoma Sooners
+667,18,LSU,11,2023,99.0,LSU Tigers
+668,19,Kansas,11,2023,2305.0,Kansas Jayhawks
+669,20,Tulane,11,2023,2655.0,Tulane Green Wave
+670,21,James Madison,11,2023,256.0,James Madison Dukes
+671,22,Notre Dame,11,2023,87.0,Notre Dame Fighting Irish
+672,23,Arizona,11,2023,12.0,Arizona Wildcats
+673,24,North Carolina,11,2023,153.0,North Carolina Tar Heels
+674,25,Liberty,11,2023,2335.0,Liberty Flames
+675,1,Georgia,12,2023,61.0,Georgia Bulldogs
+676,2,Michigan,12,2023,130.0,Michigan Wolverines
+677,3,Ohio State,12,2023,194.0,Ohio State Buckeyes
+678,4,Florida State,12,2023,52.0,Florida State Seminoles
+679,5,Washington,12,2023,264.0,Washington Huskies
+680,6,Oregon,12,2023,2483.0,Oregon Ducks
+681,7,Texas,12,2023,251.0,Texas Longhorns
+682,8,Alabama,12,2023,333.0,Alabama Crimson Tide
+683,9,Louisville,12,2023,97.0,Louisville Cardinals
+684,10,Oregon State,12,2023,204.0,Oregon State Beavers
+685,11,Missouri,12,2023,142.0,Missouri Tigers
+686,12,Penn State,12,2023,213.0,Penn State Nittany Lions
+687,13,Ole Miss,12,2023,145.0,Ole Miss Rebels
+688,14,Oklahoma,12,2023,201.0,Oklahoma Sooners
+689,15,LSU,12,2023,99.0,LSU Tigers
+690,16,Utah,12,2023,254.0,Utah Utes
+691,17,Tulane,12,2023,2655.0,Tulane Green Wave
+692,18,James Madison,12,2023,256.0,James Madison Dukes
+693,19,Arizona,12,2023,12.0,Arizona Wildcats
+694,20,Notre Dame,12,2023,87.0,Notre Dame Fighting Irish
+695,21,Tennessee,12,2023,2633.0,Tennessee Volunteers
+696,22,North Carolina,12,2023,153.0,North Carolina Tar Heels
+697,23,Kansas State,12,2023,2306.0,Kansas State Wildcats
+698,24,Oklahoma State,12,2023,197.0,Oklahoma State Cowboys
+699,25,Liberty,12,2023,2335.0,Liberty Flames
+700,1,Georgia,13,2023,61.0,Georgia Bulldogs
+701,2,Ohio State,13,2023,194.0,Ohio State Buckeyes
+702,3,Michigan,13,2023,130.0,Michigan Wolverines
+703,4,Washington,13,2023,264.0,Washington Huskies
+704,5,Florida State,13,2023,52.0,Florida State Seminoles
+705,6,Oregon,13,2023,2483.0,Oregon Ducks
+706,7,Texas,13,2023,251.0,Texas Longhorns
+707,8,Alabama,13,2023,333.0,Alabama Crimson Tide
+708,9,Louisville,13,2023,97.0,Louisville Cardinals
+709,10,Missouri,13,2023,142.0,Missouri Tigers
+710,11,Penn State,13,2023,213.0,Penn State Nittany Lions
+711,12,Ole Miss,13,2023,145.0,Ole Miss Rebels
+712,13,Oklahoma,13,2023,201.0,Oklahoma Sooners
+713,14,LSU,13,2023,99.0,LSU Tigers
+714,15,Oregon State,13,2023,204.0,Oregon State Beavers
+715,16,Arizona,13,2023,12.0,Arizona Wildcats
+716,17,Notre Dame,13,2023,87.0,Notre Dame Fighting Irish
+717,18,Tulane,13,2023,2655.0,Tulane Green Wave
+718,19,Kansas State,13,2023,2306.0,Kansas State Wildcats
+719,20,Iowa,13,2023,2294.0,Iowa Hawkeyes
+720,21,Oklahoma State,13,2023,197.0,Oklahoma State Cowboys
+721,22,Liberty,13,2023,2335.0,Liberty Flames
+722,23,Toledo,13,2023,2649.0,Toledo Rockets
+723,24,James Madison,13,2023,256.0,James Madison Dukes
+724,25,Tennessee,13,2023,2633.0,Tennessee Volunteers
+725,1,Georgia,14,2023,61.0,Georgia Bulldogs
+726,2,Michigan,14,2023,130.0,Michigan Wolverines
+727,3,Washington,14,2023,264.0,Washington Huskies
+728,4,Florida State,14,2023,52.0,Florida State Seminoles
+729,5,Oregon,14,2023,2483.0,Oregon Ducks
+730,6,Ohio State,14,2023,194.0,Ohio State Buckeyes
+731,7,Texas,14,2023,251.0,Texas Longhorns
+732,8,Alabama,14,2023,333.0,Alabama Crimson Tide
+733,9,Missouri,14,2023,142.0,Missouri Tigers
+734,10,Penn State,14,2023,213.0,Penn State Nittany Lions
+735,11,Ole Miss,14,2023,145.0,Ole Miss Rebels
+736,12,Oklahoma,14,2023,201.0,Oklahoma Sooners
+737,13,LSU,14,2023,99.0,LSU Tigers
+738,14,Arizona,14,2023,12.0,Arizona Wildcats
+739,15,Louisville,14,2023,97.0,Louisville Cardinals
+740,16,Notre Dame,14,2023,87.0,Notre Dame Fighting Irish
+741,17,Tulane,14,2023,2655.0,Tulane Green Wave
+742,18,Iowa,14,2023,2294.0,Iowa Hawkeyes
+743,19,Oklahoma State,14,2023,197.0,Oklahoma State Cowboys
+744,20,Liberty,14,2023,2335.0,Liberty Flames
+745,21,NC State,14,2023,154.0,NC State Wolfpack
+746,21,Oregon State,14,2023,204.0,Oregon State Beavers
+747,23,Toledo,14,2023,2649.0,Toledo Rockets
+748,24,James Madison,14,2023,256.0,James Madison Dukes
+749,25,SMU,14,2023,2567.0,SMU Mustangs
+750,1,Michigan,15,2023,130.0,Michigan Wolverines
+751,2,Washington,15,2023,264.0,Washington Huskies
+752,3,Texas,15,2023,251.0,Texas Longhorns
+753,4,Florida State,15,2023,52.0,Florida State Seminoles
+754,5,Alabama,15,2023,333.0,Alabama Crimson Tide
+755,6,Georgia,15,2023,61.0,Georgia Bulldogs
+756,7,Ohio State,15,2023,194.0,Ohio State Buckeyes
+757,8,Oregon,15,2023,2483.0,Oregon Ducks
+758,9,Missouri,15,2023,142.0,Missouri Tigers
+759,10,Penn State,15,2023,213.0,Penn State Nittany Lions
+760,11,Ole Miss,15,2023,145.0,Ole Miss Rebels
+761,12,Oklahoma,15,2023,201.0,Oklahoma Sooners
+762,13,LSU,15,2023,99.0,LSU Tigers
+763,14,Arizona,15,2023,12.0,Arizona Wildcats
+764,15,Notre Dame,15,2023,87.0,Notre Dame Fighting Irish
+765,16,Louisville,15,2023,97.0,Louisville Cardinals
+766,17,SMU,15,2023,2567.0,SMU Mustangs
+767,18,Liberty,15,2023,2335.0,Liberty Flames
+768,19,NC State,15,2023,154.0,NC State Wolfpack
+769,20,Iowa,15,2023,2294.0,Iowa Hawkeyes
+770,21,Oregon State,15,2023,204.0,Oregon State Beavers
+771,22,Oklahoma State,15,2023,197.0,Oklahoma State Cowboys
+772,23,Tulane,15,2023,2655.0,Tulane Green Wave
+773,24,James Madison,15,2023,256.0,James Madison Dukes
+774,25,Tennessee,15,2023,2633.0,Tennessee Volunteers
+775,1,Michigan,16,2023,130.0,Michigan Wolverines
+776,2,Washington,16,2023,264.0,Washington Huskies
+777,3,Georgia,16,2023,61.0,Georgia Bulldogs
+778,4,Texas,16,2023,251.0,Texas Longhorns
+779,5,Alabama,16,2023,333.0,Alabama Crimson Tide
+780,6,Florida State,16,2023,52.0,Florida State Seminoles
+781,7,Oregon,16,2023,2483.0,Oregon Ducks
+782,8,Missouri,16,2023,142.0,Missouri Tigers
+783,9,Ole Miss,16,2023,145.0,Ole Miss Rebels
+784,10,Ohio State,16,2023,194.0,Ohio State Buckeyes
+785,11,Arizona,16,2023,12.0,Arizona Wildcats
+786,12,LSU,16,2023,99.0,LSU Tigers
+787,13,Penn State,16,2023,213.0,Penn State Nittany Lions
+788,14,Notre Dame,16,2023,87.0,Notre Dame Fighting Irish
+789,15,Oklahoma,16,2023,201.0,Oklahoma Sooners
+790,16,Oklahoma State,16,2023,197.0,Oklahoma State Cowboys
+791,17,Tennessee,16,2023,2633.0,Tennessee Volunteers
+792,18,Louisville,16,2023,97.0,Louisville Cardinals
+793,19,Kansas State,16,2023,2306.0,Kansas State Wildcats
+794,20,Clemson,16,2023,228.0,Clemson Tigers
+795,21,NC State,16,2023,154.0,NC State Wolfpack
+796,22,Iowa,16,2023,2294.0,Iowa Hawkeyes
+797,23,Kansas,16,2023,2305.0,Kansas Jayhawks
+798,24,SMU,16,2023,2567.0,SMU Mustangs
+799,25,West Virginia,16,2023,277.0,West Virginia Mountaineers
+800,1,Alabama,1,2022,333.0,Alabama Crimson Tide
+801,2,Ohio State,1,2022,194.0,Ohio State Buckeyes
+802,3,Georgia,1,2022,61.0,Georgia Bulldogs
+803,4,Clemson,1,2022,228.0,Clemson Tigers
+804,5,Notre Dame,1,2022,87.0,Notre Dame Fighting Irish
+805,6,Michigan,1,2022,130.0,Michigan Wolverines
+806,7,Texas A&M,1,2022,245.0,Texas A&M Aggies
+807,8,Utah,1,2022,254.0,Utah Utes
+808,9,Oklahoma,1,2022,201.0,Oklahoma Sooners
+809,10,Baylor,1,2022,239.0,Baylor Bears
+810,11,Oklahoma State,1,2022,197.0,Oklahoma State Cowboys
+811,12,Oregon,1,2022,2483.0,Oregon Ducks
+812,13,NC State,1,2022,154.0,NC State Wolfpack
+813,14,Michigan State,1,2022,127.0,Michigan State Spartans
+814,15,USC,1,2022,30.0,USC Trojans
+815,16,Pittsburgh,1,2022,221.0,Pittsburgh Panthers
+816,17,Miami,1,2022,2390.0,Miami Hurricanes
+817,18,Texas,1,2022,251.0,Texas Longhorns
+818,19,Wake Forest,1,2022,154.0,Wake Forest Demon Deacons
+819,20,Wisconsin,1,2022,275.0,Wisconsin Badgers
+820,21,Kentucky,1,2022,96.0,Kentucky Wildcats
+821,22,Cincinnati,1,2022,2132.0,Cincinnati Bearcats
+822,23,Arkansas,1,2022,8.0,Arkansas Razorbacks
+823,24,Ole Miss,1,2022,145.0,Ole Miss Rebels
+824,25,Houston,1,2022,248.0,Houston Cougars
+825,1,Alabama,2,2022,333.0,Alabama Crimson Tide
+826,2,Georgia,2,2022,61.0,Georgia Bulldogs
+827,3,Ohio State,2,2022,194.0,Ohio State Buckeyes
+828,4,Clemson,2,2022,228.0,Clemson Tigers
+829,5,Michigan,2,2022,130.0,Michigan Wolverines
+830,6,Texas A&M,2,2022,245.0,Texas A&M Aggies
+831,7,Oklahoma,2,2022,201.0,Oklahoma Sooners
+832,8,Baylor,2,2022,239.0,Baylor Bears
+833,9,Notre Dame,2,2022,87.0,Notre Dame Fighting Irish
+834,10,Oklahoma State,2,2022,197.0,Oklahoma State Cowboys
+835,11,Michigan State,2,2022,127.0,Michigan State Spartans
+836,12,USC,2,2022,30.0,USC Trojans
+837,13,NC State,2,2022,154.0,NC State Wolfpack
+838,14,Pittsburgh,2,2022,221.0,Pittsburgh Panthers
+839,15,Utah,2,2022,254.0,Utah Utes
+840,16,Miami,2,2022,2390.0,Miami Hurricanes
+841,17,Arkansas,2,2022,8.0,Arkansas Razorbacks
+842,18,Wisconsin,2,2022,275.0,Wisconsin Badgers
+843,19,Florida,2,2022,57.0,Florida Gators
+844,20,Kentucky,2,2022,96.0,Kentucky Wildcats
+845,21,Wake Forest,2,2022,154.0,Wake Forest Demon Deacons
+846,22,Texas,2,2022,251.0,Texas Longhorns
+847,23,Ole Miss,2,2022,145.0,Ole Miss Rebels
+848,24,Oregon,2,2022,2483.0,Oregon Ducks
+849,25,BYU,2,2022,252.0,BYU Cougars
+850,1,Alabama,3,2022,333.0,Alabama Crimson Tide
+851,2,Georgia,3,2022,61.0,Georgia Bulldogs
+852,3,Ohio State,3,2022,194.0,Ohio State Buckeyes
+853,4,Clemson,3,2022,228.0,Clemson Tigers
+854,5,Michigan,3,2022,130.0,Michigan Wolverines
+855,6,Oklahoma,3,2022,201.0,Oklahoma Sooners
+856,7,Oklahoma State,3,2022,197.0,Oklahoma State Cowboys
+857,8,USC,3,2022,30.0,USC Trojans
+858,9,Michigan State,3,2022,127.0,Michigan State Spartans
+859,10,Kentucky,3,2022,96.0,Kentucky Wildcats
+860,11,Arkansas,3,2022,8.0,Arkansas Razorbacks
+861,12,NC State,3,2022,154.0,NC State Wolfpack
+862,13,Miami,3,2022,2390.0,Miami Hurricanes
+863,14,BYU,3,2022,252.0,BYU Cougars
+864,15,Utah,3,2022,254.0,Utah Utes
+865,16,Tennessee,3,2022,2633.0,Tennessee Volunteers
+866,17,Ole Miss,3,2022,145.0,Ole Miss Rebels
+867,18,Wake Forest,3,2022,154.0,Wake Forest Demon Deacons
+868,19,Baylor,3,2022,239.0,Baylor Bears
+869,20,Texas,3,2022,251.0,Texas Longhorns
+870,21,Florida,3,2022,57.0,Florida Gators
+871,22,Texas A&M,3,2022,245.0,Texas A&M Aggies
+872,23,Penn State,3,2022,213.0,Penn State Nittany Lions
+873,24,Oregon,3,2022,2483.0,Oregon Ducks
+874,25,Pittsburgh,3,2022,221.0,Pittsburgh Panthers
+875,1,Georgia,4,2022,61.0,Georgia Bulldogs
+876,2,Alabama,4,2022,333.0,Alabama Crimson Tide
+877,3,Ohio State,4,2022,194.0,Ohio State Buckeyes
+878,4,Michigan,4,2022,130.0,Michigan Wolverines
+879,5,Clemson,4,2022,228.0,Clemson Tigers
+880,6,Oklahoma,4,2022,201.0,Oklahoma Sooners
+881,7,USC,4,2022,30.0,USC Trojans
+882,8,Oklahoma State,4,2022,197.0,Oklahoma State Cowboys
+883,9,Kentucky,4,2022,96.0,Kentucky Wildcats
+884,10,Arkansas,4,2022,8.0,Arkansas Razorbacks
+885,11,NC State,4,2022,154.0,NC State Wolfpack
+886,12,Tennessee,4,2022,2633.0,Tennessee Volunteers
+887,13,Ole Miss,4,2022,145.0,Ole Miss Rebels
+888,14,Utah,4,2022,254.0,Utah Utes
+889,15,Penn State,4,2022,213.0,Penn State Nittany Lions
+890,16,Wake Forest,4,2022,154.0,Wake Forest Demon Deacons
+891,17,Baylor,4,2022,239.0,Baylor Bears
+892,18,Oregon,4,2022,2483.0,Oregon Ducks
+893,19,Texas,4,2022,251.0,Texas Longhorns
+894,20,Texas A&M,4,2022,245.0,Texas A&M Aggies
+895,21,Michigan State,4,2022,127.0,Michigan State Spartans
+896,22,Florida,4,2022,57.0,Florida Gators
+897,23,BYU,4,2022,252.0,BYU Cougars
+898,24,Washington,4,2022,264.0,Washington Huskies
+899,25,Miami,4,2022,2390.0,Miami Hurricanes
+900,1,Georgia,5,2022,61.0,Georgia Bulldogs
+901,2,Alabama,5,2022,333.0,Alabama Crimson Tide
+902,3,Ohio State,5,2022,194.0,Ohio State Buckeyes
+903,4,Michigan,5,2022,130.0,Michigan Wolverines
+904,5,Clemson,5,2022,228.0,Clemson Tigers
+905,6,USC,5,2022,30.0,USC Trojans
+906,7,Oklahoma State,5,2022,197.0,Oklahoma State Cowboys
+907,8,Kentucky,5,2022,96.0,Kentucky Wildcats
+908,9,Tennessee,5,2022,2633.0,Tennessee Volunteers
+909,10,NC State,5,2022,154.0,NC State Wolfpack
+910,11,Ole Miss,5,2022,145.0,Ole Miss Rebels
+911,12,Penn State,5,2022,213.0,Penn State Nittany Lions
+912,13,Utah,5,2022,254.0,Utah Utes
+913,14,Baylor,5,2022,239.0,Baylor Bears
+914,15,Oregon,5,2022,2483.0,Oregon Ducks
+915,16,Oklahoma,5,2022,201.0,Oklahoma Sooners
+916,17,Texas A&M,5,2022,245.0,Texas A&M Aggies
+917,18,Washington,5,2022,264.0,Washington Huskies
+918,19,Arkansas,5,2022,8.0,Arkansas Razorbacks
+919,20,BYU,5,2022,252.0,BYU Cougars
+920,21,Wake Forest,5,2022,154.0,Wake Forest Demon Deacons
+921,22,Florida State,5,2022,52.0,Florida State Seminoles
+922,23,Minnesota,5,2022,135.0,Minnesota Golden Gophers
+923,24,Pittsburgh,5,2022,221.0,Pittsburgh Panthers
+924,25,Syracuse,5,2022,183.0,Syracuse Orange
+925,1,Alabama,6,2022,333.0,Alabama Crimson Tide
+926,2,Georgia,6,2022,61.0,Georgia Bulldogs
+927,3,Ohio State,6,2022,194.0,Ohio State Buckeyes
+928,4,Michigan,6,2022,130.0,Michigan Wolverines
+929,5,Clemson,6,2022,228.0,Clemson Tigers
+930,6,USC,6,2022,30.0,USC Trojans
+931,7,Oklahoma State,6,2022,197.0,Oklahoma State Cowboys
+932,8,Tennessee,6,2022,2633.0,Tennessee Volunteers
+933,9,Ole Miss,6,2022,145.0,Ole Miss Rebels
+934,10,Penn State,6,2022,213.0,Penn State Nittany Lions
+935,11,Utah,6,2022,254.0,Utah Utes
+936,12,Oregon,6,2022,2483.0,Oregon Ducks
+937,13,Kentucky,6,2022,96.0,Kentucky Wildcats
+938,14,NC State,6,2022,154.0,NC State Wolfpack
+939,15,Wake Forest,6,2022,154.0,Wake Forest Demon Deacons
+940,16,BYU,6,2022,252.0,BYU Cougars
+941,17,Kansas,6,2022,2305.0,Kansas Jayhawks
+942,18,TCU,6,2022,2628.0,TCU Horned Frogs
+943,19,UCLA,6,2022,26.0,UCLA Bruins
+944,20,Kansas State,6,2022,2306.0,Kansas State Wildcats
+945,21,Syracuse,6,2022,183.0,Syracuse Orange
+946,22,Baylor,6,2022,239.0,Baylor Bears
+947,23,Mississippi State,6,2022,344.0,Mississippi State Bulldogs
+948,24,Washington,6,2022,264.0,Washington Huskies
+949,25,Arkansas,6,2022,8.0,Arkansas Razorbacks
+950,1,Alabama,7,2022,333.0,Alabama Crimson Tide
+951,2,Georgia,7,2022,61.0,Georgia Bulldogs
+952,3,Ohio State,7,2022,194.0,Ohio State Buckeyes
+953,4,Michigan,7,2022,130.0,Michigan Wolverines
+954,5,Clemson,7,2022,228.0,Clemson Tigers
+955,6,USC,7,2022,30.0,USC Trojans
+956,7,Oklahoma State,7,2022,197.0,Oklahoma State Cowboys
+957,8,Tennessee,7,2022,2633.0,Tennessee Volunteers
+958,9,Ole Miss,7,2022,145.0,Ole Miss Rebels
+959,10,Penn State,7,2022,213.0,Penn State Nittany Lions
+960,11,Oregon,7,2022,2483.0,Oregon Ducks
+961,12,UCLA,7,2022,26.0,UCLA Bruins
+962,13,NC State,7,2022,154.0,NC State Wolfpack
+963,14,Wake Forest,7,2022,154.0,Wake Forest Demon Deacons
+964,15,TCU,7,2022,2628.0,TCU Horned Frogs
+965,16,Kansas State,7,2022,2306.0,Kansas State Wildcats
+966,17,Mississippi State,7,2022,344.0,Mississippi State Bulldogs
+967,18,Syracuse,7,2022,183.0,Syracuse Orange
+968,19,Utah,7,2022,254.0,Utah Utes
+969,20,Kansas,7,2022,2305.0,Kansas Jayhawks
+970,21,Cincinnati,7,2022,2132.0,Cincinnati Bearcats
+971,22,Kentucky,7,2022,96.0,Kentucky Wildcats
+972,23,Baylor,7,2022,239.0,Baylor Bears
+973,24,Texas,7,2022,251.0,Texas Longhorns
+974,25,North Carolina,7,2022,153.0,North Carolina Tar Heels
+975,1,Georgia,8,2022,61.0,Georgia Bulldogs
+976,2,Ohio State,8,2022,194.0,Ohio State Buckeyes
+977,3,Michigan,8,2022,130.0,Michigan Wolverines
+978,4,Tennessee,8,2022,2633.0,Tennessee Volunteers
+979,5,Clemson,8,2022,228.0,Clemson Tigers
+980,6,Alabama,8,2022,333.0,Alabama Crimson Tide
+981,7,Ole Miss,8,2022,145.0,Ole Miss Rebels
+982,8,TCU,8,2022,2628.0,TCU Horned Frogs
+983,9,Oregon,8,2022,2483.0,Oregon Ducks
+984,10,UCLA,8,2022,26.0,UCLA Bruins
+985,11,Oklahoma State,8,2022,197.0,Oklahoma State Cowboys
+986,12,USC,8,2022,30.0,USC Trojans
+987,13,Wake Forest,8,2022,154.0,Wake Forest Demon Deacons
+988,14,Syracuse,8,2022,183.0,Syracuse Orange
+989,15,Utah,8,2022,254.0,Utah Utes
+990,16,Penn State,8,2022,213.0,Penn State Nittany Lions
+991,17,Kansas State,8,2022,2306.0,Kansas State Wildcats
+992,18,Kentucky,8,2022,96.0,Kentucky Wildcats
+993,19,Cincinnati,8,2022,2132.0,Cincinnati Bearcats
+994,20,Illinois,8,2022,356.0,Illinois Fighting Illini
+995,21,Texas,8,2022,251.0,Texas Longhorns
+996,22,North Carolina,8,2022,153.0,North Carolina Tar Heels
+997,23,NC State,8,2022,154.0,NC State Wolfpack
+998,24,Mississippi State,8,2022,344.0,Mississippi State Bulldogs
+999,25,Tulane,8,2022,2655.0,Tulane Green Wave
+1000,1,Georgia,9,2022,61.0,Georgia Bulldogs
+1001,2,Ohio State,9,2022,194.0,Ohio State Buckeyes
+1002,3,Tennessee,9,2022,2633.0,Tennessee Volunteers
+1003,4,Michigan,9,2022,130.0,Michigan Wolverines
+1004,5,Clemson,9,2022,228.0,Clemson Tigers
+1005,6,Alabama,9,2022,333.0,Alabama Crimson Tide
+1006,7,TCU,9,2022,2628.0,TCU Horned Frogs
+1007,8,Oregon,9,2022,2483.0,Oregon Ducks
+1008,9,Oklahoma State,9,2022,197.0,Oklahoma State Cowboys
+1009,10,Wake Forest,9,2022,154.0,Wake Forest Demon Deacons
+1010,11,USC,9,2022,30.0,USC Trojans
+1011,12,Ole Miss,9,2022,145.0,Ole Miss Rebels
+1012,13,Penn State,9,2022,213.0,Penn State Nittany Lions
+1013,14,Utah,9,2022,254.0,Utah Utes
+1014,15,UCLA,9,2022,26.0,UCLA Bruins
+1015,16,Syracuse,9,2022,183.0,Syracuse Orange
+1016,17,Kentucky,9,2022,96.0,Kentucky Wildcats
+1017,18,Illinois,9,2022,356.0,Illinois Fighting Illini
+1018,19,Cincinnati,9,2022,2132.0,Cincinnati Bearcats
+1019,20,LSU,9,2022,99.0,LSU Tigers
+1020,21,North Carolina,9,2022,153.0,North Carolina Tar Heels
+1021,22,Kansas State,9,2022,2306.0,Kansas State Wildcats
+1022,23,NC State,9,2022,154.0,NC State Wolfpack
+1023,24,Tulane,9,2022,2655.0,Tulane Green Wave
+1024,25,South Carolina,9,2022,2579.0,South Carolina Gamecocks
+1025,1,Georgia,10,2022,61.0,Georgia Bulldogs
+1026,2,Tennessee,10,2022,2633.0,Tennessee Volunteers
+1027,2,Ohio State,10,2022,194.0,Ohio State Buckeyes
+1028,4,Michigan,10,2022,130.0,Michigan Wolverines
+1029,5,Clemson,10,2022,228.0,Clemson Tigers
+1030,6,Alabama,10,2022,333.0,Alabama Crimson Tide
+1031,7,TCU,10,2022,2628.0,TCU Horned Frogs
+1032,8,Oregon,10,2022,2483.0,Oregon Ducks
+1033,9,USC,10,2022,30.0,USC Trojans
+1034,10,UCLA,10,2022,26.0,UCLA Bruins
+1035,11,Ole Miss,10,2022,145.0,Ole Miss Rebels
+1036,12,Utah,10,2022,254.0,Utah Utes
+1037,13,Kansas State,10,2022,2306.0,Kansas State Wildcats
+1038,14,Illinois,10,2022,356.0,Illinois Fighting Illini
+1039,15,LSU,10,2022,99.0,LSU Tigers
+1040,16,Penn State,10,2022,213.0,Penn State Nittany Lions
+1041,17,North Carolina,10,2022,153.0,North Carolina Tar Heels
+1042,18,Oklahoma State,10,2022,197.0,Oklahoma State Cowboys
+1043,19,Tulane,10,2022,2655.0,Tulane Green Wave
+1044,20,Wake Forest,10,2022,154.0,Wake Forest Demon Deacons
+1045,21,NC State,10,2022,154.0,NC State Wolfpack
+1046,22,Syracuse,10,2022,183.0,Syracuse Orange
+1047,23,Liberty,10,2022,2335.0,Liberty Flames
+1048,24,Oregon State,10,2022,204.0,Oregon State Beavers
+1049,25,UCF,10,2022,2116.0,UCF Knights
+1050,1,Georgia,11,2022,61.0,Georgia Bulldogs
+1051,2,Ohio State,11,2022,194.0,Ohio State Buckeyes
+1052,3,Michigan,11,2022,130.0,Michigan Wolverines
+1053,4,TCU,11,2022,2628.0,TCU Horned Frogs
+1054,5,Tennessee,11,2022,2633.0,Tennessee Volunteers
+1055,6,Oregon,11,2022,2483.0,Oregon Ducks
+1056,7,LSU,11,2022,99.0,LSU Tigers
+1057,8,USC,11,2022,30.0,USC Trojans
+1058,9,UCLA,11,2022,26.0,UCLA Bruins
+1059,10,Alabama,11,2022,333.0,Alabama Crimson Tide
+1060,11,Ole Miss,11,2022,145.0,Ole Miss Rebels
+1061,12,Clemson,11,2022,228.0,Clemson Tigers
+1062,13,Utah,11,2022,254.0,Utah Utes
+1063,14,Penn State,11,2022,213.0,Penn State Nittany Lions
+1064,15,North Carolina,11,2022,153.0,North Carolina Tar Heels
+1065,16,Tulane,11,2022,2655.0,Tulane Green Wave
+1066,17,NC State,11,2022,154.0,NC State Wolfpack
+1067,18,Texas,11,2022,251.0,Texas Longhorns
+1068,19,Liberty,11,2022,2335.0,Liberty Flames
+1069,20,Notre Dame,11,2022,87.0,Notre Dame Fighting Irish
+1070,21,Illinois,11,2022,356.0,Illinois Fighting Illini
+1071,22,UCF,11,2022,2116.0,UCF Knights
+1072,23,Kansas State,11,2022,2306.0,Kansas State Wildcats
+1073,24,Washington,11,2022,264.0,Washington Huskies
+1074,25,Florida State,11,2022,52.0,Florida State Seminoles
+1075,1,Georgia,12,2022,61.0,Georgia Bulldogs
+1076,2,Ohio State,12,2022,194.0,Ohio State Buckeyes
+1077,3,Michigan,12,2022,130.0,Michigan Wolverines
+1078,4,TCU,12,2022,2628.0,TCU Horned Frogs
+1079,5,Tennessee,12,2022,2633.0,Tennessee Volunteers
+1080,6,LSU,12,2022,99.0,LSU Tigers
+1081,7,USC,12,2022,30.0,USC Trojans
+1082,8,Alabama,12,2022,333.0,Alabama Crimson Tide
+1083,9,Clemson,12,2022,228.0,Clemson Tigers
+1084,10,Utah,12,2022,254.0,Utah Utes
+1085,11,Penn State,12,2022,213.0,Penn State Nittany Lions
+1086,12,Oregon,12,2022,2483.0,Oregon Ducks
+1087,13,North Carolina,12,2022,153.0,North Carolina Tar Heels
+1088,14,Ole Miss,12,2022,145.0,Ole Miss Rebels
+1089,15,Washington,12,2022,264.0,Washington Huskies
+1090,16,UCLA,12,2022,26.0,UCLA Bruins
+1091,17,UCF,12,2022,2116.0,UCF Knights
+1092,18,Notre Dame,12,2022,87.0,Notre Dame Fighting Irish
+1093,19,Kansas State,12,2022,2306.0,Kansas State Wildcats
+1094,20,Florida State,12,2022,52.0,Florida State Seminoles
+1095,21,Tulane,12,2022,2655.0,Tulane Green Wave
+1096,22,Cincinnati,12,2022,2132.0,Cincinnati Bearcats
+1097,23,Coastal Carolina,12,2022,324.0,Coastal Carolina Chanticleers
+1098,24,Oklahoma State,12,2022,197.0,Oklahoma State Cowboys
+1099,25,Oregon State,12,2022,204.0,Oregon State Beavers
+1100,1,Georgia,13,2022,61.0,Georgia Bulldogs
+1101,2,Ohio State,13,2022,194.0,Ohio State Buckeyes
+1102,3,Michigan,13,2022,130.0,Michigan Wolverines
+1103,4,TCU,13,2022,2628.0,TCU Horned Frogs
+1104,5,USC,13,2022,30.0,USC Trojans
+1105,6,LSU,13,2022,99.0,LSU Tigers
+1106,7,Clemson,13,2022,228.0,Clemson Tigers
+1107,8,Alabama,13,2022,333.0,Alabama Crimson Tide
+1108,9,Tennessee,13,2022,2633.0,Tennessee Volunteers
+1109,10,Oregon,13,2022,2483.0,Oregon Ducks
+1110,11,Penn State,13,2022,213.0,Penn State Nittany Lions
+1111,12,Washington,13,2022,264.0,Washington Huskies
+1112,13,Notre Dame,13,2022,87.0,Notre Dame Fighting Irish
+1113,14,Utah,13,2022,254.0,Utah Utes
+1114,15,Kansas State,13,2022,2306.0,Kansas State Wildcats
+1115,16,Florida State,13,2022,52.0,Florida State Seminoles
+1116,17,UCLA,13,2022,26.0,UCLA Bruins
+1117,18,North Carolina,13,2022,153.0,North Carolina Tar Heels
+1118,19,Tulane,13,2022,2655.0,Tulane Green Wave
+1119,20,Ole Miss,13,2022,145.0,Ole Miss Rebels
+1120,21,Cincinnati,13,2022,2132.0,Cincinnati Bearcats
+1121,22,Oregon State,13,2022,204.0,Oregon State Beavers
+1122,23,Coastal Carolina,13,2022,324.0,Coastal Carolina Chanticleers
+1123,24,Texas,13,2022,251.0,Texas Longhorns
+1124,25,UCF,13,2022,2116.0,UCF Knights
+1125,1,Georgia,14,2022,61.0,Georgia Bulldogs
+1126,2,Michigan,14,2022,130.0,Michigan Wolverines
+1127,3,TCU,14,2022,2628.0,TCU Horned Frogs
+1128,4,USC,14,2022,30.0,USC Trojans
+1129,5,Ohio State,14,2022,194.0,Ohio State Buckeyes
+1130,6,Alabama,14,2022,333.0,Alabama Crimson Tide
+1131,7,Tennessee,14,2022,2633.0,Tennessee Volunteers
+1132,8,Penn State,14,2022,213.0,Penn State Nittany Lions
+1133,9,Washington,14,2022,264.0,Washington Huskies
+1134,10,Clemson,14,2022,228.0,Clemson Tigers
+1135,11,LSU,14,2022,99.0,LSU Tigers
+1136,12,Utah,14,2022,254.0,Utah Utes
+1137,13,Kansas State,14,2022,2306.0,Kansas State Wildcats
+1138,14,Florida State,14,2022,52.0,Florida State Seminoles
+1139,15,Oregon,14,2022,2483.0,Oregon Ducks
+1140,16,Oregon State,14,2022,204.0,Oregon State Beavers
+1141,17,UCLA,14,2022,26.0,UCLA Bruins
+1142,18,Tulane,14,2022,2655.0,Tulane Green Wave
+1143,19,Notre Dame,14,2022,87.0,Notre Dame Fighting Irish
+1144,20,South Carolina,14,2022,2579.0,South Carolina Gamecocks
+1145,21,Texas,14,2022,251.0,Texas Longhorns
+1146,22,UCF,14,2022,2116.0,UCF Knights
+1147,23,UTSA,14,2022,2636.0,UTSA Roadrunners
+1148,24,North Carolina,14,2022,153.0,North Carolina Tar Heels
+1149,25,Mississippi State,14,2022,344.0,Mississippi State Bulldogs
+1150,1,Georgia,15,2022,61.0,Georgia Bulldogs
+1151,2,Michigan,15,2022,130.0,Michigan Wolverines
+1152,3,TCU,15,2022,2628.0,TCU Horned Frogs
+1153,4,Ohio State,15,2022,194.0,Ohio State Buckeyes
+1154,5,Alabama,15,2022,333.0,Alabama Crimson Tide
+1155,6,Tennessee,15,2022,2633.0,Tennessee Volunteers
+1156,7,Utah,15,2022,254.0,Utah Utes
+1157,8,USC,15,2022,30.0,USC Trojans
+1158,9,Penn State,15,2022,213.0,Penn State Nittany Lions
+1159,10,Clemson,15,2022,228.0,Clemson Tigers
+1160,11,Kansas State,15,2022,2306.0,Kansas State Wildcats
+1161,12,Washington,15,2022,264.0,Washington Huskies
+1162,13,Florida State,15,2022,52.0,Florida State Seminoles
+1163,14,Tulane,15,2022,2655.0,Tulane Green Wave
+1164,15,Oregon,15,2022,2483.0,Oregon Ducks
+1165,16,LSU,15,2022,99.0,LSU Tigers
+1166,17,Oregon State,15,2022,204.0,Oregon State Beavers
+1167,18,UCLA,15,2022,26.0,UCLA Bruins
+1168,19,Notre Dame,15,2022,87.0,Notre Dame Fighting Irish
+1169,20,South Carolina,15,2022,2579.0,South Carolina Gamecocks
+1170,21,Texas,15,2022,251.0,Texas Longhorns
+1171,22,UTSA,15,2022,2636.0,UTSA Roadrunners
+1172,23,Troy,15,2022,2653.0,Troy Trojans
+1173,24,Mississippi State,15,2022,344.0,Mississippi State Bulldogs
+1174,25,NC State,15,2022,154.0,NC State Wolfpack
+1175,1,Georgia,16,2022,61.0,Georgia Bulldogs
+1176,2,TCU,16,2022,2628.0,TCU Horned Frogs
+1177,3,Michigan,16,2022,130.0,Michigan Wolverines
+1178,4,Ohio State,16,2022,194.0,Ohio State Buckeyes
+1179,5,Alabama,16,2022,333.0,Alabama Crimson Tide
+1180,6,Tennessee,16,2022,2633.0,Tennessee Volunteers
+1181,7,Penn State,16,2022,213.0,Penn State Nittany Lions
+1182,8,Washington,16,2022,264.0,Washington Huskies
+1183,9,Tulane,16,2022,2655.0,Tulane Green Wave
+1184,10,Florida State,16,2022,52.0,Florida State Seminoles
+1185,11,Utah,16,2022,254.0,Utah Utes
+1186,12,Clemson,16,2022,228.0,Clemson Tigers
+1187,13,USC,16,2022,30.0,USC Trojans
+1188,14,Kansas State,16,2022,2306.0,Kansas State Wildcats
+1189,15,LSU,16,2022,99.0,LSU Tigers
+1190,16,Oregon,16,2022,2483.0,Oregon Ducks
+1191,17,Oregon State,16,2022,204.0,Oregon State Beavers
+1192,18,Notre Dame,16,2022,87.0,Notre Dame Fighting Irish
+1193,19,Mississippi State,16,2022,344.0,Mississippi State Bulldogs
+1194,20,Troy,16,2022,2653.0,Troy Trojans
+1195,21,UCLA,16,2022,26.0,UCLA Bruins
+1196,22,Pittsburgh,16,2022,221.0,Pittsburgh Panthers
+1197,23,South Carolina,16,2022,2579.0,South Carolina Gamecocks
+1198,24,Fresno State,16,2022,278.0,Fresno State Bulldogs
+1199,25,Texas,16,2022,251.0,Texas Longhorns
+1200,1,Alabama,1,2021,333.0,Alabama Crimson Tide
+1201,2,Clemson,1,2021,228.0,Clemson Tigers
+1202,3,Oklahoma,1,2021,201.0,Oklahoma Sooners
+1203,4,Ohio State,1,2021,194.0,Ohio State Buckeyes
+1204,5,Georgia,1,2021,61.0,Georgia Bulldogs
+1205,6,Texas A&M,1,2021,245.0,Texas A&M Aggies
+1206,7,Notre Dame,1,2021,87.0,Notre Dame Fighting Irish
+1207,8,Iowa State,1,2021,66.0,Iowa State Cyclones
+1208,9,North Carolina,1,2021,153.0,North Carolina Tar Heels
+1209,10,Cincinnati,1,2021,2132.0,Cincinnati Bearcats
+1210,11,Florida,1,2021,57.0,Florida Gators
+1211,12,Oregon,1,2021,2483.0,Oregon Ducks
+1212,13,LSU,1,2021,99.0,LSU Tigers
+1213,14,USC,1,2021,30.0,USC Trojans
+1214,15,Wisconsin,1,2021,275.0,Wisconsin Badgers
+1215,16,Miami,1,2021,2390.0,Miami Hurricanes
+1216,17,Indiana,1,2021,84.0,Indiana Hoosiers
+1217,18,Iowa,1,2021,2294.0,Iowa Hawkeyes
+1218,19,Texas,1,2021,251.0,Texas Longhorns
+1219,20,Penn State,1,2021,213.0,Penn State Nittany Lions
+1220,21,Washington,1,2021,264.0,Washington Huskies
+1221,22,Oklahoma State,1,2021,197.0,Oklahoma State Cowboys
+1222,23,Louisiana,1,2021,309.0,Louisiana Ragin' Cajuns
+1223,24,Coastal Carolina,1,2021,324.0,Coastal Carolina Chanticleers
+1224,25,Ole Miss,1,2021,145.0,Ole Miss Rebels
+1225,1,Alabama,2,2021,333.0,Alabama Crimson Tide
+1226,2,Georgia,2,2021,61.0,Georgia Bulldogs
+1227,3,Ohio State,2,2021,194.0,Ohio State Buckeyes
+1228,4,Oklahoma,2,2021,201.0,Oklahoma Sooners
+1229,5,Texas A&M,2,2021,245.0,Texas A&M Aggies
+1230,6,Clemson,2,2021,228.0,Clemson Tigers
+1231,7,Notre Dame,2,2021,87.0,Notre Dame Fighting Irish
+1232,8,Cincinnati,2,2021,2132.0,Cincinnati Bearcats
+1233,9,Florida,2,2021,57.0,Florida Gators
+1234,10,Iowa State,2,2021,66.0,Iowa State Cyclones
+1235,11,Oregon,2,2021,2483.0,Oregon Ducks
+1236,12,Iowa,2,2021,2294.0,Iowa Hawkeyes
+1237,13,Penn State,2,2021,213.0,Penn State Nittany Lions
+1238,14,USC,2,2021,30.0,USC Trojans
+1239,15,Texas,2,2021,251.0,Texas Longhorns
+1240,16,UCLA,2,2021,26.0,UCLA Bruins
+1241,17,Wisconsin,2,2021,275.0,Wisconsin Badgers
+1242,18,Utah,2,2021,254.0,Utah Utes
+1243,19,Coastal Carolina,2,2021,324.0,Coastal Carolina Chanticleers
+1244,20,Ole Miss,2,2021,145.0,Ole Miss Rebels
+1245,21,Virginia Tech,2,2021,259.0,Virginia Tech Hokies
+1246,22,North Carolina,2,2021,153.0,North Carolina Tar Heels
+1247,23,Oklahoma State,2,2021,197.0,Oklahoma State Cowboys
+1248,24,Miami,2,2021,2390.0,Miami Hurricanes
+1249,25,Arizona State,2,2021,9.0,Arizona State Sun Devils
+1250,1,Alabama,3,2021,333.0,Alabama Crimson Tide
+1251,2,Georgia,3,2021,61.0,Georgia Bulldogs
+1252,3,Oklahoma,3,2021,201.0,Oklahoma Sooners
+1253,4,Oregon,3,2021,2483.0,Oregon Ducks
+1254,5,Texas A&M,3,2021,245.0,Texas A&M Aggies
+1255,6,Clemson,3,2021,228.0,Clemson Tigers
+1256,7,Iowa,3,2021,2294.0,Iowa Hawkeyes
+1257,8,Cincinnati,3,2021,2132.0,Cincinnati Bearcats
+1258,9,Florida,3,2021,57.0,Florida Gators
+1259,10,Notre Dame,3,2021,87.0,Notre Dame Fighting Irish
+1260,11,Ohio State,3,2021,194.0,Ohio State Buckeyes
+1261,12,Penn State,3,2021,213.0,Penn State Nittany Lions
+1262,13,UCLA,3,2021,26.0,UCLA Bruins
+1263,14,Iowa State,3,2021,66.0,Iowa State Cyclones
+1264,15,Virginia Tech,3,2021,259.0,Virginia Tech Hokies
+1265,16,Ole Miss,3,2021,145.0,Ole Miss Rebels
+1266,17,Wisconsin,3,2021,275.0,Wisconsin Badgers
+1267,18,Coastal Carolina,3,2021,324.0,Coastal Carolina Chanticleers
+1268,19,North Carolina,3,2021,153.0,North Carolina Tar Heels
+1269,20,Auburn,3,2021,2.0,Auburn Tigers
+1270,21,Arizona State,3,2021,9.0,Arizona State Sun Devils
+1271,22,Oklahoma State,3,2021,197.0,Oklahoma State Cowboys
+1272,23,BYU,3,2021,252.0,BYU Cougars
+1273,24,Arkansas,3,2021,8.0,Arkansas Razorbacks
+1274,25,Michigan,3,2021,130.0,Michigan Wolverines
+1275,1,Alabama,4,2021,333.0,Alabama Crimson Tide
+1276,2,Georgia,4,2021,61.0,Georgia Bulldogs
+1277,3,Oklahoma,4,2021,201.0,Oklahoma Sooners
+1278,4,Oregon,4,2021,2483.0,Oregon Ducks
+1279,5,Texas A&M,4,2021,245.0,Texas A&M Aggies
+1280,6,Iowa,4,2021,2294.0,Iowa Hawkeyes
+1281,7,Clemson,4,2021,228.0,Clemson Tigers
+1282,8,Penn State,4,2021,213.0,Penn State Nittany Lions
+1283,9,Cincinnati,4,2021,2132.0,Cincinnati Bearcats
+1284,10,Notre Dame,4,2021,87.0,Notre Dame Fighting Irish
+1285,11,Florida,4,2021,57.0,Florida Gators
+1286,12,Ohio State,4,2021,194.0,Ohio State Buckeyes
+1287,13,Ole Miss,4,2021,145.0,Ole Miss Rebels
+1288,14,Iowa State,4,2021,66.0,Iowa State Cyclones
+1289,15,Wisconsin,4,2021,275.0,Wisconsin Badgers
+1290,16,BYU,4,2021,252.0,BYU Cougars
+1291,17,Coastal Carolina,4,2021,324.0,Coastal Carolina Chanticleers
+1292,18,Arkansas,4,2021,8.0,Arkansas Razorbacks
+1293,19,Michigan,4,2021,130.0,Michigan Wolverines
+1294,20,North Carolina,4,2021,153.0,North Carolina Tar Heels
+1295,21,Michigan State,4,2021,127.0,Michigan State Spartans
+1296,22,Oklahoma State,4,2021,197.0,Oklahoma State Cowboys
+1297,23,Auburn,4,2021,2.0,Auburn Tigers
+1298,24,UCLA,4,2021,26.0,UCLA Bruins
+1299,25,Fresno State,4,2021,278.0,Fresno State Bulldogs
+1300,1,Alabama,5,2021,333.0,Alabama Crimson Tide
+1301,2,Georgia,5,2021,61.0,Georgia Bulldogs
+1302,3,Oregon,5,2021,2483.0,Oregon Ducks
+1303,4,Oklahoma,5,2021,201.0,Oklahoma Sooners
+1304,5,Iowa,5,2021,2294.0,Iowa Hawkeyes
+1305,6,Penn State,5,2021,213.0,Penn State Nittany Lions
+1306,7,Notre Dame,5,2021,87.0,Notre Dame Fighting Irish
+1307,8,Cincinnati,5,2021,2132.0,Cincinnati Bearcats
+1308,9,Florida,5,2021,57.0,Florida Gators
+1309,10,Ohio State,5,2021,194.0,Ohio State Buckeyes
+1310,11,Arkansas,5,2021,8.0,Arkansas Razorbacks
+1311,12,Ole Miss,5,2021,145.0,Ole Miss Rebels
+1312,13,Texas A&M,5,2021,245.0,Texas A&M Aggies
+1313,14,Michigan,5,2021,130.0,Michigan Wolverines
+1314,15,BYU,5,2021,252.0,BYU Cougars
+1315,16,Michigan State,5,2021,127.0,Michigan State Spartans
+1316,16,Coastal Carolina,5,2021,324.0,Coastal Carolina Chanticleers
+1317,18,Oklahoma State,5,2021,197.0,Oklahoma State Cowboys
+1318,19,Clemson,5,2021,228.0,Clemson Tigers
+1319,20,UCLA,5,2021,26.0,UCLA Bruins
+1320,21,Fresno State,5,2021,278.0,Fresno State Bulldogs
+1321,22,Auburn,5,2021,2.0,Auburn Tigers
+1322,23,Kentucky,5,2021,96.0,Kentucky Wildcats
+1323,24,Baylor,5,2021,239.0,Baylor Bears
+1324,25,Wake Forest,5,2021,154.0,Wake Forest Demon Deacons
+1325,1,Alabama,6,2021,333.0,Alabama Crimson Tide
+1326,2,Georgia,6,2021,61.0,Georgia Bulldogs
+1327,3,Iowa,6,2021,2294.0,Iowa Hawkeyes
+1328,4,Penn State,6,2021,213.0,Penn State Nittany Lions
+1329,5,Oklahoma,6,2021,201.0,Oklahoma Sooners
+1330,6,Cincinnati,6,2021,2132.0,Cincinnati Bearcats
+1331,7,Ohio State,6,2021,194.0,Ohio State Buckeyes
+1332,8,Michigan,6,2021,130.0,Michigan Wolverines
+1333,9,Oregon,6,2021,2483.0,Oregon Ducks
+1334,10,BYU,6,2021,252.0,BYU Cougars
+1335,11,Michigan State,6,2021,127.0,Michigan State Spartans
+1336,12,Oklahoma State,6,2021,197.0,Oklahoma State Cowboys
+1337,13,Notre Dame,6,2021,87.0,Notre Dame Fighting Irish
+1338,14,Kentucky,6,2021,96.0,Kentucky Wildcats
+1339,15,Coastal Carolina,6,2021,324.0,Coastal Carolina Chanticleers
+1340,16,Arkansas,6,2021,8.0,Arkansas Razorbacks
+1341,17,Ole Miss,6,2021,145.0,Ole Miss Rebels
+1342,18,Florida,6,2021,57.0,Florida Gators
+1343,19,Auburn,6,2021,2.0,Auburn Tigers
+1344,20,Wake Forest,6,2021,154.0,Wake Forest Demon Deacons
+1345,21,Clemson,6,2021,228.0,Clemson Tigers
+1346,22,NC State,6,2021,154.0,NC State Wolfpack
+1347,23,Texas,6,2021,251.0,Texas Longhorns
+1348,24,SMU,6,2021,2567.0,SMU Mustangs
+1349,25,Arizona State,6,2021,9.0,Arizona State Sun Devils
+1350,1,Georgia,7,2021,61.0,Georgia Bulldogs
+1351,2,Iowa,7,2021,2294.0,Iowa Hawkeyes
+1352,3,Oklahoma,7,2021,201.0,Oklahoma Sooners
+1353,4,Cincinnati,7,2021,2132.0,Cincinnati Bearcats
+1354,5,Alabama,7,2021,333.0,Alabama Crimson Tide
+1355,6,Ohio State,7,2021,194.0,Ohio State Buckeyes
+1356,7,Michigan,7,2021,130.0,Michigan Wolverines
+1357,8,Penn State,7,2021,213.0,Penn State Nittany Lions
+1358,9,Michigan State,7,2021,127.0,Michigan State Spartans
+1359,10,Oregon,7,2021,2483.0,Oregon Ducks
+1360,11,Kentucky,7,2021,96.0,Kentucky Wildcats
+1361,12,Oklahoma State,7,2021,197.0,Oklahoma State Cowboys
+1362,13,Notre Dame,7,2021,87.0,Notre Dame Fighting Irish
+1363,14,Ole Miss,7,2021,145.0,Ole Miss Rebels
+1364,15,Coastal Carolina,7,2021,324.0,Coastal Carolina Chanticleers
+1365,16,Wake Forest,7,2021,154.0,Wake Forest Demon Deacons
+1366,17,Florida,7,2021,57.0,Florida Gators
+1367,18,Texas A&M,7,2021,245.0,Texas A&M Aggies
+1368,19,Arkansas,7,2021,8.0,Arkansas Razorbacks
+1369,20,BYU,7,2021,252.0,BYU Cougars
+1370,21,NC State,7,2021,154.0,NC State Wolfpack
+1371,22,Arizona State,7,2021,9.0,Arizona State Sun Devils
+1372,23,SMU,7,2021,2567.0,SMU Mustangs
+1373,24,San Diego State,7,2021,21.0,San Diego State Aztecs
+1374,25,Clemson,7,2021,228.0,Clemson Tigers
+1375,1,Georgia,8,2021,61.0,Georgia Bulldogs
+1376,2,Oklahoma,8,2021,201.0,Oklahoma Sooners
+1377,3,Cincinnati,8,2021,2132.0,Cincinnati Bearcats
+1378,4,Alabama,8,2021,333.0,Alabama Crimson Tide
+1379,5,Ohio State,8,2021,194.0,Ohio State Buckeyes
+1380,6,Michigan,8,2021,130.0,Michigan Wolverines
+1381,7,Michigan State,8,2021,127.0,Michigan State Spartans
+1382,8,Penn State,8,2021,213.0,Penn State Nittany Lions
+1383,9,Oklahoma State,8,2021,197.0,Oklahoma State Cowboys
+1384,10,Oregon,8,2021,2483.0,Oregon Ducks
+1385,11,Iowa,8,2021,2294.0,Iowa Hawkeyes
+1386,12,Ole Miss,8,2021,145.0,Ole Miss Rebels
+1387,13,Notre Dame,8,2021,87.0,Notre Dame Fighting Irish
+1388,14,Kentucky,8,2021,96.0,Kentucky Wildcats
+1389,15,Wake Forest,8,2021,154.0,Wake Forest Demon Deacons
+1390,16,Coastal Carolina,8,2021,324.0,Coastal Carolina Chanticleers
+1391,17,Texas A&M,8,2021,245.0,Texas A&M Aggies
+1392,18,NC State,8,2021,154.0,NC State Wolfpack
+1393,19,SMU,8,2021,2567.0,SMU Mustangs
+1394,20,Baylor,8,2021,239.0,Baylor Bears
+1395,21,San Diego State,8,2021,21.0,San Diego State Aztecs
+1396,22,Auburn,8,2021,2.0,Auburn Tigers
+1397,23,Pittsburgh,8,2021,221.0,Pittsburgh Panthers
+1398,24,Clemson,8,2021,228.0,Clemson Tigers
+1399,25,UTSA,8,2021,2636.0,UTSA Roadrunners
+1400,1,Georgia,9,2021,61.0,Georgia Bulldogs
+1401,2,Cincinnati,9,2021,2132.0,Cincinnati Bearcats
+1402,3,Alabama,9,2021,333.0,Alabama Crimson Tide
+1403,4,Oklahoma,9,2021,201.0,Oklahoma Sooners
+1404,5,Ohio State,9,2021,194.0,Ohio State Buckeyes
+1405,6,Michigan,9,2021,130.0,Michigan Wolverines
+1406,7,Michigan State,9,2021,127.0,Michigan State Spartans
+1407,8,Oregon,9,2021,2483.0,Oregon Ducks
+1408,9,Ole Miss,9,2021,145.0,Ole Miss Rebels
+1409,10,Iowa,9,2021,2294.0,Iowa Hawkeyes
+1410,11,Notre Dame,9,2021,87.0,Notre Dame Fighting Irish
+1411,12,Kentucky,9,2021,96.0,Kentucky Wildcats
+1412,13,Wake Forest,9,2021,154.0,Wake Forest Demon Deacons
+1413,14,Texas A&M,9,2021,245.0,Texas A&M Aggies
+1414,15,Oklahoma State,9,2021,197.0,Oklahoma State Cowboys
+1415,16,SMU,9,2021,2567.0,SMU Mustangs
+1416,17,Penn State,9,2021,213.0,Penn State Nittany Lions
+1417,18,Baylor,9,2021,239.0,Baylor Bears
+1418,19,Pittsburgh,9,2021,221.0,Pittsburgh Panthers
+1419,20,San Diego State,9,2021,21.0,San Diego State Aztecs
+1420,21,Auburn,9,2021,2.0,Auburn Tigers
+1421,22,UTSA,9,2021,2636.0,UTSA Roadrunners
+1422,23,Iowa State,9,2021,66.0,Iowa State Cyclones
+1423,24,Coastal Carolina,9,2021,324.0,Coastal Carolina Chanticleers
+1424,25,NC State,9,2021,154.0,NC State Wolfpack
+1425,1,Georgia,10,2021,61.0,Georgia Bulldogs
+1426,2,Cincinnati,10,2021,2132.0,Cincinnati Bearcats
+1427,3,Alabama,10,2021,333.0,Alabama Crimson Tide
+1428,4,Oklahoma,10,2021,201.0,Oklahoma Sooners
+1429,5,Michigan State,10,2021,127.0,Michigan State Spartans
+1430,6,Ohio State,10,2021,194.0,Ohio State Buckeyes
+1431,7,Oregon,10,2021,2483.0,Oregon Ducks
+1432,8,Notre Dame,10,2021,87.0,Notre Dame Fighting Irish
+1433,9,Michigan,10,2021,130.0,Michigan Wolverines
+1434,10,Wake Forest,10,2021,154.0,Wake Forest Demon Deacons
+1435,11,Oklahoma State,10,2021,197.0,Oklahoma State Cowboys
+1436,12,Auburn,10,2021,2.0,Auburn Tigers
+1437,13,Texas A&M,10,2021,245.0,Texas A&M Aggies
+1438,14,Baylor,10,2021,239.0,Baylor Bears
+1439,15,Ole Miss,10,2021,145.0,Ole Miss Rebels
+1440,16,UTSA,10,2021,2636.0,UTSA Roadrunners
+1441,17,BYU,10,2021,252.0,BYU Cougars
+1442,18,Kentucky,10,2021,96.0,Kentucky Wildcats
+1443,19,Iowa,10,2021,2294.0,Iowa Hawkeyes
+1444,20,Houston,10,2021,248.0,Houston Cougars
+1445,21,Coastal Carolina,10,2021,324.0,Coastal Carolina Chanticleers
+1446,22,Penn State,10,2021,213.0,Penn State Nittany Lions
+1447,23,SMU,10,2021,2567.0,SMU Mustangs
+1448,24,Louisiana,10,2021,309.0,Louisiana Ragin' Cajuns
+1449,25,Fresno State,10,2021,278.0,Fresno State Bulldogs
+1450,1,Georgia,11,2021,61.0,Georgia Bulldogs
+1451,2,Cincinnati,11,2021,2132.0,Cincinnati Bearcats
+1452,3,Alabama,11,2021,333.0,Alabama Crimson Tide
+1453,4,Oklahoma,11,2021,201.0,Oklahoma Sooners
+1454,5,Oregon,11,2021,2483.0,Oregon Ducks
+1455,6,Ohio State,11,2021,194.0,Ohio State Buckeyes
+1456,7,Notre Dame,11,2021,87.0,Notre Dame Fighting Irish
+1457,8,Michigan State,11,2021,127.0,Michigan State Spartans
+1458,9,Michigan,11,2021,130.0,Michigan Wolverines
+1459,10,Oklahoma State,11,2021,197.0,Oklahoma State Cowboys
+1460,11,Texas A&M,11,2021,245.0,Texas A&M Aggies
+1461,12,Ole Miss,11,2021,145.0,Ole Miss Rebels
+1462,13,Wake Forest,11,2021,154.0,Wake Forest Demon Deacons
+1463,14,BYU,11,2021,252.0,BYU Cougars
+1464,15,UTSA,11,2021,2636.0,UTSA Roadrunners
+1465,16,Auburn,11,2021,2.0,Auburn Tigers
+1466,17,Houston,11,2021,248.0,Houston Cougars
+1467,18,Baylor,11,2021,239.0,Baylor Bears
+1468,19,Iowa,11,2021,2294.0,Iowa Hawkeyes
+1469,20,Wisconsin,11,2021,275.0,Wisconsin Badgers
+1470,21,NC State,11,2021,154.0,NC State Wolfpack
+1471,22,Coastal Carolina,11,2021,324.0,Coastal Carolina Chanticleers
+1472,23,Penn State,11,2021,213.0,Penn State Nittany Lions
+1473,24,Louisiana,11,2021,309.0,Louisiana Ragin' Cajuns
+1474,25,Pittsburgh,11,2021,221.0,Pittsburgh Panthers
+1475,1,Georgia,12,2021,61.0,Georgia Bulldogs
+1476,2,Alabama,12,2021,333.0,Alabama Crimson Tide
+1477,3,Cincinnati,12,2021,2132.0,Cincinnati Bearcats
+1478,4,Oregon,12,2021,2483.0,Oregon Ducks
+1479,5,Ohio State,12,2021,194.0,Ohio State Buckeyes
+1480,6,Notre Dame,12,2021,87.0,Notre Dame Fighting Irish
+1481,7,Michigan State,12,2021,127.0,Michigan State Spartans
+1482,8,Michigan,12,2021,130.0,Michigan Wolverines
+1483,9,Oklahoma State,12,2021,197.0,Oklahoma State Cowboys
+1484,10,Ole Miss,12,2021,145.0,Ole Miss Rebels
+1485,11,Baylor,12,2021,239.0,Baylor Bears
+1486,12,Oklahoma,12,2021,201.0,Oklahoma Sooners
+1487,13,Wake Forest,12,2021,154.0,Wake Forest Demon Deacons
+1488,14,BYU,12,2021,252.0,BYU Cougars
+1489,15,UTSA,12,2021,2636.0,UTSA Roadrunners
+1490,16,Texas A&M,12,2021,245.0,Texas A&M Aggies
+1491,17,Houston,12,2021,248.0,Houston Cougars
+1492,18,Iowa,12,2021,2294.0,Iowa Hawkeyes
+1493,19,Wisconsin,12,2021,275.0,Wisconsin Badgers
+1494,20,Pittsburgh,12,2021,221.0,Pittsburgh Panthers
+1495,21,Arkansas,12,2021,8.0,Arkansas Razorbacks
+1496,22,Louisiana,12,2021,309.0,Louisiana Ragin' Cajuns
+1497,23,San Diego State,12,2021,21.0,San Diego State Aztecs
+1498,24,Utah,12,2021,254.0,Utah Utes
+1499,25,NC State,12,2021,154.0,NC State Wolfpack
+1500,1,Georgia,13,2021,61.0,Georgia Bulldogs
+1501,2,Ohio State,13,2021,194.0,Ohio State Buckeyes
+1502,3,Alabama,13,2021,333.0,Alabama Crimson Tide
+1503,4,Cincinnati,13,2021,2132.0,Cincinnati Bearcats
+1504,5,Notre Dame,13,2021,87.0,Notre Dame Fighting Irish
+1505,6,Michigan,13,2021,130.0,Michigan Wolverines
+1506,7,Oklahoma State,13,2021,197.0,Oklahoma State Cowboys
+1507,8,Ole Miss,13,2021,145.0,Ole Miss Rebels
+1508,9,Baylor,13,2021,239.0,Baylor Bears
+1509,10,Oklahoma,13,2021,201.0,Oklahoma Sooners
+1510,11,Oregon,13,2021,2483.0,Oregon Ducks
+1511,12,Michigan State,13,2021,127.0,Michigan State Spartans
+1512,13,BYU,13,2021,252.0,BYU Cougars
+1513,14,Texas A&M,13,2021,245.0,Texas A&M Aggies
+1514,15,UTSA,13,2021,2636.0,UTSA Roadrunners
+1515,16,Utah,13,2021,254.0,Utah Utes
+1516,17,Iowa,13,2021,2294.0,Iowa Hawkeyes
+1517,18,Wisconsin,13,2021,275.0,Wisconsin Badgers
+1518,19,Houston,13,2021,248.0,Houston Cougars
+1519,20,Pittsburgh,13,2021,221.0,Pittsburgh Panthers
+1520,21,Wake Forest,13,2021,154.0,Wake Forest Demon Deacons
+1521,22,San Diego State,13,2021,21.0,San Diego State Aztecs
+1522,23,Louisiana,13,2021,309.0,Louisiana Ragin' Cajuns
+1523,24,NC State,13,2021,154.0,NC State Wolfpack
+1524,25,Arkansas,13,2021,8.0,Arkansas Razorbacks
+1525,1,Georgia,14,2021,61.0,Georgia Bulldogs
+1526,2,Michigan,14,2021,130.0,Michigan Wolverines
+1527,3,Cincinnati,14,2021,2132.0,Cincinnati Bearcats
+1528,4,Alabama,14,2021,333.0,Alabama Crimson Tide
+1529,5,Oklahoma State,14,2021,197.0,Oklahoma State Cowboys
+1530,6,Notre Dame,14,2021,87.0,Notre Dame Fighting Irish
+1531,7,Ohio State,14,2021,194.0,Ohio State Buckeyes
+1532,8,Ole Miss,14,2021,145.0,Ole Miss Rebels
+1533,9,Baylor,14,2021,239.0,Baylor Bears
+1534,10,Oregon,14,2021,2483.0,Oregon Ducks
+1535,11,Michigan State,14,2021,127.0,Michigan State Spartans
+1536,12,BYU,14,2021,252.0,BYU Cougars
+1537,13,Oklahoma,14,2021,201.0,Oklahoma Sooners
+1538,14,Utah,14,2021,254.0,Utah Utes
+1539,15,Iowa,14,2021,2294.0,Iowa Hawkeyes
+1540,16,Houston,14,2021,248.0,Houston Cougars
+1541,17,Pittsburgh,14,2021,221.0,Pittsburgh Panthers
+1542,18,Wake Forest,14,2021,154.0,Wake Forest Demon Deacons
+1543,19,San Diego State,14,2021,21.0,San Diego State Aztecs
+1544,20,Louisiana,14,2021,309.0,Louisiana Ragin' Cajuns
+1545,21,NC State,14,2021,154.0,NC State Wolfpack
+1546,22,Clemson,14,2021,228.0,Clemson Tigers
+1547,23,Arkansas,14,2021,8.0,Arkansas Razorbacks
+1548,24,Texas A&M,14,2021,245.0,Texas A&M Aggies
+1549,25,Kentucky,14,2021,96.0,Kentucky Wildcats
+1550,1,Alabama,15,2021,333.0,Alabama Crimson Tide
+1551,2,Michigan,15,2021,130.0,Michigan Wolverines
+1552,3,Georgia,15,2021,61.0,Georgia Bulldogs
+1553,4,Cincinnati,15,2021,2132.0,Cincinnati Bearcats
+1554,5,Notre Dame,15,2021,87.0,Notre Dame Fighting Irish
+1555,6,Baylor,15,2021,239.0,Baylor Bears
+1556,7,Ohio State,15,2021,194.0,Ohio State Buckeyes
+1557,8,Ole Miss,15,2021,145.0,Ole Miss Rebels
+1558,9,Oklahoma State,15,2021,197.0,Oklahoma State Cowboys
+1559,10,Utah,15,2021,254.0,Utah Utes
+1560,11,Michigan State,15,2021,127.0,Michigan State Spartans
+1561,12,BYU,15,2021,252.0,BYU Cougars
+1562,13,Pittsburgh,15,2021,221.0,Pittsburgh Panthers
+1563,14,Oklahoma,15,2021,201.0,Oklahoma Sooners
+1564,15,Oregon,15,2021,2483.0,Oregon Ducks
+1565,16,Louisiana,15,2021,309.0,Louisiana Ragin' Cajuns
+1566,17,Iowa,15,2021,2294.0,Iowa Hawkeyes
+1567,18,NC State,15,2021,154.0,NC State Wolfpack
+1568,19,Clemson,15,2021,228.0,Clemson Tigers
+1569,20,Wake Forest,15,2021,154.0,Wake Forest Demon Deacons
+1570,21,Houston,15,2021,248.0,Houston Cougars
+1571,22,Arkansas,15,2021,8.0,Arkansas Razorbacks
+1572,23,Texas A&M,15,2021,245.0,Texas A&M Aggies
+1573,24,UTSA,15,2021,2636.0,UTSA Roadrunners
+1574,25,Kentucky,15,2021,96.0,Kentucky Wildcats
+1575,1,Georgia,16,2021,61.0,Georgia Bulldogs
+1576,2,Alabama,16,2021,333.0,Alabama Crimson Tide
+1577,3,Michigan,16,2021,130.0,Michigan Wolverines
+1578,4,Cincinnati,16,2021,2132.0,Cincinnati Bearcats
+1579,5,Ohio State,16,2021,194.0,Ohio State Buckeyes
+1580,6,Baylor,16,2021,239.0,Baylor Bears
+1581,7,Oklahoma State,16,2021,197.0,Oklahoma State Cowboys
+1582,8,Michigan State,16,2021,127.0,Michigan State Spartans
+1583,9,Notre Dame,16,2021,87.0,Notre Dame Fighting Irish
+1584,10,Oklahoma,16,2021,201.0,Oklahoma Sooners
+1585,11,Ole Miss,16,2021,145.0,Ole Miss Rebels
+1586,12,Utah,16,2021,254.0,Utah Utes
+1587,13,Pittsburgh,16,2021,221.0,Pittsburgh Panthers
+1588,14,Wake Forest,16,2021,154.0,Wake Forest Demon Deacons
+1589,15,Kentucky,16,2021,96.0,Kentucky Wildcats
+1590,16,Clemson,16,2021,228.0,Clemson Tigers
+1591,17,Houston,16,2021,248.0,Houston Cougars
+1592,18,Louisiana,16,2021,309.0,Louisiana Ragin' Cajuns
+1593,19,NC State,16,2021,154.0,NC State Wolfpack
+1594,20,Arkansas,16,2021,8.0,Arkansas Razorbacks
+1595,21,Oregon,16,2021,2483.0,Oregon Ducks
+1596,22,BYU,16,2021,252.0,BYU Cougars
+1597,23,Iowa,16,2021,2294.0,Iowa Hawkeyes
+1598,24,Utah State,16,2021,328.0,Utah State Aggies
+1599,25,Texas A&M,16,2021,245.0,Texas A&M Aggies
+1600,1,Clemson,1,2020,228.0,Clemson Tigers
+1601,2,Ohio State,1,2020,194.0,Ohio State Buckeyes
+1602,3,Alabama,1,2020,333.0,Alabama Crimson Tide
+1603,4,Georgia,1,2020,61.0,Georgia Bulldogs
+1604,5,LSU,1,2020,99.0,LSU Tigers
+1605,6,Oklahoma,1,2020,201.0,Oklahoma Sooners
+1606,7,Penn State,1,2020,213.0,Penn State Nittany Lions
+1607,8,Florida,1,2020,57.0,Florida Gators
+1608,9,Oregon,1,2020,2483.0,Oregon Ducks
+1609,10,Notre Dame,1,2020,87.0,Notre Dame Fighting Irish
+1610,11,Auburn,1,2020,2.0,Auburn Tigers
+1611,12,Wisconsin,1,2020,275.0,Wisconsin Badgers
+1612,13,Texas A&M,1,2020,245.0,Texas A&M Aggies
+1613,14,Texas,1,2020,251.0,Texas Longhorns
+1614,15,Michigan,1,2020,130.0,Michigan Wolverines
+1615,16,Oklahoma State,1,2020,197.0,Oklahoma State Cowboys
+1616,17,USC,1,2020,30.0,USC Trojans
+1617,18,Minnesota,1,2020,135.0,Minnesota Golden Gophers
+1618,19,North Carolina,1,2020,153.0,North Carolina Tar Heels
+1619,20,Utah,1,2020,254.0,Utah Utes
+1620,21,UCF,1,2020,2116.0,UCF Knights
+1621,22,Cincinnati,1,2020,2132.0,Cincinnati Bearcats
+1622,23,Iowa,1,2020,2294.0,Iowa Hawkeyes
+1623,24,Virginia Tech,1,2020,259.0,Virginia Tech Hokies
+1624,25,Iowa State,1,2020,66.0,Iowa State Cyclones
+1625,1,Clemson,3,2020,228.0,Clemson Tigers
+1626,2,Alabama,3,2020,333.0,Alabama Crimson Tide
+1627,3,Oklahoma,3,2020,201.0,Oklahoma Sooners
+1628,4,Georgia,3,2020,61.0,Georgia Bulldogs
+1629,5,LSU,3,2020,99.0,LSU Tigers
+1630,6,Florida,3,2020,57.0,Florida Gators
+1631,7,Notre Dame,3,2020,87.0,Notre Dame Fighting Irish
+1632,8,Texas,3,2020,251.0,Texas Longhorns
+1633,9,Auburn,3,2020,2.0,Auburn Tigers
+1634,10,Texas A&M,3,2020,245.0,Texas A&M Aggies
+1635,11,North Carolina,3,2020,153.0,North Carolina Tar Heels
+1636,12,Oklahoma State,3,2020,197.0,Oklahoma State Cowboys
+1637,13,UCF,3,2020,2116.0,UCF Knights
+1638,14,Cincinnati,3,2020,2132.0,Cincinnati Bearcats
+1639,15,Memphis,3,2020,235.0,Memphis Tigers
+1640,16,Louisville,3,2020,97.0,Louisville Cardinals
+1641,17,Tennessee,3,2020,2633.0,Tennessee Volunteers
+1642,18,Miami,3,2020,2390.0,Miami Hurricanes
+1643,19,Virginia Tech,3,2020,259.0,Virginia Tech Hokies
+1644,20,Kentucky,3,2020,96.0,Kentucky Wildcats
+1645,21,Louisiana,3,2020,309.0,Louisiana Ragin' Cajuns
+1646,22,BYU,3,2020,252.0,BYU Cougars
+1647,23,Appalachian State,3,2020,,
+1648,24,Baylor,3,2020,239.0,Baylor Bears
+1649,25,Army,3,2020,349.0,Army Black Knights
+1650,1,Clemson,4,2020,228.0,Clemson Tigers
+1651,2,Alabama,4,2020,333.0,Alabama Crimson Tide
+1652,3,Georgia,4,2020,61.0,Georgia Bulldogs
+1653,3,Oklahoma,4,2020,201.0,Oklahoma Sooners
+1654,5,LSU,4,2020,99.0,LSU Tigers
+1655,6,Florida,4,2020,57.0,Florida Gators
+1656,7,Notre Dame,4,2020,87.0,Notre Dame Fighting Irish
+1657,8,Auburn,4,2020,2.0,Auburn Tigers
+1658,9,Texas,4,2020,251.0,Texas Longhorns
+1659,10,Ohio State,4,2020,194.0,Ohio State Buckeyes
+1660,11,Texas A&M,4,2020,245.0,Texas A&M Aggies
+1661,12,North Carolina,4,2020,153.0,North Carolina Tar Heels
+1662,13,Penn State,4,2020,213.0,Penn State Nittany Lions
+1663,14,Miami,4,2020,2390.0,Miami Hurricanes
+1664,15,UCF,4,2020,2116.0,UCF Knights
+1665,16,Cincinnati,4,2020,2132.0,Cincinnati Bearcats
+1666,17,Wisconsin,4,2020,275.0,Wisconsin Badgers
+1667,18,Oklahoma State,4,2020,197.0,Oklahoma State Cowboys
+1668,19,Michigan,4,2020,130.0,Michigan Wolverines
+1669,20,Memphis,4,2020,235.0,Memphis Tigers
+1670,21,Tennessee,4,2020,2633.0,Tennessee Volunteers
+1671,22,Minnesota,4,2020,135.0,Minnesota Golden Gophers
+1672,23,BYU,4,2020,252.0,BYU Cougars
+1673,24,Virginia Tech,4,2020,259.0,Virginia Tech Hokies
+1674,25,Louisiana,4,2020,309.0,Louisiana Ragin' Cajuns
+1675,1,Clemson,5,2020,228.0,Clemson Tigers
+1676,2,Alabama,5,2020,333.0,Alabama Crimson Tide
+1677,3,Florida,5,2020,57.0,Florida Gators
+1678,4,Georgia,5,2020,61.0,Georgia Bulldogs
+1679,5,Notre Dame,5,2020,87.0,Notre Dame Fighting Irish
+1680,6,Ohio State,5,2020,194.0,Ohio State Buckeyes
+1681,7,Auburn,5,2020,2.0,Auburn Tigers
+1682,8,Miami,5,2020,2390.0,Miami Hurricanes
+1683,9,Texas,5,2020,251.0,Texas Longhorns
+1684,10,Penn State,5,2020,213.0,Penn State Nittany Lions
+1685,11,North Carolina,5,2020,153.0,North Carolina Tar Heels
+1686,12,UCF,5,2020,2116.0,UCF Knights
+1687,13,Texas A&M,5,2020,245.0,Texas A&M Aggies
+1688,14,Mississippi State,5,2020,344.0,Mississippi State Bulldogs
+1689,15,Cincinnati,5,2020,2132.0,Cincinnati Bearcats
+1690,16,Oklahoma,5,2020,201.0,Oklahoma Sooners
+1691,17,LSU,5,2020,99.0,LSU Tigers
+1692,18,Wisconsin,5,2020,275.0,Wisconsin Badgers
+1693,19,Oklahoma State,5,2020,197.0,Oklahoma State Cowboys
+1694,20,Tennessee,5,2020,2633.0,Tennessee Volunteers
+1695,21,Michigan,5,2020,130.0,Michigan Wolverines
+1696,22,BYU,5,2020,252.0,BYU Cougars
+1697,23,Virginia Tech,5,2020,259.0,Virginia Tech Hokies
+1698,24,Memphis,5,2020,235.0,Memphis Tigers
+1699,25,Pittsburgh,5,2020,221.0,Pittsburgh Panthers
+1700,1,Clemson,6,2020,228.0,Clemson Tigers
+1701,2,Alabama,6,2020,333.0,Alabama Crimson Tide
+1702,3,Florida,6,2020,57.0,Florida Gators
+1703,3,Georgia,6,2020,61.0,Georgia Bulldogs
+1704,5,Notre Dame,6,2020,87.0,Notre Dame Fighting Irish
+1705,6,Ohio State,6,2020,194.0,Ohio State Buckeyes
+1706,7,Miami,6,2020,2390.0,Miami Hurricanes
+1707,8,Penn State,6,2020,213.0,Penn State Nittany Lions
+1708,9,North Carolina,6,2020,153.0,North Carolina Tar Heels
+1709,10,Oklahoma State,6,2020,197.0,Oklahoma State Cowboys
+1710,11,Cincinnati,6,2020,2132.0,Cincinnati Bearcats
+1711,12,Tennessee,6,2020,2633.0,Tennessee Volunteers
+1712,13,Auburn,6,2020,2.0,Auburn Tigers
+1713,14,Wisconsin,6,2020,275.0,Wisconsin Badgers
+1714,15,BYU,6,2020,252.0,BYU Cougars
+1715,16,LSU,6,2020,99.0,LSU Tigers
+1716,17,Oregon,6,2020,2483.0,Oregon Ducks
+1717,18,Virginia Tech,6,2020,259.0,Virginia Tech Hokies
+1718,19,Michigan,6,2020,130.0,Michigan Wolverines
+1719,20,Texas A&M,6,2020,245.0,Texas A&M Aggies
+1720,21,SMU,6,2020,2567.0,SMU Mustangs
+1721,22,Texas,6,2020,251.0,Texas Longhorns
+1722,23,Louisiana,6,2020,309.0,Louisiana Ragin' Cajuns
+1723,24,Iowa State,6,2020,66.0,Iowa State Cyclones
+1724,25,UCF,6,2020,2116.0,UCF Knights
+1725,1,Clemson,7,2020,228.0,Clemson Tigers
+1726,2,Alabama,7,2020,333.0,Alabama Crimson Tide
+1727,3,Georgia,7,2020,61.0,Georgia Bulldogs
+1728,4,Notre Dame,7,2020,87.0,Notre Dame Fighting Irish
+1729,5,Ohio State,7,2020,194.0,Ohio State Buckeyes
+1730,6,North Carolina,7,2020,153.0,North Carolina Tar Heels
+1731,7,Oklahoma State,7,2020,197.0,Oklahoma State Cowboys
+1732,8,Penn State,7,2020,213.0,Penn State Nittany Lions
+1733,9,Florida,7,2020,57.0,Florida Gators
+1734,10,Cincinnati,7,2020,2132.0,Cincinnati Bearcats
+1735,11,Texas A&M,7,2020,245.0,Texas A&M Aggies
+1736,12,Miami,7,2020,2390.0,Miami Hurricanes
+1737,13,BYU,7,2020,252.0,BYU Cougars
+1738,14,Auburn,7,2020,2.0,Auburn Tigers
+1739,15,Wisconsin,7,2020,275.0,Wisconsin Badgers
+1740,16,Oregon,7,2020,2483.0,Oregon Ducks
+1741,17,Tennessee,7,2020,2633.0,Tennessee Volunteers
+1742,18,SMU,7,2020,2567.0,SMU Mustangs
+1743,19,Michigan,7,2020,130.0,Michigan Wolverines
+1744,20,Iowa State,7,2020,66.0,Iowa State Cyclones
+1745,21,Louisiana,7,2020,309.0,Louisiana Ragin' Cajuns
+1746,22,Kansas State,7,2020,2306.0,Kansas State Wildcats
+1747,23,Virginia Tech,7,2020,259.0,Virginia Tech Hokies
+1748,24,USC,7,2020,30.0,USC Trojans
+1749,25,Minnesota,7,2020,135.0,Minnesota Golden Gophers
+1750,1,Clemson,8,2020,228.0,Clemson Tigers
+1751,2,Alabama,8,2020,333.0,Alabama Crimson Tide
+1752,3,Notre Dame,8,2020,87.0,Notre Dame Fighting Irish
+1753,4,Georgia,8,2020,61.0,Georgia Bulldogs
+1754,5,Ohio State,8,2020,194.0,Ohio State Buckeyes
+1755,6,Oklahoma State,8,2020,197.0,Oklahoma State Cowboys
+1756,7,Penn State,8,2020,213.0,Penn State Nittany Lions
+1757,8,Florida,8,2020,57.0,Florida Gators
+1758,9,Texas A&M,8,2020,245.0,Texas A&M Aggies
+1759,10,Cincinnati,8,2020,2132.0,Cincinnati Bearcats
+1760,11,BYU,8,2020,252.0,BYU Cougars
+1761,11,Miami,8,2020,2390.0,Miami Hurricanes
+1762,13,North Carolina,8,2020,153.0,North Carolina Tar Heels
+1763,14,Wisconsin,8,2020,275.0,Wisconsin Badgers
+1764,15,Oregon,8,2020,2483.0,Oregon Ducks
+1765,16,SMU,8,2020,2567.0,SMU Mustangs
+1766,17,Michigan,8,2020,130.0,Michigan Wolverines
+1767,18,Iowa State,8,2020,66.0,Iowa State Cyclones
+1768,19,Kansas State,8,2020,2306.0,Kansas State Wildcats
+1769,20,Virginia Tech,8,2020,259.0,Virginia Tech Hokies
+1770,21,Minnesota,8,2020,135.0,Minnesota Golden Gophers
+1771,22,NC State,8,2020,154.0,NC State Wolfpack
+1772,23,USC,8,2020,30.0,USC Trojans
+1773,24,Coastal Carolina,8,2020,324.0,Coastal Carolina Chanticleers
+1774,25,Marshall,8,2020,276.0,Marshall Thundering Herd
+1775,1,Clemson,9,2020,228.0,Clemson Tigers
+1776,2,Alabama,9,2020,333.0,Alabama Crimson Tide
+1777,3,Ohio State,9,2020,194.0,Ohio State Buckeyes
+1778,4,Notre Dame,9,2020,87.0,Notre Dame Fighting Irish
+1779,5,Georgia,9,2020,61.0,Georgia Bulldogs
+1780,6,Oklahoma State,9,2020,197.0,Oklahoma State Cowboys
+1781,7,Cincinnati,9,2020,2132.0,Cincinnati Bearcats
+1782,8,Texas A&M,9,2020,245.0,Texas A&M Aggies
+1783,9,Florida,9,2020,57.0,Florida Gators
+1784,10,BYU,9,2020,252.0,BYU Cougars
+1785,11,Wisconsin,9,2020,275.0,Wisconsin Badgers
+1786,12,Miami,9,2020,2390.0,Miami Hurricanes
+1787,13,North Carolina,9,2020,153.0,North Carolina Tar Heels
+1788,14,Michigan,9,2020,130.0,Michigan Wolverines
+1789,15,Oregon,9,2020,2483.0,Oregon Ducks
+1790,16,Kansas State,9,2020,2306.0,Kansas State Wildcats
+1791,17,Penn State,9,2020,213.0,Penn State Nittany Lions
+1792,18,Marshall,9,2020,276.0,Marshall Thundering Herd
+1793,19,Indiana,9,2020,84.0,Indiana Hoosiers
+1794,20,USC,9,2020,30.0,USC Trojans
+1795,21,Coastal Carolina,9,2020,324.0,Coastal Carolina Chanticleers
+1796,22,Iowa State,9,2020,66.0,Iowa State Cyclones
+1797,23,SMU,9,2020,2567.0,SMU Mustangs
+1798,24,Oklahoma,9,2020,201.0,Oklahoma Sooners
+1799,25,Army,9,2020,349.0,Army Black Knights
+1800,1,Clemson,10,2020,228.0,Clemson Tigers
+1801,2,Alabama,10,2020,333.0,Alabama Crimson Tide
+1802,3,Ohio State,10,2020,194.0,Ohio State Buckeyes
+1803,4,Notre Dame,10,2020,87.0,Notre Dame Fighting Irish
+1804,5,Georgia,10,2020,61.0,Georgia Bulldogs
+1805,6,Cincinnati,10,2020,2132.0,Cincinnati Bearcats
+1806,7,Texas A&M,10,2020,245.0,Texas A&M Aggies
+1807,8,Florida,10,2020,57.0,Florida Gators
+1808,9,BYU,10,2020,252.0,BYU Cougars
+1809,10,Miami,10,2020,2390.0,Miami Hurricanes
+1810,11,Wisconsin,10,2020,275.0,Wisconsin Badgers
+1811,12,Oklahoma State,10,2020,197.0,Oklahoma State Cowboys
+1812,13,Indiana,10,2020,84.0,Indiana Hoosiers
+1813,14,Oregon,10,2020,2483.0,Oregon Ducks
+1814,15,Marshall,10,2020,276.0,Marshall Thundering Herd
+1815,16,Coastal Carolina,10,2020,324.0,Coastal Carolina Chanticleers
+1816,17,Iowa State,10,2020,66.0,Iowa State Cyclones
+1817,18,SMU,10,2020,2567.0,SMU Mustangs
+1818,19,Oklahoma,10,2020,201.0,Oklahoma Sooners
+1819,20,USC,10,2020,30.0,USC Trojans
+1820,21,Auburn,10,2020,2.0,Auburn Tigers
+1821,22,Army,10,2020,349.0,Army Black Knights
+1822,23,Boise State,10,2020,68.0,Boise State Broncos
+1823,24,North Carolina,10,2020,153.0,North Carolina Tar Heels
+1824,25,Michigan,10,2020,130.0,Michigan Wolverines
+1825,1,Alabama,11,2020,333.0,Alabama Crimson Tide
+1826,2,Notre Dame,11,2020,87.0,Notre Dame Fighting Irish
+1827,3,Ohio State,11,2020,194.0,Ohio State Buckeyes
+1828,4,Clemson,11,2020,228.0,Clemson Tigers
+1829,5,Florida,11,2020,57.0,Florida Gators
+1830,6,Texas A&M,11,2020,245.0,Texas A&M Aggies
+1831,7,Cincinnati,11,2020,2132.0,Cincinnati Bearcats
+1832,8,BYU,11,2020,252.0,BYU Cougars
+1833,9,Miami,11,2020,2390.0,Miami Hurricanes
+1834,10,Indiana,11,2020,84.0,Indiana Hoosiers
+1835,11,Georgia,11,2020,61.0,Georgia Bulldogs
+1836,12,Oregon,11,2020,2483.0,Oregon Ducks
+1837,13,Oklahoma State,11,2020,197.0,Oklahoma State Cowboys
+1838,14,Wisconsin,11,2020,275.0,Wisconsin Badgers
+1839,15,Marshall,11,2020,276.0,Marshall Thundering Herd
+1840,16,Iowa State,11,2020,66.0,Iowa State Cyclones
+1841,17,Coastal Carolina,11,2020,324.0,Coastal Carolina Chanticleers
+1842,18,Oklahoma,11,2020,201.0,Oklahoma Sooners
+1843,19,SMU,11,2020,2567.0,SMU Mustangs
+1844,20,USC,11,2020,30.0,USC Trojans
+1845,21,Auburn,11,2020,2.0,Auburn Tigers
+1846,22,Liberty,11,2020,2335.0,Liberty Flames
+1847,23,Northwestern,11,2020,77.0,Northwestern Wildcats
+1848,24,Texas,11,2020,251.0,Texas Longhorns
+1849,25,Army,11,2020,349.0,Army Black Knights
+1850,1,Alabama,12,2020,333.0,Alabama Crimson Tide
+1851,2,Notre Dame,12,2020,87.0,Notre Dame Fighting Irish
+1852,3,Ohio State,12,2020,194.0,Ohio State Buckeyes
+1853,4,Clemson,12,2020,228.0,Clemson Tigers
+1854,5,Florida,12,2020,57.0,Florida Gators
+1855,6,Texas A&M,12,2020,245.0,Texas A&M Aggies
+1856,7,Cincinnati,12,2020,2132.0,Cincinnati Bearcats
+1857,8,BYU,12,2020,252.0,BYU Cougars
+1858,9,Miami,12,2020,2390.0,Miami Hurricanes
+1859,10,Indiana,12,2020,84.0,Indiana Hoosiers
+1860,11,Georgia,12,2020,61.0,Georgia Bulldogs
+1861,12,Wisconsin,12,2020,275.0,Wisconsin Badgers
+1862,13,Oregon,12,2020,2483.0,Oregon Ducks
+1863,14,Oklahoma State,12,2020,197.0,Oklahoma State Cowboys
+1864,15,Marshall,12,2020,276.0,Marshall Thundering Herd
+1865,16,Iowa State,12,2020,66.0,Iowa State Cyclones
+1866,17,Oklahoma,12,2020,201.0,Oklahoma Sooners
+1867,18,Coastal Carolina,12,2020,324.0,Coastal Carolina Chanticleers
+1868,19,USC,12,2020,30.0,USC Trojans
+1869,20,Northwestern,12,2020,77.0,Northwestern Wildcats
+1870,21,Auburn,12,2020,2.0,Auburn Tigers
+1871,22,Liberty,12,2020,2335.0,Liberty Flames
+1872,23,Texas,12,2020,251.0,Texas Longhorns
+1873,24,North Carolina,12,2020,153.0,North Carolina Tar Heels
+1874,25,Louisiana,12,2020,309.0,Louisiana Ragin' Cajuns
+1875,1,Alabama,13,2020,333.0,Alabama Crimson Tide
+1876,2,Notre Dame,13,2020,87.0,Notre Dame Fighting Irish
+1877,3,Ohio State,13,2020,194.0,Ohio State Buckeyes
+1878,4,Clemson,13,2020,228.0,Clemson Tigers
+1879,5,Texas A&M,13,2020,245.0,Texas A&M Aggies
+1880,6,Florida,13,2020,57.0,Florida Gators
+1881,7,Cincinnati,13,2020,2132.0,Cincinnati Bearcats
+1882,8,BYU,13,2020,252.0,BYU Cougars
+1883,9,Oregon,13,2020,2483.0,Oregon Ducks
+1884,10,Miami,13,2020,2390.0,Miami Hurricanes
+1885,11,Northwestern,13,2020,77.0,Northwestern Wildcats
+1886,12,Indiana,13,2020,84.0,Indiana Hoosiers
+1887,13,Georgia,13,2020,61.0,Georgia Bulldogs
+1888,14,Oklahoma,13,2020,201.0,Oklahoma Sooners
+1889,15,Iowa State,13,2020,66.0,Iowa State Cyclones
+1890,16,Coastal Carolina,13,2020,324.0,Coastal Carolina Chanticleers
+1891,17,Marshall,13,2020,276.0,Marshall Thundering Herd
+1892,18,Wisconsin,13,2020,275.0,Wisconsin Badgers
+1893,19,USC,13,2020,30.0,USC Trojans
+1894,20,Texas,13,2020,251.0,Texas Longhorns
+1895,21,Oklahoma State,13,2020,197.0,Oklahoma State Cowboys
+1896,22,Auburn,13,2020,2.0,Auburn Tigers
+1897,23,Louisiana,13,2020,309.0,Louisiana Ragin' Cajuns
+1898,24,Tulsa,13,2020,202.0,Tulsa Golden Hurricane
+1899,25,North Carolina,13,2020,153.0,North Carolina Tar Heels
+1900,1,Alabama,14,2020,333.0,Alabama Crimson Tide
+1901,2,Notre Dame,14,2020,87.0,Notre Dame Fighting Irish
+1902,3,Ohio State,14,2020,194.0,Ohio State Buckeyes
+1903,4,Clemson,14,2020,228.0,Clemson Tigers
+1904,5,Texas A&M,14,2020,245.0,Texas A&M Aggies
+1905,6,Florida,14,2020,57.0,Florida Gators
+1906,7,Cincinnati,14,2020,2132.0,Cincinnati Bearcats
+1907,8,BYU,14,2020,252.0,BYU Cougars
+1908,9,Miami,14,2020,2390.0,Miami Hurricanes
+1909,10,Indiana,14,2020,84.0,Indiana Hoosiers
+1910,11,Georgia,14,2020,61.0,Georgia Bulldogs
+1911,12,Iowa State,14,2020,66.0,Iowa State Cyclones
+1912,13,Oklahoma,14,2020,201.0,Oklahoma Sooners
+1913,14,Coastal Carolina,14,2020,324.0,Coastal Carolina Chanticleers
+1914,15,Marshall,14,2020,276.0,Marshall Thundering Herd
+1915,16,Northwestern,14,2020,77.0,Northwestern Wildcats
+1916,17,USC,14,2020,30.0,USC Trojans
+1917,18,Wisconsin,14,2020,275.0,Wisconsin Badgers
+1918,19,Oklahoma State,14,2020,197.0,Oklahoma State Cowboys
+1919,20,Louisiana,14,2020,309.0,Louisiana Ragin' Cajuns
+1920,21,Oregon,14,2020,2483.0,Oregon Ducks
+1921,22,Tulsa,14,2020,202.0,Tulsa Golden Hurricane
+1922,23,Washington,14,2020,264.0,Washington Huskies
+1923,24,Iowa,14,2020,2294.0,Iowa Hawkeyes
+1924,25,Liberty,14,2020,2335.0,Liberty Flames
+1925,1,Alabama,15,2020,333.0,Alabama Crimson Tide
+1926,2,Notre Dame,15,2020,87.0,Notre Dame Fighting Irish
+1927,3,Ohio State,15,2020,194.0,Ohio State Buckeyes
+1928,4,Clemson,15,2020,228.0,Clemson Tigers
+1929,5,Texas A&M,15,2020,245.0,Texas A&M Aggies
+1930,6,Florida,15,2020,57.0,Florida Gators
+1931,7,Cincinnati,15,2020,2132.0,Cincinnati Bearcats
+1932,8,Indiana,15,2020,84.0,Indiana Hoosiers
+1933,9,Miami,15,2020,2390.0,Miami Hurricanes
+1934,10,Iowa State,15,2020,66.0,Iowa State Cyclones
+1935,11,Coastal Carolina,15,2020,324.0,Coastal Carolina Chanticleers
+1936,12,Georgia,15,2020,61.0,Georgia Bulldogs
+1937,13,Oklahoma,15,2020,201.0,Oklahoma Sooners
+1938,14,BYU,15,2020,252.0,BYU Cougars
+1939,15,Northwestern,15,2020,77.0,Northwestern Wildcats
+1940,16,USC,15,2020,30.0,USC Trojans
+1941,17,Louisiana,15,2020,309.0,Louisiana Ragin' Cajuns
+1942,18,Tulsa,15,2020,202.0,Tulsa Golden Hurricane
+1943,19,Iowa,15,2020,2294.0,Iowa Hawkeyes
+1944,20,North Carolina,15,2020,153.0,North Carolina Tar Heels
+1945,21,Colorado,15,2020,38.0,Colorado Buffaloes
+1946,22,Liberty,15,2020,2335.0,Liberty Flames
+1947,23,Texas,15,2020,251.0,Texas Longhorns
+1948,24,Buffalo,15,2020,2084.0,Buffalo Bulls
+1949,25,Wisconsin,15,2020,275.0,Wisconsin Badgers
+1950,1,Alabama,16,2020,333.0,Alabama Crimson Tide
+1951,2,Ohio State,16,2020,194.0,Ohio State Buckeyes
+1952,3,Clemson,16,2020,228.0,Clemson Tigers
+1953,4,Texas A&M,16,2020,245.0,Texas A&M Aggies
+1954,5,Notre Dame,16,2020,87.0,Notre Dame Fighting Irish
+1955,6,Oklahoma,16,2020,201.0,Oklahoma Sooners
+1956,7,Georgia,16,2020,61.0,Georgia Bulldogs
+1957,8,Cincinnati,16,2020,2132.0,Cincinnati Bearcats
+1958,9,Iowa State,16,2020,66.0,Iowa State Cyclones
+1959,10,Northwestern,16,2020,77.0,Northwestern Wildcats
+1960,11,BYU,16,2020,252.0,BYU Cougars
+1961,12,Indiana,16,2020,84.0,Indiana Hoosiers
+1962,13,Florida,16,2020,57.0,Florida Gators
+1963,14,Coastal Carolina,16,2020,324.0,Coastal Carolina Chanticleers
+1964,15,Louisiana,16,2020,309.0,Louisiana Ragin' Cajuns
+1965,16,Iowa,16,2020,2294.0,Iowa Hawkeyes
+1966,17,Liberty,16,2020,2335.0,Liberty Flames
+1967,18,North Carolina,16,2020,153.0,North Carolina Tar Heels
+1968,19,Texas,16,2020,251.0,Texas Longhorns
+1969,20,Oklahoma State,16,2020,197.0,Oklahoma State Cowboys
+1970,21,USC,16,2020,30.0,USC Trojans
+1971,22,Miami,16,2020,2390.0,Miami Hurricanes
+1972,23,Ball State,16,2020,2050.0,Ball State Cardinals
+1973,24,San José State,16,2020,,
+1974,25,Buffalo,16,2020,2084.0,Buffalo Bulls
