@@ -10,6 +10,14 @@ st.write(
 ...
 ''')
 
+st.write(
+'''
+super cool text
+
+...
+''')
+
+
 # currently set for integer input
 amount = st.number_input("Exercise Input: ", 
                          value=None, 
