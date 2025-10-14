@@ -16,8 +16,7 @@ def mock_predict(data):
 st.title('College Football Ranking Predictor')
 
 # Setting an image
-st.image('StreamlitPic.jpg', \
-    caption = "Image Caption", width = 300)
+st.image('StreamlitPic.jpg', width = 1000)
 
 # Setting the input for the playing team
 st.header('Team Selection')
@@ -75,9 +74,12 @@ pred_data = {
     'home_game': 1
 }
 
+# Converting the Prediction Data to a Dataframe
+prediction_df = pd.DataFrame(prediction_data.items(), columns = ['Attribute', 'Value'])
+
 # logging the inputs to ensure accuracy
 st.header('Selected Options')
-st.write('Prediction Data:', pred_data)
+st.table(prediction_df)
 
 # Predicting the rank change (mock setup)
 rank_change = mock_predict(pred_data)
