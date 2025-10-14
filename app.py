@@ -55,6 +55,9 @@ st.write('Prediction Data:', pred_data)
 # Predicting the rank change (mock setup)
 rank_change = mock_predict(pred_data)
 
+# Testing to ensure rank_change is producing a result
+st.write(f"Rank Change: {rank_change}")
+
 # Setting rank change variable
 movement = 'move up' if rank_change < 0 else 'move down'
 
