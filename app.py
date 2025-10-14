@@ -68,7 +68,7 @@ point_differential = points_scored - points_allowed
 st.subheader('Game Outcome')
 game_outcome = 'Won' if point_differential > 0 else 'Lost'
 st.write(f'The {team} {game_outcome} by {point_differential} points.')
-game_result = 'beat' if game_outcome =='Win' else 'lost to'
+game_result = 'beat' if game_outcome =='Won' else 'lost to'
 pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
 
 
