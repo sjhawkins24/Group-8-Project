@@ -26,12 +26,13 @@ st.write(f'Selected opponent: {opponent}')
 # Setting the input for game outcome
 result = st.selectbox('Game result:', ['W', 'L'])
 st.write(f'Game result: {result}')
+game_result = 'beat' if W else 'lost to'
 
 # Setting the inputs for points_scored and points_allowed
 points_scored = st.number_input('Points Scored:', min_value = 0, step = 1, value = 0)
 points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, value = 0)
 
-# Calculating the point differential and outcome
+# Calculating the point differential
 point_differential = points_scored - points_allowed
 win = 1 if result == 'W' else 0
 opponent_ranked = teams[teams['opponent'] == opponent]['FPI'].iloc[0] != '--'
@@ -55,7 +56,7 @@ st.write('Prediction Data:', pred_data)
 rank_change = mock_predict(pred_data)
 
 # Output text in Streamlit
-result_text = f'If the {team} {'beat' if win else 'lose to'} {opponent} by \
+result_text = f'If the {team} {game_result} {opponent} by \
     {abs(point_differential)} points, they will {'move up' if rank_change < 0 else 'move down'} \
     by {abs(round(rank_change))} ranking points.'
 
