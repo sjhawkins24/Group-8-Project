@@ -31,9 +31,11 @@ team_rank = df.loc[df['Team'] == team, 'FPI'].iloc[0]
 st.subheader('Current Team Ranking')
 st.write(f"The Team's Current Rank is: {team_rank}")
 
-# Setting the input for opponent
+# Opponent Selection
 st.header('Opponent Selection')
-opponent = st.selectbox('Select an opponent:', teams)
+# Filtering opponents to remove the team already selected
+available_opponents = [t for t in teams if t != team]
+opponent = st.selectbox('Select an opponent:', available_opponents)
 st.write(f'Selected opponent: {opponent}')
 
 # Extract the FPI value for the opponent from the 'Team' column
@@ -131,12 +133,3 @@ result_text = f'If the {team} {game_result} {opponent} by \
 # Displaying the result in Streamlit
 st.header('Results')
 st.write(result_text)
-
-# currently set for integer input
-# amount = st.number_input("Exercise Input: ", 
-                         # value=None, 
-                         # step=1, 
-                         # format="%d")
-
-# if amount is not None:
-#    st.write(f"The exercise input was {amount}.")
