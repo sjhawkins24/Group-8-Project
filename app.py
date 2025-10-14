@@ -57,7 +57,7 @@ pred_data = {
     'points_scored': points_scored,
     'points_allowed': points_allowed,
     'point_differential': point_differential,
-    'win_loss': win,
+    'win_loss': game_outcome,
     'ranked_opponent': opponent_ranked,
     'home_game': 1
 }
