@@ -63,7 +63,7 @@ movement = 'move up' if rank_change < 0 else 'move down'
 
 # Output text in Streamlit
 result_text = f'If the {team} {game_result} {opponent} by \
-    {abs(point_differential)} points, they will {movement} \
+    {point_differential} points, they will {movement} \
     by {abs(round(rank_change))} ranking points.'
 
 # currently set for integer input
