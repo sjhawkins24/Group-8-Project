@@ -36,7 +36,7 @@ st.write(f'Selected opponent: {opponent}')
 opponent_ranked = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
 
 # Display the rank in Streamlit
-st.header('Opponent's Current Ranking')
+st.header("Opponent's Current Ranking")
 st.write(f"The Opponent's Current Rank is: {opponent_ranked}")
 
 # Setting the input for game outcome
