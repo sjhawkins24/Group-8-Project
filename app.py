@@ -16,7 +16,8 @@ def mock_predict(data):
 st.title('College Football Ranking Predictor')
 
 # Setting an image
-st.image()
+st.image(r'C:\Users\renai\Info 501 Intro to Data Science Programming\Group-8-Project\StreamlitPic.jpg', \
+    caption = "Image Caption", width = 300)
 
 # Setting the input for the playing team
 st.header('Team Selection')
