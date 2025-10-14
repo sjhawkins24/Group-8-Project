@@ -37,6 +37,9 @@ point_differential = points_scored - points_allowed
 win = 1 if result == 'W' else 0
 opponent_ranked = teams[teams['opponent'] == opponent]['FPI'].iloc[0] != '--'
 
+# Setting rank change variable
+movement = 'move up' if rank_change < 0 else 'move down'
+
 # Setting up the dictionary for input values
 pred_data = {
     'team': team,
@@ -57,7 +60,7 @@ rank_change = mock_predict(pred_data)
 
 # Output text in Streamlit
 result_text = f'If the {team} {game_result} {opponent} by \
-    {abs(point_differential)} points, they will {'move up' if rank_change < 0 else 'move down'} \
+    {abs(point_differential)} points, they will {movement} \
     by {abs(round(rank_change))} ranking points.'
 
 # currently set for integer input
