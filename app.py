@@ -66,6 +66,9 @@ result_text = f'If the {team} {game_result} {opponent} by \
     {point_differential} points, they will {movement} \
     by {abs(round(rank_change))} ranking points.'
 
+# Displaying the result in Streamlit
+st.write(result_text)
+
 # currently set for integer input
 # amount = st.number_input("Exercise Input: ", 
                          # value=None, 
