@@ -35,7 +35,7 @@ points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, val
 # Calculating the point differential
 point_differential = points_scored - points_allowed
 win = 1 if result == 'W' else 0
-opponent_ranked = teams[teams['opponent'] == opponent]['FPI'].iloc[0] != '--'
+opponent_ranked = df[df['opponent'] == opponent]['FPI'].iloc[0] != '--'
 
 # Setting rank change variable
 movement = 'move up' if rank_change < 0 else 'move down'
