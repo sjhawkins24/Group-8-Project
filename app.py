@@ -15,6 +15,9 @@ def mock_predict(data):
 # Setting the title of the Streamlit page
 st.title('College Football Ranking Predictor')
 
+# Setting an image
+st.image()
+
 # Setting the input for the playing team
 st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
@@ -79,7 +82,7 @@ st.write('Prediction Data:', pred_data)
 rank_change = mock_predict(pred_data)
 
 # Testing to ensure rank_change is producing a result
-st.header('Predicted Rank Change')
+st.subheader('Predicted Rank Change')
 st.write(f"Rank Change: {rank_change}")
 
 # Setting rank change variable
