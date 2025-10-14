@@ -3,12 +3,7 @@ import streamlit as st
 
 
 
-st.write(
-'''
-# Week 3: Basic Pandas
-
-...
-''')
+st.title('College Football Ranking Predictor')
 
 st.write(
 '''
