@@ -66,9 +66,10 @@ point_differential = points_scored - points_allowed
 
 # Calculating the outcome based on point differential
 st.subheader('Game Outcome')
-game_outcome = 'Win' if point_differential > 0 else 'Loss'
-st.write(game_outcome)
+game_outcome = 'Won' if point_differential > 0 else 'Lost'
+st.write(f'The {team} {game_outcome} by {point_differential} points.')
 game_result = 'beat' if game_outcome =='Win' else 'lost to'
+pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
 
 
 # Setting up the dictionary for input values
@@ -79,7 +80,7 @@ pred_data = {
     'Opponent Rank': opponent_rank,
     'Team Points Scored': points_scored,
     'Opponent Points Scored': points_allowed,
-    'Game Outcome': game_outcome,
+    'Game Outcome': pred_result,
     'Game Played at Home or Away': hg
 }
 
