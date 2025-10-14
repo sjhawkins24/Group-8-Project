@@ -24,11 +24,11 @@ team = st.selectbox('Select your team:', teams)
 st.write(f'Selected team: {team}')
 
 # Extract the FPI value for the team from the 'Team' column
-team_ranked = df.loc[df['Team'] == team, 'FPI'].iloc[0]
+team_rank = df.loc[df['Team'] == team, 'FPI'].iloc[0]
 
 # Display the team rank in Streamlit
 st.subheader('Current Team Ranking')
-st.write(f"The Team's Current Rank is: {team_ranked}")
+st.write(f"The Team's Current Rank is: {team_rank}")
 
 # Setting the input for opponent
 st.header('Opponent Selection')
@@ -36,11 +36,17 @@ opponent = st.selectbox('Select an opponent:', teams)
 st.write(f'Selected opponent: {opponent}')
 
 # Extract the FPI value for the opponent from the 'Team' column
-opponent_ranked = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
+opponent_rank = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
 
 # Display the opponent rank in Streamlit
 st.subheader("Opponent's Current Ranking")
-st.write(f"The Opponent's Current Rank is: {opponent_ranked}")
+st.write(f"The Opponent's Current Rank is: {opponent_rank}")
+
+# Selecting if it is a home game
+st.header('Home or Away Game')
+home_game = st.selectbox('Is this a Home Game?', ['Yes', 'No'])
+hg = 'Home' if home_game == 'Yes' else 'Away'
+st.write(f'This is a(n) {hg} game')
 
 # Setting the input for game outcome
 # st.header('Game Outcome')
@@ -64,22 +70,22 @@ game_result = 'beat' if game_outcome =='Win' else 'lost to'
 
 # Setting up the dictionary for input values
 pred_data = {
-    'team': team,
-    'opponent': opponent,
-    'points_scored': points_scored,
-    'points_allowed': points_allowed,
-    'point_differential': point_differential,
-    'win_loss': game_outcome,
-    'ranked_opponent': opponent_ranked,
-    'home_game': 1
+    'Team': team,
+    'Team Rank': team_rank,
+    'Opponent': opponent,
+    'Opponent Rank': opponent_rank,
+    'Team Points Scored': points_scored,
+    'Opponent Points Scored': points_allowed,
+    'Game Outcome': game_outcome,
+    'home_game': hg
 }
 
 # Converting the Prediction Data to a Dataframe
-prediction_df = pd.DataFrame(prediction_data.items(), columns = ['Attribute', 'Value'])
+prediction_df = pd.DataFrame(pred_data.items(), columns = ['Attribute', 'Value'])
 
 # logging the inputs to ensure accuracy
 st.header('Selected Options')
-st.table(prediction_df)
+st.table(prediction_df.style.hide(axis='index'))
 
 # Predicting the rank change (mock setup)
 rank_change = mock_predict(pred_data)
