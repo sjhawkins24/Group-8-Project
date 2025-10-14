@@ -7,6 +7,7 @@ import numpy as np
 # reading the csv and creating a team list
 df = pd.read_csv('mergedTrainingData.csv')
 teams = df['Team'].unique()
+teams = sorted(teams)
 
 # Simple mock prediction for the time being
 def mock_predict(data):
@@ -77,15 +78,40 @@ pred_data = {
     'Team Points Scored': points_scored,
     'Opponent Points Scored': points_allowed,
     'Game Outcome': game_outcome,
-    'home_game': hg
+    'Game Played at Home or Away': hg
 }
 
 # Converting the Prediction Data to a Dataframe
-prediction_df = pd.DataFrame(pred_data.items(), columns = ['Attribute', 'Value'])
+prediction_df = pd.DataFrame(pred_data.items(), columns = ['Option', 'Selection'])
 
-# logging the inputs to ensure accuracy
+# Logging the inputs to ensure accuracy
 st.header('Selected Options')
-st.table(prediction_df.style.hide(axis='index'))
+
+# Generate HTML table without the index
+table_html = prediction_df.to_html(index=False, classes="table", border=0)
+
+st.markdown(
+    """
+    <style>
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .table th {
+        background-color: #f2f2f2;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+# Render the table
+st.markdown(table_html, unsafe_allow_html=True)
 
 # Predicting the rank change (mock setup)
 rank_change = mock_predict(pred_data)
