@@ -26,7 +26,7 @@ st.write(f'Selected opponent: {opponent}')
 # Setting the input for game outcome
 result = st.selectbox('Game result:', ['W', 'L'])
 st.write(f'Game result: {result}')
-game_result = 'beat' if result='W' else 'lost to'
+game_result = 'beat' if result=='W' else 'lost to'
 
 # Setting the inputs for points_scored and points_allowed
 points_scored = st.number_input('Points Scored:', min_value = 0, step = 1, value = 0)
