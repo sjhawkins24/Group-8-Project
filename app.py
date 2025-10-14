@@ -16,19 +16,23 @@ def mock_predict(data):
 st.title('College Football Ranking Predictor')
 
 # Setting the input for the playing team
+st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
 st.write(f'Selected team: {team}')
 
 # Setting the input for opponent
+st.header('Opponent Selection')
 opponent = st.selectbox('Select an opponent:', teams)
 st.write(f'Selected opponent: {opponent}')
 
 # Setting the input for game outcome
+st.header('Game Outcome')
 result = st.selectbox('Game result:', ['W', 'L'])
 st.write(f'Game result: {result}')
 game_result = 'beat' if result=='W' else 'lost to'
 
 # Setting the inputs for points_scored and points_allowed
+st.header('Points Scored and Allowed')
 points_scored = st.number_input('Points Scored:', min_value = 0, step = 1, value = 0)
 points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, value = 0)
 
@@ -50,12 +54,14 @@ pred_data = {
 }
 
 # logging the inputs to ensure accuracy
+st.header('Selected Options')
 st.write('Prediction Data:', pred_data)
 
 # Predicting the rank change (mock setup)
 rank_change = mock_predict(pred_data)
 
 # Testing to ensure rank_change is producing a result
+st.header('Predicted Rank Change')
 st.write(f"Rank Change: {rank_change}")
 
 # Setting rank change variable
@@ -67,6 +73,7 @@ result_text = f'If the {team} {game_result} {opponent} by \
     by {abs(round(rank_change))} ranking points.'
 
 # Displaying the result in Streamlit
+st.header('The Results of your Selections')
 st.write(result_text)
 
 # currently set for integer input
