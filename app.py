@@ -25,11 +25,15 @@ st.header('Opponent Selection')
 opponent = st.selectbox('Select an opponent:', teams)
 st.write(f'Selected opponent: {opponent}')
 
+# Stating the opponent's rank
+st.header('Opponent Rank')
+opponent_ranked = df[df['opponent'] == opponent]['FPI'].iloc[0] != '--'
+st.write(opponent_ranked)
+
 # Setting the input for game outcome
-st.header('Game Outcome')
-result = st.selectbox('Game result:', ['W', 'L'])
-st.write(f'Game result: {result}')
-game_result = 'beat' if result=='W' else 'lost to'
+# st.header('Game Outcome')
+# result = st.selectbox('Game result:', ['W', 'L'])
+# st.write(f'Game result: {result}')
 
 # Setting the inputs for points_scored and points_allowed
 st.header('Points Scored and Allowed')
@@ -38,8 +42,13 @@ points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, val
 
 # Calculating the point differential
 point_differential = points_scored - points_allowed
-win = 1 if result == 'W' else 0
-opponent_ranked = df[df['opponent'] == opponent]['FPI'].iloc[0] != '--'
+
+# Calculating the outcome based on point differential
+st.header('Game Outcome')
+game_outcome = 'Win' if point_differential > 0 else 'Loss'
+st.write(game_outcome)
+game_result = 'beat' if game_outcome =='Win' else 'lost to'
+
 
 # Setting up the dictionary for input values
 pred_data = {
@@ -73,7 +82,7 @@ result_text = f'If the {team} {game_result} {opponent} by \
     by {abs(round(rank_change))} ranking points.'
 
 # Displaying the result in Streamlit
-st.header('The Results of your Selections')
+st.header('Results')
 st.write(result_text)
 
 # currently set for integer input
