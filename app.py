@@ -24,7 +24,7 @@ st.write(f'Selected team: {team}')
 team_ranked = df.loc[df['Team'] == team, 'FPI'].iloc[0]
 
 # Display the team rank in Streamlit
-st.header('Current Team Ranking')
+st.subheader('Current Team Ranking')
 st.write(f"The Team's Current Rank is: {team_ranked}")
 
 # Setting the input for opponent
@@ -35,8 +35,8 @@ st.write(f'Selected opponent: {opponent}')
 # Extract the FPI value for the opponent from the 'Team' column
 opponent_ranked = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
 
-# Display the rank in Streamlit
-st.header("Opponent's Current Ranking")
+# Display the opponent rank in Streamlit
+st.subheader("Opponent's Current Ranking")
 st.write(f"The Opponent's Current Rank is: {opponent_ranked}")
 
 # Setting the input for game outcome
