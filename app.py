@@ -37,9 +37,6 @@ point_differential = points_scored - points_allowed
 win = 1 if result == 'W' else 0
 opponent_ranked = df[df['opponent'] == opponent]['FPI'].iloc[0] != '--'
 
-# Setting rank change variable
-movement = 'move up' if rank_change < 0 else 'move down'
-
 # Setting up the dictionary for input values
 pred_data = {
     'team': team,
@@ -57,6 +54,9 @@ st.write('Prediction Data:', pred_data)
 
 # Predicting the rank change (mock setup)
 rank_change = mock_predict(pred_data)
+
+# Setting rank change variable
+movement = 'move up' if rank_change < 0 else 'move down'
 
 # Output text in Streamlit
 result_text = f'If the {team} {game_result} {opponent} by \
