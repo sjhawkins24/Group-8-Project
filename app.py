@@ -24,7 +24,7 @@ opponent = st.selectbox('Select an opponent:', teams)
 st.write(f'Selected opponent: {opponent}')
 
 # Setting the input for game outcome
-result - st.selectbox('Game result:', ['W', 'L'])
+result = st.selectbox('Game result:', ['W', 'L'])
 st.write(f'Game result: {result}')
 
 # Setting the inputs for points_scored and points_allowed
