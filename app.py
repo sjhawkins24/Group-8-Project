@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import numpy as np
-#from apputil import *
+# from apputil import *
 
 # reading the csv and creating a team list
 df = pd.read_csv('mergedTrainingData.csv')
@@ -20,15 +20,24 @@ st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
 st.write(f'Selected team: {team}')
 
+# Extract the FPI value for the team from the 'Team' column
+team_ranked = df.loc[df['Team'] == team, 'FPI'].iloc[0]
+
+# Display the team rank in Streamlit
+st.header('Current Team Ranking')
+st.write(f"The Team's Current Rank is: {team_ranked}")
+
 # Setting the input for opponent
 st.header('Opponent Selection')
 opponent = st.selectbox('Select an opponent:', teams)
 st.write(f'Selected opponent: {opponent}')
 
-# Stating the opponent's rank
-st.header('Opponent Rank')
-opponent_ranked = df[df['opponent'] == opponent]['FPI'].iloc[0] != '--'
-st.write(opponent_ranked)
+# Extract the FPI value for the opponent from the 'Team' column
+opponent_ranked = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
+
+# Display the rank in Streamlit
+st.header('Opponent's Current Ranking')
+st.write(f"The Opponent's Current Rank is: {opponent_ranked}")
 
 # Setting the input for game outcome
 # st.header('Game Outcome')
