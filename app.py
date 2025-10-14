@@ -53,7 +53,7 @@ points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, val
 point_differential = points_scored - points_allowed
 
 # Calculating the outcome based on point differential
-st.header('Game Outcome')
+st.subheader('Game Outcome')
 game_outcome = 'Win' if point_differential > 0 else 'Loss'
 st.write(game_outcome)
 game_result = 'beat' if game_outcome =='Win' else 'lost to'
