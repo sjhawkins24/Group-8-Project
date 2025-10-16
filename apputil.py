@@ -1,5 +1,6 @@
 import seaborn as sns
 import pandas as pd
+<<<<<<< HEAD
 from sklearn.linear_model import LinearRegression
 
 #Start by importing the merged data 
@@ -70,3 +71,5 @@ def get_results_text(model,
         direction = "move up by"         
     return_text = f"If the {team} {text_result} {selected_opponent} by {abs(selected_points_scored - selected_points_allowed)} points, they will {direction} {abs(rank_change[0])} ranking points"    
     return(return_text)
+=======
+>>>>>>> brian
