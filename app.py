@@ -33,16 +33,25 @@ st.write(f'Selected team:, {team}')
 
 # Extract the FPI value for the team from the 'Team' column
 # Calculate the previous week
-# Filter the dataframe for the selected team and the previous week
-# Get the AP rank for the selected team and previous week
 previous_week = week - 1
-filtered_df = df[(df['Team'] == team) & (df['week'] == previous_week)]
+
+# Filter the dataframe for the selected team and the previous week
+filtered_df = df[(df['Team'] == team) & (df['Week'] == previous_week)]
+
+# Initialize team_rank
+team_rank = None
+
+# Get the AP rank for the selected team and previous week
 if not filtered_df.empty:
-    team_rank = filtered_df['AP_rank'].iloc[0]  
+    team_rank = filtered_df['AP_rank'].iloc[0]  # Extract the AP rank
     st.write(f"The AP rank for {team} in week {previous_week} is: {team_rank}")
 else:
     st.write(f"No data available for {team} in week {previous_week}.")
-    
+
+# Display the current rank if available
+if team_rank is not None:
+    st.write(f"The Team's Current Rank is: {team_rank}")
+
 # Display the team rank in Streamlit
 st.subheader('Current Team Ranking')
 st.write(f"The Team's Current Rank is: {team_rank}")
