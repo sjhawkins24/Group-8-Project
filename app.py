@@ -107,6 +107,7 @@ pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
 
 # Setting up the dictionary for input values
 pred_data = {
+    'Week': week,
     'Team': team,
     'Team Rank': team_rank,
     'Opponent': opponent,
