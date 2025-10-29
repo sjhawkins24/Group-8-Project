@@ -53,10 +53,6 @@ else:
 if team_rank is not None:
     st.write(f"The Team's Current Rank is: {team_rank}")
 
-# Display the team rank in Streamlit
-st.subheader('Current Team Ranking')
-st.write(f"The Team's Current Rank is: {team_rank}")
-
 # Opponent Selection
 st.header('Opponent Selection')
 
@@ -78,10 +74,6 @@ else:
 # Display the current rank if available
 if opponent_rank is not None:
     st.write(f"The Opponent's Current Rank is: {opponent_rank}")
-
-# Display the opponent rank in Streamlit
-st.subheader("Opponent's Current Ranking")
-st.write(f"The Opponent's Current Rank is: {opponent_rank}")
 
 # Selecting if it is a home game
 st.header('Home or Away Game')
