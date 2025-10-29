@@ -8,6 +8,8 @@ import numpy as np
 df = pd.read_csv('mergedTrainingData.csv')
 teams = df['Team'].unique()
 teams = sorted(teams)
+weeks = df['week'].unique()
+weeks = sorted(weeks)
 
 # Simple mock prediction for the time being
 def mock_predict(data):
@@ -19,14 +21,28 @@ st.title('College Football Ranking Predictor')
 # Setting an image
 st.image('StreamlitPic.jpg', width = 1000)
 
+# Setting the input for selecting the week
+st.header('Week Selection')
+week = st.selectbox('Select the current week:', weeks)
+st.write(f'Selected week:' {week})
+
 # Setting the input for the playing team
 st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
 st.write(f'Selected team: {team}')
 
 # Extract the FPI value for the team from the 'Team' column
-team_rank = df.loc[df['Team'] == team, 'FPI'].iloc[0]
-
+# Calculate the previous week
+# Filter the dataframe for the selected team and the previous week
+# Get the AP rank for the selected team and previous week
+previous_week = week - 1
+filtered_df = df[(df['Team'] == team) & (df['week'] == previous_week)]
+if not filtered_df.empty:
+    team_rank = filtered_df['AP_rank'].iloc[0]  
+    st.write(f"The AP rank for {team} in week {previous_week} is: {team_rank}")
+else:
+    st.write(f"No data available for {team} in week {previous_week}.")
+    
 # Display the team rank in Streamlit
 st.subheader('Current Team Ranking')
 st.write(f"The Team's Current Rank is: {team_rank}")
