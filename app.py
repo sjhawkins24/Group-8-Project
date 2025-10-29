@@ -31,7 +31,8 @@ st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
 st.write(f'Selected team:, {team}')
 
-# Extract the FPI value for the team from the 'Team' column
+# Extract the AP rank for the team from the 'Team' column 
+# Rank is being pulled from week selection - 1
 # Calculate the previous week
 previous_week = week - 1
 
@@ -58,13 +59,25 @@ st.write(f"The Team's Current Rank is: {team_rank}")
 
 # Opponent Selection
 st.header('Opponent Selection')
+
 # Filtering opponents to remove the team already selected
 available_opponents = [t for t in teams if t != team]
 opponent = st.selectbox('Select an opponent:', available_opponents)
 st.write(f'Selected opponent: {opponent}')
 
-# Extract the FPI value for the opponent from the 'Team' column
-opponent_rank = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
+# Initialize team_rank
+opponent_rank = None
+
+# Get the AP rank for the selected team and previous week
+if not filtered_df.empty:
+    opponent_rank = filtered_df['AP_rank'].iloc[0]  # Extract the AP rank
+    st.write(f"The AP rank for {team} in week {previous_week} is: {opponent_rank}")
+else:
+    st.write(f"No data available for {team} in week {previous_week}.")
+
+# Display the current rank if available
+if opponent_rank is not None:
+    st.write(f"The Opponent's Current Rank is: {opponent_rank}")
 
 # Display the opponent rank in Streamlit
 st.subheader("Opponent's Current Ranking")
