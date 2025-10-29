@@ -44,7 +44,7 @@ team_rank = None
 
 # Get the AP rank for the selected team and previous week
 if not filtered_df.empty:
-    team_rank = filtered_df['AP_rank'].iloc[0]  # Extract the AP rank
+    team_rank = filtered_df['AP_rank'].iloc[0]
     st.write(f"The AP rank for {team} in week {previous_week} is: {team_rank}")
 else:
     st.write(f"No data available for {team} in week {previous_week}.")
@@ -61,15 +61,18 @@ available_opponents = [t for t in teams if t != team]
 opponent = st.selectbox('Select an opponent:', available_opponents)
 st.write(f'Selected opponent: {opponent}')
 
-# Initialize team_rank
+# Initialize opponent rank
 opponent_rank = None
 
+# Filter the dataframe for the selected opponent and the previous week
+opponent_filtered_df = df[(df['Team'] == opponent) & (df['week'] == previous_week)]
+
 # Get the AP rank for the selected team and previous week
-if not filtered_df.empty:
-    opponent_rank = filtered_df['AP_rank'].iloc[0]  # Extract the AP rank
-    st.write(f"The AP rank for {team} in week {previous_week} is: {opponent_rank}")
+if not opponent_filtered_df.empty:
+    opponent_rank = opponent_filtered_df['AP_rank'].iloc[0]
+    st.write(f"The AP rank for the {opponent} in week {previous_week} is: {opponent_rank}")
 else:
-    st.write(f"No data available for {team} in week {previous_week}.")
+    st.write(f"No data available for the {opponent} in week {previous_week}.")
 
 # Display the current rank if available
 if opponent_rank is not None:
