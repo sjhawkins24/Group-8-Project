@@ -36,7 +36,7 @@ st.write(f'Selected team:, {team}')
 previous_week = week - 1
 
 # Filter the dataframe for the selected team and the previous week
-filtered_df = df[(df['Team'] == team) & (df['Week'] == previous_week)]
+filtered_df = df[(df['Team'] == team) & (df['week'] == previous_week)]
 
 # Initialize team_rank
 team_rank = None
