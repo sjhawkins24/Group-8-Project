@@ -24,12 +24,12 @@ st.image('StreamlitPic.jpg', width = 1000)
 # Setting the input for selecting the week
 st.header('Week Selection')
 week = st.selectbox('Select the current week:', weeks)
-st.write(f'Selected week:', {week})
+st.write(f'Selected week:, {week}')
 
 # Setting the input for the playing team
 st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
-st.write(f'Selected team:', {team}')
+st.write(f'Selected team:, {team}')
 
 # Extract the FPI value for the team from the 'Team' column
 # Calculate the previous week
