@@ -2,10 +2,14 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import numpy as np
+from streamlit_gsheets import GSheetsConnection
+
 # from apputil import *
+# Create a connection object.
+conn = st.connection("gsheets", type=GSheetsConnection)
 
 # reading the csv and creating a team list
-df = pd.read_csv('mergedTrainingData.csv')
+df = conn.read()#pd.read_csv('mergedTrainingData.csv')
 teams = df['Team'].unique()
 teams = sorted(teams)
 
