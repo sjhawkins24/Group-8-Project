@@ -14,9 +14,9 @@ print("="*60)
 
 # Read the data
 print("\n1. Loading data...")
-merged_df = pd.read_csv("mergedTrainingData.csv")
-weekly_ranks = pd.read_csv("WeekByWeekRankings2020to2025.csv")
-elo_ratings = pd.read_csv("elo_ratings_by_season.csv")
+merged_df = pd.read_csv("03 - Cleaned Data Space/mergedTrainingData.csv")
+weekly_ranks = pd.read_csv("00 - Raw Data Space/WeekByWeekRankings2020to2025.csv")
+elo_ratings = pd.read_csv("04 - Elo Space/elo_ratings_by_season.csv")
 
 print(f"   - Merged data: {merged_df.shape}")
 print(f"   - Weekly ranks: {weekly_ranks.shape}")
