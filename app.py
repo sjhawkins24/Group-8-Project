@@ -1,136 +1,166 @@
-import streamlit as st
+from dataclasses import asdict
+
 import pandas as pd
-from datetime import datetime
-import numpy as np
-# from apputil import *
+import streamlit as st
 
-# reading the csv and creating a team list
-df = pd.read_csv('mergedTrainingData.csv')
-teams = df['Team'].unique()
-teams = sorted(teams)
+from services.ranking_predictor import RankPredictor
 
-# Simple mock prediction for the time being
-def mock_predict(data):
-    return np.random.uniform(-5, 5)
-
-# Setting the title of the Streamlit page
-st.title('College Football Ranking Predictor')
-
-# Setting an image
-st.image('StreamlitPic.jpg', width = 1000)
-
-# Setting the input for the playing team
-st.header('Team Selection')
-team = st.selectbox('Select your team:', teams)
-st.write(f'Selected team: {team}')
-
-# Extract the FPI value for the team from the 'Team' column
-team_rank = df.loc[df['Team'] == team, 'FPI'].iloc[0]
-
-# Display the team rank in Streamlit
-st.subheader('Current Team Ranking')
-st.write(f"The Team's Current Rank is: {team_rank}")
-
-# Opponent Selection
-st.header('Opponent Selection')
-# Filtering opponents to remove the team already selected
-available_opponents = [t for t in teams if t != team]
-opponent = st.selectbox('Select an opponent:', available_opponents)
-st.write(f'Selected opponent: {opponent}')
-
-# Extract the FPI value for the opponent from the 'Team' column
-opponent_rank = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
-
-# Display the opponent rank in Streamlit
-st.subheader("Opponent's Current Ranking")
-st.write(f"The Opponent's Current Rank is: {opponent_rank}")
-
-# Selecting if it is a home game
-st.header('Home or Away Game')
-home_game = st.selectbox('Is this a Home Game?', ['Yes', 'No'])
-hg = 'Home' if home_game == 'Yes' else 'Away'
-st.write(f'This is a(n) {hg} game')
-
-# Setting the input for game outcome
-# st.header('Game Outcome')
-# result = st.selectbox('Game result:', ['W', 'L'])
-# st.write(f'Game result: {result}')
-
-# Setting the inputs for points_scored and points_allowed
-st.header('Points Scored and Allowed')
-points_scored = st.number_input('Points Scored:', min_value = 0, step = 1, value = 0)
-points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, value = 0)
-
-# Calculating the point differential
-point_differential = points_scored - points_allowed
-
-# Calculating the outcome based on point differential
-st.subheader('Game Outcome')
-game_outcome = 'Won' if point_differential > 0 else 'Lost'
-st.write(f'The {team} {game_outcome} by {point_differential} points.')
-game_result = 'beat' if game_outcome =='Won' else 'lost to'
-pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
+try:
+    from services.chat_insights import ChatInsightGenerator
+except RuntimeError:
+    ChatInsightGenerator = None  # type: ignore
 
 
-# Setting up the dictionary for input values
-pred_data = {
-    'Team': team,
-    'Team Rank': team_rank,
-    'Opponent': opponent,
-    'Opponent Rank': opponent_rank,
-    'Team Points Scored': points_scored,
-    'Opponent Points Scored': points_allowed,
-    'Game Outcome': pred_result,
-    'Game Played at Home or Away': hg
-}
+@st.cache_resource
+def load_predictor() -> RankPredictor:
+    return RankPredictor()
 
-# Converting the Prediction Data to a Dataframe
-prediction_df = pd.DataFrame(pred_data.items(), columns = ['Option', 'Selection'])
 
-# Logging the inputs to ensure accuracy
-st.header('Selected Options')
+def latest_value(df: pd.DataFrame, team: str, season: int, column: str) -> float | None:
+    season_rows = df[(df["Team"] == team) & (df["season"] == season) & df[column].notna()]
+    if not season_rows.empty:
+        return float(season_rows.iloc[-1][column])
+    fallback = df[(df["Team"] == team) & df[column].notna()]
+    if not fallback.empty:
+        return float(fallback.iloc[-1][column])
+    return None
 
-# Generate HTML table without the index
-table_html = prediction_df.to_html(index=False, classes="table", border=0)
 
-st.markdown(
-    """
-    <style>
-    .table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    .table th, .table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-    }
-    .table th {
-        background-color: #f2f2f2;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
+predictor = load_predictor()
+data = predictor.merged_df
+
+st.title("College Football Ranking Predictor")
+image_path = st.session_state.get("_image_path", "StreamlitPic.jpg")
+if image_path:
+    st.image(image_path, width=1000)
+
+st.header("Team Selection")
+teams = sorted(data["Team"].unique())
+team = st.selectbox("Select your team", teams)
+
+seasons = sorted(int(s) for s in data["season"].dropna().unique())
+default_season = seasons[-1]
+season = st.selectbox("Season", seasons, index=seasons.index(default_season))
+
+team_fpi = latest_value(data, team, season, "FPI")
+if team_fpi is None:
+    team_fpi = latest_value(data, team, default_season, "FPI")
+if team_fpi is not None:
+    st.write(f"Current FPI rating: {team_fpi:.1f}")
+
+season_weeks = data.loc[data["season"] == season, "week"].dropna()
+default_week = int(season_weeks.max()) if not season_weeks.empty else 1
+week = st.number_input("Week (use upcoming week for future games)", min_value=1, max_value=25, value=default_week, step=1)
+
+st.subheader("Opponent Selection")
+opponent_choices = [t for t in teams if t != team]
+opponent = st.selectbox("Choose the opponent", opponent_choices)
+
+st.subheader("Game Setup")
+current_rank_default = latest_value(data, team, season, "AP_rank")
+current_rank = st.number_input(
+    "Current AP Rank",
+    min_value=1,
+    max_value=40,
+    value=int(current_rank_default) if current_rank_default else 10,
+    step=1,
 )
+st.write(f"The {team} enter at #{current_rank} in the AP Poll.")
+opponent_rank_default = latest_value(data, opponent, season, "AP_rank")
+opponent_rank = st.number_input(
+    "Opponent AP Rank (use best guess if unranked)",
+    min_value=1,
+    max_value=50,
+    value=int(opponent_rank_default) if opponent_rank_default else 26,
+    step=1,
+)
+opponent_fpi = latest_value(data, opponent, season, "FPI")
+if opponent_fpi is not None:
+    st.write(f"Opponent FPI rating: {opponent_fpi:.1f}")
+st.write(f"{opponent} enter at #{opponent_rank} in the AP Poll.")
+home_pick = st.selectbox("Is this a home game?", ["Home", "Away", "Neutral"], index=0)
+home_game = home_pick == "Home"
 
-# Render the table
-st.markdown(table_html, unsafe_allow_html=True)
+st.subheader("Score Projection")
+team_last_margin = latest_value(data, team, season, "points_scored")
+opp_last_margin = latest_value(data, team, season, "points_allowed")
+points_scored = st.number_input("Projected points scored", min_value=0.0, step=1.0, value=float(team_last_margin) if team_last_margin else 28.0)
+points_allowed = st.number_input("Projected points allowed", min_value=0.0, step=1.0, value=float(opp_last_margin) if opp_last_margin else 21.0)
 
-# Predicting the rank change (mock setup)
-rank_change = mock_predict(pred_data)
+point_diff = points_scored - points_allowed
+game_outcome = "beat" if point_diff > 0 else ("tie" if point_diff == 0 else "lose to")
 
-# Testing to ensure rank_change is producing a result
-st.subheader('Predicted Rank Change')
-st.write(f"Rank Change: {rank_change}")
+st.subheader("Your Scenario")
+pred_table = pd.DataFrame(
+    {
+        "Option": ["Season", "Week", "Team", "Opponent", "Projected Score", "Venue"],
+        "Selection": [season, int(week), team, opponent, f"{int(points_scored)}-{int(points_allowed)}", home_pick],
+    }
+)
+st.table(pred_table)
 
-# Setting rank change variable
-movement = 'move up' if rank_change < 0 else 'move down'
+run_clicked = st.button("Predict Ranking Impact", type="primary")
 
-# Output text in Streamlit
-result_text = f'If the {team} {game_result} {opponent} by \
-    {point_differential} points, they will {movement} \
-    by {abs(round(rank_change))} ranking points.'
+if run_clicked:
+    try:
+        st.session_state["_latest_prediction"] = asdict(
+            predictor.predict(
+                team=team,
+                opponent=opponent,
+                season=season,
+                week=int(week),
+                points_scored=points_scored,
+                points_allowed=points_allowed,
+                home_game=home_game,
+                current_rank=float(current_rank),
+                opponent_rank=float(opponent_rank),
+            )
+        )
+    except Exception as exc:
+        st.session_state.pop("_latest_prediction", None)
+        st.error(f"Prediction failed: {exc}")
 
-# Displaying the result in Streamlit
-st.header('Results')
-st.write(result_text)
+prediction_payload = st.session_state.get("_latest_prediction")
+
+if prediction_payload:
+    from services.ranking_predictor import PredictionResult
+
+    result = PredictionResult(**prediction_payload)
+
+    st.header("Results")
+    move = {
+        "up": "move up",
+        "down": "move down",
+        "flat": "stay level",
+    }[result.predicted_direction]
+    verb = game_outcome
+    margin_value = abs(int(round(point_diff)))
+    margin_phrase = "" if margin_value == 0 else f" by {margin_value} points"
+    st.write(
+        f"If the {team} {verb} {opponent}{margin_phrase}, "
+        f"the model projects they will {move} to #{result.predicted_new_rank} (change {result.predicted_rank_change:+.2f})."
+    )
+
+    probs = pd.DataFrame([
+        {"Direction": direction.title(), "Probability": f"{prob*100:.1f}%"}
+        for direction, prob in result.direction_probabilities.items()
+    ])
+    st.subheader("Direction Confidence")
+    st.table(probs)
+
+    use_chat = st.toggle("Explain this with AI", key="ai_toggle")
+    if use_chat:
+        try:
+            @st.cache_resource
+            def load_chat():
+                if ChatInsightGenerator is None:
+                    raise RuntimeError("Chat assistant unavailable; install openai and set OPENROUTER_API_KEY.")
+                return ChatInsightGenerator()
+
+            chat = load_chat()
+            summary = chat.explain_prediction(prediction_payload)
+        except Exception as chat_error:
+            st.warning(f"AI summary unavailable: {chat_error}")
+        else:
+            st.subheader("AI Take")
+            st.write(summary)
