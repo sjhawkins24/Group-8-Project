@@ -133,14 +133,25 @@ st.markdown(
     .table {
         width: 100%;
         border-collapse: collapse;
+        color: #ffffff;                 /* Set default text color */
+        background-color: #0e1117;      /* Match Streamlit dark background */
     }
     .table th, .table td {
-        border: 1px solid #ddd;
+        border: 1px solid #444444;      /* Subtle gray borders */
         padding: 8px;
         text-align: left;
     }
     .table th {
-        background-color: #f2f2f2;
+        background-color: #262730;      /* Dark header background */
+        color: #ffffff;                 /* Ensure bright white header text */
+        font-weight: 600;
+        text-shadow: none;              /* Remove any blur or glow */
+    }
+    .table tr:nth-child(even) {
+        background-color: #1c1f26;      /* Slightly lighter for alternating rows */
+    }
+    .table tr:nth-child(odd) {
+        background-color: #0e1117;      /* Match base background */
     }
     </style>
     """,
