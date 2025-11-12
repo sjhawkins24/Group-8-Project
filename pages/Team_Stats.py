@@ -83,6 +83,13 @@ st.dataframe(
 )
 
 ### BUILDING VISUALIZATIONS
+python
+
+Run
+
+import plotly.express as px
+import numpy as np
+
 st.markdown("---")
 st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
 
@@ -92,11 +99,11 @@ viz_df = merged_df[(merged_df["season"] >= 2021) & (merged_df["season"] <= 2024)
 if viz_df.empty:
     st.warning("No data available for seasons 2021–2024.")
 else:
-    # Make sure all four seasons are shown even if missing
+    # Ensure all 4 years appear even if data missing
     viz_df["season"] = viz_df["season"].astype(int)
     viz_df = viz_df.set_index("season").reindex([2021, 2022, 2023, 2024]).reset_index()
 
-    # --- Numeric columns to visualize (Home Games removed) ---
+    # --- Numeric columns to visualize (Home Games removed) ---
     numeric_cols = [
         "Total Wins", "Total Losses",
         "Avg Passing Yds", "Avg Rushing Yds",
@@ -104,31 +111,37 @@ else:
         "Avg Points Allowed"
     ]
 
-    # --- Build individual line charts ---
     for col in numeric_cols:
         col_data = viz_df[col].dropna()
         if col_data.empty:
             continue
 
-        # Dynamic Y‑axis with 15 % headroom
+        # Calculate safe y-axis range
         y_min = 0
-        y_max = col_data.max()
-        if y_max == 0:
-            y_max = 1  # prevent zero scale
-        y_max = y_max * 1.15  # add headroom
+        y_max = col_data.max() if col_data.max() > 0 else 1
+        y_max = y_max * 1.15  # add 15% top padding
 
+        # Build line chart with text labels
         fig = px.line(
             viz_df,
             x="season",
             y=col,
             markers=True,
+            text=col,  # show values as text
             title=f"{col} Trend (2021–2024)",
             labels={"season": "Season", col: col},
             color_discrete_sequence=["#1f77b4"]
         )
 
-        # Styling and axis configuration
-        fig.update_traces(line=dict(width=3), marker=dict(size=8))
+        # Format text display
+        fig.update_traces(
+            texttemplate="%{text:.2f}",
+            textposition="top right",
+            line=dict(width=3),
+            marker=dict(size=8)
+        )
+
+        # Axis settings
         fig.update_yaxes(range=[y_min, y_max], autorange=False)
         fig.update_xaxes(tickvals=[2021, 2022, 2023, 2024])
         fig.update_layout(
@@ -141,7 +154,7 @@ else:
 
         st.plotly_chart(fig, use_container_width=True)
 
-    # --- Special chart for Week 18 AP Rank (lower = better) ---
+    # --- Week 18 AP Rank Visualization (with labels) ---
     if "Week 18 AP Rank" in viz_df:
         ap_rank_viz = viz_df.copy()
         ap_rank_viz["Week 18 AP Rank"] = pd.to_numeric(
@@ -151,22 +164,27 @@ else:
         if ap_rank_viz["Week 18 AP Rank"].notna().any():
             ap_data = ap_rank_viz["Week 18 AP Rank"].dropna()
             y_min = 0
-            y_max = ap_data.max()
-            y_max = y_max * 1.15  # add 15% padding
+            y_max = ap_data.max() * 1.15
 
             fig_ap = px.line(
                 ap_rank_viz,
                 x="season",
                 y="Week 18 AP Rank",
                 markers=True,
+                text="Week 18 AP Rank",
                 title="Week 18 AP Rank Trend (2021–2024, Lower = Better)",
-                labels={"season": "Season", "Week 18 AP Rank": "AP Rank"},
+                labels={"season": "Season", "Week 18 AP Rank": "AP Rank"},
                 color_discrete_sequence=["#d62728"]
             )
 
-            fig_ap.update_traces(line=dict(width=3), marker=dict(size=8))
-            
-            # Reverse Y‑axis (Rank 1 at top) but keep top padding
+            fig_ap.update_traces(
+                texttemplate="%{text}",
+                textposition="top right",
+                line=dict(width=3),
+                marker=dict(size=8)
+            )
+
+            # Reverse axis (rank 1 = top) with headroom
             fig_ap.update_yaxes(range=[y_max, y_min], autorange=False)
             fig_ap.update_xaxes(tickvals=[2021, 2022, 2023, 2024])
             fig_ap.update_layout(
@@ -179,4 +197,4 @@ else:
 
             st.plotly_chart(fig_ap, use_container_width=True)
         else:
-            st.info("No AP Rank data available for this team.")
+            st.info("No AP Rank data available for this team.")
