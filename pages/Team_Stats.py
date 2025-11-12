@@ -88,31 +88,30 @@ st.subheader(f"📅 Weekly Game Details by Season for {selected_team}")
 # Seasons to display
 seasons_to_show = [2021, 2022, 2023, 2024]
 
-# Define columns to include (now includes opponent)
+# Include AP Rank column now
 display_cols = [
     "week", "opponent", "win_loss",
     "pass", "rush", "rec",
-    "points_allowed", "points_scored"
+    "points_allowed", "points_scored", "AP_rank"
 ]
 
 for season in seasons_to_show:
-    # Filter by season and only selected columns
+    # Filter only this season’s rows and columns
     season_df = team_df[team_df["season"] == season][display_cols].copy()
 
     if season_df.empty:
         st.info(f"No data available for {selected_team} in {season}.")
         continue
 
-    # Round numeric columns for readability
+    # Round numeric fields for readability
     cols_to_round = ["pass", "rush", "rec", "points_allowed", "points_scored"]
-    # Some teams may have missing values ("None"), so handle safely
     for c in cols_to_round:
         season_df[c] = pd.to_numeric(season_df[c], errors="coerce").round(2)
 
-    # Sort weeks in ascending order
+    # Sort by week ascending
     season_df = season_df.sort_values("week")
 
-    # Rename columns for display
+    # Rename columns nicely for display
     season_df = season_df.rename(columns={
         "week": "Week",
         "opponent": "Opponent",
@@ -121,13 +120,17 @@ for season in seasons_to_show:
         "rush": "Rush Yds",
         "rec": "Receiving Yds",
         "points_allowed": "Points Allowed",
-        "points_scored": "Points Scored"
+        "points_scored": "Points Scored",
+        "AP_rank": "AP Rank"
     })
 
-    # Reset index to avoid showing default DataFrame index in UI
+    # Replace NaN AP Ranks with "Unranked"
+    season_df["AP Rank"] = season_df["AP Rank"].fillna("Unranked")
+
+    # Reset index to remove default dataframe index
     season_df.reset_index(drop=True, inplace=True)
 
-    # Expandable section per season
+    # Expandable weekly table per season
     with st.expander(f"📆 Season {season} — Weekly Breakdown"):
         st.dataframe(season_df, use_container_width=True, hide_index=True)
 
