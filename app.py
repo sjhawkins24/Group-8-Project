@@ -120,7 +120,7 @@ pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
 
 # Helper function to replace NaN with 'unranked'
 def safe_rank(value):
-    return 'unranked' if pd.isna(value) else value
+    return 'Unranked' if pd.isna(value) else value
 
 # Setting up the dictionary for input values
 pred_data = {
