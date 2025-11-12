@@ -55,36 +55,30 @@ cols_to_round = [
 ]
 agg_df[cols_to_round] = agg_df[cols_to_round].round(2)
 
-# --- Pull the AP rank only for week 14 (per season) ---
+# --- Pull the AP Rank for Week 14 (typical last regular-season week) ---
 ap_rank_df = (
     team_df[team_df["week"] == 14][["season", "AP_rank"]]
     .rename(columns={"AP_rank": "Week 14 AP Rank"})
 )
 
-# Merge both frames
+# --- Merge aggregated stats with Week 14 AP Rank ---
 merged_df = pd.merge(agg_df, ap_rank_df, on="season", how="left")
 
-# Handle NaN AP ranks → 'Unranked'
+# --- Handle missing AP rank values ---
 merged_df["Week 14 AP Rank"] = merged_df["Week 14 AP Rank"].fillna("Unranked")
 
-# --- Merge aggregated stats with AP Rank data ---
-merged_df = pd.merge(agg_df, ap_rank_df, on="season", how="left")
-
-# --- Fill missing AP ranks with "Unranked" ---
-merged_df["Week 18 AP Rank"] = merged_df["Week 18 AP Rank"].fillna("Unranked")
-
-# --- Display final summary table ---
+# --- Display the final summary table ---
 st.subheader(f"📊 Seasonal Summary for {selected_team} (2021–2024)")
 st.dataframe(
     merged_df[
         [
             "season", "Games Played", "Total Wins", "Total Losses",
             "Avg Passing Yds", "Avg Rushing Yds", "Avg Receiving Yds",
-            "Avg Points Scored", "Avg Points Allowed", "Week 18 AP Rank"
+            "Avg Points Scored", "Avg Points Allowed", "Week 14 AP Rank"
         ]
     ],
     use_container_width=True,
-    hide_index=True  
+    hide_index=True
 )
 
 ### WEEKLY DATA
