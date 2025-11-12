@@ -75,15 +75,22 @@ opponent_rank = None
 opponent_filtered_df = df[(df['Team'] == opponent) & (df['week'] == previous_week)]
 
 # Get the AP rank for the selected team and previous week
-if not opponent_filtered_df.empty:
+if not filtered_df.empty:
     opponent_rank = opponent_filtered_df['AP_rank'].iloc[0]
-    st.write(f"The AP rank for the {opponent} in week {previous_week} is: {opponent_rank}")
+    
+    # Check if the value is NaN
+    if pd.isna(opponent_rank):
+        st.write(f"The AP rank for {opponent} in week {previous_week} is: unranked")
+    else:
+        st.write(f"The AP rank for {opponent} in week {previous_week} is: {opponent_rank}")
 else:
     st.write(f"{opponent} as of week {previous_week} is unranked.")
 
 # Display the current rank if available
-if opponent_rank is not None:
+if opponent_rank is not None and not pd.isna(opponent_rank):
     st.write(f"The Opponent's Current Rank is: {opponent_rank}")
+else:
+    st.write(f"The Opponent's Current Rank is: unranked")
 
 # Selecting if it is a home game
 st.header('Home or Away Game')
