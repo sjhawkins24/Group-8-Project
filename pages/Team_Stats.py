@@ -84,27 +84,37 @@ st.dataframe(
 st.markdown("---")
 st.subheader(f"📅 Weekly Game Details by Season for {selected_team}")
 
-# List of years you want to display
+# Seasons to display
 seasons_to_show = [2021, 2022, 2023, 2024]
 
-# Ensure numeric columns are rounded for readability
-display_cols = ["week", "win_loss", "pass", "rush", "rec", "points_allowed", "points_scored"]
+# Define columns to include (now includes opponent)
+display_cols = [
+    "week", "opponent", "win_loss",
+    "pass", "rush", "rec",
+    "points_allowed", "points_scored"
+]
 
 for season in seasons_to_show:
+    # Filter by season and only selected columns
     season_df = team_df[team_df["season"] == season][display_cols].copy()
 
     if season_df.empty:
-        # If no data for that year, skip table (or show info)
         st.info(f"No data available for {selected_team} in {season}.")
         continue
 
-    # Round the numeric columns for cleaner tables
+    # Round numeric columns for readability
     cols_to_round = ["pass", "rush", "rec", "points_allowed", "points_scored"]
-    season_df[cols_to_round] = season_df[cols_to_round].round(2)
+    # Some teams may have missing values ("None"), so handle safely
+    for c in cols_to_round:
+        season_df[c] = pd.to_numeric(season_df[c], errors="coerce").round(2)
 
-    # Rename columns for nice display
+    # Sort weeks in ascending order
+    season_df = season_df.sort_values("week")
+
+    # Rename columns for display
     season_df = season_df.rename(columns={
         "week": "Week",
+        "opponent": "Opponent",
         "win_loss": "Win/Loss",
         "pass": "Pass Yds",
         "rush": "Rush Yds",
@@ -113,11 +123,12 @@ for season in seasons_to_show:
         "points_scored": "Points Scored"
     })
 
-    # Make each table collapsible (using Streamlit expander)
+    # Reset index to avoid showing default DataFrame index in UI
+    season_df.reset_index(drop=True, inplace=True)
+
+    # Expandable section per season
     with st.expander(f"📆 Season {season} — Weekly Breakdown"):
-        st.dataframe(season_df, use_container_width=True)
-
-
+        st.dataframe(season_df, use_container_width=True, hide_index=True)
 
 ### BUILDING VISUALIZATIONS
 st.markdown("---")
