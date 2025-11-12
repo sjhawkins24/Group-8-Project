@@ -88,7 +88,16 @@ st.subheader(f"📅 Weekly Game Details by Season for {selected_team}")
 # Seasons to display
 seasons_to_show = [2021, 2022, 2023, 2024]
 
-# Include AP Rank column now
+# --- Build lookup dictionary for opponent rankings ---
+# Key: (team, season, week), Value: AP_rank
+ap_rank_lookup = (
+    df[["Team", "season", "week", "AP_rank"]]
+    .dropna(subset=["AP_rank"])  # keep only rows where AP_rank exists
+    .set_index(["Team", "season", "week"])["AP_rank"]
+    .to_dict()
+)
+
+# --- Columns for weekly display (includes Opponent Rank) ---
 display_cols = [
     "week", "opponent", "win_loss",
     "pass", "rush", "rec",
@@ -96,14 +105,21 @@ display_cols = [
 ]
 
 for season in seasons_to_show:
-    # Filter only this season’s rows and columns
+    # Filter for this team & season
     season_df = team_df[team_df["season"] == season][display_cols].copy()
 
     if season_df.empty:
         st.info(f"No data available for {selected_team} in {season}.")
         continue
 
-    # Round numeric fields for readability
+    # --- Lookup opponent rank for each row ---
+    opponent_ranks = []
+    for _, row in season_df.iterrows():
+        opp_rank = ap_rank_lookup.get((row["opponent"], season, row["week"]), "Unranked")
+        opponent_ranks.append(opp_rank)
+    season_df["Opponent Rank"] = opponent_ranks
+
+    # Round numeric stats
     cols_to_round = ["pass", "rush", "rec", "points_allowed", "points_scored"]
     for c in cols_to_round:
         season_df[c] = pd.to_numeric(season_df[c], errors="coerce").round(2)
@@ -111,7 +127,7 @@ for season in seasons_to_show:
     # Sort by week ascending
     season_df = season_df.sort_values("week")
 
-    # Rename columns nicely for display
+    # Rename for display
     season_df = season_df.rename(columns={
         "week": "Week",
         "opponent": "Opponent",
@@ -124,13 +140,20 @@ for season in seasons_to_show:
         "AP_rank": "AP Rank"
     })
 
-    # Replace NaN AP Ranks with "Unranked"
+    # Fill missing AP ranks with "Unranked"
     season_df["AP Rank"] = season_df["AP Rank"].fillna("Unranked")
 
-    # Reset index to remove default dataframe index
-    season_df.reset_index(drop=True, inplace=True)
+    # Reorder columns to place Opponent Rank after Opponent
+    season_df = season_df[
+        [
+            "Week", "Opponent", "Opponent Rank", "Win/Loss",
+            "Pass Yds", "Rush Yds", "Receiving Yds",
+            "Points Allowed", "Points Scored", "AP Rank"
+        ]
+    ]
 
-    # Expandable weekly table per season
+    # Reset index and show table
+    season_df.reset_index(drop=True, inplace=True)
     with st.expander(f"📆 Season {season} — Weekly Breakdown"):
         st.dataframe(season_df, use_container_width=True, hide_index=True)
 
