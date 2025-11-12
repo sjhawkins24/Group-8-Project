@@ -86,17 +86,20 @@ st.dataframe(
 st.markdown("---")
 st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
 
+st.markdown("---")
+st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
+
 # Restrict to relevant seasons
 viz_df = merged_df[(merged_df["season"] >= 2021) & (merged_df["season"] <= 2024)]
 
 if viz_df.empty:
     st.warning("No data available for seasons 2021–2024.")
 else:
-    # Make years show as 2021‑2024 even if some are missing
+    # Make sure all four seasons are shown even if missing
     viz_df["season"] = viz_df["season"].astype(int)
     viz_df = viz_df.set_index("season").reindex([2021, 2022, 2023, 2024]).reset_index()
 
-    # --- Numeric columns for plotting (Home Games removed) ---
+    # --- Numeric columns to visualize (Home Games removed) ---
     numeric_cols = [
         "Total Wins", "Total Losses",
         "Avg Passing Yds", "Avg Rushing Yds",
@@ -104,12 +107,18 @@ else:
         "Avg Points Allowed"
     ]
 
+    # --- Build individual line charts ---
     for col in numeric_cols:
-        # Determine upper limit (10% higher than max)
         col_data = viz_df[col].dropna()
         if col_data.empty:
             continue
-        y_max = col_data.max() * 1.10  # add 10% padding
+
+        # Dynamic Y‑axis with 15 % headroom
+        y_min = 0
+        y_max = col_data.max()
+        if y_max == 0:
+            y_max = 1  # prevent zero scale
+        y_max = y_max * 1.15  # add headroom
 
         fig = px.line(
             viz_df,
@@ -120,14 +129,22 @@ else:
             labels={"season": "Season", col: col},
             color_discrete_sequence=["#1f77b4"]
         )
-        # Always start at 0 and cap with +10% padding
-        fig.update_yaxes(range=[0, y_max])
-        # Lock x axis to discrete years
+
+        # Styling and axis configuration
+        fig.update_traces(line=dict(width=3), marker=dict(size=8))
+        fig.update_yaxes(range=[y_min, y_max], autorange=False)
         fig.update_xaxes(tickvals=[2021, 2022, 2023, 2024])
-        fig.update_traces(line=dict(width=3))
+        fig.update_layout(
+            margin=dict(l=40, r=20, t=60, b=40),
+            yaxis_showgrid=True,
+            xaxis_showgrid=True,
+            yaxis_gridcolor="rgba(128,128,128,0.3)",
+            xaxis_gridcolor="rgba(128,128,128,0.3)"
+        )
+
         st.plotly_chart(fig, use_container_width=True)
 
-    # --- Special chart for Week 18 AP Rank ---
+    # --- Special chart for Week 18 AP Rank (lower = better) ---
     if "Week 18 AP Rank" in viz_df:
         ap_rank_viz = viz_df.copy()
         ap_rank_viz["Week 18 AP Rank"] = pd.to_numeric(
@@ -136,7 +153,9 @@ else:
 
         if ap_rank_viz["Week 18 AP Rank"].notna().any():
             ap_data = ap_rank_viz["Week 18 AP Rank"].dropna()
-            y_max = ap_data.max() * 1.10  # small padding at top
+            y_min = 0
+            y_max = ap_data.max()
+            y_max = y_max * 1.15  # add 15% padding
 
             fig_ap = px.line(
                 ap_rank_viz,
@@ -147,10 +166,20 @@ else:
                 labels={"season": "Season", "Week 18 AP Rank": "AP Rank"},
                 color_discrete_sequence=["#d62728"]
             )
-            # Reverse Y‑axis (Rank 1 at top) but add headroom
-            fig_ap.update_yaxes(autorange="reversed", range=[y_max, 0])
+
+            fig_ap.update_traces(line=dict(width=3), marker=dict(size=8))
+            
+            # Reverse Y‑axis (Rank 1 at top) but keep top padding
+            fig_ap.update_yaxes(range=[y_max, y_min], autorange=False)
             fig_ap.update_xaxes(tickvals=[2021, 2022, 2023, 2024])
-            fig_ap.update_traces(line=dict(width=3))
+            fig_ap.update_layout(
+                margin=dict(l=40, r=20, t=60, b=40),
+                yaxis_showgrid=True,
+                xaxis_showgrid=True,
+                yaxis_gridcolor="rgba(128,128,128,0.3)",
+                xaxis_gridcolor="rgba(128,128,128,0.3)"
+            )
+
             st.plotly_chart(fig_ap, use_container_width=True)
         else:
-            st.info("No AP rank data available for this team.")
+            st.info("No AP Rank data available for this team.")
