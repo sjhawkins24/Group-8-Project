@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 st.title("Team Stats Analysis")
 
@@ -80,3 +81,58 @@ st.dataframe(
     ],
     use_container_width=True
 )
+
+st.markdown("---")
+st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
+
+# Restrict to relevant years only (in case 2020 or 2025 exist)
+viz_df = merged_df[(merged_df["season"] >= 2021) & (merged_df["season"] <= 2024)]
+
+if viz_df.empty:
+    st.warning("No data available for seasons 2021–2024.")
+else:
+    # --- Define numeric columns for plotting ---
+    numeric_cols = [
+        "Total Wins", "Total Losses",
+        "Avg Passing Yds", "Avg Rushing Yds",
+        "Avg Receiving Yds", "Avg Points Scored",
+        "Avg Points Allowed", "Home Games"
+    ]
+
+    # Create one line chart per metric
+    for col in numeric_cols:
+        fig = px.line(
+            viz_df,
+            x="season",
+            y=col,
+            markers=True,
+            title=f"{col} Trend (2021–2024)",
+            labels={"season": "Season", col: col},
+            color_discrete_sequence=["#1f77b4"]
+        )
+        fig.update_traces(line=dict(width=3))
+        st.plotly_chart(fig, use_container_width=True)
+
+    # --- Special chart for Week 18 AP Rank ---
+    if "Week 18 AP Rank" in viz_df:
+        # Convert 'Unranked' to NaN for numeric plotting
+        ap_rank_viz = viz_df.copy()
+        ap_rank_viz["Week 18 AP Rank"] = (
+            pd.to_numeric(ap_rank_viz["Week 18 AP Rank"], errors="coerce")
+        )
+
+        if ap_rank_viz["Week 18 AP Rank"].notna().any():
+            fig_ap = px.line(
+                ap_rank_viz,
+                x="season",
+                y="Week 18 AP Rank",
+                markers=True,
+                title="Week 18 AP Rank Trend (Lower = Better)",
+                labels={"season": "Season", "Week 18 AP Rank": "AP Rank"},
+                color_discrete_sequence=["#d62728"]
+            )
+            fig_ap.update_yaxes(autorange="reversed")  # Rank 1 at top
+            fig_ap.update_traces(line=dict(width=3))
+            st.plotly_chart(fig_ap, use_container_width=True)
+        else:
+            st.info("No AP rank data available for this team.")
