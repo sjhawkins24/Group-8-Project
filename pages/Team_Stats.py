@@ -6,7 +6,8 @@ st.title("Team Stats Analysis")
 
 df = pd.read_csv("mergedTrainingData.csv")
 
-## --- Select team ---
+### TABLE CREATION
+# --- Select team ---
 selected_team = st.selectbox("Select a team:", sorted(df["Team"].unique()))
 
 # --- Filter dataset for selected team ---
@@ -78,6 +79,45 @@ st.dataframe(
     ],
     use_container_width=True
 )
+
+### WEEKLY DATA
+st.markdown("---")
+st.subheader(f"📅 Weekly Game Details by Season for {selected_team}")
+
+# List of years you want to display
+seasons_to_show = [2021, 2022, 2023, 2024]
+
+# Ensure numeric columns are rounded for readability
+display_cols = ["week", "win_loss", "pass", "rush", "rec", "points_allowed", "points_scored"]
+
+for season in seasons_to_show:
+    season_df = team_df[team_df["season"] == season][display_cols].copy()
+
+    if season_df.empty:
+        # If no data for that year, skip table (or show info)
+        st.info(f"No data available for {selected_team} in {season}.")
+        continue
+
+    # Round the numeric columns for cleaner tables
+    cols_to_round = ["pass", "rush", "rec", "points_allowed", "points_scored"]
+    season_df[cols_to_round] = season_df[cols_to_round].round(2)
+
+    # Rename columns for nice display
+    season_df = season_df.rename(columns={
+        "week": "Week",
+        "win_loss": "Win/Loss",
+        "pass": "Pass Yds",
+        "rush": "Rush Yds",
+        "rec": "Receiving Yds",
+        "points_allowed": "Points Allowed",
+        "points_scored": "Points Scored"
+    })
+
+    # Make each table collapsible (using Streamlit expander)
+    with st.expander(f"📆 Season {season} — Weekly Breakdown"):
+        st.dataframe(season_df, use_container_width=True)
+
+
 
 ### BUILDING VISUALIZATIONS
 st.markdown("---")
