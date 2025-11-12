@@ -5,7 +5,7 @@ import plotly.express as px
 st.title("Team Stats Analysis")
 
 # Setting an image
-st.image('TeamStatImg.webp', width = 1000)
+st.image('TeamStat.jpg', width = 1000)
 
 df = pd.read_csv("mergedTrainingData.csv")
 
