@@ -118,14 +118,17 @@ st.write(f'The {team} {game_outcome} by {point_differential} points.')
 game_result = 'beat' if game_outcome =='Won' else 'lost to'
 pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
 
+# Helper function to replace NaN with 'unranked'
+def safe_rank(value):
+    return 'unranked' if pd.isna(value) else value
 
 # Setting up the dictionary for input values
 pred_data = {
     'Week': week,
     'Team': team,
-    'Team Rank': team_rank,
+    'Team Rank': safe_rank(team_rank),
     'Opponent': opponent,
-    'Opponent Rank': opponent_rank,
+    'Opponent Rank': safe_rank(opponent_rank),
     'Team Points Scored': points_scored,
     'Opponent Points Scored': points_allowed,
     'Game Outcome': pred_result,
