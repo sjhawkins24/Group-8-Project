@@ -85,13 +85,17 @@ st.dataframe(
 st.markdown("---")
 st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
 
-# Restrict to relevant years only (in case 2020 or 2025 exist)
+# Restrict to relevant 4 seasons
 viz_df = merged_df[(merged_df["season"] >= 2021) & (merged_df["season"] <= 2024)]
 
 if viz_df.empty:
     st.warning("No data available for seasons 2021–2024.")
 else:
-    # --- Define numeric columns for plotting ---
+    # --- Make sure years appear in order and as categorical labels ---
+    viz_df["season"] = viz_df["season"].astype(int)
+    viz_df = viz_df.set_index("season").reindex([2021, 2022, 2023, 2024]).reset_index()
+
+    # --- Numeric columns for plotting ---
     numeric_cols = [
         "Total Wins", "Total Losses",
         "Avg Passing Yds", "Avg Rushing Yds",
@@ -99,7 +103,6 @@ else:
         "Avg Points Allowed", "Home Games"
     ]
 
-    # Create one line chart per metric
     for col in numeric_cols:
         fig = px.line(
             viz_df,
@@ -110,15 +113,18 @@ else:
             labels={"season": "Season", col: col},
             color_discrete_sequence=["#1f77b4"]
         )
+        # Always start y axis at 0
+        fig.update_yaxes(rangemode="tozero")
+        # Lock x axis to discrete years
+        fig.update_xaxes(tickvals=[2021, 2022, 2023, 2024])
         fig.update_traces(line=dict(width=3))
         st.plotly_chart(fig, use_container_width=True)
 
     # --- Special chart for Week 18 AP Rank ---
     if "Week 18 AP Rank" in viz_df:
-        # Convert 'Unranked' to NaN for numeric plotting
         ap_rank_viz = viz_df.copy()
-        ap_rank_viz["Week 18 AP Rank"] = (
-            pd.to_numeric(ap_rank_viz["Week 18 AP Rank"], errors="coerce")
+        ap_rank_viz["Week 18 AP Rank"] = pd.to_numeric(
+            ap_rank_viz["Week 18 AP Rank"], errors="coerce"
         )
 
         if ap_rank_viz["Week 18 AP Rank"].notna().any():
@@ -127,11 +133,13 @@ else:
                 x="season",
                 y="Week 18 AP Rank",
                 markers=True,
-                title="Week 18 AP Rank Trend (Lower = Better)",
+                title="Week 18 AP Rank Trend (2021–2024, Lower = Better)",
                 labels={"season": "Season", "Week 18 AP Rank": "AP Rank"},
                 color_discrete_sequence=["#d62728"]
             )
-            fig_ap.update_yaxes(autorange="reversed")  # Rank 1 at top
+            # AP Rank axis starts at 0 but is reversed (Rank 1 at top)
+            fig_ap.update_yaxes(rangemode="tozero", autorange="reversed")
+            fig_ap.update_xaxes(tickvals=[2021, 2022, 2023, 2024])
             fig_ap.update_traces(line=dict(width=3))
             st.plotly_chart(fig_ap, use_container_width=True)
         else:
