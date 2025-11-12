@@ -55,5 +55,5 @@ merged_df = merged_df.rename(columns={
 merged_df["Week 18 AP Rank"] = merged_df["Week 18 AP Rank"].fillna("Unranked")
 
 # Display final result
-st.subheader(f"📊 Seasonal Summary for {selected_team} (2020–2025)")
+st.subheader(f"📊 Seasonal Summary for {selected_team} (2021–2024)")
 st.dataframe(merged_df, use_container_width=True)
