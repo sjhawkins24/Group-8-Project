@@ -72,7 +72,7 @@ if not opponent_filtered_df.empty:
     opponent_rank = opponent_filtered_df['AP_rank'].iloc[0]
     st.write(f"The AP rank for the {opponent} in week {previous_week} is: {opponent_rank}")
 else:
-    st.write(f"{opponent} in week {previous_week} is unranked.")
+    st.write(f"{opponent} as of week {previous_week} is unranked.")
 
 # Display the current rank if available
 if opponent_rank is not None:
