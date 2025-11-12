@@ -48,6 +48,13 @@ agg_df = agg_df.rename(columns={
 # --- Compute Total Losses ---
 agg_df["Total Losses"] = agg_df["Games Played"] - agg_df["Total Wins"]
 
+# --- Round average numeric columns to 2 decimals ---
+cols_to_round = [
+    "Avg Passing Yds", "Avg Rushing Yds", "Avg Receiving Yds",
+    "Avg Points Allowed", "Avg Points Scored"
+]
+agg_df[cols_to_round] = agg_df[cols_to_round].round(2)
+
 # --- Pull the AP rank only for week 18 (per season) ---
 ap_rank_df = (
     team_df[team_df["week"] == 18][["season", "AP_rank"]]
