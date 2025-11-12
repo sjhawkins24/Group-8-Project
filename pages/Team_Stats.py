@@ -83,13 +83,6 @@ st.dataframe(
 )
 
 ### BUILDING VISUALIZATIONS
-python
-
-Run
-
-import plotly.express as px
-import numpy as np
-
 st.markdown("---")
 st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
 
