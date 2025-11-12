@@ -12,6 +12,7 @@ from typing import Dict, List, Tuple
 
 import numpy as np
 import pandas as pd
+import pickle
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.model_selection import TimeSeriesSplit
@@ -179,7 +180,8 @@ def save_models(models: Dict[str, Pipeline]) -> None:
 
     joblib.dump(models["regressor"], REGRESSOR_PATH)
     joblib.dump(models["classifier"], CLASSIFIER_PATH)
-
+    with open("regression_model.pkl", 'wb') as file:
+            pickle.dump(models["regressor"], file)
     meta = {
         "features": FEATURE_COLUMNS,
     }
