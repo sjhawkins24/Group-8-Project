@@ -61,7 +61,7 @@ merged_df = pd.merge(agg_df, ap_rank_df, on="season", how="left")
 merged_df["Week 18 AP Rank"] = merged_df["Week 18 AP Rank"].fillna("Unranked")
 
 # --- Display final result ---
-st.subheader(f"📊 Seasonal Summary for {selected_team} (2020–2025)")
+st.subheader(f"📊 Seasonal Summary for {selected_team} (2021–2024)")
 st.dataframe(
     merged_df[
         [
