@@ -1,6 +1,3 @@
-from dataclasses import asdict
-
-import pandas as pd
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -11,6 +8,8 @@ import numpy as np
 df = pd.read_csv('mergedTrainingData.csv')
 teams = df['Team'].unique()
 teams = sorted(teams)
+weeks = df['week'].unique()
+weeks = sorted(weeks)
 
 # Simple mock prediction for the time being
 def mock_predict(data):
@@ -22,19 +21,21 @@ st.title('College Football Ranking Predictor')
 # Setting an image
 st.image('StreamlitPic.jpg', width = 1000)
 
+# Setting the input for selecting the week
+st.header('Week Selection')
+week = st.selectbox('Select the current week:', weeks)
+st.write(f'Selected week: {week}')
+
 # Setting the input for the playing team
 st.header('Team Selection')
 team = st.selectbox('Select your team:', teams)
 st.write(f'Selected team: {team}')
 
-# Extract the FPI value for the team from the 'Team' column
-team_rank = df.loc[df['Team'] == team, 'FPI'].iloc[0]
+# Extract the AP rank for the team from the 'Team' column 
+# Rank is being pulled from week selection - 1
+# Calculate the previous week
+previous_week = week - 1
 
-<<<<<<<< HEAD:app_justin.py
-# Display the team rank in Streamlit
-st.subheader('Current Team Ranking')
-st.write(f"The Team's Current Rank is: {team_rank}")
-========
 # Filter the dataframe for the selected team and the previous week
 filtered_df = df[(df['Team'] == team) & (df['week'] == previous_week)]
 
@@ -58,23 +59,18 @@ if team_rank is not None and not pd.isna(team_rank):
     st.write(f"The Team's Current Rank is: {team_rank}")
 else:
     st.write(f"The Team's Current Rank is: unranked")
->>>>>>>> brian:AP_Rank_Predictor.py
 
 # Opponent Selection
 st.header('Opponent Selection')
+
 # Filtering opponents to remove the team already selected
 available_opponents = [t for t in teams if t != team]
 opponent = st.selectbox('Select an opponent:', available_opponents)
 st.write(f'Selected opponent: {opponent}')
 
-# Extract the FPI value for the opponent from the 'Team' column
-opponent_rank = df.loc[df['Team'] == opponent, 'FPI'].iloc[0]
+# Initialize opponent rank
+opponent_rank = None
 
-<<<<<<<< HEAD:app_justin.py
-# Display the opponent rank in Streamlit
-st.subheader("Opponent's Current Ranking")
-st.write(f"The Opponent's Current Rank is: {opponent_rank}")
-========
 # Filter the dataframe for the selected opponent and the previous week
 opponent_filtered_df = df[(df['Team'] == opponent) & (df['week'] == previous_week)]
 
@@ -95,7 +91,6 @@ if opponent_rank is not None and not pd.isna(opponent_rank):
     st.write(f"The Opponent's Current Rank is: {opponent_rank}")
 else:
     st.write(f"The Opponent's Current Rank is: unranked")
->>>>>>>> brian:AP_Rank_Predictor.py
 
 # Selecting if it is a home game
 st.header('Home or Away Game')
@@ -129,6 +124,7 @@ def safe_rank(value):
 
 # Setting up the dictionary for input values
 pred_data = {
+    'Week': week,
     'Team': team,
     'Team Rank': safe_rank(team_rank),
     'Opponent': opponent,
@@ -154,14 +150,25 @@ st.markdown(
     .table {
         width: 100%;
         border-collapse: collapse;
+        color: #ffffff;                 /* Set default text color */
+        background-color: #0e1117;      /* Match Streamlit dark background */
     }
     .table th, .table td {
-        border: 1px solid #ddd;
+        border: 1px solid #444444;      /* Subtle gray borders */
         padding: 8px;
         text-align: left;
     }
     .table th {
-        background-color: #f2f2f2;
+        background-color: #262730;      /* Dark header background */
+        color: #ffffff;                 /* Ensure bright white header text */
+        font-weight: 600;
+        text-shadow: none;              /* Remove any blur or glow */
+    }
+    .table tr:nth-child(even) {
+        background-color: #1c1f26;      /* Slightly lighter for alternating rows */
+    }
+    .table tr:nth-child(odd) {
+        background-color: #0e1117;      /* Match base background */
     }
     </style>
     """,
