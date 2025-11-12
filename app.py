@@ -45,13 +45,20 @@ team_rank = None
 # Get the AP rank for the selected team and previous week
 if not filtered_df.empty:
     team_rank = filtered_df['AP_rank'].iloc[0]
-    st.write(f"The AP rank for {team} in week {previous_week} is: {team_rank}")
+    
+    # Check if the value is NaN
+    if pd.isna(team_rank):
+        st.write(f"The AP rank for {team} in week {previous_week} is: unranked")
+    else:
+        st.write(f"The AP rank for {team} in week {previous_week} is: {team_rank}")
 else:
     st.write(f"{team} as of week {previous_week} is unranked.")
 
 # Display the current rank if available
-if team_rank is not None:
+if team_rank is not None and not pd.isna(team_rank):
     st.write(f"The Team's Current Rank is: {team_rank}")
+else:
+    st.write(f"The Team's Current Rank is: unranked")
 
 # Opponent Selection
 st.header('Opponent Selection')
