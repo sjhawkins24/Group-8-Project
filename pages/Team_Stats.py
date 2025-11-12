@@ -86,9 +86,6 @@ st.dataframe(
 st.markdown("---")
 st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
 
-st.markdown("---")
-st.subheader(f"📈 Year‑over‑Year Trends for {selected_team} (2021 – 2024)")
-
 # Restrict to relevant seasons
 viz_df = merged_df[(merged_df["season"] >= 2021) & (merged_df["season"] <= 2024)]
 
