@@ -55,11 +55,17 @@ cols_to_round = [
 ]
 agg_df[cols_to_round] = agg_df[cols_to_round].round(2)
 
-# --- Extract Week 18 AP Rank per season ---
+# --- Pull the AP rank only for week 14 (per season) ---
 ap_rank_df = (
-    team_df[team_df["week"] == 18][["season", "AP_rank"]]
-    .rename(columns={"AP_rank": "Week 18 AP Rank"})
+    team_df[team_df["week"] == 14][["season", "AP_rank"]]
+    .rename(columns={"AP_rank": "Week 14 AP Rank"})
 )
+
+# Merge both frames
+merged_df = pd.merge(agg_df, ap_rank_df, on="season", how="left")
+
+# Handle NaN AP ranks → 'Unranked'
+merged_df["Week 14 AP Rank"] = merged_df["Week 14 AP Rank"].fillna("Unranked")
 
 # --- Merge aggregated stats with AP Rank data ---
 merged_df = pd.merge(agg_df, ap_rank_df, on="season", how="left")
