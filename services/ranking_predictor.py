@@ -10,7 +10,7 @@ import pandas as pd
 import sys
 print("Original path")
 print(sys.path)
-sys.path.append('~/Group-8-Project/')
+sys.path.append('/Users/sjhawkins/Group-8-Project/')
 print("Updated path")
 print(sys.path)
 
