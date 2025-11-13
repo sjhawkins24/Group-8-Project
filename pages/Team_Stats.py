@@ -1,13 +1,15 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from streamlit_gsheets import GSheetsConnection
+conn = st.connection("gsheets", type=GSheetsConnection)
 
 st.title("Team Stats Analysis")
 
 # Setting an image
 st.image('TeamStats.jpg', width = 1000)
 
-df = pd.read_csv("mergedTrainingData.csv")
+df = conn.read()#pd.read_csv("mergedTrainingData.csv")
 
 ### TABLE CREATION
 # --- Select team ---
