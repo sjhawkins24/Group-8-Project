@@ -7,6 +7,12 @@ from typing import Dict, Optional
 
 import numpy as np
 import pandas as pd
+import sys
+print("Original path")
+print(sys.path)
+sys.path.append('~/Group-8-Project/')
+print("Updated path")
+print(sys.path)
 
 from models.elo_hybrid import (
     DATA_MERGED_DEFAULT,
