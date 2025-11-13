@@ -77,10 +77,6 @@ nest-asyncio==1.6.0
 notebook_shim==0.2.4
 numpy==2.3.3
 oauthlib==3.3.1
-openai>=1.48.0
-joblib==1.4.2
-scikit-learn==1.5.2
-python-dotenv==1.0.0
 packaging==25.0
 pandas==2.3.2
 pandocfilters==1.5.1
@@ -88,6 +84,7 @@ parso==0.8.5
 pexpect==4.9.0
 pillow==11.3.0
 platformdirs==4.4.0
+plotly==6.4.0
 prometheus_client==0.23.1
 prompt_toolkit==3.0.52
 protobuf==6.32.1
