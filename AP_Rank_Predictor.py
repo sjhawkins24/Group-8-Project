@@ -34,7 +34,7 @@ season_df = data[season_numeric == current_season].copy()
 teams = sorted(season_df["Team"].unique())
 
 st.title("College Football Ranking Predictor")
-st.image("StreamlitPic.jpg", width=1000)
+st.image("Images/StreamlitPic.jpg", width=1000)
 
 st.header("Home Team")
 home_team = st.selectbox("Select the home team:", teams)

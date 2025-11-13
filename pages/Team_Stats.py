@@ -7,7 +7,7 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 st.title("Team Stats Analysis")
 
 # Setting an image
-st.image('TeamStats.jpg', width = 1000)
+st.image('Images/TeamStats.jpg', width = 1000)
 
 df = conn.read()#pd.read_csv("mergedTrainingData.csv")
 
