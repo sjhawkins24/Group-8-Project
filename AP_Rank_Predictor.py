@@ -1,198 +1,159 @@
-import streamlit as st
-import pandas as pd
-from datetime import datetime
+
 import numpy as np
-# from apputil import *
+import pandas as pd
+import streamlit as st
 
-# reading the csv and creating a team list
-df = pd.read_csv('mergedTrainingData.csv')
-teams = df['Team'].unique()
-teams = sorted(teams)
-weeks = df['week'].unique()
-weeks = sorted(weeks)
+from services.ranking_predictor import RankPredictor
 
-# Simple mock prediction for the time being
-def mock_predict(data):
-    return np.random.uniform(-5, 5)
 
-# Setting the title of the Streamlit page
-st.title('College Football Ranking Predictor')
+@st.cache_resource
+def load_predictor() -> RankPredictor:
+    return RankPredictor()
 
-# Setting an image
-st.image('StreamlitPic.jpg', width = 1000)
 
-# Setting the input for selecting the week
-st.header('Week Selection')
-week = st.selectbox('Select the current week:', weeks)
-st.write(f'Selected week: {week}')
+def latest_numeric(series: pd.Series) -> float | None:
+    numeric = pd.to_numeric(series, errors="coerce").dropna()
+    if numeric.empty:
+        return None
+    return float(numeric.iloc[-1])
 
-# Setting the input for the playing team
-st.header('Team Selection')
-team = st.selectbox('Select your team:', teams)
-st.write(f'Selected team: {team}')
 
-# Extract the AP rank for the team from the 'Team' column 
-# Rank is being pulled from week selection - 1
-# Calculate the previous week
-previous_week = week - 1
+def safe_rank(value: float | int | None) -> str | int:
+    if value is None or pd.isna(value):
+        return "Unranked"
+    return int(round(float(value)))
 
-# Filter the dataframe for the selected team and the previous week
-filtered_df = df[(df['Team'] == team) & (df['week'] == previous_week)]
 
-# Initialize team_rank
-team_rank = None
+predictor = load_predictor()
+data = predictor.merged_df.copy()
 
-# Get the AP rank for the selected team and previous week
-if not filtered_df.empty:
-    team_rank = filtered_df['AP_rank'].iloc[0]
-    
-    # Check if the value is NaN
-    if pd.isna(team_rank):
-        st.write(f"The AP rank for {team} in week {previous_week} is: unranked")
-    else:
-        st.write(f"The AP rank for {team} in week {previous_week} is: {team_rank}")
-else:
-    st.write(f"{team} as of week {previous_week} is unranked.")
+season_numeric = pd.to_numeric(data["season"], errors="coerce")
+current_season = int(season_numeric.dropna().max())
+season_df = data[season_numeric == current_season].copy()
 
-# Display the current rank if available
-if team_rank is not None and not pd.isna(team_rank):
-    st.write(f"The Team's Current Rank is: {team_rank}")
-else:
-    st.write(f"The Team's Current Rank is: unranked")
+teams = sorted(season_df["Team"].unique())
 
-# Opponent Selection
-st.header('Opponent Selection')
+st.title("College Football Ranking Predictor")
+st.image("StreamlitPic.jpg", width=1000)
 
-# Filtering opponents to remove the team already selected
-available_opponents = [t for t in teams if t != team]
-opponent = st.selectbox('Select an opponent:', available_opponents)
-st.write(f'Selected opponent: {opponent}')
+st.header("Home Team")
+home_team = st.selectbox("Select the home team:", teams)
 
-# Initialize opponent rank
-opponent_rank = None
+home_history = season_df[season_df["Team"] == home_team].copy()
+home_history = home_history.assign(
+    _week=pd.to_numeric(home_history["week"], errors="coerce")
+).sort_values("_week")
 
-# Filter the dataframe for the selected opponent and the previous week
-opponent_filtered_df = df[(df['Team'] == opponent) & (df['week'] == previous_week)]
+if home_history.empty:
+    st.error(f"No data available for {home_team} in {current_season}.")
+    st.stop()
 
-# Get the AP rank for the selected team and previous week
-if not filtered_df.empty:
-    opponent_rank = opponent_filtered_df['AP_rank'].iloc[0]
-    
-    # Check if the value is NaN
-    if pd.isna(opponent_rank):
-        st.write(f"The AP rank for {opponent} in week {previous_week} is: unranked")
-    else:
-        st.write(f"The AP rank for {opponent} in week {previous_week} is: {opponent_rank}")
-else:
-    st.write(f"{opponent} as of week {previous_week} is unranked.")
-
-# Display the current rank if available
-if opponent_rank is not None and not pd.isna(opponent_rank):
-    st.write(f"The Opponent's Current Rank is: {opponent_rank}")
-else:
-    st.write(f"The Opponent's Current Rank is: unranked")
-
-# Selecting if it is a home game
-st.header('Home or Away Game')
-home_game = st.selectbox('Is this a Home Game?', ['Yes', 'No'])
-hg = 'Home' if home_game == 'Yes' else 'Away'
-st.write(f'This is a(n) {hg} game')
-
-# Setting the input for game outcome
-# st.header('Game Outcome')
-# result = st.selectbox('Game result:', ['W', 'L'])
-# st.write(f'Game result: {result}')
-
-# Setting the inputs for points_scored and points_allowed
-st.header('Points Scored and Allowed')
-points_scored = st.number_input('Points Scored:', min_value = 0, step = 1, value = 0)
-points_allowed = st.number_input('Points Allowed:', min_value = 0, step = 1, value = 0)
-
-# Calculating the point differential
-point_differential = points_scored - points_allowed
-
-# Calculating the outcome based on point differential
-st.subheader('Game Outcome')
-game_outcome = 'Won' if point_differential > 0 else 'Lost'
-st.write(f'The {team} {game_outcome} by {point_differential} points.')
-game_result = 'beat' if game_outcome =='Won' else 'lost to'
-pred_result = 'Win' if game_outcome == 'Won' else 'Loss'
-
-# Helper function to replace NaN with 'unranked'
-def safe_rank(value):
-    return 'Unranked' if pd.isna(value) else value
-
-# Setting up the dictionary for input values
-pred_data = {
-    'Week': week,
-    'Team': team,
-    'Team Rank': safe_rank(team_rank),
-    'Opponent': opponent,
-    'Opponent Rank': safe_rank(opponent_rank),
-    'Team Points Scored': points_scored,
-    'Opponent Points Scored': points_allowed,
-    'Game Outcome': pred_result,
-    'Game Played at Home or Away': hg
-}
-
-# Converting the Prediction Data to a Dataframe
-prediction_df = pd.DataFrame(pred_data.items(), columns = ['Option', 'Selection'])
-
-# Logging the inputs to ensure accuracy
-st.header('Selected Options')
-
-# Generate HTML table without the index
-table_html = prediction_df.to_html(index=False, classes="table", border=0)
-
-st.markdown(
-    """
-    <style>
-    .table {
-        width: 100%;
-        border-collapse: collapse;
-        color: #ffffff;                 /* Set default text color */
-        background-color: #0e1117;      /* Match Streamlit dark background */
-    }
-    .table th, .table td {
-        border: 1px solid #444444;      /* Subtle gray borders */
-        padding: 8px;
-        text-align: left;
-    }
-    .table th {
-        background-color: #262730;      /* Dark header background */
-        color: #ffffff;                 /* Ensure bright white header text */
-        font-weight: 600;
-        text-shadow: none;              /* Remove any blur or glow */
-    }
-    .table tr:nth-child(even) {
-        background-color: #1c1f26;      /* Slightly lighter for alternating rows */
-    }
-    .table tr:nth-child(odd) {
-        background-color: #0e1117;      /* Match base background */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
+home_rank = home_history["AP_rank"].dropna().iloc[-1] if home_history["AP_rank"].notna().any() else np.nan
+st.write(
+    f"Home team current rank: {'unranked' if pd.isna(home_rank) else int(home_rank)}"
 )
 
-# Render the table
-st.markdown(table_html, unsafe_allow_html=True)
+last_week = latest_numeric(home_history["week"]) or 0
+next_week = int(last_week) + 1
 
-# Predicting the rank change (mock setup)
-rank_change = mock_predict(pred_data)
+st.header("Away Team")
+away_choices = [t for t in teams if t != home_team]
+away_team = st.selectbox("Select the away team:", away_choices)
 
-# Testing to ensure rank_change is producing a result
-st.subheader('Predicted Rank Change')
-st.write(f"Rank Change: {rank_change}")
+away_history = season_df[season_df["Team"] == away_team].copy()
+away_history = away_history.assign(
+    _week=pd.to_numeric(away_history["week"], errors="coerce")
+).sort_values("_week")
 
-# Setting rank change variable
-movement = 'move up' if rank_change < 0 else 'move down'
+away_rank = (
+    away_history["AP_rank"].dropna().iloc[-1]
+    if away_history["AP_rank"].notna().any()
+    else np.nan
+)
+st.write(
+    f"Away team current rank: {'unranked' if pd.isna(away_rank) else int(away_rank)}"
+)
 
-# Output text in Streamlit
-result_text = f'If the {team} {game_result} {opponent} by \
-    {point_differential} points, they will {movement} \
-    by {abs(round(rank_change))} ranking points.'
+st.header("Points Scored and Allowed")
+home_points_default = latest_numeric(home_history["points_scored"]) or 28.0
+away_points_default = latest_numeric(away_history["points_scored"]) or 21.0
+points_scored = st.number_input("Home team points scored:", min_value=0, step=1, value=int(home_points_default))
+points_allowed = st.number_input("Away team points scored:", min_value=0, step=1, value=int(away_points_default))
 
-# Displaying the result in Streamlit
-st.header('Results')
-st.write(result_text)
+point_differential = points_scored - points_allowed
+game_outcome = "Won" if point_differential > 0 else ("Tied" if point_differential == 0 else "Lost")
+st.subheader("Game Outcome")
+st.write(f"{home_team} {game_outcome.lower()} by {point_differential} points.")
+
+summary_rows = pd.DataFrame(
+    {
+        "Option": [
+            "Home Team",
+            "Home Rank",
+            "Away Team",
+            "Away Rank",
+            "Home Points",
+            "Away Points",
+            "Game Outcome",
+        ],
+        "Selection": [
+            home_team,
+            safe_rank(home_rank),
+            away_team,
+            safe_rank(away_rank),
+            points_scored,
+            points_allowed,
+            game_outcome,
+        ],
+    }
+)
+
+st.header("Selected Options")
+st.table(summary_rows)
+
+st.header("Results")
+
+if st.button("Predict Ranking Impact", type="primary"):
+    try:
+        result = predictor.predict(
+            team=home_team,
+            opponent=away_team,
+            season=current_season,
+            week=next_week,
+            points_scored=float(points_scored),
+            points_allowed=float(points_allowed),
+            home_game=True,
+            current_rank=None if pd.isna(home_rank) else float(home_rank),
+            opponent_rank=None if pd.isna(away_rank) else float(away_rank),
+        )
+    except Exception as exc:
+        st.error(f"Prediction failed: {exc}")
+    else:
+        game_result = "beat" if point_differential > 0 else ("tie" if point_differential == 0 else "lose to")
+        movement = result.predicted_direction
+        if result.predicted_rank_change > 0:
+            movement_text = "climb up the rankings"
+        elif result.predicted_rank_change < 0:
+            movement_text = "slide down the rankings"
+        else:
+            movement_text = "hold steady"
+
+        st.write(
+            f"If {home_team} {game_result} {away_team} by {abs(point_differential)} points, "
+            f"the model projects they will {movement_text} to #{result.predicted_new_rank} "
+            f"(change {result.predicted_rank_change:+.2f})."
+        )
+
+        probs = pd.DataFrame(
+            [
+                {"Direction": label.title(), "Probability": f"{prob*100:.1f}%"}
+                for label, prob in result.direction_probabilities.items()
+            ]
+        )
+        st.subheader("Direction Confidence")
+        st.table(probs)
+        st.caption(
+            "These probabilities indicate how confident the classifier is that the home team's ranking will move in each direction after the game."
+        )
+        with st.expander("Model feature snapshot"):
+            st.json(result.feature_payload)
