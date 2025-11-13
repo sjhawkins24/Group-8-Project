@@ -82,7 +82,12 @@ class RankPredictor:
             else current_rank
         )
         if prev_rank is None:
-            prev_rank = float(df_team["AP_rank"].dropna().iloc[-1])
+            historical_ranks = df_team["AP_rank"].dropna()
+            if historical_ranks.empty:
+                # Provide a neutral fallback when the team has never been ranked so we keep the pipeline running.
+                prev_rank = 26.0
+            else:
+                prev_rank = float(historical_ranks.iloc[-1])
 
         is_win = won_game
         if is_win is None:
