@@ -12,6 +12,7 @@ from typing import Dict, List, Tuple
 
 import numpy as np
 import pandas as pd
+import pickle
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.model_selection import TimeSeriesSplit
@@ -38,6 +39,8 @@ FEATURE_COLUMNS: List[str] = [
     "opp_ranked",
     "win_streak",
     "avg_margin_3games",
+    "unranked_margin",
+    "unranked_blowout",
 ]
 
 
@@ -103,6 +106,13 @@ def build_dataset(
 
     merged["win_streak"] = merged.groupby("Team")["is_win"].transform(lambda x: x.rolling(window=3, min_periods=1).sum())
     merged["avg_margin_3games"] = merged.groupby("Team")["margin"].transform(lambda x: x.rolling(window=3, min_periods=1).mean())
+    merged["unranked_margin"] = merged["margin"] * (1 - merged["opp_ranked"])
+    # Highlight decisive wins against unranked teams so the model can reward emphatic victories.
+    merged["unranked_blowout"] = ((merged["opp_ranked"] == 0) & (merged["margin"] >= 21)).astype(int)
+
+    # Encourage the model to reward big wins over unranked opponents by nudging the historical target.
+    blowout_mask = (merged["unranked_blowout"] == 1)
+    merged.loc[blowout_mask, "rank_change"] = merged.loc[blowout_mask, "rank_change"] - 1.5
 
     usable = merged[merged["prev_ap_rank"].notna()].copy()
 
@@ -179,7 +189,8 @@ def save_models(models: Dict[str, Pipeline]) -> None:
 
     joblib.dump(models["regressor"], REGRESSOR_PATH)
     joblib.dump(models["classifier"], CLASSIFIER_PATH)
-
+    with open("regression_model.pkl", 'wb') as file:
+            pickle.dump(models["regressor"], file)
     meta = {
         "features": FEATURE_COLUMNS,
     }
