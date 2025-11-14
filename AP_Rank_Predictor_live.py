@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
+from pathlib import Path
 
 from services.ranking_predictor import RankPredictor
 
@@ -24,8 +25,64 @@ def safe_rank(value: float | int | None) -> str | int:
     return int(round(float(value)))
 
 
+def load_latest_rank_map(predictor: RankPredictor, ranking_path: Path) -> dict[str, int]:
+    if not ranking_path.exists():
+        return {}
+
+    df = pd.read_csv(ranking_path)
+    df["season"] = pd.to_numeric(df["season"], errors="coerce")
+    df = df.dropna(subset=["season"])
+    if df.empty:
+        return {}
+
+    latest_season = df["season"].max()
+    df = df[df["season"] == latest_season]
+    df["ap_rank"] = pd.to_numeric(df["AP/CFP"], errors="coerce")
+    df = df.dropna(subset=["ap_rank"])
+    if df.empty:
+        return {}
+
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df = df.sort_values("date")
+
+    latest_by_code = (
+        df.assign(Team_id=df["Team_id"].apply(lambda value: str(int(value)) if pd.notna(value) else None))
+        .dropna(subset=["Team_id"])
+        .groupby("Team_id")["ap_rank"]
+        .last()
+    )
+
+    def _normalise_code(value: object) -> str | None:
+        if pd.isna(value):
+            return None
+        try:
+            return str(int(float(value)))
+        except (TypeError, ValueError):
+            return str(value).strip()
+
+    team_code_map = (
+        predictor.merged_df[["Team", "code"]]
+        .dropna()
+        .drop_duplicates()
+        .assign(code=lambda frame: frame["code"].map(_normalise_code))
+        .dropna(subset=["code"])
+        .set_index("code")["Team"]
+        .to_dict()
+    )
+
+    rank_map: dict[str, int] = {}
+    for code, rank in latest_by_code.items():
+        team = team_code_map.get(code)
+        if team and pd.notna(rank):
+            rank_map[team] = int(round(float(rank)))
+    return rank_map
+
+
 predictor = load_predictor()
 data = predictor.merged_df.copy()
+latest_rank_map = load_latest_rank_map(
+    predictor, Path("00 - Raw Data Space") / "CollegeFootballRankings2025.csv"
+)
 
 season_numeric = pd.to_numeric(data["season"], errors="coerce")
 current_season = int(season_numeric.dropna().max())
@@ -48,7 +105,13 @@ if home_history.empty:
     st.error(f"No data available for {home_team} in {current_season}.")
     st.stop()
 
-home_rank = home_history["AP_rank"].dropna().iloc[-1] if home_history["AP_rank"].notna().any() else np.nan
+home_rank = (
+    home_history["AP_rank"].dropna().iloc[-1]
+    if home_history["AP_rank"].notna().any()
+    else np.nan
+)
+if home_team in latest_rank_map:
+    home_rank = float(latest_rank_map[home_team])
 st.write(
     f"Home team current rank: {'unranked' if pd.isna(home_rank) else int(home_rank)}"
 )
@@ -70,6 +133,8 @@ away_rank = (
     if away_history["AP_rank"].notna().any()
     else np.nan
 )
+if away_team in latest_rank_map:
+    away_rank = float(latest_rank_map[away_team])
 st.write(
     f"Away team current rank: {'unranked' if pd.isna(away_rank) else int(away_rank)}"
 )
