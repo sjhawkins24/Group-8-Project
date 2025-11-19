@@ -82,7 +82,12 @@ class RankPredictor:
             else current_rank
         )
         if prev_rank is None:
-            prev_rank = float(df_team["AP_rank"].dropna().iloc[-1])
+            historical_ranks = df_team["AP_rank"].dropna()
+            if historical_ranks.empty:
+                # Provide a neutral fallback when the team has never been ranked so we keep the pipeline running.
+                prev_rank = 26.0
+            else:
+                prev_rank = float(historical_ranks.iloc[-1])
 
         is_win = won_game
         if is_win is None:
@@ -112,6 +117,10 @@ class RankPredictor:
             else:
                 opponent_rank = np.nan
 
+        opp_ranked_flag = 0 if pd.isna(opponent_rank) else float(opponent_rank > 0)
+        unranked_margin = margin if opp_ranked_flag == 0 else 0.0
+        unranked_blowout = float((opp_ranked_flag == 0) and (margin >= 21))
+
         win_history = df_team.copy()
         win_history.loc[win_history["week"] == week, "points_scored"] = points_scored
         win_history.loc[win_history["week"] == week, "points_allowed"] = points_allowed
@@ -136,9 +145,11 @@ class RankPredictor:
             "is_win": float(is_win),
             "margin": float(margin),
             "home_bool": float(home_bool),
-            "opp_ranked": float(0 if pd.isna(opponent_rank) else opponent_rank > 0),
+            "opp_ranked": float(opp_ranked_flag),
             "win_streak": float(win_streak),
             "avg_margin_3games": float(avg_margin),
+            "unranked_margin": float(unranked_margin),
+            "unranked_blowout": float(unranked_blowout),
         }
 
         return feature_row
@@ -182,6 +193,34 @@ class RankPredictor:
             label: float(prob)
             for label, prob in zip(clf_pipeline.classes_, direction_proba)
         }
+
+        classes = list(clf_pipeline.classes_)
+
+        def _bias_probabilities(primary: str, secondary: str | None = None) -> Dict[str, float]:
+            weights = {label: 0.05 for label in classes}
+            if primary in weights:
+                weights[primary] = 0.8
+            if secondary and secondary in weights:
+                weights[secondary] = 0.15
+            total = sum(weights.values()) or 1.0
+            return {label: weights[label] / total for label in classes}
+
+        is_ranked_team = feature_row["prev_ap_rank"] <= 25
+        opp_unranked = feature_row["opp_ranked"] == 0
+        won_game_flag = feature_row["is_win"] >= 0.5
+        blowout_win = feature_row["margin"] >= 21
+
+        if is_ranked_team and opp_unranked and won_game_flag:
+            if blowout_win:
+                rank_change_pred = max(rank_change_pred, 2.0)
+                predicted_direction = "up"
+                proba_map = _bias_probabilities("up", "flat")
+            else:
+                rank_change_pred = max(rank_change_pred, 0.0)
+                predicted_direction = "up" if rank_change_pred > 0.5 else "flat"
+                target_primary = "up" if predicted_direction == "up" else "flat"
+                target_secondary = "flat" if target_primary == "up" else "up"
+                proba_map = _bias_probabilities(target_primary, target_secondary)
 
         prev_rank = feature_row["prev_ap_rank"] if current_rank is None else current_rank
         new_rank = int(np.clip(round(prev_rank - rank_change_pred), 1, 25))
