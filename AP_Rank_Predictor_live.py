@@ -24,6 +24,7 @@ def safe_rank(value: float | int | None) -> str | int:
         return "Unranked"
     return int(round(float(value)))
 
+
 def load_latest_rank_map(predictor: RankPredictor, ranking_path: Path) -> dict[str, int]:
     if not ranking_path.exists():
         return {}
@@ -77,7 +78,6 @@ def load_latest_rank_map(predictor: RankPredictor, ranking_path: Path) -> dict[s
     return rank_map
 
 
-
 predictor = load_predictor()
 data = predictor.merged_df.copy()
 latest_rank_map = load_latest_rank_map(
@@ -91,7 +91,7 @@ season_df = data[season_numeric == current_season].copy()
 teams = sorted(season_df["Team"].unique())
 
 st.title("College Football Ranking Predictor")
-st.image("Images/StreamlitPic.jpg", width=1000)
+st.image("StreamlitPic.jpg", width=1000)
 
 st.header("Home Team")
 home_team = st.selectbox("Select the home team:", teams)
