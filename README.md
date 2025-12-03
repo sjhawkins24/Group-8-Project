@@ -18,7 +18,9 @@ JUSTIN TO FILL OUT
 
 ## Tools Used
 
-Beyond the algorithm chosen, we used several tools to build our app. We host the app data in Google drive and use `streamlit_gsheets` to prevent the app from having to load the data from github every time it boots up. We use web-scraping to create the datasets used. We also use the test/train split to ensure that our models are not over-fitting (PLEASE CHECK)
+Beyond the algorithm chosen, we used several tools to build our app. We host the app data in Google drive and use `streamlit_gsheets` to prevent the app from having to load the data from github every time it boots up. We use web-scraping to create the datasets used. We also use the test/train split to ensure that our models are not over-fitting.
+
+(PLEASE CHECK)
 
 ## Ethical Concerns
 
