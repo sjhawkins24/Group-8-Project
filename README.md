@@ -14,7 +14,15 @@ The data used was scraped from ESPN and provides the weekly schedules for teams 
 
 ## Algorithm Description
 
-JUSTIN TO FILL OUT
+This project uses a **hybrid ensemble approach** combining regression and classification models to predict ranking movements:
+
+- **Regression Model**: Predicts continuous rank change (e.g., -2.5, +1.3) using historical game performance
+- **Classification Model**: Predicts direction of movement (up/down/flat) with confidence probabilities
+- **Feature Engineering**: Incorporates team Elo ratings (FiveThirtyEight-style), game margins, win streaks, and opponent strength
+- **Temporal Validation**: Time-series cross-validation ensures models respect chronological order of games
+- **Performance**: Achieves ~2.4 MAE on rank change prediction with 63.8% direction accuracy
+
+The Elo rating system (K=22.0, HFA=55 points) evaluates team strength from game outcomes across the season, while the hybrid models learn how rankings respond to wins, losses, and opponent caliber.
 
 ## Tools Used
 
