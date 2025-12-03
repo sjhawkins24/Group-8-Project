@@ -1,0 +1,15 @@
+{
+  "features": [
+    "prev_ap_rank",
+    "team_elo",
+    "opponent_elo",
+    "elo_diff",
+    "elo_advantage",
+    "is_win",
+    "margin",
+    "home_bool",
+    "opp_ranked",
+    "win_streak",
+    "avg_margin_3games"
+  ]
+}
