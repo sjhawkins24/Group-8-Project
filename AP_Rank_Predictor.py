@@ -223,5 +223,5 @@ if st.button("Predict Ranking Impact", type="primary"):
         st.markdown(
         ":red[DISCLAIMER: The model is experimental, as such, the results may be of questionable accuracy.]"
         )
-        with st.expander("Model feature snapshot"):
+        with st.expander("Model feature snapshot"): 
             st.json(result.feature_payload)
