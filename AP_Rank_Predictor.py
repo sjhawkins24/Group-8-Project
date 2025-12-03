@@ -221,7 +221,7 @@ if st.button("Predict Ranking Impact", type="primary"):
             "These probabilities indicate how confident the classifier is that the home team's ranking will move in each direction after the game."
         )
         st.markdown(
-        ":red[DISCLAIMER: The model has been trained on a small dataset, as such, the results may be of questionable accuracy.]"
+        ":red[DISCLAIMER: The model is EXPERIMENTAL, as such, the results may be of questionable accuracy.]"
         )
         with st.expander("Model feature snapshot"):
             st.json(result.feature_payload)
